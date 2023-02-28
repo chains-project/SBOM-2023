@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+preferred-citation:
+  title: "Challenges of Producing Software Bill Of Materials for Java"
+  doi: "https://doi.org/10.48550/arXiv.2303.11102"
+  year: "2023"
+  type: article
+  journal: "arXiv preprint"
+  authors:
+    - family-names: Balliu
+      given-names: Musard
+    - family-names: Baudry
+      given-names: Benoit
+    - family-names: Bobadilla
+      given-names: Sofia
+    - family-names: Ekstedt
+      given-names: Mathias
+    - family-names: Monperrus
+      given-names: Martin
+    - family-names: Ron
+      given-names: Javier
+    - family-names: Sharma
+      given-names: Aman
+    - family-names: Skoglund
+      given-names: Gabriel
+    - family-names: Soto-Valero
+      given-names: César
+    - family-names: Wittlinger
+      given-names: Martin

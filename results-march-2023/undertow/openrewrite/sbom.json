@@ -1,0 +1,32 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:182bbe0f-663c-4a50-a18d-3878300f317e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-26T05:14:51Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.undertow/undertow-parent@2.3.2.Final?type=jar",
+      "group": "io.undertow",
+      "name": "undertow-parent",
+      "version": "2.3.2.Final",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.undertow/undertow-parent@2.3.2.Final?type=jar"
+    }
+  }
+}
