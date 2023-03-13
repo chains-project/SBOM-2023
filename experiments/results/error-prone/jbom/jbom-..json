@@ -1,0 +1,1340 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "7db01062-23de-4cae-826c-687dedd6d7f5",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-26T04:17:07Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (7c2c2e207789)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "error_prone_refaster",
+      "version" : "INF/maven/com.google.errorprone/error_prone_refaster/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_refaster"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_refaster/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_refaster:INF/maven/com.google.errorprone/error_prone_refaster/pom"
+    },
+    {
+      "name" : "error_prone_refaster",
+      "version" : "INF/maven/com.google.errorprone/error_prone_refaster/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d5db0f732a313f586ee62f5229998c5eb5f5d717"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "9fa97478281f0d122ff5dfec7726b1da"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_refaster"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/original-error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_refaster/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_refaster:INF/maven/com.google.errorprone/error_prone_refaster/pom"
+    },
+    {
+      "name" : "error_prone_docgen",
+      "version" : "INF/maven/com.google.errorprone/error_prone_docgen/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4b83da3cb977372b6bac55fe5aad2ed36e2ed1cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "31281e2330b1037b20567896f8aa6d47"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_docgen"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./docgen/target/error_prone_docgen-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_docgen/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_docgen:INF/maven/com.google.errorprone/error_prone_docgen/pom"
+    },
+    {
+      "name" : "guava",
+      "version" : "INF/maven/com.google.guava/guava/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/guava"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.guava/guava/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:guava:INF/maven/com.google.guava/guava/pom"
+    },
+    {
+      "name" : "guava",
+      "version" : "INF/maven/com.google.guava/guava/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/guava"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.guava/guava/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:guava:INF/maven/com.google.guava/guava/pom"
+    },
+    {
+      "name" : "error_prone_annotations",
+      "version" : "INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "aa6d499d197f48c908d69b94afd249d47f36d3cc"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d02038c81b151f8331c1453a0fff93cf"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./annotations/target/error_prone_annotations-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom"
+    },
+    {
+      "name" : "error_prone_annotations",
+      "version" : "INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.errorprone/error_prone_annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom"
+    },
+    {
+      "name" : "error_prone_annotations",
+      "version" : "INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom"
+    },
+    {
+      "name" : "protobuf-java",
+      "version" : "java/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.protobuf/protobuf-java"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.protobuf/protobuf-java/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:protobuf-java:java/pom"
+    },
+    {
+      "name" : "protobuf-java",
+      "version" : "java/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.protobuf/protobuf-java"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.protobuf/protobuf-java/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:protobuf-java:java/pom"
+    },
+    {
+      "name" : "error_prone_docgen_processor",
+      "version" : "INF/maven/com.google.errorprone/error_prone_docgen_processor/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "ddb5d362c9720b87b300e0ced9d285baf224f88f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f44f386244e8018a9434a82dbf0d422e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_docgen_processor"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./docgen_processor/target/error_prone_docgen_processor-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_docgen_processor/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_docgen_processor:INF/maven/com.google.errorprone/error_prone_docgen_processor/pom"
+    },
+    {
+      "name" : "error_prone_test_helpers",
+      "version" : "INF/maven/com.google.errorprone/error_prone_test_helpers/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "47437abb88514b8713d52d3eb68c354ed08d46d0"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "c0104d801d6d3cc490b4f030329c1193"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_test_helpers"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./test_helpers/target/error_prone_test_helpers-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_test_helpers/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_test_helpers:INF/maven/com.google.errorprone/error_prone_test_helpers/pom"
+    },
+    {
+      "group" : "com.github.kevinstern",
+      "name" : "software-and-algorithms",
+      "version" : "1.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.kevinstern/software-and-algorithms@1.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.kevinstern/software-and-algorithms"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.github.kevinstern/software-and-algorithms/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.kevinstern:software-and-algorithms:1.0"
+    },
+    {
+      "group" : "com.github.kevinstern",
+      "name" : "software-and-algorithms",
+      "version" : "1.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.kevinstern/software-and-algorithms@1.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.kevinstern/software-and-algorithms"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.github.kevinstern/software-and-algorithms/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.kevinstern:software-and-algorithms:1.0"
+    },
+    {
+      "name" : "pom",
+      "version" : "common/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.auto/auto-common"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.auto/auto-common/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "error_prone_type_annotations",
+      "version" : "INF/maven/com.google.errorprone/error_prone_type_annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_type_annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.errorprone/error_prone_type_annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_type_annotations:INF/maven/com.google.errorprone/error_prone_type_annotations/pom"
+    },
+    {
+      "name" : "error_prone_type_annotations",
+      "version" : "INF/maven/com.google.errorprone/error_prone_type_annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "bc8fad94b415a1de5e0f24f7270aa6abe5438af3"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "997f85ee30e7e4d781df943b98bdf8b0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_type_annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./type_annotations/target/error_prone_type_annotations-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_type_annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_type_annotations:INF/maven/com.google.errorprone/error_prone_type_annotations/pom"
+    },
+    {
+      "name" : "error_prone_type_annotations",
+      "version" : "INF/maven/com.google.errorprone/error_prone_type_annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_type_annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_type_annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_type_annotations:INF/maven/com.google.errorprone/error_prone_type_annotations/pom"
+    },
+    {
+      "name" : "error_prone_check_api",
+      "version" : "INF/maven/com.google.errorprone/error_prone_check_api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "09c8b2561493aa25e8dc96d30e457d7f814581ae"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "1c355dfd6c27cc5c134c33d90eca60ca"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_check_api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./check_api/target/error_prone_check_api-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_check_api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_check_api:INF/maven/com.google.errorprone/error_prone_check_api/pom"
+    },
+    {
+      "name" : "error_prone_check_api",
+      "version" : "INF/maven/com.google.errorprone/error_prone_check_api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_check_api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.errorprone/error_prone_check_api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_check_api:INF/maven/com.google.errorprone/error_prone_check_api/pom"
+    },
+    {
+      "name" : "failureaccess",
+      "version" : "1.0.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/failureaccess"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.guava/failureaccess/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:failureaccess:1.0.1"
+    },
+    {
+      "name" : "error_prone_check_api",
+      "version" : "INF/maven/com.google.errorprone/error_prone_check_api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_check_api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_check_api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_check_api:INF/maven/com.google.errorprone/error_prone_check_api/pom"
+    },
+    {
+      "name" : "failureaccess",
+      "version" : "1.0.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/failureaccess"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.guava/failureaccess/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:failureaccess:1.0.1"
+    },
+    {
+      "name" : "pom",
+      "version" : "utils/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.github.java-diff-utils/java-diff-utils"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/io.github.java-diff-utils/java-diff-utils/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.google.code.findbugs",
+      "name" : "jsr305",
+      "version" : "3.0.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.code.findbugs/jsr305"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.code.findbugs/jsr305/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.google.code.findbugs:jsr305:3.0.2"
+    },
+    {
+      "group" : "com.google.code.findbugs",
+      "name" : "jsr305",
+      "version" : "3.0.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.code.findbugs/jsr305"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.code.findbugs/jsr305/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.google.code.findbugs:jsr305:3.0.2"
+    },
+    {
+      "name" : "error_prone_core",
+      "version" : "INF/maven/com.google.errorprone/error_prone_core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.errorprone/error_prone_core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_core:INF/maven/com.google.errorprone/error_prone_core/pom"
+    },
+    {
+      "name" : "error_prone_core",
+      "version" : "INF/maven/com.google.errorprone/error_prone_core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d1791ce3447b448e15f18b6157b0bd11dd6e8ac5"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "af50cafac5acba64250dadc1088c1208"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_core:INF/maven/com.google.errorprone/error_prone_core/pom"
+    },
+    {
+      "name" : "error_prone_core",
+      "version" : "INF/maven/com.google.errorprone/error_prone_core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_core:INF/maven/com.google.errorprone/error_prone_core/pom"
+    },
+    {
+      "name" : "auto-value-annotations",
+      "version" : "1.9",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.auto.value/auto-value-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.auto.value/auto-value-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:auto-value-annotations:1.9"
+    },
+    {
+      "group" : "com.google.auto.service",
+      "name" : "auto-service-annotations",
+      "version" : "1.0.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "purl" : "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.auto.service/auto-service-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.auto.service/auto-service-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.google.auto.service:auto-service-annotations:1.0.1"
+    },
+    {
+      "name" : "auto-value-annotations",
+      "version" : "1.9",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.auto.value/auto-value-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.auto.value/auto-value-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:auto-value-annotations:1.9"
+    },
+    {
+      "group" : "com.google.auto.service",
+      "name" : "auto-service-annotations",
+      "version" : "1.0.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "purl" : "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.auto.service/auto-service-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.auto.service/auto-service-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.google.auto.service:auto-service-annotations:1.0.1"
+    },
+    {
+      "name" : "error_prone_annotation",
+      "version" : "INF/maven/com.google.errorprone/error_prone_annotation/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "552eeb32165332644c45d8b38bcc836051aebf5f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "9746201ef66c90b3014d1a1d4de3968c"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_annotation"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./annotation/target/error_prone_annotation-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_annotation/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_annotation:INF/maven/com.google.errorprone/error_prone_annotation/pom"
+    },
+    {
+      "name" : "error_prone_annotation",
+      "version" : "INF/maven/com.google.errorprone/error_prone_annotation/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f599b281daef2fdc0e63c2c9a497796fb32e6869"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9e5348d8f0cc651f70d872d36a685e3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_annotation"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./core/target/error_prone_core-2.17.0-with-dependencies.jar!/META-INF/maven/com.google.errorprone/error_prone_annotation/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_annotation:INF/maven/com.google.errorprone/error_prone_annotation/pom"
+    },
+    {
+      "name" : "error_prone_annotation",
+      "version" : "INF/maven/com.google.errorprone/error_prone_annotation/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fec309fa760fa52d458bbbf937a7a8dcbb1595d4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6102b0038d1b6d974d00b69537c5767a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_annotation"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/error-prone/./refaster/target/error_prone_refaster-2.17.0.jar!/META-INF/maven/com.google.errorprone/error_prone_annotation/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_annotation:INF/maven/com.google.errorprone/error_prone_annotation/pom"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "null:error_prone_test_helpers:INF/maven/com.google.errorprone/error_prone_test_helpers/pom",
+      "dependsOn" : [
+        "com.google.errorprone:error_prone_annotation:${project.version}",
+        "com.google.errorprone:error_prone_check_api:${project.version}",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "org.checkerframework:dataflow-errorprone:${dataflow.version}",
+        "com.google.auto.value:auto-value:${autovalue.version}",
+        "com.google.auto.service:auto-service:${autoservice.version}",
+        "com.google.errorprone:error_prone_annotations:${project.version}",
+        "com.google.googlejavaformat:google-java-format:1.13.0",
+        "junit:junit:${junit.version}",
+        "org.hamcrest:hamcrest-core:2.2",
+        "org.hamcrest:hamcrest-library:2.2",
+        "com.google.truth:truth:${truth.version}",
+        "org.mockito:mockito-core:${mockito.version}",
+        "com.google.guava:guava-testlib:${guava.version}",
+        "com.google.jimfs:jimfs:1.2",
+        "com.google.testing.compile:compile-testing:${compile.testing.version}"
+      ]
+    },
+    {
+      "ref" : "null:error_prone_docgen_processor:INF/maven/com.google.errorprone/error_prone_docgen_processor/pom",
+      "dependsOn" : [
+        "com.google.errorprone:error_prone_annotation:${project.version}",
+        "com.google.guava:guava:${guava.version}",
+        "com.google.auto.service:auto-service-annotations:${autoservice.version}",
+        "com.google.code.gson:gson:2.8.9"
+      ]
+    },
+    {
+      "ref" : "null:error_prone_core:INF/maven/com.google.errorprone/error_prone_core/pom",
+      "dependsOn" : [
+        "com.google.errorprone:error_prone_annotation:${project.version}",
+        "com.google.errorprone:error_prone_type_annotations:${project.version}",
+        "com.google.errorprone:error_prone_check_api:${project.version}",
+        "com.google.errorprone:error_prone_test_helpers:${project.version}",
+        "org.pcollections:pcollections:3.1.4",
+        "com.google.guava:guava:${guava.version}",
+        "com.google.auto:auto-common:1.2.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "org.checkerframework:dataflow-errorprone:${dataflow.version}",
+        "com.google.auto.value:auto-value-annotations:${autovalue.version}",
+        "com.google.auto.value:auto-value:${autovalue.version}",
+        "com.google.errorprone:error_prone_annotations:${project.version}",
+        "junit:junit:${junit.version}",
+        "org.gwtproject:gwt-user:${gwt.version}",
+        "com.google.testparameterinjector:test-parameter-injector:1.1",
+        "org.hamcrest:hamcrest-core:1.3",
+        "org.hamcrest:hamcrest-library:1.3",
+        "com.google.truth:truth:${truth.version}",
+        "com.google.truth.extensions:truth-java8-extension:${truth.version}",
+        "com.google.truth.extensions:truth-proto-extension:${truth.version}",
+        "com.google.inject:guice:5.1.0",
+        "com.google.inject.extensions:guice-assistedinject:5.1.0",
+        "com.google.inject.extensions:guice-servlet:5.1.0",
+        "com.google.inject.extensions:guice-testlib:5.1.0",
+        "com.google.gwt.inject:gin:2.1.2",
+        "org.mockito:mockito-core:${mockito.version}",
+        "org.jmock:jmock:2.12.0",
+        "org.jmock:jmock-junit4:2.12.0",
+        "com.google.protobuf:protobuf-java:${protobuf.version}",
+        "com.google.dagger:dagger:2.40.5",
+        "com.google.dagger:dagger-producers:2.40.5",
+        "com.google.auto.factory:auto-factory:1.0.1",
+        "com.google.guava:guava-testlib:${guava.version}",
+        "com.google.testing.compile:compile-testing:${compile.testing.version}",
+        "com.google.protobuf:protobuf-java-util:${protobuf.version}",
+        "com.ibm.icu:icu4j:70.1",
+        "com.google.auto.service:auto-service-annotations:${autoservice.version}",
+        "io.netty:netty-all:5.0.0.Alpha2",
+        "joda-time:joda-time:2.10.13",
+        "com.google.common.html.types:proto:1.0.8",
+        "com.google.common.html.types:types:1.0.8",
+        "org.assertj:assertj-core:3.22.0",
+        "org.easymock:easymock:4.3",
+        "pl.pragmatists:JUnitParams:1.1.1",
+        "org.threeten:threeten-extra:1.7.0",
+        "com.google.flogger:flogger:${flogger.version}",
+        "org.jspecify:jspecify:${jspecify.version}"
+      ]
+    },
+    {
+      "ref" : "null:guava:INF/maven/com.google.guava/guava/pom",
+      "dependsOn" : [
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.code.findbugs:jsr305:null",
+        "org.checkerframework:checker-qual:null",
+        "com.google.errorprone:error_prone_annotations:null",
+        "com.google.j2objc:j2objc-annotations:null"
+      ]
+    },
+    {
+      "ref" : "null:error_prone_check_api:INF/maven/com.google.errorprone/error_prone_check_api/pom",
+      "dependsOn" : [
+        "com.google.errorprone:error_prone_annotation:${project.version}",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "org.checkerframework:dataflow-errorprone:${dataflow.version}",
+        "io.github.java-diff-utils:java-diff-utils:4.0",
+        "com.google.auto.value:auto-value-annotations:${autovalue.version}",
+        "com.google.errorprone:error_prone_annotations:${project.version}",
+        "junit:junit:${junit.version}",
+        "org.hamcrest:hamcrest-core:2.2",
+        "com.google.truth:truth:${truth.version}",
+        "com.google.truth.extensions:truth-java8-extension:${truth.version}",
+        "org.mockito:mockito-core:${mockito.version}",
+        "com.google.guava:guava-testlib:${guava.version}",
+        "com.github.kevinstern:software-and-algorithms:1.0",
+        "com.github.ben-manes.caffeine:caffeine:${caffeine.version}"
+      ]
+    },
+    {
+      "ref" : "com.github.kevinstern:software-and-algorithms:1.0",
+      "dependsOn" : [
+        "junit:junit:4.10"
+      ]
+    },
+    {
+      "ref" : "null:error_prone_type_annotations:INF/maven/com.google.errorprone/error_prone_type_annotations/pom",
+      "dependsOn" : [
+        "com.google.errorprone:error_prone_annotations:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:auto-value-annotations:1.9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:protobuf-java:java/pom",
+      "dependsOn" : [
+        "junit:junit:null",
+        "org.easymock:easymock:null",
+        "com.google.guava:guava:null",
+        "com.google.truth:truth:null"
+      ]
+    },
+    {
+      "ref" : "null:error_prone_annotation:INF/maven/com.google.errorprone/error_prone_annotation/pom",
+      "dependsOn" : [
+        "com.google.guava:guava:${guava.version}",
+        "junit:junit:${junit.version}",
+        "com.google.truth:truth:${truth.version}"
+      ]
+    },
+    {
+      "ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "dependsOn" : [
+        "junit:junit:${junit.version}"
+      ]
+    },
+    {
+      "ref" : "com.google.code.findbugs:jsr305:3.0.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:error_prone_docgen:INF/maven/com.google.errorprone/error_prone_docgen/pom",
+      "dependsOn" : [
+        "com.google.errorprone:error_prone_annotation:${project.version}",
+        "com.google.errorprone:error_prone_core:${project.version}",
+        "com.google.errorprone:error_prone_docgen_processor:${project.version}",
+        "com.google.guava:guava:${guava.version}",
+        "org.yaml:snakeyaml:1.30",
+        "junit:junit:${junit.version}",
+        "com.beust:jcommander:1.82",
+        "com.google.auto.value:auto-value-annotations:${autovalue.version}",
+        "com.github.spullara.mustache.java:compiler:0.9.10",
+        "com.google.code.gson:gson:2.8.9",
+        "com.google.truth:truth:${truth.version}"
+      ]
+    },
+    {
+      "ref" : "null:failureaccess:1.0.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:error_prone_refaster:INF/maven/com.google.errorprone/error_prone_refaster/pom",
+      "dependsOn" : [
+        "com.google.errorprone:error_prone_core:${project.version}",
+        "com.google.auto.service:auto-service-annotations:${autoservice.version}"
+      ]
+    },
+    {
+      "ref" : "com.google.auto.service:auto-service-annotations:1.0.1",
+      "dependsOn" : [ ]
+    }
+  ]
+}

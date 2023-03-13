@@ -1,0 +1,42 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:e6380ad7-227f-46a2-b50b-cebcba3d9263",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-26T01:27:51.187Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "7.0.5"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "alluxio",
+      "version": "",
+      "type": "application"
+    }
+  },
+  "components": [],
+  "dependencies": [],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/alluxio/pom.xml",
+      "comment": "Package file"
+    }
+  ]
+}

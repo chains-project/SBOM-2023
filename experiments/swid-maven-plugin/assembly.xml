@@ -1,0 +1,60 @@
+<assembly
+  xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+  <id>swidval</id>
+  <formats>
+    <format>dir</format>
+    <format>zip</format>
+    <format>tar.bz2</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <dependencySets>
+    <dependencySet>
+      <outputDirectory>/</outputDirectory>
+      <unpack>false</unpack>
+      <includes>
+        <include>${artifact}</include>
+      </includes>
+    </dependencySet>
+    <dependencySet>
+      <outputDirectory>/lib</outputDirectory>
+      <unpack>false</unpack>
+      <excludes>
+        <exclude>${artifact}</exclude>
+      </excludes>
+    </dependencySet>
+  </dependencySets>
+  <fileSets>
+    <fileSet>
+      <directory>/home/circleci/project/swid-maven-plugin/target/generated-distro</directory>
+      <outputDirectory></outputDirectory>
+      <includes>
+        <include>**/*</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+  <containerDescriptorHandlers>
+    <!-- Generates a SWID tag -->
+    <containerDescriptorHandler>
+      <handlerName>swid-generator</handlerName>
+      <configuration>
+        <excludes>
+          <!-- don't include the assembly in the generated payload -->
+          <exclude>${artifact}</exclude>
+        </excludes>
+        <!-- use the following entities in the SWID tag -->
+        <entities>
+          <entity>
+            <name>National Institute of Standards and Technology</name>
+            <regid>nist.gov</regid>
+            <roles>
+              <role>tagCreator</role>
+              <role>softwareCreator</role>
+            </roles>
+          </entity>
+        </entities>
+      </configuration>
+    </containerDescriptorHandler>
+  </containerDescriptorHandlers>
+</assembly>

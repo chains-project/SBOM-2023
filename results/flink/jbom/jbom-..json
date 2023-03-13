@@ -1,0 +1,302 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "e9fa26be-a3d8-4f13-8ec7-bb1f3b6d6e2f",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-26T04:20:59Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (dfcf0530c15e)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "group" : "${groupId}",
+      "name" : "${artifactId}",
+      "version" : "${version}",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "cbdb2a719d73433ec4722a9b30a22b8e27fdd358"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "a5333bd3accd80a5361eb58c9ac22939"
+        }
+      ],
+      "purl" : "pkg:maven/%24%7BgroupId%7D/%24%7BartifactId%7D@%24%7Bversion%7D",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "archetype-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/flink/./flink-quickstart/flink-quickstart-java/target/original-flink-quickstart-java-1.16.0.jar!/archetype-resources/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "${groupId}:${artifactId}:${version}"
+    },
+    {
+      "group" : "${groupId}",
+      "name" : "${artifactId}",
+      "version" : "${version}",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "57db3aadde987b28c422d897450684076a357380"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "68757872cceac121f5e588c7fd2b5990"
+        }
+      ],
+      "purl" : "pkg:maven/%24%7BgroupId%7D/%24%7BartifactId%7D@%24%7Bversion%7D",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "archetype-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/flink/./flink-quickstart/flink-quickstart-java/target/flink-quickstart-java-1.16.0.jar!/archetype-resources/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "${groupId}:${artifactId}:${version}"
+    },
+    {
+      "group" : "${groupId}",
+      "name" : "${artifactId}",
+      "version" : "${version}",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "c5fb192c67111b9654fda442dd93b7d1c335eb9d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "33a105028533a901fd7b7d9694b96efe"
+        }
+      ],
+      "purl" : "pkg:maven/%24%7BgroupId%7D/%24%7BartifactId%7D@%24%7Bversion%7D",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "archetype-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/flink/./flink-quickstart/flink-quickstart-scala/target/flink-quickstart-scala-1.16.0.jar!/archetype-resources/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "${groupId}:${artifactId}:${version}"
+    },
+    {
+      "group" : "${groupId}",
+      "name" : "${artifactId}",
+      "version" : "${version}",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f4b0586420b851672ef3a502b11e858695c7214"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "9d89381f99ee9c03c17de4e066d2a8ec"
+        }
+      ],
+      "purl" : "pkg:maven/%24%7BgroupId%7D/%24%7BartifactId%7D@%24%7Bversion%7D",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "archetype-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/flink/./flink-quickstart/flink-quickstart-scala/target/original-flink-quickstart-scala-1.16.0.jar!/archetype-resources/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "${groupId}:${artifactId}:${version}"
+    },
+    {
+      "group" : "${groupId}",
+      "name" : "${artifactId}",
+      "version" : "${version}",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "99e169775a36949f26feae94568da9179d905412"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "572f718bb72887abb4e1558be5e3246a"
+        }
+      ],
+      "purl" : "pkg:maven/%24%7BgroupId%7D/%24%7BartifactId%7D@%24%7Bversion%7D",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "archetype-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/flink/./flink-walkthroughs/flink-walkthrough-datastream-scala/target/original-flink-walkthrough-datastream-scala-1.16.0.jar!/archetype-resources/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "${groupId}:${artifactId}:${version}"
+    },
+    {
+      "group" : "${groupId}",
+      "name" : "${artifactId}",
+      "version" : "${version}",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "546315bc123f157326cece6d0ac6f0bfe5e4b2ca"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "7dd98256c52506a722dd0bf94a578c2d"
+        }
+      ],
+      "purl" : "pkg:maven/%24%7BgroupId%7D/%24%7BartifactId%7D@%24%7Bversion%7D",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "archetype-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/flink/./flink-walkthroughs/flink-walkthrough-datastream-scala/target/flink-walkthrough-datastream-scala-1.16.0.jar!/archetype-resources/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "${groupId}:${artifactId}:${version}"
+    },
+    {
+      "group" : "${groupId}",
+      "name" : "${artifactId}",
+      "version" : "${version}",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "464f500ca07b68c80730291fa2a3f84c1f84e2f2"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "02a48b59bc5027f2798341b98eea7044"
+        }
+      ],
+      "purl" : "pkg:maven/%24%7BgroupId%7D/%24%7BartifactId%7D@%24%7Bversion%7D",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "archetype-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/flink/./flink-walkthroughs/flink-walkthrough-datastream-java/target/original-flink-walkthrough-datastream-java-1.16.0.jar!/archetype-resources/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "${groupId}:${artifactId}:${version}"
+    },
+    {
+      "group" : "${groupId}",
+      "name" : "${artifactId}",
+      "version" : "${version}",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "c690e74878346bad44e57f811693628dbe62e7b0"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "33b89ad8bf3254d327c5c86081f24682"
+        }
+      ],
+      "purl" : "pkg:maven/%24%7BgroupId%7D/%24%7BartifactId%7D@%24%7Bversion%7D",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "archetype-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/flink/./flink-walkthroughs/flink-walkthrough-datastream-java/target/flink-walkthrough-datastream-java-1.16.0.jar!/archetype-resources/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "${groupId}:${artifactId}:${version}"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "${groupId}:${artifactId}:${version}",
+      "dependsOn" : [
+        "org.apache.flink:flink-streaming-java:${flink.version}",
+        "org.apache.flink:flink-clients:${flink.version}",
+        "org.apache.logging.log4j:log4j-slf4j-impl:${log4j.version}",
+        "org.apache.logging.log4j:log4j-api:${log4j.version}",
+        "org.apache.logging.log4j:log4j-core:${log4j.version}"
+      ]
+    }
+  ]
+}

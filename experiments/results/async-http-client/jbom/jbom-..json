@@ -1,0 +1,447 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "d8758640-ee57-40c1-995d-e7c00e9b67c5",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-26T04:13:08Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (4c6f27d39a3a)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "async-http-client-netty-utils",
+      "version" : "utils/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5b523ff1da6dfe9e3f4eb762de5bd218024c1622"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "53610d1ab3906edc7b2b97ec6bc6b651"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-netty-utils"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./netty-utils/target/async-http-client-netty-utils-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-netty-utils/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-netty-utils:utils/pom"
+    },
+    {
+      "name" : "async-http-client",
+      "version" : "client/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d629ad87942bf57003bc32fb61aaf47f4880de2f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f005badcfe2fd63ca351a200f1444b5e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./client/target/async-http-client-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client:client/pom"
+    },
+    {
+      "name" : "async-http-client-extras-simple",
+      "version" : "simple/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "873ad8e10dc3e7941195d2dd4b2aeeb67f278a42"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "7b3a9ce766ef2f0677f07ef7dcb26cae"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-extras-simple"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./extras/simple/target/async-http-client-extras-simple-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-extras-simple/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-extras-simple:simple/pom"
+    },
+    {
+      "name" : "async-http-client-extras-retrofit2",
+      "version" : "retrofit2/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1206b63efc0c90b0b7d6a9890978f8815e0887bc"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5133559f26b23bd6f07001bdb785bc65"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-extras-retrofit2"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./extras/retrofit2/target/async-http-client-extras-retrofit2-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-extras-retrofit2/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-extras-retrofit2:retrofit2/pom"
+    },
+    {
+      "name" : "async-http-client-extras-rxjava",
+      "version" : "rxjava/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d5ba1757fc1685749f57c1e2e2acd47e364201b6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "2952e8618d055c95d2de2338fae59dc7"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-extras-rxjava"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./extras/rxjava/target/async-http-client-extras-rxjava-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-extras-rxjava/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-extras-rxjava:rxjava/pom"
+    },
+    {
+      "name" : "async-http-client-extras-jdeferred",
+      "version" : "jdeferred/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "333f4f54696d0a8615caca9be03ffc14311a22b1"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "7b05869c08138dc5f04aa17a66195c30"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-extras-jdeferred"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./extras/jdeferred/target/async-http-client-extras-jdeferred-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-extras-jdeferred/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-extras-jdeferred:jdeferred/pom"
+    },
+    {
+      "name" : "async-http-client-extras-registry",
+      "version" : "registry/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b08ea6a4945bfba3b42da695ab351a9bf6138111"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "af435a79fa515150348969f81b3e9cb3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-extras-registry"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./extras/registry/target/async-http-client-extras-registry-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-extras-registry/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-extras-registry:registry/pom"
+    },
+    {
+      "name" : "async-http-client-extras-typesafe-config",
+      "version" : "config/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "9352de03b1519f1e6ff24b5058a1f46dfbe60a42"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "092c7aae7e50a1bdba6a5bc3f9a6a026"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-extras-typesafe-config"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./extras/typesafeconfig/target/async-http-client-extras-typesafe-config-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-extras-typesafe-config/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-extras-typesafe-config:config/pom"
+    },
+    {
+      "name" : "async-http-client-extras-guava",
+      "version" : "guava/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "dd773428d0ce2e5ad49f578414d99f05aab0a2d1"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "17cc8214a0e5861a4f22ba525c1c59a0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-extras-guava"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./extras/guava/target/async-http-client-extras-guava-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-extras-guava/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-extras-guava:guava/pom"
+    },
+    {
+      "name" : "async-http-client-extras-rxjava2",
+      "version" : "rxjava2/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "0a54fb35cd50e8eb79fc4befd2bea3eab20e8a89"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "1e59fcfbc284b7969961fe4107891e99"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-extras-rxjava2"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./extras/rxjava2/target/async-http-client-extras-rxjava2-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-extras-rxjava2/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-extras-rxjava2:rxjava2/pom"
+    },
+    {
+      "name" : "async-http-client-example",
+      "version" : "example/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e48b7216a2ea1cbc82b67ced7e5b1f8e23a737ec"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "bfc8502d90e8ccdeed0b0cd8c0b3a5e1"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.asynchttpclient/async-http-client-example"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/async-http-client/./example/target/async-http-client-example-2.12.3.jar!/META-INF/maven/org.asynchttpclient/async-http-client-example/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:async-http-client-example:example/pom"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "null:async-http-client-extras-typesafe-config:config/pom",
+      "dependsOn" : [
+        "com.typesafe:config:${typesafeconfig.version}"
+      ]
+    },
+    {
+      "ref" : "null:async-http-client-extras-rxjava:rxjava/pom",
+      "dependsOn" : [
+        "io.reactivex:rxjava:null"
+      ]
+    },
+    {
+      "ref" : "null:async-http-client-example:example/pom",
+      "dependsOn" : [
+        "org.asynchttpclient:async-http-client:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:async-http-client:client/pom",
+      "dependsOn" : [
+        "org.asynchttpclient:async-http-client-netty-utils:${project.version}",
+        "io.netty:netty-codec-http:null",
+        "io.netty:netty-handler:null",
+        "io.netty:netty-codec-socks:null",
+        "io.netty:netty-handler-proxy:null",
+        "io.netty:netty-transport-native-epoll:null",
+        "io.netty:netty-transport-native-kqueue:null",
+        "org.reactivestreams:reactive-streams:null",
+        "com.typesafe.netty:netty-reactive-streams:null",
+        "io.reactivex.rxjava2:rxjava:null",
+        "org.reactivestreams:reactive-streams-examples:null",
+        "org.apache.kerby:kerb-simplekdc:null"
+      ]
+    },
+    {
+      "ref" : "null:async-http-client-extras-retrofit2:retrofit2/pom",
+      "dependsOn" : [
+        "org.projectlombok:lombok:${lombok.version}",
+        "com.squareup.retrofit2:retrofit:${retrofit2.version}",
+        "com.squareup.retrofit2:converter-scalars:${retrofit2.version}",
+        "com.squareup.retrofit2:converter-jackson:${retrofit2.version}",
+        "com.squareup.retrofit2:adapter-rxjava:${retrofit2.version}",
+        "com.squareup.retrofit2:adapter-rxjava2:${retrofit2.version}"
+      ]
+    },
+    {
+      "ref" : "null:async-http-client-extras-guava:guava/pom",
+      "dependsOn" : [
+        "com.google.guava:guava:28.2-jre"
+      ]
+    },
+    {
+      "ref" : "null:async-http-client-extras-registry:registry/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:async-http-client-extras-rxjava2:rxjava2/pom",
+      "dependsOn" : [
+        "io.reactivex.rxjava2:rxjava:null"
+      ]
+    },
+    {
+      "ref" : "null:async-http-client-extras-simple:simple/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:async-http-client-extras-jdeferred:jdeferred/pom",
+      "dependsOn" : [
+        "org.jdeferred:jdeferred-core:1.2.6"
+      ]
+    },
+    {
+      "ref" : "null:async-http-client-netty-utils:utils/pom",
+      "dependsOn" : [
+        "io.netty:netty-buffer:null"
+      ]
+    }
+  ]
+}
