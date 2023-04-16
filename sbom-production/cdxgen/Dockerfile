@@ -4,8 +4,8 @@ RUN microdnf update && microdnf install -y npm
 RUN npm install -g n
 RUN n 16.16.0 && n prune
 RUN git config --global advice.detachedHead false
-RUN npm install -g @appthreat/cdxgen@7.0.5
+RUN npm install -g @cyclonedx/cdxgen@8.2.4
 RUN mkdir --parents /results/${RepoName}/cdxgen
-CMD git clone ${RepoUrl} && cd ${RepoName} && git checkout ${CommitHash} && cdxgen -t java -o bom.cdxgen.json
+CMD git clone ${RepoUrl} && cd ${RepoName} && git checkout ${CommitHash} && cdxgen -r -t java -o bom.cdxgen.json
 
 ## CMD [git clone $Repo_URL && cd $Repo_Name && git checkout $CommitHash && cdxgen -t java -o bom.cdxgen.json]
