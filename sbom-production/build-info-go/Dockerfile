@@ -7,7 +7,7 @@ RUN microdnf update && microdnf install -y npm go
 #RUN mv apache-maven-3.9.0 /opt/maven
 #RUN ln -s /opt/maven/bin/mvn /usr/local/bin
 
-RUN git clone https://github.com/jfrog/build-info-go && cd build-info-go && git checkout b98f2c022f87e07240ecce29c2968d9f915ccf5a && ./buildscripts/build.sh
+RUN git clone https://github.com/jfrog/build-info-go && cd build-info-go && git checkout a6ed2e89a5bf16feff10be3333c5f69821b0b903 && ./buildscripts/build.sh
 RUN mkdir --parents /results/${RepoName}
 CMD git clone ${RepoUrl} && cd ${RepoName} && git checkout ${CommitHash} && mv /build-info-go/bi . && ./bi mvn --format cyclonedx/json  > build-info-go.json
 
