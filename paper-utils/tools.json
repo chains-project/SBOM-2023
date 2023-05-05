@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Build Info Go",
+        "macro": "\\buildinfogo",
+        "version": "1.9.3",
+        "format": "CycloneDX",
+        "collectionStep": "Build",
+        "url": "https://github.com/jfrog/build-info-go",
+        "scope": [],
+        "hashAlgorithms": [
+            "SHA-256", "SHA-1", "MD5"
+        ],
+        "license": false,
+        "externalReferences": [],
+        "canResolveTree": true,
+        "reproducibility": false,
+        "acronym": "big"
+    },
+    {
+        "name": "CycloneDX Generator",
+        "macro": "\\cdxgen",
+        "version": "8.4.3",
+        "format": "CycloneDX",
+        "collectionStep": "Build",
+        "url": "https://github.com/CycloneDX/cdxgen",
+        "scope": ["optional"],
+        "hashAlgorithms": [
+            "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
+        ],
+        "license": true,
+        "externalReferences": ["other"],
+        "canResolveTree": true,
+        "reproducibility": true,
+        "acronym": "cdx"
+
+    },
+    {
+        "name": "CycloneDX Maven Plugin",
+        "macro": "\\cyclonedxmavenplugin",
+        "version": "2.7.8",
+        "format": "CycloneDX",
+        "collectionStep": "Build",
+        "url": "https://github.com/CycloneDX/cyclonedx-maven-plugin",
+        "scope": ["optional"],
+        "hashAlgorithms": [
+            "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
+        ],
+        "license": true,
+        "externalReferences": ["issue-tracker", "vcs", "mailing-list", "website", "build-system", "distribution"],
+        "canResolveTree": true,
+        "reproducibility": true,
+        "acronym": "cdx-mp"
+    },
+    {
+        "name": "jbom",
+        "macro": "\\jbom",
+        "version": "1.2.1",
+        "format": "CycloneDX",
+        "collectionStep": "Analyzed",
+        "url": "https://github.com/Contrast-Security-OSS/jbom",
+        "scope": ["required"],
+        "hashAlgorithms": [
+            "MD5", "SHA-1"
+        ],
+        "license": false,
+        "externalReferences": [],
+        "canResolveTree": false,
+        "reproducibility": false,
+        "acronym": "jbom"
+    },
+    {
+        "name": "OpenRewrite",
+        "macro": "\\openrewrite",
+        "version": "4.45.0",
+        "format": "CycloneDX",
+        "collectionStep": "Build",
+        "url": "https://docs.openrewrite.org/reference/rewrite-maven-plugin",
+        "scope": ["optional", "required"],
+        "hashAlgorithms": [],
+        "license": true,
+        "externalReferences": [],
+        "canResolveTree": true,
+        "reproducibility": true,
+        "acronym": "or"
+    },
+    {
+        "name": "Depscan",
+        "macro": "\\depscan",
+        "version": "4.1.2",
+        "format": "CycloneDX",
+        "collectionStep": "Source",
+        "url": "https://github.com/AppThreat/dep-scan",
+        "scope": ["optional"],
+        "hashAlgorithms": [
+            "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
+        ],
+        "license": true,
+        "externalReferences": ["other"],
+        "canResolveTree": true,
+        "reproducibility": true,
+        "acronym": "ds"
+    }
+]
