@@ -11,7 +11,9 @@ This repository contains the code and data produced for the paper [_Challenges o
 
 
 ## SBOM Producers
-The performance of the following 6 CycloneDX SBOM producers were studied: 
+The performance of the following 6 CycloneDX SBOM producers were studied:
+
+> These are the latest versions as of `Fri 5 May 2023 13:02:33 CEST`.
 
 | Producer | Version |
 | -------- | ------- | 
