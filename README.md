@@ -15,12 +15,12 @@ The performance of the following 6 CycloneDX SBOM producers were studied:
 
 | Producer | Version |
 | -------- | ------- | 
-| [Build Info Go](https://github.com/jfrog/build-info-go) | 1.8.7 |
-| [CycloneDX Generator](https://github.com/CycloneDX/cdxgen) | 8.0.5 |
-| [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin) | 2.7.5 |
+| [Build Info Go](https://github.com/jfrog/build-info-go) | 1.9.3 |
+| [CycloneDX Generator](https://github.com/CycloneDX/cdxgen) | 8.4.3 |
+| [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin) | 2.7.8 |
 | [jbom](https://github.com/Contrast-Security-OSS/jbom) | 1.2.1 |
-| [OpenRewrite](https://docs.openrewrite.org/reference/rewrite-maven-plugin) | 4.40.0 |
-| [Depscan](https://github.com/AppThreat/dep-scan) | 3.6.0 |
+| [OpenRewrite](https://docs.openrewrite.org/reference/rewrite-maven-plugin) | 4.45.0 |
+| [Depscan](https://github.com/AppThreat/dep-scan) | 4.1.2 |
 
 
 ## Study Subjects
