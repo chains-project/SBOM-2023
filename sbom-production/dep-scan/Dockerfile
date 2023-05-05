@@ -2,7 +2,7 @@ FROM amd64/debian:bookworm
 USER root
 RUN apt-get update && apt-get install -y git maven curl python3 npm
 RUN apt-get install -y libc6-dev libc6
-RUN curl -LO https://github.com/AppThreat/depscan-bin/releases/download/v3.6.0/depscan-linux-amd64
+RUN curl -LO https://github.com/AppThreat/depscan-bin/releases/download/v4.1.2/depscan-linux-amd64
 RUN chmod +x depscan-linux-amd64
 
 RUN mkdir --parents /results/${RepoName}
