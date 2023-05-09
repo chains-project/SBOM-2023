@@ -1,0 +1,239 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:082f38db-b936-401f-85c5-05e736f3234f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-05-09T16:32:47.612Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.4.3"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "publisher": "",
+      "group": "org.jhiccup",
+      "name": "jHiccup",
+      "version": "2.0.10",
+      "description": "jHiccup is a lightweight, non-intrusive instrumentation tool that logs and records platform \"hiccups\" - including the JVM stalls that often happen when Java applications are executed and/or any OS or hardware platform noise that may cause the running application to not be continuously runnable.",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC0-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.10",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "68380001b88006ebe49be50cef5bb23a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e4f1766ce7404a08f45d859fb9c226fc9e41a861"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "36a747ca1e0b86f6ea88055b8723bb87030d627766da6288bf077afdeeb0f75a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2c8b595c24a5ad2499a5bd5bb01204453cd09f51308fea5834922e042b8f39bd8ef0099848eb3a8576ddc4ce4ec907181ba0c20f1222a25b3064d1c3c5499cbd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7bcbef235aec4257910398c646b2a0467aeaa952a70d1c8184b1a2fdd8d471fd02c8acb6ae26b5c6d47bfb72f9de5551"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "22243110e6d6ab29d6b76ea8acf31e9488cf16ae687cb90448044b78b7499cc7c904e5fdcbc5f250c319e73e26c8a60e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8b86f86d0c6905500c5eb85d8eeec4e3214e9bbc540a90737a693f6c977b7028"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "df5e2b5784a6799bba31688041ccfdcdfefa6dfed6e7f5127aa0c6f5d4584d1e31d0e19147eedc0238622a14a3ed4b3466e7ed2ccce907dabade0ef8574afa33"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.10?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/junit/junit@4.10?type=jar"
+    },
+    {
+      "publisher": "Hamcrest",
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b66d0c48e1f1dc54d4227db52512c15b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "860340562250678d1a344907ac75754e259cdb14"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0361d1493ff0d94f861359efea91200720635072134792efb7217f6e09d5cffb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eef6453bb867d173f3611844a95e0b9d1792ee35c0c49d20a309d87c7140dfacee0fc479def9a32351773d3f0d9dc51bef8d9ec30f84189fcd7f44a2892b52b4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f0eefd636c181ad2db515e1771d8d261b0a274d7998b7a39090ad5f7b6ee75dc43043ae4976ff62145b83b567ed8042e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0340e12b1e115d4b01bdeac4e38eb16a8e413ec9c3d1da7445d2b1388c9f51b6f0e51cec11eb3caa3d2fac51d8450849"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c1cf561c262f43751e4041e6e1807a197ef2553eb3d0af276acfbfc12d56ed2d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b1c4e4857e963257880b5eb4e23c55d6479193680178da83ea84be90d19eda2a7f66d8d74182dfe3a3d5808fe62b3664f96677c94a5eaba65181c5cde57a166b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD style",
+            "url": "http://www.opensource.org/licenses/bsd-license.php"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.hdrhistogram",
+      "name": "HdrHistogram",
+      "version": "2.1.10",
+      "description": "HdrHistogram supports the recording and analyzing sampled data value counts across a configurable integer value range with configurable value precision within the range. Value precision is expressed as the number of significant digits in the value recording, and provides control over value quantization behavior across the value range and the subsequent value resolution at any given level.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f7fd592029a3f8cc3b3c2488d43c6d8d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9e1ac84eed220281841b75e72fb9de5a297fbf04"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6a65119ee9372e58b490e889e9f8293802efd3bbc2549dd47b6e1259cd12402c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2f8ccd705652fe58af30962ad58d7648eb00401d665139509fc35206c5a7a7c9e3e38be5fa779cd5a34801f945e19ff915c45d6eb724585652d65aca5a078bf4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f73aa6d4c298aee0a1857a6fe4d4b6f323e1f4ad17e551f4af7ad9b6ea5be4a5e2a9f693fa042d3545f0b3a23d6915f0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7c934c652a08737464337891e993701d1647a80cd86092767946a38df9d690194da516d3cbcb62d7b89b877286ecc96f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c3b2036e015d3174fad64b5f6ebae0a1660e9dad62f7d147c45f4ab160cf39f4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4d5c2e4ce680f5fde47eea90e01254584f2075fddf72a8bf074bb1e36abf95e1f71149670af9c9c713f9bf3eb7b505579741e8c3c29c5d21c9768ab4bd38d7ae"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CC0-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "url": "https://opensource.org/licenses/BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/junit/junit@4.10?type=jar",
+        "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar",
+      "dependsOn": []
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/jHiccup/pom.xml",
+      "comment": "Package file"
+    }
+  ]
+}
