@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:ce9f7284-0eb3-4dd2-b6f1-d67cc6a24211" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2023-05-09T19:01:17Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.8</version>
+        <hashes>
+          <hash alg="MD5">4d75a7410313db127502c8536eb3f54b</hash>
+          <hash alg="SHA-1">8795071de12b08045d08f58d9611a9fcb9c78a9f</hash>
+          <hash alg="SHA-256">eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61</hash>
+          <hash alg="SHA-512">d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9</hash>
+          <hash alg="SHA-384">ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8</hash>
+          <hash alg="SHA3-384">08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58</hash>
+          <hash alg="SHA3-256">59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929</hash>
+          <hash alg="SHA3-512">7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar">
+      <group>org.jhiccup</group>
+      <name>jHiccup</name>
+      <version>2.0.10</version>
+      <description>jHiccup is a lightweight, non-intrusive instrumentation tool that logs and records
+        platform "hiccups" - including the JVM stalls that often happen when
+        Java applications are executed and/or any OS or hardware platform noise
+        that may cause the running application to not be continuously runnable.</description>
+      <licenses>
+        <license>
+          <id>CC0-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://jhiccup.org</url></reference><reference type="issue-tracker"><url>https://github.com/giltene/jHiccup/issues</url></reference><reference type="vcs"><url>scm:git:git://github.com/giltene/jHiccup.git</url></reference></externalReferences>
+    </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar">
+      <group>org.hdrhistogram</group>
+      <name>HdrHistogram</name>
+      <version>2.1.10</version>
+      <description>HdrHistogram supports the recording and analyzing sampled data value
+        counts across a configurable integer value range with configurable value
+        precision within the range. Value precision is expressed as the number of
+        significant digits in the value recording, and provides control over value
+        quantization behavior across the value range and the subsequent value
+        resolution at any given level.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">f7fd592029a3f8cc3b3c2488d43c6d8d</hash>
+        <hash alg="SHA-1">9e1ac84eed220281841b75e72fb9de5a297fbf04</hash>
+        <hash alg="SHA-256">6a65119ee9372e58b490e889e9f8293802efd3bbc2549dd47b6e1259cd12402c</hash>
+        <hash alg="SHA-512">2f8ccd705652fe58af30962ad58d7648eb00401d665139509fc35206c5a7a7c9e3e38be5fa779cd5a34801f945e19ff915c45d6eb724585652d65aca5a078bf4</hash>
+        <hash alg="SHA-384">f73aa6d4c298aee0a1857a6fe4d4b6f323e1f4ad17e551f4af7ad9b6ea5be4a5e2a9f693fa042d3545f0b3a23d6915f0</hash>
+        <hash alg="SHA3-384">7c934c652a08737464337891e993701d1647a80cd86092767946a38df9d690194da516d3cbcb62d7b89b877286ecc96f</hash>
+        <hash alg="SHA3-256">c3b2036e015d3174fad64b5f6ebae0a1660e9dad62f7d147c45f4ab160cf39f4</hash>
+        <hash alg="SHA3-512">4d5c2e4ce680f5fde47eea90e01254584f2075fddf72a8bf074bb1e36abf95e1f71149670af9c9c713f9bf3eb7b505579741e8c3c29c5d21c9768ab4bd38d7ae</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>CC0-1.0</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+          <url>https://opensource.org/licenses/BSD-2-Clause</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://hdrhistogram.github.io/HdrHistogram/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/HdrHistogram/HdrHistogram/issues</url></reference><reference type="vcs"><url>scm:git:git://github.com/HdrHistogram/HdrHistogram.git</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar">
+      <dependency ref="pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar"/>
+  </dependencies>
+</bom>
