@@ -622,5 +622,5 @@ pyrightconfig.json
 # Ignore all local history of files
 .history
 .ionide
-
+!*jbom-1.2.1.jar
 # End of https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,macos,python,latex,eclipse

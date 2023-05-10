@@ -1,0 +1,24 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "6af4d497-62a8-4faa-89ef-c2934e55df0e",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-05-10T10:15:15Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.20 (07e960074dc1)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  }
+}
