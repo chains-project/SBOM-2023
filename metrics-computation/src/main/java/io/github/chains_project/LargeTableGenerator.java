@@ -40,7 +40,7 @@ public class LargeTableGenerator {
     sb.append(
         "| Project | Analyzer | Precision | Recall | F1|")
         .append(System.lineSeparator());
-    sb.append("| --- | --- | --- | --- | --- | --- | --- | --- |").append(System.lineSeparator());
+    sb.append("| --- | --- | --- | --- | --- |").append(System.lineSeparator());
     for (Map.Entry<String, List<InnerLargeTableGenerator>> entry : map.entrySet()) {
       for (InnerLargeTableGenerator inner : entry.getValue()) {
         Metrics direct = Metrics.of(inner.direct());

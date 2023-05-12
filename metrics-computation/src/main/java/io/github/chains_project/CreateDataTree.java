@@ -6,12 +6,14 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.chains_project.data.AnalyzerResult;
 import io.github.chains_project.data.Dependency;
 import io.github.chains_project.data.Result;
 
 public class CreateDataTree {
 
+  private static ObjectMapper mapper = new ObjectMapper();
   private static final List<String> analyzerNames = List.of("build-info-go", "cdxgen",
       "cyclonedx-maven-plugin", "depscan", "jbom", "openrewrite");
 
@@ -51,6 +53,10 @@ public class CreateDataTree {
           List<Dependency> input = jsonReader.readFile(file);
           List<Dependency> truth = jsonReader.readFile(truthJson);
           var numbers = Result.of(input, truth);
+          Files.createDirectories(Path.of("./resultCalc/" + project.getFileName()));
+          Files.writeString(
+              Path.of("./resultCalc/" + project.getFileName() + "/" + analyzerName + ".json"),
+              mapper.writeValueAsString(numbers));
           AnalyzerResult result = new AnalyzerResult(analyzerName, project.getFileName().toString(),
               numbers);
           results.add(result);

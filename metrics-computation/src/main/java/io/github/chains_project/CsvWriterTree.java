@@ -15,9 +15,9 @@ public class CsvWriterTree {
     sb.append(System.lineSeparator());
     for (AnalyzerResult analyzerResult : list) {
       sb.append(analyzerResult.project());
-      sb.append(";");
+      sb.append(",");
       sb.append(analyzerResult.name());
-      sb.append(";");
+      sb.append(",");
       appendDirect(sb, analyzerResult);
     }
     Files.writeString(Path.of("./resultsTreeAll.csv"), sb.toString());
@@ -27,12 +27,13 @@ public class CsvWriterTree {
     DecimalFormat df = new DecimalFormat("#.##");
     Metrics direct = Metrics.of(analyzerResult.deps());
     sb.append(df.format(direct.precision()));
-    sb.append(";");
+    sb.append(",");
     sb.append(df.format(direct.recall()));
-    sb.append(";");
+    sb.append(",");
     sb.append(df.format(direct.f1()));
-    sb.append(";");
+    sb.append(",");
     sb.append(df.format(direct.size()));
-    sb.append(";");
+    sb.append(",");
+    sb.append(System.lineSeparator());
   }
 }

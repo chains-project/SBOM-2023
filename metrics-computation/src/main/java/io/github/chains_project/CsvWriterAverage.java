@@ -3,15 +3,12 @@ package io.github.chains_project;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import io.github.chains_project.data.AnalyzerResult;
-import io.github.chains_project.data.Dependency;
 import io.github.chains_project.data.Metrics;
-import io.github.chains_project.data.Result;
 
 public class CsvWriterAverage {
 
@@ -27,11 +24,11 @@ public class CsvWriterAverage {
     sb.append(System.lineSeparator());
     calculateAverage(new ArrayList<>(list), v -> false).forEach(v -> {
       sb.append(v.name());
-      sb.append(";");
+      sb.append(",");
       sb.append(v.directPrecision());
-      sb.append(";");
+      sb.append(",");
       sb.append(v.directRecall());
-      sb.append(";");
+      sb.append(",");
       sb.append(v.directF1());
       sb.append(System.lineSeparator());
     });
@@ -43,11 +40,11 @@ public class CsvWriterAverage {
         list), v -> v.deps().truePositive().isEmpty() && v.deps().falsePositive()
         .isEmpty()).forEach(v -> {
       sb.append(v.name());
-      sb.append(";");
+      sb.append(",");
       sb.append(v.directPrecision());
-      sb.append(";");
+      sb.append(",");
       sb.append(v.directRecall());
-      sb.append(";");
+      sb.append(",");
       sb.append(v.directF1());
       sb.append(System.lineSeparator());
     });
