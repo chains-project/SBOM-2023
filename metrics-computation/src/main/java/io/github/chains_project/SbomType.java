@@ -1,6 +1,10 @@
 package io.github.chains_project;
 
 public class SbomType {
+
+  private SbomType() {
+    throw new IllegalStateException("Utility class");
+  }
   
   public static String fileNameToType(String fileName) {
     return switch (fileName) {

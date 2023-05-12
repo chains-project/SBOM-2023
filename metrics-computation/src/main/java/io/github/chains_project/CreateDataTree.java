@@ -4,10 +4,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
-import java.util.Set;
 import io.github.chains_project.data.AnalyzerResult;
 import io.github.chains_project.data.Dependency;
 import io.github.chains_project.data.Result;
@@ -49,17 +47,14 @@ public class CreateDataTree {
             addEmptyResult(results, project, analyzerName);
             continue;
           }
-
           FileReader jsonReader = new JsonReader();
           List<Dependency> input = jsonReader.readFile(file);
           List<Dependency> truth = jsonReader.readFile(truthJson);
-          var directDependencyResult = calculateResult(getDirectDeps(input), getDirectDeps(truth));
-          var transitiveDeps = calculateResult(getTransitiveDeps(input), getTransitiveDeps(truth));
+          var numbers = Result.of(input, truth);
           AnalyzerResult result = new AnalyzerResult(analyzerName, project.getFileName().toString(),
-              directDependencyResult, transitiveDeps);
+              numbers);
           results.add(result);
         } catch (Exception e) {
-          // todo why does this Happen?
           e.printStackTrace();
         }
       }
@@ -69,77 +64,25 @@ public class CreateDataTree {
 
   private void addEmptyResult(List<AnalyzerResult> results, Path project, String analyzerName) {
     results.add(new AnalyzerResult(analyzerName, project.getFileName().toString(),
-        Result.empty(), Result.empty()));
+        Result.empty()));
   }
 
-  private List<Dependency> getDirectDeps(List<Dependency> truth) {
-    return truth.stream().filter(this::isDirectDependency).toList();
-  }
-
-  private List<Dependency> getTransitiveDeps(List<Dependency> input) {
-    return input.stream().filter(v -> v.getDepth() > 1).toList();
-  }
 
   private Path getMavenTruth(Path project) throws IOException {
-    return findJsonFile(Files.walk(project)
-        .filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny().orElse(null));
+    try(var stream = Files.walk(project)) {
+      return findJsonFile(stream
+          .filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny()
+          .orElse(null));
+    }
   }
-
-
-  private boolean isDirectDependency(Dependency v) {
-    return v.getDepth() == 1;
-  }
-
-
-  record PrintOut(Result directDeps, Result transitiveDeps) {
-  }
-
-  record Metrics(int precision, int recall, int f1) {
-  }
-
-  /**
-   * Calculates the true positives, all dependencies that are in both lists.
-   * @param input The first list.
-   * @param truth  The second list.
-   * @return
-   */
-  private List<Dependency> truePositives(List<Dependency> input, List<Dependency> truth) {
-    Set<Dependency> firstSet = new HashSet<>(input);
-    Set<Dependency> secondSet = new HashSet<>(truth);
-    var diffFirst = new HashSet<>(firstSet);
-    diffFirst.retainAll(secondSet);
-    return new ArrayList<>(diffFirst);
-  }
-
-  private List<Dependency> falsePositives(List<Dependency> input, List<Dependency> truth) {
-    Set<Dependency> firstSet = new HashSet<>(input);
-    Set<Dependency> secondSet = new HashSet<>(truth);
-    var diffFirst = new HashSet<>(firstSet);
-    diffFirst.removeAll(secondSet);
-    return new ArrayList<>(diffFirst);
-  }
-
-  // All that are in the truth but not in the input.
-  private List<Dependency> falseNegatives(List<Dependency> input, List<Dependency> truth) {
-    var diffFirst = new HashSet<>(truth);
-    diffFirst.removeAll(new HashSet<>(input));
-    return new ArrayList<>(diffFirst);
-  }
-
-
 
   private Path findJsonFile(Path folder) throws IOException {
     if (folder == null) {
       return null;
     }
-    return Files.walk(folder).filter(v -> v.getFileName().toString().endsWith(".json")).findAny()
-        .orElse(null);
-  }
-
-  private Result calculateResult(List<Dependency> input, List<Dependency> truth) {
-    List<Dependency> truePositive = truePositives(input, truth);
-    List<Dependency> falsePositive = falsePositives(input, truth);
-    List<Dependency> falseNegative = falseNegatives(input, truth);
-    return new Result(truePositive, falsePositive, falseNegative);
+    try(var stream = Files.walk(folder)) {
+      return stream.filter(v -> v.getFileName().toString().endsWith(".json")).findAny()
+          .orElse(null);
+    }
   }
 }
