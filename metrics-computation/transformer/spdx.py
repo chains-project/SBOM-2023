@@ -22,6 +22,9 @@ class SPDXTranformer(AbstractTransformer):
         for component in components:
             if component['SPDXID'] == "SPDXRef-RootPackage": # Skip root package because it's not a dependency
                 continue
+            # Skip github actions
+            if component['name'].startswith('actions:actions'):
+                continue
             dependency_attributes = self.__get_dependency_attribute(component)
             flattened_dependencies.append(dependency_attributes)
 
