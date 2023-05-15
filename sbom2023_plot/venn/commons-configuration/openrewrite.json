@@ -1,0 +1,178 @@
+[
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "classifier": "jar",
+    "version": "3.12.0",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-text",
+    "classifier": "jar",
+    "version": "1.9",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "classifier": "jar",
+    "version": "1.2",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-beanutils",
+    "artifactId": "commons-beanutils",
+    "classifier": "jar",
+    "version": "1.9.4",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "classifier": "jar",
+    "version": "1.15",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-jexl",
+    "classifier": "jar",
+    "version": "2.1.1",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-vfs2",
+    "classifier": "jar",
+    "version": "2.9.0",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-jxpath",
+    "artifactId": "commons-jxpath",
+    "classifier": "jar",
+    "version": "1.3",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "xml-resolver",
+    "artifactId": "xml-resolver",
+    "classifier": "jar",
+    "version": "1.2",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-core",
+    "classifier": "jar",
+    "version": "5.3.21",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-beans",
+    "classifier": "jar",
+    "version": "5.3.21",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "classifier": "jar",
+    "version": "1.30",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "classifier": "jar",
+    "version": "2.13.3",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "log4j",
+    "artifactId": "log4j",
+    "classifier": "jar",
+    "version": "1.2.17",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-collections",
+    "artifactId": "commons-collections",
+    "classifier": "jar",
+    "version": "3.2.2",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-hdfs-client",
+    "classifier": "jar",
+    "version": "3.3.1",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-jcl",
+    "classifier": "jar",
+    "version": "5.3.21",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "classifier": "jar",
+    "version": "2.13.3",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "classifier": "jar",
+    "version": "2.13.3",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "com.squareup.okhttp",
+    "artifactId": "okhttp",
+    "classifier": "jar",
+    "version": "2.7.5",
+    "scope": "required",
+    "depth": 3
+  },
+  {
+    "groupId": "com.squareup.okio",
+    "artifactId": "okio",
+    "classifier": "jar",
+    "version": "1.6.0",
+    "scope": "required",
+    "depth": 4
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "classifier": "jar",
+    "version": "2.5",
+    "scope": "optional",
+    "depth": 1
+  }
+]

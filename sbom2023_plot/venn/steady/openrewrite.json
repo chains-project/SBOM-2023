@@ -1,0 +1,42 @@
+[
+  {
+    "groupId": "javax.validation",
+    "artifactId": "validation-api",
+    "classifier": "jar",
+    "version": "2.0.1.Final",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-api",
+    "classifier": "jar",
+    "version": "2.18.0",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "classifier": "jar",
+    "version": "2.18.0",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "classifier": "jar",
+    "version": "4.7.2",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "classifier": "jar",
+    "version": "3.0.2",
+    "scope": "required",
+    "depth": 2
+  }
+]

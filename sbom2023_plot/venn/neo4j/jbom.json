@@ -1,0 +1,16 @@
+[
+  {
+    "groupId": "org.neo4j.licensing-proxy",
+    "artifactId": "zstd-proxy",
+    "version": "proxy/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.luben",
+    "artifactId": "zstd-jni",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  }
+]

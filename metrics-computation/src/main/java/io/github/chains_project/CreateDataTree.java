@@ -1,8 +1,10 @@
 package io.github.chains_project;
 
 import java.io.IOException;
+import java.nio.file.CopyOption;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -57,8 +59,13 @@ public class CreateDataTree {
           Files.writeString(
               Path.of("./resultCalc/" + project.getFileName() + "/" + analyzerName + ".json"),
               mapper.writeValueAsString(numbers));
-          AnalyzerResult result = new AnalyzerResult(analyzerName, project.getFileName().toString(),
-              numbers);
+          Files.createDirectories(Path.of("./venn/" + project.getFileName()));
+          // save the python converted file to venn/projectGetFileName
+          Files.copy(file, Path.of("./venn/" + project.getFileName() + "/" + analyzerName + ".json"), StandardCopyOption.REPLACE_EXISTING);
+          // save the truth also to venn/projectGetFileName
+          Files.copy(truthJson, Path.of("./venn/" + project.getFileName() + "/truth.json"), StandardCopyOption.REPLACE_EXISTING);
+          AnalyzerResult result =
+              new AnalyzerResult(analyzerName, project.getFileName().toString(), numbers);
           results.add(result);
         } catch (Exception e) {
           e.printStackTrace();
@@ -69,16 +76,15 @@ public class CreateDataTree {
   }
 
   private void addEmptyResult(List<AnalyzerResult> results, Path project, String analyzerName) {
-    results.add(new AnalyzerResult(analyzerName, project.getFileName().toString(),
-        Result.empty()));
+    results.add(new AnalyzerResult(analyzerName, project.getFileName().toString(), Result.empty()));
   }
 
 
   private Path getMavenTruth(Path project) throws IOException {
-    try(var stream = Files.walk(project)) {
-      return findJsonFile(stream
-          .filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny()
-          .orElse(null));
+    try (var stream = Files.walk(project)) {
+      return findJsonFile(
+          stream.filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny()
+              .orElse(null));
     }
   }
 
@@ -86,7 +92,7 @@ public class CreateDataTree {
     if (folder == null) {
       return null;
     }
-    try(var stream = Files.walk(folder)) {
+    try (var stream = Files.walk(folder)) {
       return stream.filter(v -> v.getFileName().toString().endsWith(".json")).findAny()
           .orElse(null);
     }

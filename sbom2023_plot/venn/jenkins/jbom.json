@@ -1,0 +1,5700 @@
+[
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-client",
+    "version": "4.6",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-client",
+    "version": "4.7",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "jenkins-test",
+    "version": "2.384",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "jenkins-core",
+    "version": "2.384",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-spi",
+    "version": "3085.vc4c6977c075a",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.stapler",
+    "artifactId": "jenkins-stapler-support",
+    "version": "1.1",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "test-annotations",
+    "version": "1.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.fusesource.jansi",
+    "artifactId": "jansi",
+    "version": "1.5",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.fusesource.hawtjni",
+    "artifactId": "hawtjni-runtime",
+    "version": "1.8",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.fusesource.jansi",
+    "artifactId": "jansi-native",
+    "version": "1.5",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.7",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javax.websocket-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-client-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "tyrus-container-jdk-client",
+    "version": "client/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-container-grizzly-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus.tests",
+    "artifactId": "tyrus-test-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "sshd-common",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpg-jdk15on",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpkix-jdk15on",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "eddsa",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.servicemix.bundles",
+    "artifactId": "org.apache.servicemix.bundles.not-yet-commons-ssl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "args4j",
+    "version": "2.33",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "javax.websocket-api",
+    "version": "4.7",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-client-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "jdk/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "4.2.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "4.0.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "javax.websocket-api",
+    "version": "4.6",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-client-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-webapp",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-xml",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "guava",
+    "version": "jre",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-servlet",
+    "version": "servlet/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-security",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "args4j",
+    "version": "3085.vc4c6977c075a",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "j-interop",
+    "version": "1",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "${project.groupId}",
+    "artifactId": "j-interopdeps",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "websocket-core-server",
+    "version": "server/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-core-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler-groovy",
+    "version": "1756.vec9071748061",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler-jelly",
+    "version": "1756.vec9071748061",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.codehaus.groovy",
+    "artifactId": "groovy-all",
+    "version": "2.4.21",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.9",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "4.0.4",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-servlet",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-security",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "memory-monitor",
+    "version": "1.12",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "net.java.dev.jna",
+    "artifactId": "jna",
+    "version": "5.12.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "websocket-spi",
+    "version": "2.384",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "3.1.0",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-container-jdk-client",
+    "version": "3085.vc4c6977c075a",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-container-grizzly-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus.tests",
+    "artifactId": "tyrus-test-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "sshd-core",
+    "version": "core/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.sshd",
+    "artifactId": "sshd-common",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "tomcat",
+    "artifactId": "tomcat-apr",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpg-jdk15on",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpkix-jdk15on",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "eddsa",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.mina",
+    "artifactId": "mina-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jzlib",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-httpclient",
+    "artifactId": "commons-httpclient",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.ethz.ganymed",
+    "artifactId": "ganymed-ssh2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.testcontainers",
+    "artifactId": "testcontainers",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.grpc",
+    "artifactId": "grpc-netty-shaded",
+    "version": "${grpc.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.grpc",
+    "artifactId": "grpc-protobuf",
+    "version": "${grpc.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.grpc",
+    "artifactId": "grpc-stub",
+    "version": "${grpc.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-alpn-java-server",
+    "version": "server/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-alpn-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.http2",
+    "artifactId": "http2-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "http2-server",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.http2",
+    "artifactId": "http2-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlets",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-alpn-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "sshd-common",
+    "version": "common/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpg-jdk15on",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpkix-jdk15on",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "eddsa",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.servicemix.bundles",
+    "artifactId": "org.apache.servicemix.bundles.not-yet-commons-ssl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-security",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-alpn-server",
+    "version": "server/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jvnet.hudson",
+    "artifactId": "commons-jelly-tags-define",
+    "version": "1.0.1-hudson-20071021",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "${groupId}",
+    "artifactId": "commons-jelly",
+    "version": "1.1-hudson-20071021",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "dom4j",
+    "artifactId": "dom4j",
+    "version": "1.6.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-jelly",
+    "artifactId": "commons-jelly-tags-dynabean",
+    "version": "1.0",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-jelly",
+    "artifactId": "commons-jelly-tags-junit",
+    "version": "1.0",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-jelly",
+    "artifactId": "commons-jelly-tags-log",
+    "version": "1.0",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-jelly",
+    "artifactId": "commons-jelly-tags-xml",
+    "version": "1.0",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-cli",
+    "artifactId": "commons-cli",
+    "version": "1.0",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-server",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-xml",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "constant-pool-scanner",
+    "version": "1.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-io",
+    "version": "1.3.2",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.stephenc.findbugs",
+    "artifactId": "findbugs-annotations",
+    "version": "1.3.9-1",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "tyrus-client",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "jakarta.websocket-api",
+    "version": "3085.vc4c6977c075a",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "javax.websocket-client-api",
+    "version": "4.7",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "javax.websocket-client-api",
+    "version": "4.6",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "jenkins-core",
+    "version": "2.384",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "cli",
+    "version": "2.384",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "remoting",
+    "version": "3085.vc4c6977c075a",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "args4j",
+    "artifactId": "args4j",
+    "version": "2.33",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "31.1-jre",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.inject",
+    "artifactId": "guice",
+    "version": "5.1.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "com.infradna.tool",
+    "artifactId": "bridge-method-annotation",
+    "version": "1.25",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jzlib",
+    "version": "1.1.3-kohsuke-1",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.solaris",
+    "artifactId": "embedded_su4j",
+    "version": "1.1",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.sun.xml.txw2",
+    "artifactId": "txw2",
+    "version": "20110809",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.thoughtworks.xstream",
+    "artifactId": "xstream",
+    "version": "1.4.19",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "commons-beanutils",
+    "artifactId": "commons-beanutils",
+    "version": "1.9.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.15",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-collections",
+    "artifactId": "commons-collections",
+    "version": "3.2.2",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-fileupload",
+    "artifactId": "commons-fileupload",
+    "version": "1.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-jelly",
+    "artifactId": "commons-jelly-tags-fmt",
+    "version": "1.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-jelly",
+    "artifactId": "commons-jelly-tags-xml",
+    "version": "1.1",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-lang",
+    "artifactId": "commons-lang",
+    "version": "2.6",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.stapler",
+    "artifactId": "jenkins-stapler-support",
+    "version": "1.1",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "jakarta.servlet.jsp.jstl",
+    "artifactId": "jakarta.servlet.jsp.jstl-api",
+    "version": "1.2.7",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "jaxen",
+    "artifactId": "jaxen",
+    "version": "2.0.0",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "jline",
+    "artifactId": "jline",
+    "version": "2.14.6",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "net.java.dev.jna",
+    "artifactId": "jna",
+    "version": "5.12.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "net.java.sezpoz",
+    "artifactId": "sezpoz",
+    "version": "1.13",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "net.jcip",
+    "artifactId": "jcip-annotations",
+    "version": "1.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "net.sf.kxml",
+    "artifactId": "kxml2",
+    "version": "2.3.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.antlr",
+    "artifactId": "antlr4-runtime",
+    "version": "4.11.1",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant",
+    "version": "1.10.12",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-compress",
+    "version": "1.22",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.groovy",
+    "artifactId": "groovy-all",
+    "version": "2.4.21",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.connectbot.jbcrypt",
+    "artifactId": "jbcrypt",
+    "version": "1.0.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.fusesource.jansi",
+    "artifactId": "jansi",
+    "version": "1.11",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "annotation-indexer",
+    "version": "1.17",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "commons-jexl",
+    "version": "1.1-jenkins-20111212",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "crypto-util",
+    "version": "1.8",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "memory-monitor",
+    "version": "1.12",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "symbol-annotation",
+    "version": "1.24",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "task-reactor",
+    "version": "1.8",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "version-number",
+    "version": "1.11",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "websocket-spi",
+    "version": "2.384",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jfree",
+    "artifactId": "jfreechart",
+    "version": "1.0.19",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.jvnet.hudson",
+    "artifactId": "commons-jelly-tags-define",
+    "version": "1.0.1-hudson-20071021",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jvnet.localizer",
+    "artifactId": "localizer",
+    "version": "1.31",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jvnet.robust-http-client",
+    "artifactId": "robust-http-client",
+    "version": "1.2",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jvnet.winp",
+    "artifactId": "winp",
+    "version": "1.30",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "access-modifier-annotation",
+    "version": "1.30",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "windows-package-checker",
+    "version": "1.2",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.jinterop",
+    "artifactId": "j-interop",
+    "version": "2.0.8-kohsuke-1",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.9",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "json-lib",
+    "version": "2.4-jenkins-3",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler",
+    "version": "1756.vec9071748061",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler-adjunct-codemirror",
+    "version": "1.3",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler-adjunct-timeline",
+    "version": "1.5",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler-groovy",
+    "version": "1756.vec9071748061",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "9.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm-analysis",
+    "version": "9.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm-commons",
+    "version": "9.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm-tree",
+    "version": "9.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm-util",
+    "version": "9.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "jcl-over-slf4j",
+    "version": "2.0.6",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "log4j-over-slf4j",
+    "version": "2.0.6",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.springframework.security",
+    "artifactId": "spring-security-web",
+    "version": "5.8.1",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "xpp3",
+    "artifactId": "xpp3",
+    "version": "1.1.4c",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "4.0.4",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "core-annotation-processors",
+    "version": "1.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "cli",
+    "version": "2.384",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-lang",
+    "artifactId": "commons-lang",
+    "version": "2.6",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "eddsa",
+    "version": "0.3.0",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.sshd",
+    "artifactId": "sshd-common",
+    "version": "2.9.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.sshd",
+    "artifactId": "sshd-core",
+    "version": "2.9.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus.bundles",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "2.1.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "annotation-indexer",
+    "version": "1.17",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jvnet.localizer",
+    "artifactId": "localizer",
+    "version": "1.31",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "2.0.6",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "access-modifier-annotation",
+    "version": "1.30",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "windows-package-checker",
+    "version": "1.2",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-http",
+    "version": "http/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "4.2.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "4.0.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.samba.jcifs",
+    "artifactId": "jcifs",
+    "version": "1.3.18-kohsuke-1",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "2.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "websocket-jetty-api",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-spi",
+    "version": "4.6",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "slf4j-api",
+    "version": "2.0.6",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-spi",
+    "version": "4.7",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.solaris",
+    "artifactId": "embedded_su4j",
+    "version": "1.1",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "access-modifier-annotation",
+    "version": "1.30",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "annotation-indexer",
+    "version": "1.17",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "9.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-core",
+    "version": "3085.vc4c6977c075a",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-spi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-osgi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "slf4j-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jakarta.websocket-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "j-interop",
+    "version": "interop/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "${project.groupId}",
+    "artifactId": "j-interopdeps",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "3085.vc4c6977c075a",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "4.2.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "4.0.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-core",
+    "version": "4.7",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-spi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "xstream",
+    "version": "INF/maven/com.thoughtworks.xstream/xstream/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "dom4j",
+    "artifactId": "dom4j",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jdom",
+    "artifactId": "jdom",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jdom",
+    "artifactId": "jdom2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.woodstox",
+    "artifactId": "wstx-asl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "stax",
+    "artifactId": "stax",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "stax",
+    "artifactId": "stax-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "xom",
+    "artifactId": "xom",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.github.x-stream",
+    "artifactId": "mxparser",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.sf.kxml",
+    "artifactId": "kxml2-min",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "xpp3",
+    "artifactId": "xpp3_min",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "cglib",
+    "artifactId": "cglib-nodep",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.jettison",
+    "artifactId": "jettison",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "activation",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jmock",
+    "artifactId": "jmock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.json",
+    "artifactId": "json",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.megginson.sax",
+    "artifactId": "xml-writer",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-lang",
+    "artifactId": "commons-lang",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.ws",
+    "artifactId": "jaxws-rt",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "websocket-core-server",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-core-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-core",
+    "version": "4.6",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-spi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.sf.ezmorph",
+    "artifactId": "ezmorph",
+    "version": "1.0.6",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-lang",
+    "artifactId": "commons-lang",
+    "version": "2.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-beanutils",
+    "artifactId": "commons-beanutils",
+    "version": "1.7.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "log4j",
+    "artifactId": "log4j",
+    "version": "1.2.14",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "slf4j-jdk14",
+    "version": "1.2",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jansi",
+    "version": "INF/maven/org.fusesource.jansi/jansi/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.fusesource.hawtjni",
+    "artifactId": "hawtjni-runtime",
+    "version": "1.8",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.fusesource.jansi",
+    "artifactId": "jansi-native",
+    "version": "1.5",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.7",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "slf4j-jdk14",
+    "version": "2.0.6",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jvnet.robust-http-client",
+    "artifactId": "robust-http-client",
+    "version": "1.2",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "1.4",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.9",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "websocket-jetty10",
+    "version": "2.384",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "winstone",
+    "version": "6.7",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "websocket-spi",
+    "version": "2.384",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "access-modifier-annotation",
+    "version": "1.30",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.9",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "remoting",
+    "version": "4.6",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.codehaus.mojo",
+    "artifactId": "animal-sniffer-annotations",
+    "version": "1.19",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus.bundles",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "1.17",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "args4j",
+    "artifactId": "args4j",
+    "version": "2.33",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "constant-pool-scanner",
+    "version": "1.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.1.4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "access-modifier-annotation",
+    "version": "1.16",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-api",
+    "version": "1.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "remoting",
+    "version": "4.7",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.codehaus.mojo",
+    "artifactId": "animal-sniffer-annotations",
+    "version": "1.19",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus.bundles",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "1.17",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "args4j",
+    "artifactId": "args4j",
+    "version": "2.33",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "constant-pool-scanner",
+    "version": "1.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.2.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "access-modifier-annotation",
+    "version": "1.21",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-api",
+    "version": "1.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.txw2",
+    "artifactId": "txw2",
+    "version": "20110809",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "javax.xml.stream",
+    "artifactId": "stax-api",
+    "version": "1.0-2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.8.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "jline",
+    "artifactId": "jline",
+    "version": "2.14.6",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.fusesource.jansi",
+    "artifactId": "jansi",
+    "version": "${jansi.version}",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "3.3.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "1.6.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-easymock",
+    "version": "1.6.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "args4j",
+    "version": "4.6",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "j-interopdeps",
+    "version": "interopdeps/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.samba.jcifs",
+    "artifactId": "jcifs",
+    "version": "1.2.19",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "args4j",
+    "version": "4.7",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler",
+    "version": "1756.vec9071748061",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jzlib",
+    "version": "1.1.3-kohsuke-1",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.txw2",
+    "artifactId": "txw2",
+    "version": "20110809",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "commons-beanutils",
+    "artifactId": "commons-beanutils",
+    "version": "1.9.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.15",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-discovery",
+    "artifactId": "commons-discovery",
+    "version": "0.5",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-fileupload",
+    "artifactId": "commons-fileupload",
+    "version": "1.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "version": "2.1.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "javax.annotation",
+    "artifactId": "javax.annotation-api",
+    "version": "1.3.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.groovy",
+    "artifactId": "groovy-all",
+    "version": "2.4.21",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "annotation-indexer",
+    "version": "1.17",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jvnet",
+    "artifactId": "tiger-types",
+    "version": "2.2",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jvnet.localizer",
+    "artifactId": "localizer",
+    "version": "1.31",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.9",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "json-lib",
+    "version": "2.4-jenkins-3",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "4.0.4",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "support-log-formatter",
+    "version": "1.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "com.infradna.tool",
+    "artifactId": "bridge-method-annotation",
+    "version": "1.25",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "annotation-indexer",
+    "version": "1.16",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-xml",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-webapp",
+    "version": "webapp/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-xml",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "websocket-core-common",
+    "version": "common/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler-adjunct-codemirror",
+    "version": "1.3",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler",
+    "version": "1.140",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "2.4",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "log4j-over-slf4j",
+    "version": "2.0.6",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jvnet",
+    "artifactId": "tiger-types",
+    "version": "2.2",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "http2-server",
+    "version": "server/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty.http2",
+    "artifactId": "http2-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlets",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-alpn-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "websocket-core-common",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "slf4j-jdk14",
+    "version": "1.17",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-security",
+    "version": "security/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.antlr",
+    "artifactId": "antlr4-runtime",
+    "version": "4.11.1",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "localizer",
+    "version": "1.31",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.plugins",
+    "artifactId": "example",
+    "version": "1.0-SNAPSHOT",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-alpn-server",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "log4j-over-slf4j",
+    "version": "slf4j/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "localizer",
+    "version": "1.17",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "slf4j-api",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "guava",
+    "version": "INF/maven/com.google.guava/guava/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "http2-hpack",
+    "version": "hpack/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "websocket-jetty-server",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-jetty-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-jetty-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jvnet.winp",
+    "artifactId": "winp",
+    "version": "1.30",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jcl-over-slf4j",
+    "version": "2.0.6",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "eddsa",
+    "version": "0.3.0",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-all",
+    "version": "1.3",
+    "depth": 4,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "slf4j-api",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "task-reactor",
+    "version": "1.8",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "jakarta.websocket-api",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-io",
+    "version": "io/pom",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "version-number",
+    "version": "1.11",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "io.github.x-stream",
+    "artifactId": "mxparser",
+    "version": "1.2.2",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "xmlpull",
+    "artifactId": "xmlpull",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "winstone",
+    "version": "6.7",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "support-log-formatter",
+    "version": "1.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-alpn-java-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-alpn-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-webapp",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.http2",
+    "artifactId": "http2-hpack",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.http2",
+    "artifactId": "http2-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.awaitility",
+    "artifactId": "awaitility",
+    "version": "4.2.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "test-annotations",
+    "version": "1.4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.vintage",
+    "artifactId": "junit-vintage-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "websocket-jetty9",
+    "version": "2.384",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "winstone",
+    "version": "5.25",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "websocket-spi",
+    "version": "2.384",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "access-modifier-annotation",
+    "version": "1.30",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.9",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "tyrus-spi",
+    "version": "spi/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.fusesource.jansi",
+    "artifactId": "jansi-native",
+    "version": "1.5",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.fusesource.hawtjni",
+    "artifactId": "hawtjni-runtime",
+    "version": "${hawtjni-version}",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.7",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "websocket-servlet",
+    "version": "servlet/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-core-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler-jelly",
+    "version": "1756.vec9071748061",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler",
+    "version": "1756.vec9071748061",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.dom4j",
+    "artifactId": "dom4j",
+    "version": "2.1.3",
+    "depth": 4,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "commons-jelly",
+    "version": "1.1-jenkins-20220630",
+    "depth": 4,
+    "scope": null
+  },
+  {
+    "groupId": "org.jvnet.maven-jellydoc-plugin",
+    "artifactId": "jellydoc-annotations",
+    "version": "1.9",
+    "depth": 4,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.9",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "4.0.4",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-client",
+    "version": "3085.vc4c6977c075a",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "4.6",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-container-jdk-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "4.7",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-container-jdk-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.websocket",
+    "artifactId": "javax.websocket-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-xml",
+    "version": "xml/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "antlr4-runtime",
+    "version": "runtime/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.jenkins.plugins",
+    "artifactId": "annotations-test",
+    "version": "1.0-SNAPSHOT",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.jenkins.stapler",
+    "artifactId": "jenkins-stapler-support",
+    "version": "1.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jaxen",
+    "version": "INF/maven/jaxen/jaxen/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jdom",
+    "artifactId": "jdom-legacy",
+    "version": "1.1.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "dom4j",
+    "artifactId": "dom4j",
+    "version": "1.6.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "xom",
+    "artifactId": "xom",
+    "version": "1.3.8",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "tyrus-core",
+    "version": "core/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-spi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-osgi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "websocket-jetty-server",
+    "version": "server/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-jetty-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-jetty-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.thoughtworks.xstream",
+    "artifactId": "xstream",
+    "version": "1.4.19",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "dom4j",
+    "artifactId": "dom4j",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jdom",
+    "artifactId": "jdom",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jdom",
+    "artifactId": "jdom2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.woodstox",
+    "artifactId": "wstx-asl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "stax",
+    "artifactId": "stax",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "stax",
+    "artifactId": "stax-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "xom",
+    "artifactId": "xom",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.github.x-stream",
+    "artifactId": "mxparser",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.sf.kxml",
+    "artifactId": "kxml2-min",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "xpp3",
+    "artifactId": "xpp3_min",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "cglib",
+    "artifactId": "cglib-nodep",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.jettison",
+    "artifactId": "jettison",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "activation",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jmock",
+    "artifactId": "jmock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.json",
+    "artifactId": "json",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.megginson.sax",
+    "artifactId": "xml-writer",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-lang",
+    "artifactId": "commons-lang",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.ws",
+    "artifactId": "jaxws-rt",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "symbol-annotation",
+    "version": "1.24",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "annotation-indexer",
+    "version": "1.17",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "http2-common",
+    "version": "common/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty.http2",
+    "artifactId": "http2-hpack",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "websocket-jetty-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "crypto-util",
+    "version": "1.8",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.15",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "tyrus-core",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-spi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-osgi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-io",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javax.websocket-client-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jaxen",
+    "version": "2.0.0",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jdom",
+    "artifactId": "jdom-legacy",
+    "version": "1.1.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "dom4j",
+    "artifactId": "dom4j",
+    "version": "1.6.1",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "xom",
+    "artifactId": "xom",
+    "version": "1.3.8",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "3.8.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-alpn-java-server",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-alpn-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.http2",
+    "artifactId": "http2-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "remoting",
+    "version": "3085.vc4c6977c075a",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "args4j",
+    "artifactId": "args4j",
+    "version": "2.33",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.glassfish.tyrus.bundles",
+    "artifactId": "tyrus-standalone-client-jdk",
+    "version": "2.1.2",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "constant-pool-scanner",
+    "version": "1.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.3",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "2.1.0",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "net.jcip",
+    "artifactId": "jcip-annotations",
+    "version": "1.0",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke",
+    "artifactId": "access-modifier-annotation",
+    "version": "1.30",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "sshd-core",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.sshd",
+    "artifactId": "sshd-common",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "tomcat",
+    "artifactId": "tomcat-apr",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpg-jdk15on",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpkix-jdk15on",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "eddsa",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.mina",
+    "artifactId": "mina-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jzlib",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-httpclient",
+    "artifactId": "commons-httpclient",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.ethz.ganymed",
+    "artifactId": "ganymed-ssh2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.testcontainers",
+    "artifactId": "testcontainers",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.grpc",
+    "artifactId": "grpc-netty-shaded",
+    "version": "${grpc.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.grpc",
+    "artifactId": "grpc-protobuf",
+    "version": "${grpc.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.grpc",
+    "artifactId": "grpc-stub",
+    "version": "${grpc.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "jcl-over-slf4j",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "websocket-jetty-common",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-jetty-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-core-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "tyrus-client",
+    "version": "client/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-util",
+    "version": "util/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.awaitility",
+    "artifactId": "awaitility",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-perf-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "localizer",
+    "version": "INF/maven/org.jvnet.localizer/localizer/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "3085.vc4c6977c075a",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "http2-common",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.http2",
+    "artifactId": "http2-hpack",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci",
+    "artifactId": "annotation-indexer",
+    "version": "1.17",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.metainf-services",
+    "artifactId": "metainf-services",
+    "version": "1.9",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "tyrus-spi",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "jenkins-war",
+    "version": "2.384",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "cli",
+    "version": "2.384",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "remoting",
+    "version": "3085.vc4c6977c075a",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "jenkins-core",
+    "version": "2.384",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "websocket-jetty10",
+    "version": "2.384",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "websocket-jetty9",
+    "version": "2.384",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "2.0.6",
+    "depth": 3,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "websocket-servlet",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-core-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "http2-hpack",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-util",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.awaitility",
+    "artifactId": "awaitility",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-perf-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-container-jdk-client",
+    "version": "4.6",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-container-grizzly-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus.tests",
+    "artifactId": "tyrus-test-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "slf4j-jdk14",
+    "version": "jdk14/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler-adjunct-timeline",
+    "version": "1.5",
+    "depth": 2,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.kohsuke.stapler",
+    "artifactId": "stapler",
+    "version": "1.140",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "2.4",
+    "depth": 3,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "j-interopdeps",
+    "version": "1",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.samba.jcifs",
+    "artifactId": "jcifs",
+    "version": "1.2.19",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jenkins-ci.main",
+    "artifactId": "tyrus-container-jdk-client",
+    "version": "4.7",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-container-grizzly-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus.tests",
+    "artifactId": "tyrus-test-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.fusesource.hawtjni",
+    "artifactId": "hawtjni-runtime",
+    "version": "1.8",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-jmx",
+    "version": "jmx/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.openpojo",
+    "artifactId": "openpojo",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "args4j",
+    "version": "INF/maven/args4j/args4j/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-jmx",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.openpojo",
+    "artifactId": "openpojo",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.i2p.crypto",
+    "artifactId": "tyrus-container-jdk-client",
+    "version": "0.3.0",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-container-grizzly-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus",
+    "artifactId": "tyrus-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.tyrus.tests",
+    "artifactId": "tyrus-test-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "websocket-jetty-common",
+    "version": "common/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-jetty-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.websocket",
+    "artifactId": "websocket-core-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.jenkins.lib",
+    "artifactId": "jetty-http",
+    "version": "1.2",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jcl-over-slf4j",
+    "version": "slf4j/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-server",
+    "version": "server/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-xml",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.tests",
+    "artifactId": "jetty-http-tools",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-slf4j-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "sezpoz",
+    "version": "1.13",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 3,
+    "scope": null
+  }
+]

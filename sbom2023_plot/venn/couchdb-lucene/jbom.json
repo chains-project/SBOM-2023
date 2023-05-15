@@ -1,0 +1,184 @@
+[
+  {
+    "groupId": "com.github.rnewson.couchdb.lucene",
+    "artifactId": "couchdb-lucene",
+    "version": "2.1.0",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "${http-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "version": "${http-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.jcip",
+    "artifactId": "jcip-annotations",
+    "version": "1.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "${jetty-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "${jetty-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlets",
+    "version": "${jetty-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "1.4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-configuration",
+    "artifactId": "commons-configuration",
+    "version": "1.6",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.json",
+    "artifactId": "json",
+    "version": "20090211",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mozilla",
+    "artifactId": "rhino",
+    "version": "1.7R4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-core",
+    "version": "${lucene-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-analyzers-common",
+    "version": "${lucene-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-analyzers-smartcn",
+    "version": "${lucene-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-queryparser",
+    "version": "${lucene-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-queries",
+    "version": "${lucene-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.tika",
+    "artifactId": "tika-core",
+    "version": "${tika-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-highlighter",
+    "version": "${lucene-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.tika",
+    "artifactId": "tika-parsers",
+    "version": "${tika-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.poi",
+    "artifactId": "ooxml-schemas",
+    "version": "1.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.erlang.otp",
+    "artifactId": "jinterface",
+    "version": "1.5.3.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-log4j12",
+    "version": "1.7.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "log4j",
+    "artifactId": "log4j",
+    "version": "1.2.14",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-all",
+    "version": "1.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.5",
+    "depth": 1,
+    "scope": null
+  }
+]

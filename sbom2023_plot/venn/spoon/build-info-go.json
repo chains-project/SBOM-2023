@@ -1,0 +1,146 @@
+[
+  {
+    "groupId": "fr.inria.gforge.spoon",
+    "artifactId": "spoon-core",
+    "version": "10.2.0-SNAPSHOT",
+    "depth": 0
+  },
+  {
+    "groupId": "org.eclipse.sisu",
+    "artifactId": "org.eclipse.sisu.plexus",
+    "version": "0.3.5",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.sisu",
+    "artifactId": "org.eclipse.sisu.inject",
+    "version": "0.3.5",
+    "depth": 4
+  },
+  {
+    "groupId": "javax.inject",
+    "artifactId": "javax.inject",
+    "version": "1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.martiansoftware",
+    "artifactId": "jsap",
+    "version": "2.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-model",
+    "version": "4.0.0-alpha-5",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.13.4.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-compress",
+    "version": "1.21",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.maven.shared",
+    "artifactId": "maven-shared-utils",
+    "version": "3.3.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-utils",
+    "version": "3.0.24",
+    "depth": 4
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.36",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.13.4",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.13.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven.shared",
+    "artifactId": "maven-invoker",
+    "version": "3.2.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-api-meta",
+    "version": "4.0.0-alpha-5",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-api-model",
+    "version": "4.0.0-alpha-5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-classworlds",
+    "version": "2.5.2",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.12.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.jdt",
+    "artifactId": "org.eclipse.jdt.core",
+    "version": "3.31.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-component-annotations",
+    "version": "1.5.5",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-xml-impl",
+    "version": "4.0.0-alpha-5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-api-xml",
+    "version": "4.0.0-alpha-5",
+    "depth": 3
+  },
+  {
+    "groupId": "javax.annotation",
+    "artifactId": "javax.annotation-api",
+    "version": "1.2",
+    "depth": 4
+  }
+]

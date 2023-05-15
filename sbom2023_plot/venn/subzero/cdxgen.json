@@ -1,0 +1,1018 @@
+[
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "classifier": "jar",
+    "version": "3.15.6",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.squareup.subzero",
+    "artifactId": "proto",
+    "classifier": "jar",
+    "version": "1.0.0-SNAPSHOT",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.squareup.subzero",
+    "artifactId": "fake_ncipher",
+    "classifier": "jar",
+    "version": "1.0.0-SNAPSHOT",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.squareup.subzero",
+    "artifactId": "shared",
+    "classifier": "jar",
+    "version": "1.0.0-SNAPSHOT",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "classifier": "jar",
+    "version": "3.0.2",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "classifier": "jar",
+    "version": "29.0-jre",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "classifier": "jar",
+    "version": "1.0.1",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "classifier": "jar",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "classifier": "jar",
+    "version": "2.11.1",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "classifier": "jar",
+    "version": "2.3.4",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "classifier": "jar",
+    "version": "1.3",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.zxing",
+    "artifactId": "core",
+    "classifier": "jar",
+    "version": "3.4.1",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.madgag.spongycastle",
+    "artifactId": "core",
+    "classifier": "jar",
+    "version": "1.58.0.0",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "classifier": "jar",
+    "version": "4.13.1",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "classifier": "jar",
+    "version": "1.3",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "classifier": "jar",
+    "version": "3.12.0",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "classifier": "jar",
+    "version": "3.19.0",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.bitcoinj",
+    "artifactId": "bitcoinj-core",
+    "classifier": "jar",
+    "version": "0.15.10",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcprov-jdk15to18",
+    "classifier": "jar",
+    "version": "1.68",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.squareup.okhttp3",
+    "artifactId": "okhttp",
+    "classifier": "jar",
+    "version": "3.12.8",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.squareup.okio",
+    "artifactId": "okio",
+    "classifier": "jar",
+    "version": "1.15.0",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "classifier": "jar",
+    "version": "1.7.30",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "net.jcip",
+    "artifactId": "jcip-annotations",
+    "classifier": "jar",
+    "version": "1.0",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.squareup.subzero",
+    "artifactId": "gui",
+    "classifier": "jar",
+    "version": "1.0.0-SNAPSHOT",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.zxing",
+    "artifactId": "javase",
+    "classifier": "jar",
+    "version": "3.4.1",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "classifier": "jar",
+    "version": "1.78",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.github.jai-imageio",
+    "artifactId": "jai-imageio-core",
+    "classifier": "jar",
+    "version": "1.4.0",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "classifier": "jar",
+    "version": "1.28",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java-util",
+    "classifier": "jar",
+    "version": "3.15.6",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "classifier": "jar",
+    "version": "30.0-android",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "classifier": "jar",
+    "version": "2.8.6",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-junit-jupiter",
+    "classifier": "jar",
+    "version": "3.8.0",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "classifier": "jar",
+    "version": "3.8.0",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "net.bytebuddy",
+    "artifactId": "byte-buddy",
+    "classifier": "jar",
+    "version": "1.10.20",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "net.bytebuddy",
+    "artifactId": "byte-buddy-agent",
+    "classifier": "jar",
+    "version": "1.10.20",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.objenesis",
+    "artifactId": "objenesis",
+    "classifier": "jar",
+    "version": "3.1",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "classifier": "jar",
+    "version": "5.7.1",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.apiguardian",
+    "artifactId": "apiguardian-api",
+    "classifier": "jar",
+    "version": "1.1.0",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.opentest4j",
+    "artifactId": "opentest4j",
+    "classifier": "jar",
+    "version": "1.2.0",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.junit.platform",
+    "artifactId": "junit-platform-commons",
+    "classifier": "jar",
+    "version": "1.7.1",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.squareup.subzero",
+    "artifactId": "server",
+    "classifier": "jar",
+    "version": "1.0.0-SNAPSHOT",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-core",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-util",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-jackson",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "classifier": "jar",
+    "version": "2.9.0",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "classifier": "jar",
+    "version": "3.10.0",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "classifier": "jar",
+    "version": "2.10.5.1",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml.jackson.datatype",
+    "artifactId": "jackson-datatype-guava",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.datatype",
+    "artifactId": "jackson-datatype-jsr310",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.datatype",
+    "artifactId": "jackson-datatype-jdk8",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.module",
+    "artifactId": "jackson-module-parameter-names",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.module",
+    "artifactId": "jackson-module-afterburner",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.datatype",
+    "artifactId": "jackson-datatype-joda",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-validation",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml",
+    "artifactId": "classmate",
+    "classifier": "jar",
+    "version": "1.5.1",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "jakarta.validation",
+    "artifactId": "jakarta.validation-api",
+    "classifier": "jar",
+    "version": "2.0.2",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.hibernate.validator",
+    "artifactId": "hibernate-validator",
+    "classifier": "jar",
+    "version": "6.1.7.Final",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish",
+    "artifactId": "jakarta.el",
+    "classifier": "jar",
+    "version": "3.0.3",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-configuration",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml.jackson.dataformat",
+    "artifactId": "jackson-dataformat-yaml",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "classifier": "jar",
+    "version": "1.26",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-text",
+    "classifier": "jar",
+    "version": "1.9",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-logging",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-core",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-logback",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "classifier": "jar",
+    "version": "1.2.3",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "jul-to-slf4j",
+    "classifier": "jar",
+    "version": "1.7.30",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-core",
+    "classifier": "jar",
+    "version": "1.2.3",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "io.dropwizard.logback",
+    "artifactId": "logback-throttling-appender",
+    "classifier": "jar",
+    "version": "1.1.0",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "log4j-over-slf4j",
+    "classifier": "jar",
+    "version": "1.7.30",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "jcl-over-slf4j",
+    "classifier": "jar",
+    "version": "1.7.30",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-metrics",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-lifecycle",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-jersey",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-server",
+    "classifier": "jar",
+    "version": "2.33",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-common",
+    "classifier": "jar",
+    "version": "2.33",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-client",
+    "classifier": "jar",
+    "version": "2.33",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "jakarta.ws.rs",
+    "artifactId": "jakarta.ws.rs-api",
+    "classifier": "jar",
+    "version": "2.1.6",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "classifier": "jar",
+    "version": "1.3.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.glassfish.hk2.external",
+    "artifactId": "jakarta.inject",
+    "classifier": "jar",
+    "version": "2.6.1",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-metainf-services",
+    "classifier": "jar",
+    "version": "2.33",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.glassfish.jersey.inject",
+    "artifactId": "jersey-hk2",
+    "classifier": "jar",
+    "version": "2.33",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-locator",
+    "classifier": "jar",
+    "version": "2.6.1",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "org.glassfish.hk2.external",
+    "artifactId": "aopalliance-repackaged",
+    "classifier": "jar",
+    "version": "2.6.1",
+    "scope": null,
+    "depth": 6
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-api",
+    "classifier": "jar",
+    "version": "2.6.1",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-utils",
+    "classifier": "jar",
+    "version": "2.6.1",
+    "scope": null,
+    "depth": 6
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "classifier": "jar",
+    "version": "3.27.0-GA",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-jersey2",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-annotation",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "com.fasterxml.jackson.jaxrs",
+    "artifactId": "jackson-jaxrs-json-provider",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.jaxrs",
+    "artifactId": "jackson-jaxrs-base",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "com.fasterxml.jackson.module",
+    "artifactId": "jackson-module-jaxb-annotations",
+    "classifier": "jar",
+    "version": "2.10.5",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "classifier": "jar",
+    "version": "2.3.2",
+    "scope": null,
+    "depth": 6
+  },
+  {
+    "groupId": "jakarta.activation",
+    "artifactId": "jakarta.activation-api",
+    "classifier": "jar",
+    "version": "1.2.1",
+    "scope": null,
+    "depth": 6
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "classifier": "jar",
+    "version": "2.10.10",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-servlet",
+    "classifier": "jar",
+    "version": "2.33",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-servlet-core",
+    "classifier": "jar",
+    "version": "2.33",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "classifier": "jar",
+    "version": "4.0.4",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-servlets",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-jetty",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-security",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlets",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-continuation",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-jetty9",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-jvm",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-jmx",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-servlets",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-healthchecks",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-json",
+    "classifier": "jar",
+    "version": "4.1.18",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "com.helger",
+    "artifactId": "profiler",
+    "classifier": "jar",
+    "version": "1.1.1",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-request-logging",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-access",
+    "classifier": "jar",
+    "version": "1.2.3",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "net.sourceforge.argparse4j",
+    "artifactId": "argparse4j",
+    "classifier": "jar",
+    "version": "0.8.1",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "classifier": "jar",
+    "version": "9.4.37.v20210219",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain.setuid",
+    "artifactId": "jetty-setuid-java",
+    "classifier": "jar",
+    "version": "1.0.4",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "osgi-resource-locator",
+    "classifier": "jar",
+    "version": "1.0.3",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-bean-validation",
+    "classifier": "jar",
+    "version": "2.33",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "classifier": "jar",
+    "version": "3.3.2.Final",
+    "scope": null,
+    "depth": 4
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-compat-qual",
+    "classifier": "jar",
+    "version": "2.5.5",
+    "scope": null,
+    "depth": 5
+  },
+  {
+    "groupId": "io.dropwizard",
+    "artifactId": "dropwizard-assets",
+    "classifier": "jar",
+    "version": "2.0.20",
+    "scope": "optional",
+    "depth": 2
+  }
+]

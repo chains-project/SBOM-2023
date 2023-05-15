@@ -1,0 +1,202 @@
+[
+  {
+    "groupId": "info.picocli",
+    "artifactId": "picocli",
+    "classifier": "jar",
+    "version": "4.7.0",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.antlr",
+    "artifactId": "antlr4-runtime",
+    "classifier": "jar",
+    "version": "4.11.1",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-beanutils",
+    "artifactId": "commons-beanutils",
+    "classifier": "jar",
+    "version": "1.9.4",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "classifier": "jar",
+    "version": "31.1-jre",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.reflections",
+    "artifactId": "reflections",
+    "classifier": "jar",
+    "version": "0.10.2",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "net.sf.saxon",
+    "artifactId": "Saxon-HE",
+    "classifier": "jar",
+    "version": "11.4",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "classifier": "jar",
+    "version": "3.27.0",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "classifier": "jar",
+    "version": "1.2",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-collections",
+    "artifactId": "commons-collections",
+    "classifier": "jar",
+    "version": "3.2.2",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "classifier": "jar",
+    "version": "1.0.1",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "classifier": "jar",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "classifier": "jar",
+    "version": "3.0.2",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "classifier": "jar",
+    "version": "2.11.0",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "classifier": "jar",
+    "version": "1.3",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "classifier": "jar",
+    "version": "3.28.0-GA",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "classifier": "jar",
+    "version": "1.7.32",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "org.xmlresolver",
+    "artifactId": "xmlresolver",
+    "classifier": "jar",
+    "version": "4.4.3",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "org.xmlresolver",
+    "artifactId": "xmlresolver",
+    "classifier": "jar",
+    "version": "4.4.3",
+    "scope": "required",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant",
+    "classifier": "jar",
+    "version": "1.10.12",
+    "scope": "optional",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant-launcher",
+    "classifier": "jar",
+    "version": "1.10.12",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.httpcomponents.client5",
+    "artifactId": "httpclient5",
+    "classifier": "jar",
+    "version": "5.1.3",
+    "scope": "optional",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.httpcomponents.core5",
+    "artifactId": "httpcore5",
+    "classifier": "jar",
+    "version": "5.1.3",
+    "scope": "optional",
+    "depth": 3
+  },
+  {
+    "groupId": "xml-apis",
+    "artifactId": "xml-apis",
+    "classifier": "jar",
+    "version": "1.4.01",
+    "scope": "optional",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.httpcomponents.core5",
+    "artifactId": "httpcore5-h2",
+    "classifier": "jar",
+    "version": "5.1.3",
+    "scope": "optional",
+    "depth": 4
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "classifier": "jar",
+    "version": "1.15",
+    "scope": "optional",
+    "depth": 4
+  }
+]

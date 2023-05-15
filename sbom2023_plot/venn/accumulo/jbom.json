@@ -1,0 +1,1955 @@
+[
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-start",
+    "version": "start/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-configuration2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-vfs2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-minicluster",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-1.2-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.vintage",
+    "artifactId": "junit-vintage-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-manager",
+    "version": "manager/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-server-base",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper-jute",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-tserver",
+    "version": "tserver/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-server-base",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-collections4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-monitor",
+    "version": "monitor/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.inject",
+    "artifactId": "jakarta.inject-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.validation",
+    "artifactId": "jakarta.validation-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.ws.rs",
+    "artifactId": "jakarta.ws.rs-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-server-base",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-web",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-servlet-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-server",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-mvc",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-mvc-freemarker",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.media",
+    "artifactId": "jersey-media-json-jackson",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "txw2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-bean-validation",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.inject",
+    "artifactId": "jersey-hk2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-client",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.test-framework",
+    "artifactId": "jersey-test-framework-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jersey.test-framework.providers",
+    "artifactId": "jersey-test-framework-provider-grizzly2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-core",
+    "version": "core/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-semconv",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-collections4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-configuration2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-math3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.datasketches",
+    "artifactId": "datasketches-java",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-1.2-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper-jute",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-minicluster",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-compaction-coordinator",
+    "version": "coordinator/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-server-base",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-1.2-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.vintage",
+    "artifactId": "junit-vintage-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-iterator-test-harness",
+    "version": "harness/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-params",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-compactor",
+    "version": "compactor/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-server-base",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-1.2-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.vintage",
+    "artifactId": "junit-vintage-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-shell",
+    "version": "shell/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-cli",
+    "artifactId": "commons-cli",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-collections4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jline",
+    "artifactId": "jline",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-gc",
+    "version": "gc/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-server-base",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-server-base",
+    "version": "base/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-collections4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper-jute",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "accumulo-minicluster",
+    "version": "minicluster/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-compaction-coordinator",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-compactor",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-gc",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-manager",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-monitor",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-server-base",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-tserver",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-minicluster",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-configuration2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.curator",
+    "artifactId": "curator-framework",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.curator",
+    "artifactId": "curator-test",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-1.2-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  }
+]

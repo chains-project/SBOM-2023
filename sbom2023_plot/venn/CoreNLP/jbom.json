@@ -1,0 +1,625 @@
+[
+  {
+    "groupId": "de.jollyday",
+    "artifactId": "jollyday",
+    "version": "0.4.9",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.4",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "2.2.7",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-impl",
+    "version": "2.2.7",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "1.9.5",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.contrib",
+    "artifactId": "junit-theories",
+    "version": "4.12",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.javaruntype",
+    "artifactId": "javaruntype",
+    "version": "1.2",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "jaxb-runtime",
+    "version": "runtime/pom",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "${project.groupId}",
+    "artifactId": "txw2",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.istack",
+    "artifactId": "istack-commons-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jvnet.staxex",
+    "artifactId": "stax-ex",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.fastinfoset",
+    "artifactId": "FastInfoset",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "javax.activation-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "javax.activation-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "slf4j-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-impl",
+    "version": "impl/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "jaxb-runtime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "junit-quickcheck-core",
+    "version": "0.4",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.contrib",
+    "artifactId": "junit-theories",
+    "version": "4.12",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.javaruntype",
+    "artifactId": "javaruntype",
+    "version": "1.2",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "ognl",
+    "artifactId": "ognl",
+    "version": "3.0.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-all",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "slf4j-simple",
+    "version": "simple/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jaxb-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "javax.activation-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jflex",
+    "version": "INF/maven/de.jflex/jflex/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.vbmacher",
+    "artifactId": "java-cup-runtime",
+    "version": "${cup.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.pholser",
+    "artifactId": "junit-quickcheck-core",
+    "version": "0.9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.pholser",
+    "artifactId": "junit-quickcheck-generators",
+    "version": "0.9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-simple",
+    "version": "1.7.28",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.vbmacher",
+    "artifactId": "java-cup-runtime",
+    "version": "11b-20160615",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "protobuf-java",
+    "version": "java/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "junit-quickcheck-generators",
+    "version": "0.4",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.pholser",
+    "artifactId": "junit-quickcheck-core",
+    "version": "0.4",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-all",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava-testlib",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.googlecode.json-simple",
+    "artifactId": "json-simple",
+    "version": "1.1.1",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.10",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "edu.stanford.nlp",
+    "artifactId": "stanford-corenlp",
+    "version": "4.5.1",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.apple",
+    "artifactId": "AppleJavaExtensions",
+    "version": "1.4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "de.jollyday",
+    "artifactId": "jollyday",
+    "version": "0.4.9",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.3.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-queryparser",
+    "version": "7.5.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-analyzers-common",
+    "version": "7.5.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-core",
+    "version": "7.5.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "3.0.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "xom",
+    "artifactId": "xom",
+    "version": "1.3.7",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.10.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-core",
+    "version": "0.39",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-ddense",
+    "version": "0.39",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-simple",
+    "version": "0.39",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish",
+    "artifactId": "javax.json",
+    "version": "1.0.4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.12",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "3.19.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.pholser",
+    "artifactId": "junit-quickcheck-core",
+    "version": "0.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.pholser",
+    "artifactId": "junit-quickcheck-generators",
+    "version": "0.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "javax.activation-api",
+    "version": "1.2.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "2.4.0-b180830.0359",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.istack",
+    "artifactId": "istack-commons-runtime",
+    "version": "3.0.7",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-impl",
+    "version": "2.4.0-b180830.0438",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.googlecode.json-simple",
+    "artifactId": "json-simple",
+    "version": "1.1.1",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.glassfish",
+    "artifactId": "javax.json",
+    "version": "INF/maven/org.glassfish/javax.json/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "javax.json",
+    "artifactId": "javax.json-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "istack-commons-runtime",
+    "version": "runtime/pom",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 2,
+    "scope": null
+  }
+]
