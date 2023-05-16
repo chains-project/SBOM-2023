@@ -39,15 +39,11 @@
 | https://github.com/spdx/tools-java/blob/master/README.md  | generated a verification code, but no SBOM  |
 | https://github.com/anchore/grype | Java projects are not supported |
 | https://www.scanoss.co.uk/| custom format |
-
-# Candidate tools
-
-- https://github.com/opensbom-generator/spdx-sbom-generator: spdx
-- https://github.com/microsoft/sbom-tool: spdx
-- https://github.com/spdx/spdx-maven-plugin: spdx
-- https://github.blog/2023-03-28-introducing-self-service-sboms/: spdx
-- https://lift.sonatype.com/: online tool
-- https://github.com/anchore/syft: online tool
-- https://github.com/snyk/snyk-maven-plugin: online tool
-- https://github.com/nexB/scancode-toolkit: under inspection
-
+| https://github.com/opensbom-generator/spdx-sbom-generator | SPDX (future work) |
+| https://github.com/microsoft/sbom-tool | SPDX (future work) |
+| https://github.com/spdx/spdx-maven-plugin | SPDX (future work) | 
+| https://github.blog/2023-03-28-introducing-self-service-sboms/ | SPDX (future work) |
+| https://lift.sonatype.com/ | online tool |
+| https://github.com/anchore/syft | online tool |
+| https://github.com/snyk/snyk-maven-plugin | online tool |
+| https://github.com/nexB/scancode-toolkit | does not detect transitive dependencies [nexB/scancode-toolkit@3383](https://github.com/nexB/scancode-toolkit/issues/3383) |
