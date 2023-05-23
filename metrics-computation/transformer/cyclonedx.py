@@ -12,6 +12,10 @@ class CycloneDXTransformer(AbstractTransformer):
 
     def transform(self):
         json_dict_input = self.get_json_as_dict(self.input_file)
+        # return empty list if SBOM is empty
+        if json_dict_input is None:
+            self.write([], self.output_file)
+            return
         flattened_dependencies = self.__flatten_dependencies(json_dict_input)
 
         self.write(flattened_dependencies, self.output_file)
@@ -24,9 +28,20 @@ class CycloneDXTransformer(AbstractTransformer):
 
         dependency_relationships = json_dict['dependencies']
         for component in components:
-            # Skips GitHub action for depscan
-            if component['group'] == 'actions':
+            # Skips the following packages
+
+            if 'pkg:pypi' in component['bom-ref']:
                 continue
+
+            if 'pkg:github' in component['bom-ref']:
+                continue
+
+            if 'pkg:npm' in component['bom-ref']:
+                continue
+
+            if 'pkg:oci' in component['bom-ref']:
+                continue
+
             dependency_attributes = self.__get_dependency_attribute(component)
             depth = self.__compute_depth(dependency_relationships, component['bom-ref'])
             flattened_dependencies.append({**dependency_attributes, 'depth': depth})
