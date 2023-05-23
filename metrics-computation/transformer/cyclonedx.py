@@ -24,6 +24,9 @@ class CycloneDXTransformer(AbstractTransformer):
 
         dependency_relationships = json_dict['dependencies']
         for component in components:
+            # Skips GitHub action for depscan
+            if component['group'] == 'actions':
+                continue
             dependency_attributes = self.__get_dependency_attribute(component)
             depth = self.__compute_depth(dependency_relationships, component['bom-ref'])
             flattened_dependencies.append({**dependency_attributes, 'depth': depth})
