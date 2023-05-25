@@ -1,0 +1,51 @@
+[
+  {
+    "groupId": "${groupId}",
+    "artifactId": "${artifactId}",
+    "version": "${version}",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.flink",
+    "artifactId": "flink-walkthrough-common",
+    "version": "${flink.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.flink",
+    "artifactId": "flink-streaming-scala_${scala.binary.version}",
+    "version": "${flink.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.flink",
+    "artifactId": "flink-clients",
+    "version": "${flink.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j-impl",
+    "version": "${log4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-api",
+    "version": "${log4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "${log4j.version}",
+    "depth": 1,
+    "scope": null
+  }
+]

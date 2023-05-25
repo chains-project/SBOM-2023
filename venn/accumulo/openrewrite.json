@@ -1,0 +1,18 @@
+[
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "classifier": "jar",
+    "version": "4.7.2",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "classifier": "jar",
+    "version": "3.0.2",
+    "scope": "required",
+    "depth": 2
+  }
+]

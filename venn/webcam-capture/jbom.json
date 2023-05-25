@@ -1,0 +1,345 @@
+[
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture",
+    "version": "capture/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.nativelibs4java",
+    "artifactId": "bridj",
+    "version": "0.7.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.jayway.awaitility",
+    "artifactId": "awaitility",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-ffmpeg-cli",
+    "version": "cli/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "1.0.9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-jmf",
+    "version": "jmf/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.media",
+    "artifactId": "jmf",
+    "version": "2.1.1e",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-gst1",
+    "version": "gst1/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.java.dev.jna",
+    "artifactId": "jna",
+    "version": "4.2.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.freedesktop.gstreamer",
+    "artifactId": "gst1-java-core",
+    "version": "0.9.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-vlcj",
+    "version": "vlcj/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "uk.co.caprica",
+    "artifactId": "vlcj",
+    "version": "2.4.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-fswebcam",
+    "version": "fswebcam/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-screencapture",
+    "version": "screencapture/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-opencv",
+    "version": "opencv/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.bytedeco",
+    "artifactId": "javacv-platform",
+    "version": "1.3.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-v4l4j",
+    "version": "v4l4j/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "v4l4j",
+    "version": "0.9.1-r507",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-gstreamer",
+    "version": "gstreamer/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.googlecode.gstreamer-java",
+    "artifactId": "gstreamer-java",
+    "version": "1.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "webcam-capture-driver-lti-civil",
+    "version": "civil/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "lti-civil-no-swt",
+    "version": "20070920-1721",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.sarxos",
+    "artifactId": "webcam-capture",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  }
+]

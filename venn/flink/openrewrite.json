@@ -1,0 +1,26 @@
+[
+  {
+    "groupId": "org.apache.flink",
+    "artifactId": "flink-shaded-force-shading",
+    "classifier": "jar",
+    "version": "15.0",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "classifier": "jar",
+    "version": "1.7.32",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "classifier": "jar",
+    "version": "1.3.9",
+    "scope": "required",
+    "depth": 1
+  }
+]

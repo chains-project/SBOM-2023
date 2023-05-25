@@ -1,0 +1,200 @@
+[
+  {
+    "groupId": "edu.stanford.nlp",
+    "artifactId": "stanford-corenlp",
+    "version": "4.5.1",
+    "depth": 0
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "2.4.0-b180830.0359",
+    "depth": 1
+  },
+  {
+    "groupId": "com.sun.istack",
+    "artifactId": "istack-commons-runtime",
+    "version": "3.0.7",
+    "depth": 1
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-zdense",
+    "version": "0.39",
+    "depth": 2
+  },
+  {
+    "groupId": "xerces",
+    "artifactId": "xercesImpl",
+    "version": "2.8.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-cdense",
+    "version": "0.39",
+    "depth": 2
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-core",
+    "version": "0.39",
+    "depth": 1
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.10.5",
+    "depth": 1
+  },
+  {
+    "groupId": "xml-apis",
+    "artifactId": "xml-apis",
+    "version": "1.3.03",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish",
+    "artifactId": "javax.json",
+    "version": "1.0.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.3.1",
+    "depth": 1
+  },
+  {
+    "groupId": "com.googlecode.json-simple",
+    "artifactId": "json-simple",
+    "version": "1.1.1",
+    "depth": 1
+  },
+  {
+    "groupId": "xom",
+    "artifactId": "xom",
+    "version": "1.3.7",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "3.19.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-dsparse",
+    "version": "0.39",
+    "depth": 2
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "3.0.1",
+    "depth": 1
+  },
+  {
+    "groupId": "xalan",
+    "artifactId": "serializer",
+    "version": "2.7.2",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-analyzers-common",
+    "version": "7.5.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-impl",
+    "version": "2.4.0-b180830.0438",
+    "depth": 1
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-fdense",
+    "version": "0.39",
+    "depth": 2
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "javax.activation-api",
+    "version": "1.2.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-sandbox",
+    "version": "7.5.0",
+    "depth": 2
+  },
+  {
+    "groupId": "xalan",
+    "artifactId": "xalan",
+    "version": "2.7.2",
+    "depth": 2
+  },
+  {
+    "groupId": "com.apple",
+    "artifactId": "AppleJavaExtensions",
+    "version": "1.4",
+    "depth": 1
+  },
+  {
+    "groupId": "de.jollyday",
+    "artifactId": "jollyday",
+    "version": "0.4.9",
+    "depth": 1
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-ddense",
+    "version": "0.39",
+    "depth": 1
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-fsparse",
+    "version": "0.39",
+    "depth": 2
+  },
+  {
+    "groupId": "org.ejml",
+    "artifactId": "ejml-simple",
+    "version": "0.39",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-queryparser",
+    "version": "7.5.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-core",
+    "version": "7.5.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-queries",
+    "version": "7.5.0",
+    "depth": 2
+  }
+]

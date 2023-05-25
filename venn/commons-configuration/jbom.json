@@ -1,0 +1,16 @@
+[
+  {
+    "groupId": null,
+    "artifactId": "pom",
+    "version": "configuration2/pom",
+    "scope": "required",
+    "depth": 0
+  },
+  {
+    "groupId": null,
+    "artifactId": "test",
+    "version": "org/apache/commons/configuration2/test",
+    "scope": "required",
+    "depth": 0
+  }
+]

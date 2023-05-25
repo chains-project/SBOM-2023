@@ -1,0 +1,650 @@
+[
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.17.0",
+    "depth": 0
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_test_helpers",
+    "version": "2.17.0",
+    "depth": 0
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "31.0.1-jre",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.testing.compile",
+    "artifactId": "compile-testing",
+    "version": "0.19",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 3
+  },
+  {
+    "groupId": "net.bytebuddy",
+    "artifactId": "byte-buddy",
+    "version": "1.12.16",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value-annotations",
+    "version": "1.9",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "2.2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.googlejavaformat",
+    "artifactId": "google-java-format",
+    "version": "1.13.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "1.1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.github.kevinstern",
+    "artifactId": "software-and-algorithms",
+    "version": "1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.jimfs",
+    "artifactId": "jimfs",
+    "version": "1.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.objenesis",
+    "artifactId": "objenesis",
+    "version": "3.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "9.1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "3.0.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "dataflow-errorprone",
+    "version": "3.27.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value",
+    "version": "1.9",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.auto",
+    "artifactId": "auto-common",
+    "version": "1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "3.13.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "4.9.0",
+    "depth": 1
+  },
+  {
+    "groupId": "io.github.java-diff-utils",
+    "artifactId": "java-diff-utils",
+    "version": "4.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotation",
+    "version": "2.17.0",
+    "depth": 1
+  },
+  {
+    "groupId": "net.bytebuddy",
+    "artifactId": "byte-buddy-agent",
+    "version": "1.12.16",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_check_api",
+    "version": "2.17.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest",
+    "version": "2.2",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava-testlib",
+    "version": "31.0.1-jre",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jgit",
+    "artifactId": "org.eclipse.jgit",
+    "version": "4.4.1.201607150455-r",
+    "depth": 3
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "2.2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service-annotations",
+    "version": "1.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "1.0.1",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_docgen_processor",
+    "version": "2.17.0",
+    "depth": 0
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.7.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "3.12.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.8.9",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_refaster",
+    "version": "2.17.0",
+    "depth": 0
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "3.19.2",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.auto",
+    "artifactId": "auto-common",
+    "version": "1.2.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_core",
+    "version": "2.17.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_type_annotations",
+    "version": "2.17.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.pcollections",
+    "artifactId": "pcollections",
+    "version": "3.1.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "9.1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value-annotations",
+    "version": "1.8.1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "1.1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock-testjar",
+    "version": "2.12.0",
+    "depth": 3
+  },
+  {
+    "groupId": "net.jcip",
+    "artifactId": "jcip-annotations",
+    "version": "1.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock-imposters",
+    "version": "2.12.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.w3c.css",
+    "artifactId": "sac",
+    "version": "1.3",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.dagger",
+    "artifactId": "dagger",
+    "version": "2.40.5",
+    "depth": 2
+  },
+  {
+    "groupId": "aopalliance",
+    "artifactId": "aopalliance",
+    "version": "1.0",
+    "depth": 3
+  },
+  {
+    "groupId": "cglib",
+    "artifactId": "cglib",
+    "version": "3.2.8",
+    "depth": 4
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "4.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.testparameterinjector",
+    "artifactId": "test-parameter-injector",
+    "version": "1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.gwt.inject",
+    "artifactId": "gin",
+    "version": "2.1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-compat-qual",
+    "version": "2.5.5",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.truth.extensions",
+    "artifactId": "truth-proto-extension",
+    "version": "1.1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value",
+    "version": "1.9",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock-junit4",
+    "version": "2.12.0",
+    "depth": 2
+  },
+  {
+    "groupId": "javax.annotation",
+    "artifactId": "jsr250-api",
+    "version": "1.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.common.html.types",
+    "artifactId": "types",
+    "version": "1.0.8",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.inject.extensions",
+    "artifactId": "guice-throwingproviders",
+    "version": "5.1.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "version": "3.22.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.gwtproject",
+    "artifactId": "gwt-user",
+    "version": "2.10.0",
+    "depth": 2
+  },
+  {
+    "groupId": "javax.validation",
+    "artifactId": "validation-api",
+    "version": "1.0.0.GA",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.inject.extensions",
+    "artifactId": "guice-assistedinject",
+    "version": "5.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache-extras.beanshell",
+    "artifactId": "bsh",
+    "version": "2.0b6",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java-util",
+    "version": "3.19.2",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.inject.extensions",
+    "artifactId": "guice-testlib",
+    "version": "5.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jspecify",
+    "artifactId": "jspecify",
+    "version": "0.2.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.testing.compile",
+    "artifactId": "compile-testing",
+    "version": "0.19",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.truth.extensions",
+    "artifactId": "truth-java8-extension",
+    "version": "1.1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest",
+    "version": "2.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock",
+    "version": "2.12.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.googlejavaformat",
+    "artifactId": "google-java-format",
+    "version": "1.13.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.jsinterop",
+    "artifactId": "jsinterop-annotations",
+    "version": "2.0.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.jimfs",
+    "artifactId": "jimfs",
+    "version": "1.2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.8.6",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.inject",
+    "artifactId": "guice",
+    "version": "5.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "1.27",
+    "depth": 3
+  },
+  {
+    "groupId": "javax.inject",
+    "artifactId": "javax.inject",
+    "version": "1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.common.html.types",
+    "artifactId": "proto",
+    "version": "1.0.8",
+    "depth": 2
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "3.1.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.dagger",
+    "artifactId": "dagger-producers",
+    "version": "2.40.5",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.auto.factory",
+    "artifactId": "auto-factory",
+    "version": "1.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-all",
+    "version": "5.0.0.Alpha2",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "annotations",
+    "version": "3.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "pl.pragmatists",
+    "artifactId": "JUnitParams",
+    "version": "1.1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.inject.extensions",
+    "artifactId": "guice-servlet",
+    "version": "5.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.10.13",
+    "depth": 2
+  },
+  {
+    "groupId": "org.threeten",
+    "artifactId": "threeten-extra",
+    "version": "1.7.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.ibm.icu",
+    "artifactId": "icu4j",
+    "version": "70.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.flogger",
+    "artifactId": "flogger",
+    "version": "0.7.4",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.truth.extensions",
+    "artifactId": "truth-liteproto-extension",
+    "version": "1.1.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock-legacy",
+    "version": "2.12.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.squareup",
+    "artifactId": "javapoet",
+    "version": "1.13.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_docgen",
+    "version": "2.17.0",
+    "depth": 0
+  },
+  {
+    "groupId": "com.github.spullara.mustache.java",
+    "artifactId": "compiler",
+    "version": "0.9.10",
+    "depth": 1
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "1.82",
+    "depth": 1
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "1.30",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_parent",
+    "version": "2.17.0",
+    "depth": 0
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest",
+    "version": "2.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "2.2",
+    "depth": 1
+  }
+]
