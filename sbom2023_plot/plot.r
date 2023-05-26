@@ -1,22 +1,17 @@
 library(rjson)
 library(ggVennDiagram)
-library(ggvenn)
-
+library(ggplot2)
+library(dplyr)
 # READ THE json files from ./resultCalc each subfolder is a project
 # 1. read the json file
-print("foo")
 files <- list.files(path = "sbom2023_plot/resultCalc", full.names = TRUE)
-print(files)
-
-
 for (project in files) {
   venn_data <- list() # Initialize an empty list to store Venn diagram data
-  print(project)
   producers <- list.files(path = project, pattern = "*.json", full.names = TRUE)
   producer_genes <- list() # Initialize an empty list to store genes for each producer
+
   for (producer in producers) {
     content <- fromJSON(file = producer)
-    print(producer)
     # get the array with the key "truePositive"
     truePositives <- content$truePositive
     # convert each json object to a string $groupdID:$artifactId:$version
@@ -33,21 +28,33 @@ for (project in files) {
       # add the string to the list
       list_of_strings <- append(list_of_strings, string)
     }
-    print(length(list_of_strings))
     producer_genes[[tools::file_path_sans_ext(basename(producer))]] <- unlist(list_of_strings)
   }
+
   # Generate the Venn diagram
-  plot <- ggVennDiagram(producer_genes, set_size = 5) +
-    scale_color_brewer(palette = "Paired") +
-    theme(
-      plot.background = element_rect(fill = "white")
-    )
-  foo <- paste(basename(project), "pdf", sep = ".")
-  # Save the Venn diagram with high dpi and increased whitespace
+  venn <- Venn(producer_genes)
+  data <- process_data(venn)
+  ggplot() +
+    # 1. region count layer
+    geom_sf(aes(fill = count), data = venn_region(data)) +
+    # 2. set edge layer
+    geom_sf(aes(color = id), data = venn_setedge(data), show.legend = FALSE) +
+    # 3. set label layer
+    geom_sf_text(aes(label = name), data = venn_setlabel(data)) +
+    # 4. region label layer
+    geom_sf_label(aes(label = count), data = venn_region(data) %>% filter(count != 0), alpha = 0.5) +
+    theme_void()
+  
+  # venn <- Venn(producer_genes)
+  # plot <- ggVennDiagram(producer_genes, label = "count", edge_size = 2) +
+  #   scale_color_brewer(palette = "Paired") +
+  #   theme(
+  #     plot.background = element_rect(fill = "white"),
+  #   )
+  # data <- process_data(venn)
+  # Save the Venn diagram with high dpi
   ggsave(
-    filename = paste("./venns",foo, sep = "/"),
-    
-    plot = plot,
+    filename = paste("./venns", paste(basename(project), "pdf", sep = "."), sep = "/"),
     width = 13, height = 13, units = "in",
     dpi = 1200
   )
