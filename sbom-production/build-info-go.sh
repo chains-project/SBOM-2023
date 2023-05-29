@@ -12,6 +12,7 @@ for f in ./study-subjects-env/*; do
   echo "Running build-info-go for  $filename"
   # Run the build-info-go docker image with the env file as an argument
   container_ID="$(docker run --env-file ./study-subjects-env/$filename.env  -d  -v maven-deps:/root/.m2 build-info-go)"
+  docker wait $container_ID
   mkdir -p ./results/$filename/build-info-go
   # Print the docker container id
   echo "Copying results from docker container $container_ID to ./results/$filename/"

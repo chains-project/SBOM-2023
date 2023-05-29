@@ -6,6 +6,12 @@
 | commons-configuration | depscan | 100 | 100 | 100 | 
 | commons-configuration | jbom | 0 | 0 | 0 | 
 | commons-configuration | openrewrite | 100 | 40.74 | 57.89 | 
+| undertow | build-info-go | 97.67 | 100 | 98.82 | 
+| undertow | cdxgen | 97.67 | 100 | 98.82 | 
+| undertow | cyclonedx-maven-plugin | 93.33 | 22.22 | 35.9 | 
+| undertow | depscan | 97.67 | 100 | 98.82 | 
+| undertow | jbom | 10.87 | 7.94 | 9.17 | 
+| undertow | openrewrite | 0 | 0 | 0 | 
 | selenese-runner-java | build-info-go | 99.27 | 100 | 99.63 | 
 | selenese-runner-java | cdxgen | 100 | 100 | 100 | 
 | selenese-runner-java | cyclonedx-maven-plugin | 100 | 84.56 | 91.63 | 
