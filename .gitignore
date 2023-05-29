@@ -624,3 +624,4 @@ pyrightconfig.json
 .ionide
 !*jbom-1.2.1.jar
 # End of https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,macos,python,latex,eclipse
+.vscode/settings.json
