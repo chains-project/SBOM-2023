@@ -1,4 +1,5 @@
 {
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
   "version": 1,
@@ -28,27 +29,6 @@
         {
           "alg": "MD5",
           "content": "30c4a9fa2137698ed66c8542f1be196a"
-        }
-      ]
-    },
-    {
-      "bom-ref": "org.apache.maven:maven-model:4.0.0-alpha-4",
-      "type": "library",
-      "group": "org.apache.maven",
-      "name": "maven-model",
-      "version": "4.0.0-alpha-4",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "31bbc6ff9c63511f379e68849ab43202540dc0aee4ddd07b82c348cae76350f4"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f29ca41b573302c1c0455d601728b8ecb7eec89d"
-        },
-        {
-          "alg": "MD5",
-          "content": "648f7acb1bf71bae918530fe7b5141f4"
         }
       ]
     },
@@ -112,6 +92,27 @@
         {
           "alg": "MD5",
           "content": "37c5996faaca2c37e6b45c74ffe997aa"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-model:4.0.0-alpha-5",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-model",
+      "version": "4.0.0-alpha-5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dd7de8ddb2915a47c656f96293802e180c24fcad3d303e5b4fd4eaebdde6968b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "90b9839792644b8b08427db5fc25d8fef448c9da"
+        },
+        {
+          "alg": "MD5",
+          "content": "789a79aa8ea5d9312d6862302f1b7232"
         }
       ]
     },
@@ -200,27 +201,6 @@
       ]
     },
     {
-      "bom-ref": "org.apache.maven:maven-api-meta:4.0.0-alpha-4",
-      "type": "library",
-      "group": "org.apache.maven",
-      "name": "maven-api-meta",
-      "version": "4.0.0-alpha-4",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "86dadcd97542a274eee6ae0f9518325d1b7bedbfb8311ae6f69423160fd8e41c"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "1db21755d8f2ee10d490b8d7ee28e9da31c531e8"
-        },
-        {
-          "alg": "MD5",
-          "content": "c6e3efad11749a50de4e828732d16931"
-        }
-      ]
-    },
-    {
       "bom-ref": "org.slf4j:slf4j-api:1.7.36",
       "type": "library",
       "group": "org.slf4j",
@@ -238,48 +218,6 @@
         {
           "alg": "MD5",
           "content": "872da51f5de7f3923da4de871d57fd85"
-        }
-      ]
-    },
-    {
-      "bom-ref": "org.apache.maven:maven-api-model:4.0.0-alpha-4",
-      "type": "library",
-      "group": "org.apache.maven",
-      "name": "maven-api-model",
-      "version": "4.0.0-alpha-4",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "61cee62730cb661464afd6cf8362c7989ce297d3f72b6f76e03fcb94ea79aea6"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "d682182e1f7fef7c210c0fbd27446e9105d44708"
-        },
-        {
-          "alg": "MD5",
-          "content": "c72db6839705c914371cddabe26b7a06"
-        }
-      ]
-    },
-    {
-      "bom-ref": "org.apache.maven:maven-xml-impl:4.0.0-alpha-4",
-      "type": "library",
-      "group": "org.apache.maven",
-      "name": "maven-xml-impl",
-      "version": "4.0.0-alpha-4",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "ba0fdb6df4a42fa6dd0892f53fcd71c6ad5312d224c938e5e4adb11686a7b7c8"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "d3cdd0b8e769235283fda12fa63a10624666b005"
-        },
-        {
-          "alg": "MD5",
-          "content": "b934c92c0510efb99f599e287f860cc7"
         }
       ]
     },
@@ -347,27 +285,6 @@
       ]
     },
     {
-      "bom-ref": "org.apache.maven:maven-api-xml:4.0.0-alpha-4",
-      "type": "library",
-      "group": "org.apache.maven",
-      "name": "maven-api-xml",
-      "version": "4.0.0-alpha-4",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "6d2b31e0738aaf1604e76bb77789c0b4f12beebb350c3ab587f1092b3d38743b"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "07aa77b7eb08ba2ceb6b9efdfddd8cf23aebd5f4"
-        },
-        {
-          "alg": "MD5",
-          "content": "6cde6f143530594bbfc677ae40989451"
-        }
-      ]
-    },
-    {
       "bom-ref": "org.apache.maven.shared:maven-invoker:3.2.0",
       "type": "library",
       "group": "org.apache.maven.shared",
@@ -385,6 +302,48 @@
         {
           "alg": "MD5",
           "content": "ae1b36901af33a03b0ba0123d941b938"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-api-meta:4.0.0-alpha-5",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-api-meta",
+      "version": "4.0.0-alpha-5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "768895e11ad37abc8e92c1dcf6ee52ac81af80d47a3d608ccd5863d7d4dd14b2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1505d6998731a60f0680a0675158a4323238f27c"
+        },
+        {
+          "alg": "MD5",
+          "content": "3abc2801ea89b36dafab83361831f210"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-api-model:4.0.0-alpha-5",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-api-model",
+      "version": "4.0.0-alpha-5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e309107a010fcdfcbaab508ceb3ae78476e09ec990468929d3b0fc981d41f10a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d3b6e108e73822a53b813ebe4ebab9dd8dd176e2"
+        },
+        {
+          "alg": "MD5",
+          "content": "c016596896baafce5b6958fa4545f067"
         }
       ]
     },
@@ -473,6 +432,48 @@
       ]
     },
     {
+      "bom-ref": "org.apache.maven:maven-xml-impl:4.0.0-alpha-5",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-xml-impl",
+      "version": "4.0.0-alpha-5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fa7d0d05a262976947e95f72c7e2a3300b8eebe2a6b33eb4080043cddaa13854"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "57e7ff66b9fe6dd33689ddcd913b028f23efbdb0"
+        },
+        {
+          "alg": "MD5",
+          "content": "c3ab1b963f5b586e5c810f309fc48cc9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-api-xml:4.0.0-alpha-5",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-api-xml",
+      "version": "4.0.0-alpha-5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e34556a7abe2509194942cceb9ba25587f16f5964ff160102fe4926f67e38951"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5a48ca11c5b6d7594079ecc23cb6f1a4a9ec6bb4"
+        },
+        {
+          "alg": "MD5",
+          "content": "2906b8c40c7a4ec27d88014f32bcd024"
+        }
+      ]
+    },
+    {
       "bom-ref": "javax.annotation:javax.annotation-api:1.2",
       "type": "library",
       "group": "javax.annotation",
@@ -496,27 +497,19 @@
   ],
   "dependencies": [
     {
-      "ref": "fr.inria.gforge.spoon:spoon-core:10.2.0-SNAPSHOT",
+      "ref": "org.apache.maven:maven-xml-impl:4.0.0-alpha-5",
       "dependsOn": [
-        "org.slf4j:slf4j-api:1.7.36",
-        "commons-io:commons-io:2.11.0",
-        "org.eclipse.jdt:org.eclipse.jdt.core:3.31.0",
-        "org.apache.commons:commons-compress:1.21",
-        "com.martiansoftware:jsap:2.1",
-        "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
-        "org.apache.maven.shared:maven-invoker:3.2.0",
-        "org.apache.commons:commons-lang3:3.12.0",
-        "org.apache.maven:maven-model:4.0.0-alpha-4"
+        "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5"
       ]
     },
     {
       "ref": "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
       "dependsOn": [
-        "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
         "org.codehaus.plexus:plexus-utils:3.0.24",
         "org.codehaus.plexus:plexus-classworlds:2.5.2",
         "org.codehaus.plexus:plexus-component-annotations:1.5.5",
-        "javax.annotation:javax.annotation-api:1.2"
+        "javax.annotation:javax.annotation-api:1.2",
+        "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5"
       ]
     },
     {
@@ -527,35 +520,43 @@
       ]
     },
     {
-      "ref": "org.apache.maven:maven-api-xml:4.0.0-alpha-4",
+      "ref": "fr.inria.gforge.spoon:spoon-core:10.2.0-SNAPSHOT",
       "dependsOn": [
-        "org.apache.maven:maven-api-meta:4.0.0-alpha-4"
-      ]
-    },
-    {
-      "ref": "org.apache.maven:maven-model:4.0.0-alpha-4",
-      "dependsOn": [
-        "org.apache.maven:maven-api-model:4.0.0-alpha-4",
-        "org.apache.maven:maven-xml-impl:4.0.0-alpha-4"
+        "org.apache.maven.shared:maven-invoker:3.2.0",
+        "org.apache.commons:commons-lang3:3.12.0",
+        "org.apache.maven:maven-model:4.0.0-alpha-5",
+        "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
+        "org.apache.commons:commons-compress:1.21",
+        "commons-io:commons-io:2.11.0",
+        "com.martiansoftware:jsap:2.1",
+        "org.slf4j:slf4j-api:1.7.36",
+        "org.eclipse.jdt:org.eclipse.jdt.core:3.31.0"
       ]
     },
     {
       "ref": "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
       "dependsOn": [
-        "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
-        "com.fasterxml.jackson.core:jackson-core:2.13.4"
+        "com.fasterxml.jackson.core:jackson-core:2.13.4",
+        "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
       ]
     },
     {
-      "ref": "org.apache.maven:maven-api-model:4.0.0-alpha-4",
+      "ref": "org.apache.maven:maven-api-xml:4.0.0-alpha-5",
       "dependsOn": [
-        "org.apache.maven:maven-api-xml:4.0.0-alpha-4"
+        "org.apache.maven:maven-api-meta:4.0.0-alpha-5"
       ]
     },
     {
-      "ref": "org.apache.maven:maven-xml-impl:4.0.0-alpha-4",
+      "ref": "org.apache.maven:maven-model:4.0.0-alpha-5",
       "dependsOn": [
-        "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5"
+        "org.apache.maven:maven-api-model:4.0.0-alpha-5",
+        "org.apache.maven:maven-xml-impl:4.0.0-alpha-5"
+      ]
+    },
+    {
+      "ref": "org.apache.maven:maven-api-model:4.0.0-alpha-5",
+      "dependsOn": [
+        "org.apache.maven:maven-api-xml:4.0.0-alpha-5"
       ]
     }
   ]

@@ -1,28 +1,39 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:463f3314-7fba-4335-a4d1-7bac7165786d",
+  "serialNumber": "urn:uuid:61725f6d-e16e-4f6f-bf03-c8db793a1723",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-26T01:29:22.294Z",
+    "timestamp": "2023-05-09T15:49:20.713Z",
     "tools": [
       {
-        "vendor": "AppThreat",
+        "vendor": "cyclonedx",
         "name": "cdxgen",
-        "version": "7.0.5"
+        "version": "8.4.3"
       }
     ],
     "authors": [
       {
-        "name": "Team AppThreat",
-        "email": "cloud@appthreat.com"
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
       }
     ],
     "component": {
-      "group": "",
-      "name": "commons-configuration",
-      "version": "",
-      "type": "application"
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.commons",
+      "name": "commons-configuration2",
+      "version": "2.8.0",
+      "description": "Tools to assist in the reading of configuration/preferences files in various formats",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.8.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-configuration2@2.8.0?type=jar"
     }
   },
   "components": [
@@ -854,6 +865,212 @@
       "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.21?type=jar"
     },
     {
+      "publisher": "Spring IO",
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "5.3.21",
+      "description": "Spring Context",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a35986dbdf696de79ef70c3a5a3af132"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fe371c85f02b8c6690fc3b3d0950ef4f965db0cd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4bc04717f48d8985317986ac721935165734942393ac9b5330f88e2b36f2ec01"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9621fcf0db04243870d3673e7e9c7d35321ab3892ef472fb0f776e6976ffd3b43d2b9e44b6511182c70f49e92b1334acf7161cca973afed5758a16d543da235e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4815f26c01c764858cf560a1d0ac636050d3d500f1cac3a6e6cb80e357274060e63ac77511ab9a40ed07eb1f0f5c0ea0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a4ac23b84281c0d9e54e16f9e6ffbecde4ca6f6e672c10f61409b8c211d0e1ebd4c1504f54c012f5d8c4233b88fe6ede"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "aab59c5d88fbf600891af7406c74530d3e5b3434f69543f541396d5373c6495d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4e76a32b96d90d7ea7bd4889ca276d3ba65498a05f79ac9230e75d39bb5a6c5e3820d444df47946bdb17a1d3fbcd85eaa13482cc6ff4e0818913350ad6597c75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context@5.3.21?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-context@5.3.21?type=jar"
+    },
+    {
+      "publisher": "Spring IO",
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "5.3.21",
+      "description": "Spring AOP",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c52281c30c9d4964c48212df772c49e1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "058ec4ff7a0ce30a1e2612f04ad0fb13ea806705"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3ef487b88601766054a225c90d8c4a7e99f154bac4e4d72fb083c14045d10041"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "669bf4516cc2936c4b88b3c98b4b4f9228e6c6052e930859776e22f54d7d479b3c1412a6725ddeb7881c36ac3b5ee9947d6f559f8a59be138e2659ad6f5df1ac"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "369f5cbea5d313571b6bd2d3ffde32d25734773c4601462105595b734fb2c8938c30822f396cb7ddbbaf533bb1c1643e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "32e43a7002ce5d0df310795e1d00e2b998cf6d3eaa2bbcc4eb52eeaeea1de645fc82a7137da0c0efe70d2c56d8a048b9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ed750164f6e7a28bbd0fc309030eb8a752dd96f3673af97ff2ace517e3f95218"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "49d2937d695db8acfb64959862881f7e7d702e324cc5db3751030e458354ed5aeda72532127475be39ff6ba13fe0fec14fbc2dcb5df0b745993e56239afbb08c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aop@5.3.21?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-aop@5.3.21?type=jar"
+    },
+    {
+      "publisher": "Spring IO",
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "5.3.21",
+      "description": "Spring Expression Language (SpEL)",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "96ac38bf30663ec553d2fe9d2096698c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ca8c5822fc528066ec717f1e74160a1575c43192"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7d19a0b76e96ed33cf287c3788f9b1087ab4bfc3a19a5621638a11e44095d6d7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "19551013cdffb53048e50c36635638c51ab2503942745be1b06b9e2e08c5e09bf7bfdc1b3090c9fd0a0c3fbe0ebcfd8fd1d3327184e6119b947f9b0a9f9083f4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "edff33da199d6b942e0569b42ac8ae1cbb2ac3cd4f4181f5dd2aa54607130144401b87ea323ccf50a8d4696bd02ed801"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "76b80fcd6e42679a2cec27b01fd2aeb40a9f3c5d229e2df4d2851b354cd754efb8dfc3ce1375e7f66edb816a4825ad5d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2f235e4f94bbc637df77d55e137d4c07d12b407987049ec04c3bd83c9b75a42d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "aea51a90c820139b3debf0307ee0adc3c41948aff3d4bea864060b12be5af0214adbc787a84ff561bab577eda4f0c7eb84fde444573a1ed3e92db6bccd8966a3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-expression@5.3.21?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@5.3.21?type=jar"
+    },
+    {
+      "publisher": "Spring IO",
+      "group": "org.springframework",
+      "name": "spring-test",
+      "version": "5.3.21",
+      "description": "Spring TestContext Framework",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a74b70bffbbdfc36df9b73a7ee4c8d06"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "77f04111344acf6ae422aacacb279819ccef4d70"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b1e45da0d57e389fc3f081b756478f135b558798df1b8521eb2ad067e8b4b346"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "18946e451d4a37caa91e113edd5a6d9a52bd2df5ff742cf3dcb7d8f06cc0119a66bffeadf7edada86e7e27db272a5458d4c34b9a875bee0e46e7432f796e61bf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "834fb469964fd459dd4335a84625e2eb42c9dd6aaa1b7a079acc9886ac75c8ef31d760fc2430e68d076ab07d7d852d12"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "83bcd59cd31d36901dd600ba0c4d6b054602bd2e7859bfc408a8ef055dbd54a020cd968c70a8d7b5c73e7b0cf6987b9d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ee7dbae359cc166e3c03165c5c02f8af73cb5e9a07496adcbb0ef529d1f441b6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b5442ea83a842c8f832a47ed7aa612335bd4aaad4c42c10c352432e3e6efb539bd287715714ae657da111309948b1e58e58321eae58568fd7793ffdddc720084"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-test@5.3.21?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-test@5.3.21?type=jar"
+    },
+    {
       "publisher": "",
       "group": "javax.servlet",
       "name": "servlet-api",
@@ -1106,6 +1323,1187 @@
       "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"
     },
     {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.commons",
+      "name": "commons-dbcp2",
+      "version": "2.9.0",
+      "description": "Apache Commons DBCP software implements Database Connection Pooling",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c2a72212a55d105b0eaeaab26557e6e7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "16d808749cf3dac900c073dd834b5e288562a59c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "887720912c5cbbcdff6e0e21d5034937555f8ffc597381eff8fa77f33ce6d64e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8d7afd59011016b5c142218101b868a945996a136d58df85cba74287ab9a2b8ccbbc0bc04ddab679f1f5d0e1eea3d9395f2d3500de8162b9d32c19bcd1f5069a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cdff07f41f609a9e73a92287b5502e9c1d5318f49d6046c8467a3ed18e48114b02bfb348d5f0125bd1ef96d1ea40b7b0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3368345cc0ef741c17d5430e5484ce702376507ff1e26803815a054dcdecda39ea61d0580982c2a125d19e17fd54cfdd"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3fe00ecfa4b90250850cbc0a9fe5abfb936e44d03813a9480f67815b6e837296"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a63e5ea6461ae3e4b58c64525fbb9259e15643fe843542bafa22729fdf6373282c6e4d785b45d08a9589fb7ea351cd1049deb51eb17a75d8dac7cd006901b504"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-dbcp2@2.9.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-dbcp2@2.9.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.11.0",
+      "description": "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3b4b7ccfaeceeac240b804839ee1a1ca"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a2503f302b11ebde7ebc3df41daebe0e4eea3689"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5bd78eed456ede30119319c5bed8e3e4c443b6fd7bdb3a7a5686647bd83094d0c3e2832a7575cfb60e4ef25f08106b93476939d3adcfecf5533cc030b3039e10"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "114f1e324d90ad887c177876d410f5787a8e8da6c48d4b2862d365802c0efded3a88cb24046976bf6276cadad3712f0f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "80288c03ad4d80d69f91d056ffc5570d49a9c76bf54ad2dff0121ecde26a560df76d05156f281f5c6db2a38ff07a873d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5adfb5ccaf5f21a549422f426118a9542673926fcd18c68390cf813e791dcf6c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7573f47f0babb53cefdc7c2309a0b982d800139064537b0797da442853d081010ad7c3c74a500598a0f800639a5d540eca21963ea652c68613907059bd4278c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.commons",
+      "name": "commons-pool2",
+      "version": "2.11.1",
+      "description": "The Apache Commons Object Pooling Library.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2210a041929e7c94485d5402458340b9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8970fd110c965f285ed4c6e40be7630c62db6f68"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ea0505ee7515e58b1ac0e686e4d1a5d9f7d808e251a61bc371aa0595b9963f83"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7177d8a9e45ae47881ec323150dc7bd3372ce32eff9866029b47a77cb734535d5e987f22e6cb7009104832c3772079fb6322b2919650765b76a4b4aa8eae648e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c77e99c898da417d33b035745e6f827d47f3c9a5f159764d1e31f0f0ee0b0b3569929495013db6c4d84922c78a3325cf"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ba6e6d5a0e8d9e4778e619d8303ebba6c56bcd70169372e420067f3961cf98bd2631f177ac084d5dc1ad0790767816fe"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "985483edbf54bb59552633f3584ca0e484e2a0c471fafd7b2643809da874aea1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2757b5a8bd74bae36ad48a6102405457774d0aed03afdbe46cc804ed02f58dd484d637a0341195bb12bbcd8f3083ee3a644105734c0128fccfbe045cdf6b4491"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar"
+    },
+    {
+      "publisher": "The HSQL Development Group",
+      "group": "org.hsqldb",
+      "name": "hsqldb",
+      "version": "2.5.2",
+      "description": "HSQLDB - Lightweight 100% Java SQL Database Engine",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f94c91b0816ab38e387f3de5682ed435"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0d8ec10f8ed2d9ac8c400208f4f78a546b116afe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e4aa39c5afb318e8effdec80a0e6de7c9dacc453c1cf7666c515f29a16658dac"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0fc95d839fabc9ba300036aaaa3df94fdecee3d5dde7396e23ebd23aefa7124a3ba1e275783235f3bcbb70bcc170b4f8037b3f87a5b610d0b87af9ce96e6e447"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5255548d08b7871471ca0fa15da0cc9252663f1d21e0b82de1a41fa8a10c603fc5a0307c8917f7db73e3db8ec1719323"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cbb6389c89ae5f9e6ab8fa44b2bf88a1c74616355aadf4e1a3661f68f51c92820a17248f688b873f0bf59c456351b089"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9a03f46a8bc3f1e383e88b893da573c12260d8ad71d8161500f9c3c93b12a1fb"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4451f401901d98d2feee58b4eac0450d404efde966cdb738ff1c4ce81b2dfe948ce6f70c5df11d7de80b4b508d96a1d8ca997b239c43fd3f07444e75d6cf0db0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "HSQLDB License, a BSD open source license",
+            "url": "http://hsqldb.org/web/hsqlLicense.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hsqldb/hsqldb@2.5.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hsqldb/hsqldb@2.5.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.dbunit",
+      "name": "dbunit",
+      "version": "2.7.3",
+      "description": "dbUnit is a JUnit extension (also usable from Ant and Maven) targeted for database-driven projects that, among other things, puts your database into a known state between test runs. This is an excellent way to avoid the myriad of problems that can occur when one test case corrupts the database and causes subsequent tests to fail or exacerbate the damage.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fd65279da6d9cf6602178a1ec117ae56"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "55af244b2264040b3b982f005c92ed3c3ca55535"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "12ef35241b33e358beb7fbbd42166cd527ee00dca960b64bd294db0781d1a3d8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9fdb46c029325fbef91249393cc14b76614bf285503edca9d06592bb48073fe170138ac4b7946956ec07f81b92bbf9bf8d6b6f07220dea276ae04feefeb720ab"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "70420ddc217b682fde5f84448d25254dc167631d64ecda9a9eb87260e52a644edbc3b0d961ac1400d0031b6bdacea87f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b29ee49fd6ccf146032961350a52c820d11388c0d73ab41615f0b38da4d7cef1667c5a5860fda238a9a215c9a9479ee6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e25a04e409c20252a227365aef914f6eed6464d758d2a336520d306b80203c29"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cc18f852b2a88e6cef4a005448fb189c65c0abb3001b510eea5bc4b0674609986e49b4fd9271d3f3037832e78a1c9cc52288e84c2d3ec7c766b5ff71cb901b8f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.dbunit/dbunit@2.7.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.dbunit/dbunit@2.7.3?type=jar"
+    },
+    {
+      "publisher": "PostgreSQL Global Development Group",
+      "group": "org.postgresql",
+      "name": "postgresql",
+      "version": "42.3.1",
+      "description": "PostgreSQL JDBC Driver Postgresql",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "30299cd5ee3f86eb748b6cc1157df484"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9ca7df660e875b91c78e3d1608d4d7469ad3470c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8370570857da86eb4a76dd3d8505d34bac0c18186741fa83a6820a10fa441cb4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "51cf3d0de9d9f0d41591aa32d5fabbc711991daf4b11531f5d1bd9d288a089861624c9f58e195c869e6a11f0651046ed0f183bffce977566181582c9ab8c3aab"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ae98fb5c85e901e64db455a617ff615026a091a22aca622e3d3bd81ec3c8921c534125807fd05e199645eaebc455a5c6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cc55c081f597c8836b16e1172cc9b16427e283fdea1b8394a1170ddd828a776f7d751b807d59fbcc83d1ee517e77accd"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9fd6014cc0b12762b1ce7285a340ca707c0ee115f2d258794484e72ebb55f9d3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e9902964fdc8e3a97f74169e8130c6a330c0472a5520198d44c043a325baa704b192b9ff0475dcff6cc1fabf658682b51d0cb685f02c52c861812386b24490f9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "url": "https://opensource.org/licenses/BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.postgresql/postgresql@42.3.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.postgresql/postgresql@42.3.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.5.0",
+      "description": "Checker Qual is the set of annotations (qualifiers) and supporting classes used by the Checker Framework to type check Java source code. Please see artifact: org.checkerframework:checker",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4464def1ed5c10f248ebfe1bccbedf1a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2f50520c8abea66fbd8d26e481d3aef5c673b510"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "729990b3f18a95606fc2573836b6958bcdb44cb52bfbd1b7aa9c339cff35a5a4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "407d0ac59b02cbef7d93f25c8b287cd587232aa5ddfee6d2c7ba34d712565b0a5adfe52b5daa20d3e6c3ab1e7a5f8b08698078d9179185a1b35ada1eb92213bf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "01fb1d7a7440f807b2bdb697c709dfa5897edc0755152c0fef465cf77dd820623fccb410ad033e3d52d4b0bc57409ecf"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "626beff2173578c3a2ad732c81c48a9b091c9ffdea7d50f4b812fd14cd8299ab7a726b052808490b1022faca69aa6e91"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4fbe95b196e75e549f66831e9b1f8f46cfe1793f4fda350857f5f24349d74af1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2c84365b1fcd16a765e49c5d8f30f28c3fe7cfe868ac32be726d8b9351c9053ffea23cfa1db9fb5c59c9928d22ad01c3c894d798e115bc446447228c7c4b24c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.oracle.database.jdbc",
+      "name": "ojdbc8",
+      "version": "19.3.0.0",
+      "description": "Oracle JDBC Driver compatible with JDK8, JDK9, and JDK11",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0b2a8e010df63e6feb396287d2ea7dbd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "967c0b1a2d5b1435324de34a9b8018d294f8f47b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a66d27a14f3adee484427cc4de008af85a5c3e78e2e3285a4dba1277332978a5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1962e8fcab4abccda52f7ebadbd9994b5f7bc8cf85eceac6188a05831760d832057ff91f250e00e30b1fe26fc75da85c00c6e72c66ed6ced006f58d5bd887fc9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b130ab2a81f002be82c29bc2488701325f04e3e7e6967df50e56cf52cfe3c883dc174accbc8dd43ac31cf62213bdfcc4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2670429a30499e53270d78c2c23bfe678f3f6cf9b4766bfbca918172e953194c6ab4ef8d98cfeef5b4c23a194c443c56"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "15434470eb1021081452ea33cfb41b1234b1ade62b8ec707d038d30123f084d7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2b66bdd78af91edcb74c7eb688a5eb95cc4fee2cceaf72a1ce0b86c5638bc45194b6d6a211fb97357f877b47061a97fe5333e23c8e0cf82f9f190f8038298aab"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Oracle Free Use Terms and Conditions (FUTC)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.oracle.database.jdbc/ojdbc8@19.3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.oracle.database.jdbc/ojdbc8@19.3.0.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.oracle.database.jdbc",
+      "name": "ucp",
+      "version": "19.3.0.0",
+      "description": "Oracle Universal Connection Pool (UCP)",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9845d08450b16c7ae81da60689d27f3c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "796b661b0bb1818b7c04171837356acddcea504c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "23d8debe40a764df74d5eda7e8c1ce9b2c190a34f739ca4d751eaa94114d31cc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4046b796051c584e06bb1846ec0bff55b4006cf44fa9793f5275906bad883f02c973775b7c994703000807f8372670884882e8493c8b31de560604abd3372c16"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "55fdb9fbaaddfe8ed5bad378e89273e8b7504d038863bd5cb877e2c493be4b3ac112da3a1fd5ed0d2c7f2c557027883d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f18994ccc0d1bd0acc6eb40e8f286d71455ae8bcb5d9d5ecf9902299b1507ba2f097a5176a46be145dd057429ef8a715"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7be60b6b5deecf62b55dbaf345b7a8911abd4ede12c5bb918e25e3aecd6393c1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e3e90574f3ea0ad82c76183692123e243c476ca662a45429272e0e7d5cd6547dc5ac5f40f49191d51ede07b03d9612063d3c87a3d6baf9f4f8752fac91ed4fce"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Oracle Free Use Terms and Conditions (FUTC)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.oracle.database.jdbc/ucp@19.3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.oracle.database.jdbc/ucp@19.3.0.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.oracle.database.security",
+      "name": "oraclepki",
+      "version": "19.3.0.0",
+      "description": "Oracle PKI to access Oracle Wallets from Java",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "babe79be0b8106cd1090a7194994b300"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0e52a34f271c6c62ee1a73b71cc19da5459b709f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "04bdcbaa8da2c5800403ad0f448bec2867c6e9a12665d3f2c2aba1539dec24dc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "998ded75627f96496373c3a2597b8194765b471cccb5b39986f73b1973e1f6b978b11e6c0eaa18de25164073e0fa98fce1aa58d9c02b9fc9103328670728f5a7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d025f16f3a71c0ee2372341f30817562c3ef66de25aa2d34d9e60f129703907a3a2251c123b7f7cf9592c6ba705778cf"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "682c418042cc0779f91d9012a62d109208abfaf4a227b0ea65508e3ce09617a649fe9ffa53246369db642d3069a1572f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "216900a99ce477344689da804bef64f93a8dd098f14e5f7c88ab929181028be0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7e0ef0e7c39fae7924c9129b6c08f22909db5ba215cb6e3a720e169907bf940f225c244abb458de623d371e50619875620926b0cbb615fb7221a9d0aae2a8cb8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Oracle Free Use Terms and Conditions (FUTC)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.oracle.database.security/oraclepki@19.3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.oracle.database.security/oraclepki@19.3.0.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.oracle.database.security",
+      "name": "osdt_cert",
+      "version": "19.3.0.0",
+      "description": "osdt_cert.jar to access Oracle Wallets from Java",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8bde9e2dabea91083a737ab02aed4b73"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c134652fdcb17ff72963d386efd8ade902d2eaff"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "faa0cca594d354d5bb1f5eac3dafa1568387a27576813a9bd723d6fd8744be8c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c601ad1cd3e39f2a8dcc75cce5b04ab21b91409df8cccecf5dd09d32f3a6b4c161120202bc3a1684a1227ac3b0612483a92d02640381faacac87cdd78f41f2e7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c1b2818a406ede18ec58678d5a753751fdc317b4de207c9db8a5bdcf222533565c395e5a4a6377017d8da1c6f4a1aaf9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4dca8dc8118fd2dc0094301a3eb2cc3f5f49d56075274d995651cfdba1f2072ee904c8f4e1a751860373e7a0dbf652b2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9b1e3e037e319fbcd609c03e5e38442f2f8a3cbca307f0dc4a44997b983d1f62"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ddfd87817203b3a6a41299148297100871ba292a75a27eae17358c393c7b0b415bcf1a6bb990788757c0bddfb0d22b20f71217b41b3643b1746288a8c04c0dc6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Oracle Free Use Terms and Conditions (FUTC)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.oracle.database.security/osdt_cert@19.3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.oracle.database.security/osdt_cert@19.3.0.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.oracle.database.security",
+      "name": "osdt_core",
+      "version": "19.3.0.0",
+      "description": "osdt_core.jar to access Oracle Wallets from Java",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "74366ecfe0555a7ee277d1ce11a4933e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2e01c262879c97de876c238966eb1da48542f2e8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c7a90c07a12e73d03c1edd6a02e699001213e698fe0f5225a2771ccd46ab0b63"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a445485f98c1eb4a7e3bbbb83f55316bb2bec617dd0cc39ca6f1b455c49e0a2af2d6ce26038fb593f8890f71bab532e69104a671485297f054c98bad1d8df62a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6f3b0a826f355d3384c58d35b612d799c8dcd30ec9e801858522aaf6057534400fa31e98096d6cda48611e8a4630e841"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "386659e9d6ef6a19f84eb2842317f56327d738474b62e4450e44a1074724b4350b6fa6dd8b0e2423c122bb45d692c780"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3ba9a5bd474a374507d32a13c0db672b8fddf4debdfd6509105f4ead72bbeb1c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9a8620b70f5cdb628d6f698d35ecf43bfc863215752542e7278ed3e4de36d31d0e622a2bb376c5639d663254856dbe6e8e9a4df38281a3b00b9241ee3dcaccf9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Oracle Free Use Terms and Conditions (FUTC)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.oracle.database.security/osdt_core@19.3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.oracle.database.security/osdt_core@19.3.0.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.oracle.database.ha",
+      "name": "simplefan",
+      "version": "19.3.0.0",
+      "description": "Oracle Simple FAN",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9a1f7448f4c1fb779b1d8816e51a2c2f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bcbfbb3cc529995f33c8694eb7cbc605c129e4e6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5138d658edff0e0106f0559f68c72fb90f1cd34381492995b75d0012ea9e12f2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8735fedea073a07d052bf4039e9954c41c49a16ab33ac452ce52f45121652646fa4a6048e00dd205948a88143d8494758ec2a2945b185d0aac881afd40c937fd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "79f2a22c16a10daa87c86558a53fba5799a1a3d10fe23be2571264c844bb8cb4ff14e20876daf3a36e7e9291b53ec431"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "40812637aca1548aca1d3173f9f7fcf9f26c8bfbb5e1861069b981f5f1b9d067dcbb768d254c96da2cce9d0d9a4fec61"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b84bc34ccb95c976377a54be6e234e63b5c8ee4f2e755ca4cb79306972290df0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2c6743faa35e45d8dee9acb129b043805fddc96457f9bc24cf10d27291c81fc913d5f66db77893addf94cdafd4dbfc9da0f6922796bf2729014d041dfbb474d4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Oracle Free Use Terms and Conditions (FUTC)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.oracle.database.ha/simplefan@19.3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.oracle.database.ha/simplefan@19.3.0.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.oracle.database.ha",
+      "name": "ons",
+      "version": "19.3.0.0",
+      "description": "Java Client-Side Oracle Notification Services(ONS)",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ac4a31065dcbf2286a46cb68e9f4d1fd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cf3f3ef525c61a27fe9952652a156ddd738b1cd5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6e3f243700716c4fa2e9ddfaa08c9394ad6fda3a640d3bef03941f7b573df9d7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "00559bb0d2055b259e5046fb15e8378476030b3f4b44e032472372f6c2db554e5e71f2d2355a232e6229bdc7b940f1ce4409f5360764b8e93bda18a6297c7a23"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e89940850d3aa476eb8edcef3190791263d1d32834495c17404130f00091560245abe47b774dad87682352a01646cd72"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3aece6484c4270048d72eee7cc854760a30eef30b0fb25ae53c59f2279fa3377667b8daf8ccc3dbd24499af925ff08d3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ea11b3b7a416f182cb744257a9997bea2e02cf02405353de2405f9c7dbfcc2ce"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "274166c1902e39ed7f30b59e9d70233e67da829741a60153941cb45c13fe275f64b438ebed1331064a2d431f1c2ea7ab03999b5b260d2f8a199943405a770f1c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Oracle Free Use Terms and Conditions (FUTC)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.oracle.database.ha/ons@19.3.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.oracle.database.ha/ons@19.3.0.0?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d98a9a02a99a9acd22d7653cbcc1f31f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a31b9950f929a7e5a600d89787ef40e42a8a8e2392e210d0c0f45b3572937670a18a524f1815508cd1152cd1eaa7275cb7430ba45c053be365c83c231bccd3f0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9f85c56a77c699eb87630b9e8224068a34c296bcd9aadb52248dd4665036f5bf1048fe75e5cb590b59e7855ca716acae"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "590cfd9396424583879ca8ad732870406bab18325ac72fb2bbe188b9611278d6341700badf7cfc32525b8ff42900c905"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a06b3fd2fd1d9f4306b58125484e3605a395afe5ffe2c801e43ae462f366a430"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a6d25ce3c14f9065f06dfd0e68e1dad5c03bd5de0a302c44ca4733d2cb87ec1bc6f0abd36d65aeee8caf328b6881432c4b682fa4b4b1fa931c3c950de5129fb2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.13.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/junit/junit@4.13.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.hamcrest",
+      "name": "hamcrest",
+      "version": "2.2",
+      "description": "Core API and libraries of hamcrest matcher framework.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "10b47e837f271d0662f28780e60388e8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1820c0968dba3a11a1b30669bb1f01978a91dedc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6b1141329b83224f69f074cb913dbff6921d6b8693ede8d2599acb626481255dae63de42eb123cbd5f59a261ac32faae012be64e8e90406ae9215543fbca5546"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "89bdcfdb28da13eaa09a40f5e3fd5667c3cf789cf43e237b8581d1cd814fee392ada66a79cbe77295950e996f485f887"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0d011b75ed22fe456ff683b420875636c4c05b3b837d8819f3f38fd33ec52b3ce2f854acfb7bebffc6659046af8fa204"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "92d05019d2aec2c45f0464df5bf29a2e41c1af1ee3de05ec9d8ca82e0ee4f0b0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4c5cbbe0dcaa9878e1dc6d3caa523c795a96280cb53843577164e5af458572cde0e82310cf5b52c1ea370c434d5631f02e06980d63126843d9b16e357a5f7483"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "junit-addons",
+      "name": "junit-addons",
+      "version": "1.4",
+      "description": "",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "14576d9b5edab0b3755544ee92e844f7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5f5fa0be54734f07a0b8fe9fa7b1447b4a88d55a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ac9f766259617decfe26e8bd2d29210ac6962ba1c6158d6fca7dea20e5ae5569"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8b0b7b9d3462d8993ce5c2c2579df55cd246fc4d9217b11f3364e9fb4ce783684f442a1fb13004af11929d289e07c7d34c33903d0f41670d71f7df1cec982383"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "735fa07fe5aec60a8e8adeb8da07c65de536496dc2be03b52ffba1ebabde7291321185d2210674094f786c5f427ccc5b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1fb7e06a935ec6ff944ed058e074f18bf98b4e3c911b45b2973f5bb7d00ca6d2e9f97b1adee36965bb0cb338db92cc88"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "407f40808a3eb3dc76e24638c4a2c7bd7b0200ee79325ac5fc9169d3eae7a4dc"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "81c27c1a896dfcd56b8de01d659c3b8a7d666af26e26c0c5ab10509b42f3203ebc0461f5e78f1f45136539f127aea6969a74b4427449712fb5589e89a9d0bd08"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/junit-addons/junit-addons@1.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/junit-addons/junit-addons@1.4?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "mockobjects",
+      "name": "mockobjects-core",
+      "version": "0.09",
+      "description": "",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b83d04cd73c5ae89008dd587880a5e15"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2b3f525b29b03f420e4027083f25ae957d955d3a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c7fc7bfcd008de9a3c440432623f50b180e9962b32620cdbc8551f975187b91a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "dc5ef6213579401fd8476446f05d4a453c5733ae474fba4f3be6a61c5e9c6cb6bc532876d38650398a181490ac822493cc6c9efd773fccd4590c69611bd64750"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "980fd73153e29d46f69c2ce165b7d12c0970e8e6b79a326ab07ff0eaa679267411a201fc03968a108e90594bcdd36c91"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a53632a5214c21e06f7241b8fdb1c029a860f078ed419d3c9c2c3d4f8d2d08b9003468327d810d198a4a559a858044b7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "30a3df3c8137f52e34f63660e779d86f467f32aafffa63e2806ce454095fd8b4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "41cbf8710148113dfd3d171d2b8ce56380de6b1026d2b6d6b39bc2ac2a520ff184af5e5e3c174c4f0405ea503105712027cb63d7b696933210db586abd582b10"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/mockobjects/mockobjects-core@0.09?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/mockobjects/mockobjects-core@0.09?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "mockobjects",
+      "name": "mockobjects-jdk1.4-j2ee1.3",
+      "version": "0.09",
+      "description": "",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bb75f9d4edcad772246453b3bf347966"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b44735f131068314b6fc68712e7ff855f28453fe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "36ba4787b29c05b56be5806e3f03bb291d50a77690f6f66279ac70bd15f96a1f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8d925bda874ed6d32d94960fb3f7dca7f06a60599cc0e7a9a2e47728302047185ef61d337bce6d764cf8b887133c8bd36d7da7eb944ef7ca5e37bd19f0e62a5a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "eacc66e5a32950955604d2814b0818b6d1db7cce25727ced0f38f81e1fd864bb75081d11c3891b9d8c8299e4b3d4286a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "651873a406dcb556ed9872e3a157c175f4b0f28282df3ebd3877375d52468313a006893c85fbd06b1e7d8c663acca31e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "735199fbb728b107adb40e070498b4698171f8322a6cc93f728983590a2bd9a7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "733bc2d3d59a52140ef8775fdc6a10dafcf362c9d9ff0c2018c373b0997213e86b5a28b7323ea4ce4258345f573876c6af0cae4f5d43a69bad7298c7bc76f88d"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/mockobjects/mockobjects-jdk1.4-j2ee1.3@0.09?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/mockobjects/mockobjects-jdk1.4-j2ee1.3@0.09?type=jar"
+    },
+    {
+      "publisher": "<a href=\"http://easymock.org/contributors.html\" target=\"_blank\">EasyMock contributors</a>",
+      "group": "org.easymock",
+      "name": "easymock",
+      "version": "4.3",
+      "description": "EasyMock provides an easy way to create Mock Objects for interfaces and classes generating them on the fly",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4d141b8c32c022def9089ee4f890c90"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b0dbe2df1a71b8115835561f46a8f06cb168a94f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c230864c8b11636aaa6bb49eee00a4342d3e016d860b4f80b89068fd056d1404"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d64d836480de19f607c3e87ff3d28ac7615f243f5506a9b323ffdd954fe09c142367153595adadc8dfb2a40484cef5f70091929dfe40685172e1f946f786cee0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f2497839f227f7dbb42175dfb0623ae1aa467a43f673378390fce98b36e3272b96492734d96a03c60b0edb66bc3d21aa"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "834fe7dd2ebefb3639558abf264ac43267d44c31a5ee42f4c48279113f3cd69c6641ef41cc963048bc2f26b38fbc188a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f6ccdeb568795c6d7df39cb7a5ee5ef15c8d10ee3aad72049e662f0f56e42253"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d984be0e16f640b961571c977222c05d2a4bcb6bddec6a231a6919d4ddb268272bbe7ef34d73aec75d417b1ea993b911e2344fbcab4022547b71e5f8361642d1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.easymock/easymock@4.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.easymock/easymock@4.3?type=jar"
+    },
+    {
+      "publisher": "Joe Walnes, Henri Tremblay, Leonardo Mesquita",
+      "group": "org.objenesis",
+      "name": "objenesis",
+      "version": "3.2",
+      "description": "A library for instantiating Java objects",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5c1ee20481a06561af295034ea89c4b4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7fadf57620c8b8abdf7519533e5527367cb51f09"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "03d960bd5aef03c653eb000413ada15eb77cdd2b8e4448886edf5692805e35f3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "13dbec3062b19c5b9920c0b69e842a9648f2a148c57b6977d90deea22b829cdbce4eaff1ae7763f397f6465ccb35b31e097078de507dc6de25cb95ec796045f7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7d70ab00e728b4233e38729f0eb392d14e828e857421ad66fc678cd162cf22d34958993d5c38fd8a0d8355d3859b763e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bc65ce0bb9d6a6fcb4ea8fabf1b1c5ae4581f164afc19fc9be0d1f4ca1ab64e05baa1953002ebfd0f416ace5a98082f5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "80d9880e5adfd1c2df997f8797f5bfde646f967e1b3d6e15f5781c2f3176aba7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cf3b51bbdba064f99ec3574b050b73a575c62cc58ecb00c91d213cce0c3a0ab48007a1a5ba30bfdf3c8e8fb7e87707f804b33b25977867e325eb87cef07b780e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.objenesis/objenesis@3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.objenesis/objenesis@3.2?type=jar"
+    },
+    {
+      "publisher": "Oracle",
+      "group": "com.sun.mail",
+      "name": "mailapi",
+      "version": "2.0.1",
+      "description": "Jakarta Mail API (no providers)",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4431358f91f4c35fabf09ca338487a41"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "107cdfb3cd840051e425b26692bebfe8f2e6f00a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "91e56c2bfeaed6a0c2c1b8cd730583f9de8b961457f49dece03721b181d743eb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6039192e4e372e4a17468773d966a708810b386651e2e4208b657a1878030f5c5702ae6ee308e1e9b17a41ca4e5e7720f884d075c60a5d97ab2ea80f7a232bb5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2840419a473caa917f76dabcf937a51758bd371f2ef8e2322a18b355018d5093490c45619f02c91cc1e1b6189117d55b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "910c805ffcbdcd9460ac1f6fe5f2913b878cc28f41853b7f99b79bda13a24eaf4593ec78425bf71fec61f083465b22c6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9ef88973c0099097ad092b4868cbaee8cdabcc2a0571653ff456622e3e801805"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6f191b4dee69c6ec05eac48d300c4e59405f08d98814a2c5defbee78ff981280f6e261103f652f329e2837192cc869230772a2a12652e296119a38ecf44f5ecc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.mail/mailapi@2.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.mail/mailapi@2.0.1?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "com.sun.activation",
+      "name": "jakarta.activation",
+      "version": "2.0.1",
+      "description": "Jakarta Activation",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "39228ac67f033514a0ccb3360ac461f3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "828b80e886a52bb09fe41ff410b10b342f533ce1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b9e24b7dd6e07495562ea96531be3130c96dba4d78e1dfd88adbbdebf4332871"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d1c214d2d6ecc61bba396d913c66c977418e74dfe96e5558951ccf99a60cfca6adfea3fc64b6e2d15f698e30dac870b8f6e8d7a22e0dff975f8dd83864714fc5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7481f94524b06ba81d12f5d9427dcd389d2c9130176567ff3e11c82fcfe605bf654116463b23d259573f3222b3414bcd"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0bcd7603bc9ff7cae8fb9d7c6547c012d88a5d6374a71670d58086dc597cd592f6686abccc63d095cb17cdafe4dba762"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "47760a6311d1023c1384ebaea0c2eb35c8ecbb06e424fdefe935693088e2f88e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f5d531480ed1cc9323281d1ca402d21ec71a7ad267372c95a8c8dcf0f1e6919d545085fe5c7b154c5594f26538873ee75459795e826c6acb3fa6c4629a7f983a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.activation/jakarta.activation@2.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.activation/jakarta.activation@2.0.1?type=jar"
+    },
+    {
       "publisher": "Apache Software Foundation",
       "group": "log4j",
       "name": "log4j",
@@ -1156,6 +2554,268 @@
       "purl": "pkg:maven/log4j/log4j@1.2.17?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/log4j/log4j@1.2.17?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.36",
+      "description": "The slf4j API",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "872da51f5de7f3923da4de871d57fd85"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f9b033fc019a44f98b16048da7e2b59edd4a6a527ba60e358f65ab88e0afae03a9340f1b3e8a543d49fa542290f499c5594259affa1ff3e6e7bf3b428d4c610b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2b14ad035877087157e379d3277dcdcd79e58d6bdb147c47d29e377d75ce53ad42cafbf22f5fb7827c7e946ff4876b9a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3bc3110dafb8d5be16a39f3b2671a466463cd99eb39610c0e4719a7bf2d928f2ea213c734887c6926a07c4cca7769e4b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ba2608179fcf46e2291a90b9cbb4aa30d718e481f59c350cc21c73b88d826881"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "14c4edcd19702ef607d78826839d8a6d3a39157df54b89a801d3d3cbbe1307131a77671b041c761122730fb1387888c5ec2e46bdd80e1cb07f8f144676441824"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-ext",
+      "version": "1.7.36",
+      "description": "Extensions to the SLF4J API",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "40e704bad3b956bd41b462d8cdcb6b44"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "99f282aea4b6dbca04d00f0ade6e5ed61ee7091a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9a55e44531b5c623a0c53aaa9f4cabd911bb005c7512a04c5d34e564dbfb37ab"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "04a2952cf1012a75d0261928bb65a9055335c5131fe51bf4cc6caeb3c951a7ef11192a4340052cb197c61add486b5b209387bf3920c908d7b9687efa5eaceb49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1bb598a34aadf3f256ba4d6b7374fefad2e845ba20d4b1f83fbce7fd2b3faae21c2ef706ba73692dfc063733d6255ca0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0cbd5dd49ef59e274a87d814e379b843a6be5c0a9098b9abf49995da0a6ebbb55ef03a5a7c7a155e36cf21dba3584904"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d3f433f3a01528ab7e845e0801ec1b521e1e357855354be8faa3a90da25fd63d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "440c8826c9afff1cdd746679a7ba9ab733176887c7e2c56a3a90342320c660e9d23245aade65cc37b9cd5ef5f23b38fe45a16957583ab6465b368a676c61a7b5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-ext@1.7.36?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-ext@1.7.36?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-reload4j",
+      "version": "1.7.36",
+      "description": "SLF4J Reload4j Binding",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ebfedc67cca7891e9c535e5899930f07"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "db708f7d959dee1857ac524636e85ecf2e1781c1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ae6fdd5c9547896114d5ec7fa7503733b7d2890573d3886fb548b3119c4d3f67"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "595a00905b67886376adb45d6964b6d35a7e7fe90cfe0e26ed3b852c755ac4de96894974aac5fc590df689d3a28fa7198d899b544f30e83c320a2befe88fcb24"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "700e92389464261381690cee669d9446bf912b58fd94be50837e1456c8f42a4586960036c097b7e08c2b32eab190adc1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "fb7b1ef8a0f765cf6582c7074803038438e17f8514ffbfa1909b67bf46f1d972af3bfffe1cbb9d22ac208a56c8a25490"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b235bb6a1a78c9ec24656da145df1ee4ef48f6795555d50f25ce9c391bf2891b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f9f4e0a547195da731d2baf86ffc3b7509df848601602eea94d0e8370207253f2ccfe6dfea1f473554d07be7bf940b3a9c67db03905b12b51d559e95c5375114"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36?type=jar"
+    },
+    {
+      "publisher": "QOS.CH Sarl (Switzerland)",
+      "group": "ch.qos.reload4j",
+      "name": "reload4j",
+      "version": "1.2.19",
+      "description": "Reload4j revives EOLed log4j 1.x",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a1ec204eed23083c10b81d426fe35de1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4eae9978468c5e885a6fb44df7e2bbc07a20e6ce"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fa07aa7adedf2a65eb09007443bb60b51c725b1b5b88e481e00c529ff2d3b5b5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7bd73d4180787bffdfac99b9e007e710a1a340e5f5ac7c67515a85d5657cbae5548193c0a9118ed8aa61ed52bbc397961a12d478839ff35baadfc7c3598b0ce9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1f50ce898a56bc75c55ddf35a5c8aae781f80e932e8d5925889c7886a427bef593408e7c82e105e72090568bcf77be94"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3357b2993386e088d19b6742af08355eb352c7dfdbc446a26f82ef51e2f129d749d3d40801dcec29e871d07bc8b3e542"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7fe1349cd1aae1868335e36ecebc17afadfb71b95cc4a394f36930c1374a4ad1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "77674fc71cd6b298fd65171cd5f216fe3b16275b8621ea73f4812748a5461731a828d28bba13cccc42e1d12ba579457ba138b54bc108e2ffa980f8b48e36f4f6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.reload4j/reload4j@1.2.19?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.reload4j/reload4j@1.2.19?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-nop",
+      "version": "1.7.36",
+      "description": "SLF4J NOP Binding",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3e75636a9ddc51bd87782a3ea2313209"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a3c1eb685d59414527faa93623acae311c184032"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c214958b07816cb4412b30c7bdbd4308ffdc6ba2a83767b8f3a9229cbd9274d6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3ee0417e7a3b1bbd490b15ee8329681b397a4042a5bfec032719fab696c3f0ad401e9ed4ac16f550ccd1ee8c179ad8ec438142b7a7cf8522b793685bd218a9a2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ab9556828ae0024a959cca6433e2ad2c7c696c993562724208a950cdb7f91450614ae522f856777797ae6527a9fdbf52"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "21c669615c10b933d25a520d57e1156dbbf48036ecd2155e46aea633dcf9363c83090391265dc3be0854c5c017c62aff"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ca69574f15cf1d95b88ded3b664bacd282def889eda2233dbbe77ca989025475"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "716af6dd123b2e35212b3286c87c3ff03984dbf3049ec1a5477b46aa55d1c2bbfd925d7706c2867ad9990410f8d1c8fc4b6957d30c9f53aef721c865c9c77811"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-nop@1.7.36?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-nop@1.7.36?type=jar"
     }
   ],
   "dependencies": [
@@ -1173,10 +2833,28 @@
         "pkg:maven/xml-resolver/xml-resolver@1.2?type=jar",
         "pkg:maven/org.springframework/spring-core@5.3.21?type=jar",
         "pkg:maven/org.springframework/spring-beans@5.3.21?type=jar",
+        "pkg:maven/org.springframework/spring-context@5.3.21?type=jar",
+        "pkg:maven/org.springframework/spring-test@5.3.21?type=jar",
         "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
         "pkg:maven/org.yaml/snakeyaml@1.30?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar",
-        "pkg:maven/log4j/log4j@1.2.17?type=jar"
+        "pkg:maven/org.apache.commons/commons-dbcp2@2.9.0?type=jar",
+        "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
+        "pkg:maven/org.hsqldb/hsqldb@2.5.2?type=jar",
+        "pkg:maven/org.dbunit/dbunit@2.7.3?type=jar",
+        "pkg:maven/junit/junit@4.13.2?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar",
+        "pkg:maven/junit-addons/junit-addons@1.4?type=jar",
+        "pkg:maven/mockobjects/mockobjects-core@0.09?type=jar",
+        "pkg:maven/mockobjects/mockobjects-jdk1.4-j2ee1.3@0.09?type=jar",
+        "pkg:maven/org.easymock/easymock@4.3?type=jar",
+        "pkg:maven/com.sun.mail/mailapi@2.0.1?type=jar",
+        "pkg:maven/log4j/log4j@1.2.17?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/org.slf4j/slf4j-ext@1.7.36?type=jar",
+        "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36?type=jar",
+        "pkg:maven/org.slf4j/slf4j-nop@1.7.36?type=jar"
       ]
     },
     {
@@ -1185,7 +2863,9 @@
     },
     {
       "ref": "pkg:maven/org.apache.commons/commons-text@1.9?type=jar",
-      "dependsOn": []
+      "dependsOn": [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+      ]
     },
     {
       "ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
@@ -1208,7 +2888,9 @@
     },
     {
       "ref": "pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar",
-      "dependsOn": []
+      "dependsOn": [
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+      ]
     },
     {
       "ref": "pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar",
@@ -1221,7 +2903,9 @@
     {
       "ref": "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar",
       "dependsOn": [
-        "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar"
+        "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar"
       ]
     },
     {
@@ -1232,6 +2916,21 @@
     },
     {
       "ref": "pkg:maven/com.squareup.okio/okio@1.6.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar",
       "dependsOn": []
     },
     {
@@ -1259,6 +2958,34 @@
       ]
     },
     {
+      "ref": "pkg:maven/org.springframework/spring-context@5.3.21?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-aop@5.3.21?type=jar",
+        "pkg:maven/org.springframework/spring-beans@5.3.21?type=jar",
+        "pkg:maven/org.springframework/spring-core@5.3.21?type=jar",
+        "pkg:maven/org.springframework/spring-expression@5.3.21?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-aop@5.3.21?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-beans@5.3.21?type=jar",
+        "pkg:maven/org.springframework/spring-core@5.3.21?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-expression@5.3.21?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@5.3.21?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-test@5.3.21?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@5.3.21?type=jar"
+      ]
+    },
+    {
       "ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
       "dependsOn": []
     },
@@ -1267,23 +2994,151 @@
       "dependsOn": []
     },
     {
-      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar",
+      "ref": "pkg:maven/org.apache.commons/commons-dbcp2@2.9.0?type=jar",
       "dependsOn": [
-        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
-        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"
+        "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
       ]
     },
     {
-      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+      "ref": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
       "dependsOn": []
     },
     {
-      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar",
+      "ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hsqldb/hsqldb@2.5.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.dbunit/dbunit@2.7.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/org.postgresql/postgresql@42.3.1?type=jar",
+        "pkg:maven/com.oracle.database.jdbc/ojdbc8@19.3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.postgresql/postgresql@42.3.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.oracle.database.jdbc/ojdbc8@19.3.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.oracle.database.jdbc/ucp@19.3.0.0?type=jar",
+        "pkg:maven/com.oracle.database.security/oraclepki@19.3.0.0?type=jar",
+        "pkg:maven/com.oracle.database.security/osdt_cert@19.3.0.0?type=jar",
+        "pkg:maven/com.oracle.database.security/osdt_core@19.3.0.0?type=jar",
+        "pkg:maven/com.oracle.database.ha/simplefan@19.3.0.0?type=jar",
+        "pkg:maven/com.oracle.database.ha/ons@19.3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.oracle.database.jdbc/ucp@19.3.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.oracle.database.security/oraclepki@19.3.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.oracle.database.security/osdt_cert@19.3.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.oracle.database.security/osdt_core@19.3.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.oracle.database.ha/simplefan@19.3.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.oracle.database.ha/ons@19.3.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.oracle.database.ha/ons@19.3.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.13.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit-addons/junit-addons@1.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/junit/junit@4.13.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/mockobjects/mockobjects-core@0.09?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/mockobjects/mockobjects-jdk1.4-j2ee1.3@0.09?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.easymock/easymock@4.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.objenesis/objenesis@3.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.objenesis/objenesis@3.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.mail/mailapi@2.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.sun.activation/jakarta.activation@2.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.sun.activation/jakarta.activation@2.0.1?type=jar",
       "dependsOn": []
     },
     {
       "ref": "pkg:maven/log4j/log4j@1.2.17?type=jar",
       "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-ext@1.7.36?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.36?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/ch.qos.reload4j/reload4j@1.2.19?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.reload4j/reload4j@1.2.19?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-nop@1.7.36?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+      ]
     }
   ],
   "externalReferences": [

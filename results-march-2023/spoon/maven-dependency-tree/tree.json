@@ -39,7 +39,7 @@
     "groupId": "org.apache.maven",
     "artifactId": "maven-model",
     "classifier": "jar",
-    "version": "4.0.0-alpha-4",
+    "version": "4.0.0-alpha-5",
     "scope": "compile",
     "depth": 1,
     "submodule": "fr.inria.gforge.spoon:spoon-core:jar:10.2.0-SNAPSHOT"
@@ -201,7 +201,7 @@
     "groupId": "org.apache.maven",
     "artifactId": "maven-api-model",
     "classifier": "jar",
-    "version": "4.0.0-alpha-4",
+    "version": "4.0.0-alpha-5",
     "scope": "compile",
     "depth": 2,
     "submodule": "fr.inria.gforge.spoon:spoon-core:jar:10.2.0-SNAPSHOT"
@@ -210,7 +210,7 @@
     "groupId": "org.apache.maven",
     "artifactId": "maven-xml-impl",
     "classifier": "jar",
-    "version": "4.0.0-alpha-4",
+    "version": "4.0.0-alpha-5",
     "scope": "compile",
     "depth": 2,
     "submodule": "fr.inria.gforge.spoon:spoon-core:jar:10.2.0-SNAPSHOT"
@@ -219,7 +219,7 @@
     "groupId": "org.apache.maven",
     "artifactId": "maven-api-xml",
     "classifier": "jar",
-    "version": "4.0.0-alpha-4",
+    "version": "4.0.0-alpha-5",
     "scope": "compile",
     "depth": 3,
     "submodule": "fr.inria.gforge.spoon:spoon-core:jar:10.2.0-SNAPSHOT"
@@ -228,7 +228,7 @@
     "groupId": "org.apache.maven",
     "artifactId": "maven-api-meta",
     "classifier": "jar",
-    "version": "4.0.0-alpha-4",
+    "version": "4.0.0-alpha-5",
     "scope": "compile",
     "depth": 4,
     "submodule": "fr.inria.gforge.spoon:spoon-core:jar:10.2.0-SNAPSHOT"

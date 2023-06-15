@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.2",
-  "serialNumber": "urn:uuid:3ded4182-7726-48d1-beb7-0ef546fdd3b6",
+  "serialNumber": "urn:uuid:fa9f3b6a-1cc8-46e8-9217-0bb919d447e6",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-26T05:08:46Z",
+    "timestamp": "2023-05-11T12:37:33Z",
     "tools": [
       {
         "vendor": "OpenRewrite",
@@ -82,12 +82,12 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-5?type=jar",
       "group": "org.apache.maven",
       "name": "maven-model",
-      "version": "4.0.0-alpha-4",
+      "version": "4.0.0-alpha-5",
       "scope": "required",
-      "purl": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar"
+      "purl": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-5?type=jar"
     },
     {
       "type": "library",
@@ -134,21 +134,21 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-5?type=jar",
       "group": "org.apache.maven",
       "name": "maven-api-model",
-      "version": "4.0.0-alpha-4",
+      "version": "4.0.0-alpha-5",
       "scope": "required",
-      "purl": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar"
+      "purl": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-5?type=jar"
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-5?type=jar",
       "group": "org.apache.maven",
       "name": "maven-xml-impl",
-      "version": "4.0.0-alpha-4",
+      "version": "4.0.0-alpha-5",
       "scope": "required",
-      "purl": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar"
+      "purl": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-5?type=jar"
     },
     {
       "type": "library",
@@ -209,12 +209,12 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar",
       "group": "org.apache.maven",
       "name": "maven-api-xml",
-      "version": "4.0.0-alpha-4",
+      "version": "4.0.0-alpha-5",
       "scope": "required",
-      "purl": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar"
+      "purl": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar"
     },
     {
       "type": "library",
@@ -227,12 +227,12 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-5?type=jar",
       "group": "org.apache.maven",
       "name": "maven-api-meta",
-      "version": "4.0.0-alpha-4",
+      "version": "4.0.0-alpha-5",
       "scope": "required",
-      "purl": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"
+      "purl": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-5?type=jar"
     },
     {
       "type": "library",
@@ -317,10 +317,10 @@
       "ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
     },
     {
-      "ref": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar",
+      "ref": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-5?type=jar",
       "dependsOn": [
-        "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar",
-        "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar"
+        "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-5?type=jar",
+        "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-5?type=jar"
       ]
     },
     {
@@ -344,13 +344,13 @@
       ]
     },
     {
-      "ref": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar",
+      "ref": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-5?type=jar",
       "dependsOn": [
-        "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar"
+        "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar"
       ]
     },
     {
-      "ref": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar",
+      "ref": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-5?type=jar",
       "dependsOn": [
         "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar"
       ]
@@ -368,9 +368,9 @@
       "ref": "pkg:maven/javax.inject/javax.inject@1?type=jar"
     },
     {
-      "ref": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar",
+      "ref": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar",
       "dependsOn": [
-        "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"
+        "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-5?type=jar"
       ]
     },
     {
@@ -385,7 +385,7 @@
       ]
     },
     {
-      "ref": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"
+      "ref": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-5?type=jar"
     },
     {
       "ref": "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar"

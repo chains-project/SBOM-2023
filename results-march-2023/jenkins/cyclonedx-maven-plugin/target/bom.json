@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:baa0fc58-ffdd-4770-b2e2-cd50be0eba3a",
+  "serialNumber" : "urn:uuid:fdad88c5-7301-4341-8dc0-dcf52d6891f4",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T01:58:47Z",
+    "timestamp" : "2023-05-09T19:01:13Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin makeAggregateBom",
-        "version" : "2.7.5",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.8",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
+            "content" : "4d75a7410313db127502c8536eb3f54b"
           },
           {
             "alg" : "SHA-1",
-            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
+            "content" : "8795071de12b08045d08f58d9611a9fcb9c78a9f"
           },
           {
             "alg" : "SHA-256",
-            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
+            "content" : "eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61"
           },
           {
             "alg" : "SHA-512",
-            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
+            "content" : "d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9"
           },
           {
             "alg" : "SHA-384",
-            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
+            "content" : "ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
+            "content" : "08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
+            "content" : "59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
+            "content" : "7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3"
           }
         ]
       }
@@ -87,7 +87,17 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jenkins-ci.main/jenkins-parent@2.384?type=pom"
-    }
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
   },
   "components" : [
     {
@@ -2740,84 +2750,6 @@
     },
     {
       "publisher" : "The Apache Software Foundation",
-      "group" : "commons-codec",
-      "name" : "commons-codec",
-      "version" : "1.15",
-      "description" : "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "303baf002ce6d382198090aedd9d79a2"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "da30a716770795fce390e4dd340a8b728f220c6572383ffef55bd5839655d5611fcc06128b2144f6cdcb36f53072a12ec80b04afee787665e7ad0b6e888a6787"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "05d0506283716472175d44c2a4766523397bf8a007c18848f9c9a61718cc8aa437f9cb4b91771037ab29a960860b62a0"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "12fad4ef78274b06f97b1243cea6f970088abde082d2de9377d915a34b44f7d7d67807c03e59c849b69f1544e2a9a1be"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "87be248f33f241121f54aad61a9a460a79eabefbf1b5b0dd22aeb95b581f727e"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "8c992c9c569ebaa0bf956a4c5b34fbf5e1ed1c212c2dd896fa216183ee0bcd341e96698af4b9cec7e8880762faa081a3d3a27f51349aa457cb8e373e4f57c788"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://commons.apache.org/proper/commons-codec/"
-        },
-        {
-          "type" : "build-system",
-          "url" : "https://builds.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/CODEC"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/apache/commons-codec"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
-    },
-    {
-      "publisher" : "The Apache Software Foundation",
       "group" : "commons-collections",
       "name" : "commons-collections",
       "version" : "3.2.2",
@@ -2893,6 +2825,84 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-codec",
+      "name" : "commons-codec",
+      "version" : "1.15",
+      "description" : "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "303baf002ce6d382198090aedd9d79a2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "da30a716770795fce390e4dd340a8b728f220c6572383ffef55bd5839655d5611fcc06128b2144f6cdcb36f53072a12ec80b04afee787665e7ad0b6e888a6787"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "05d0506283716472175d44c2a4766523397bf8a007c18848f9c9a61718cc8aa437f9cb4b91771037ab29a960860b62a0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "12fad4ef78274b06f97b1243cea6f970088abde082d2de9377d915a34b44f7d7d67807c03e59c849b69f1544e2a9a1be"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "87be248f33f241121f54aad61a9a460a79eabefbf1b5b0dd22aeb95b581f727e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8c992c9c569ebaa0bf956a4c5b34fbf5e1ed1c212c2dd896fa216183ee0bcd341e96698af4b9cec7e8880762faa081a3d3a27f51349aa457cb8e373e4f57c788"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-codec/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/CODEC"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/commons-codec"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
@@ -3085,6 +3095,81 @@
       "bom-ref" : "pkg:maven/commons-jelly/commons-jelly-tags-xml@1.1?type=jar"
     },
     {
+      "publisher" : "The Jaxen Project",
+      "group" : "jaxen",
+      "name" : "jaxen",
+      "version" : "2.0.0",
+      "description" : "Jaxen is a universal XPath engine for Java.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "674d5bd86b7838fe431b0277856e97ae"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bd6a33b0fda054a5678010df843cc999f288dc6c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9499e487a66268f47b8307d130cd1e13a58392105e98a51f6a525db79c615cc5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "dc4d2686c65bfb0c2936e8c0eb4d517152aa284ed28a7880165a4247564823f34e1e9f06785a9dbad7b4cbe90486d3e9aed4c32c75d485d29bd15b8d7642b6f9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fdbb322d3af5f63a3aa39419734de3cae39daa4b1b01b43b97c2074502e9f737dc4031a159438a9bf75d7dadfabd56ae"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ecc8beb677e957adba96ed6cffbf343388713ccac411193c20bf5b919e0db9e1dabe1a7725130cc75eeb9640844b6c19"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "572fdde162d406c7221fb5ae3d885f6c0f5d6c3d56140a2a31152e487439c58b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1ed5f4959ffb6fe24748e582dd1d0efddd5ac79aec3db09c1faf7ed246e9e2674ea40103d24ce954b02d660379cec4a2c1042dac3b81f6c7e63152e99be18b5e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "BSD License 2.0",
+            "url" : "https://raw.githubusercontent.com/jaxen-xpath/jaxen/master/LICENSE.txt"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jaxen/jaxen@2.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.cafeconleche.org/jaxen/jaxen"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jaxen-xpath/jaxen/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://markmail.org/search/?q=list%3Aorg.codehaus.jaxen.user"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jaxen-xpath/jaxen/jaxen"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jaxen/jaxen@2.0.0?type=jar"
+    },
+    {
       "group" : "io.jenkins.stapler",
       "name" : "jenkins-stapler-support",
       "version" : "1.1",
@@ -3239,81 +3324,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@1.2.7?type=jar"
-    },
-    {
-      "publisher" : "The Jaxen Project",
-      "group" : "jaxen",
-      "name" : "jaxen",
-      "version" : "2.0.0",
-      "description" : "Jaxen is a universal XPath engine for Java.",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "674d5bd86b7838fe431b0277856e97ae"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "bd6a33b0fda054a5678010df843cc999f288dc6c"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "9499e487a66268f47b8307d130cd1e13a58392105e98a51f6a525db79c615cc5"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "dc4d2686c65bfb0c2936e8c0eb4d517152aa284ed28a7880165a4247564823f34e1e9f06785a9dbad7b4cbe90486d3e9aed4c32c75d485d29bd15b8d7642b6f9"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "fdbb322d3af5f63a3aa39419734de3cae39daa4b1b01b43b97c2074502e9f737dc4031a159438a9bf75d7dadfabd56ae"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "ecc8beb677e957adba96ed6cffbf343388713ccac411193c20bf5b919e0db9e1dabe1a7725130cc75eeb9640844b6c19"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "572fdde162d406c7221fb5ae3d885f6c0f5d6c3d56140a2a31152e487439c58b"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "1ed5f4959ffb6fe24748e582dd1d0efddd5ac79aec3db09c1faf7ed246e9e2674ea40103d24ce954b02d660379cec4a2c1042dac3b81f6c7e63152e99be18b5e"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "name" : "BSD License 2.0",
-            "url" : "https://raw.githubusercontent.com/jaxen-xpath/jaxen/master/LICENSE.txt"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/jaxen/jaxen@2.0.0?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://www.cafeconleche.org/jaxen/jaxen"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/jaxen-xpath/jaxen/issues"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "https://markmail.org/search/?q=list%3Aorg.codehaus.jaxen.user"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/jaxen-xpath/jaxen/jaxen"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/jaxen/jaxen@2.0.0?type=jar"
     },
     {
       "group" : "jline",
@@ -6261,81 +6271,6 @@
     {
       "publisher" : "OW2",
       "group" : "org.ow2.asm",
-      "name" : "asm-commons",
-      "version" : "9.4",
-      "description" : "Usefull class adapters based on ASM, a very small and fast Java bytecode manipulation framework",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "bf0034c3d79a244121380da0308c5ec8"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "8fc2810ddbcbbec0a8bbccb3f8eda58321839912"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "0c128a9ec3f33c98959272f6d16cf14247b508f58951574bcdbd2b56d6326364"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "53e0acd2ad3bdf9ecbe08fc44a2d696f896cf52ef705aba27f7240c4ef23c71a38ab81f00159777746cf894a660301a9727ff06dccf35f8da2abc34366382d05"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "bba0a17233b7eb272f3fa91c054e1253b8f37ec81fa910a262ed3f9e664f6627ebf12338e7a6825851c01253a90be4d0"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "a0a977a4521407a51e48f50a7047e9fc955d98f96f35166930581c9ad5eb04d9429a34a2a49f72fa43b1fec46cda901b"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "bd7fad94fb6090f3d80636ff7e81f1613453837543357af1ca25b74d372b14e0"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "08be3e62d7cb4cb7cd6e7c1886e909c382b5f5a0985f8347bd3b943eac5eae51249000a9dcb5c395cb9b2f7daf0aed3dcdaaff19f179e4ec114d6567b945f96d"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "BSD-3-Clause",
-            "url" : "https://opensource.org/licenses/BSD-3-Clause"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.ow2.asm/asm-commons@9.4?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://asm.ow2.io/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://gitlab.ow2.org/asm/asm/issues"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "https://mail.ow2.org/wws/arc/asm/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitlab.ow2.org/asm/asm/"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.ow2.asm/asm-commons@9.4?type=jar"
-    },
-    {
-      "publisher" : "OW2",
-      "group" : "org.ow2.asm",
       "name" : "asm-tree",
       "version" : "9.4",
       "description" : "Tree API of ASM, a very small and fast Java bytecode manipulation framework",
@@ -6407,6 +6342,81 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.ow2.asm/asm-tree@9.4?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-commons",
+      "version" : "9.4",
+      "description" : "Usefull class adapters based on ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bf0034c3d79a244121380da0308c5ec8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8fc2810ddbcbbec0a8bbccb3f8eda58321839912"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0c128a9ec3f33c98959272f6d16cf14247b508f58951574bcdbd2b56d6326364"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "53e0acd2ad3bdf9ecbe08fc44a2d696f896cf52ef705aba27f7240c4ef23c71a38ab81f00159777746cf894a660301a9727ff06dccf35f8da2abc34366382d05"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bba0a17233b7eb272f3fa91c054e1253b8f37ec81fa910a262ed3f9e664f6627ebf12338e7a6825851c01253a90be4d0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a0a977a4521407a51e48f50a7047e9fc955d98f96f35166930581c9ad5eb04d9429a34a2a49f72fa43b1fec46cda901b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "bd7fad94fb6090f3d80636ff7e81f1613453837543357af1ca25b74d372b14e0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "08be3e62d7cb4cb7cd6e7c1886e909c382b5f5a0985f8347bd3b943eac5eae51249000a9dcb5c395cb9b2f7daf0aed3dcdaaff19f179e4ec114d6567b945f96d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-commons@9.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-commons@9.4?type=jar"
     },
     {
       "publisher" : "OW2",
@@ -6748,71 +6758,6 @@
     {
       "publisher" : "Spring IO",
       "group" : "org.springframework",
-      "name" : "spring-core",
-      "version" : "5.3.24",
-      "description" : "Spring Core",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "c5a7205d5d58105713aa9f033ae01dd9"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "d095c329f30baf2b6d44eccbd2352d7a2f840c72"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "7d513957395e6a354b80e714b31a52b765dd6c771b50a26419d277a06d13ea68"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "1e8d9872c5c6f017058377b25a2a8d947c607d5fc084931a096a286d4497b66bb5eb0179485cc512998d1ff704c975d028d9d332e247524d7fe4c7f351213c2b"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "e5ca75cffaac9377c31b2bead02d291755ec897a87b307db8191894af92a0c53e3633f0b52aeb4210176c39e0ebdd3e6"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "92a133b3b079849a4ab42ffb0104068549a91fe67ecbaba6915862b7326b9e1d482e05ec1019c8cfe25e7a21df6f42a5"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "5ec4fe6b1e249b078067dc1f8592cb0dca53f08c0371ebb1835e32e9dd81b79a"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "5cb44cb2022e46567538d489d1023af5b068cdaa9356ad4063133b76b714b0ce4389779f34aeea4c43873b9f3f51a37917ea99abdcdde9f2c3de6096bdbf02e7"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.springframework/spring-core@5.3.24?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://github.com/spring-projects/spring-framework"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/spring-projects/spring-framework/issues"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/spring-projects/spring-framework"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.springframework/spring-core@5.3.24?type=jar"
-    },
-    {
-      "publisher" : "Spring IO",
-      "group" : "org.springframework",
       "name" : "spring-aop",
       "version" : "5.3.24",
       "description" : "Spring AOP",
@@ -7004,6 +6949,71 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.springframework/spring-context@5.3.24?type=jar"
+    },
+    {
+      "publisher" : "Spring IO",
+      "group" : "org.springframework",
+      "name" : "spring-core",
+      "version" : "5.3.24",
+      "description" : "Spring Core",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c5a7205d5d58105713aa9f033ae01dd9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d095c329f30baf2b6d44eccbd2352d7a2f840c72"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7d513957395e6a354b80e714b31a52b765dd6c771b50a26419d277a06d13ea68"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1e8d9872c5c6f017058377b25a2a8d947c607d5fc084931a096a286d4497b66bb5eb0179485cc512998d1ff704c975d028d9d332e247524d7fe4c7f351213c2b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e5ca75cffaac9377c31b2bead02d291755ec897a87b307db8191894af92a0c53e3633f0b52aeb4210176c39e0ebdd3e6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "92a133b3b079849a4ab42ffb0104068549a91fe67ecbaba6915862b7326b9e1d482e05ec1019c8cfe25e7a21df6f42a5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5ec4fe6b1e249b078067dc1f8592cb0dca53f08c0371ebb1835e32e9dd81b79a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5cb44cb2022e46567538d489d1023af5b068cdaa9356ad4063133b76b714b0ce4389779f34aeea4c43873b9f3f51a37917ea99abdcdde9f2c3de6096bdbf02e7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.springframework/spring-core@5.3.24?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/spring-projects/spring-framework"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/spring-projects/spring-framework/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/spring-projects/spring-framework"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.springframework/spring-core@5.3.24?type=jar"
     },
     {
       "publisher" : "Spring IO",
@@ -8171,6 +8181,10 @@
       ]
     },
     {
+      "ref" : "pkg:maven/org.springframework/spring-core@5.3.24?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "pkg:maven/org.springframework/spring-context@5.3.24?type=jar",
       "dependsOn" : [
         "pkg:maven/org.springframework/spring-aop@5.3.24?type=jar",
@@ -8178,10 +8192,6 @@
         "pkg:maven/org.springframework/spring-core@5.3.24?type=jar",
         "pkg:maven/org.springframework/spring-expression@5.3.24?type=jar"
       ]
-    },
-    {
-      "ref" : "pkg:maven/org.springframework/spring-core@5.3.24?type=jar",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/org.springframework/spring-expression@5.3.24?type=jar",

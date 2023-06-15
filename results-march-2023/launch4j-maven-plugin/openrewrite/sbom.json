@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.2",
-  "serialNumber": "urn:uuid:eb7cc89f-e938-4303-bc8c-93a0901f1e15",
+  "serialNumber": "urn:uuid:53c15e63-3002-4da2-86db-7c0752dfe227",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-26T05:01:10Z",
+    "timestamp": "2023-05-11T12:35:40Z",
     "tools": [
       {
         "vendor": "OpenRewrite",
@@ -287,15 +287,6 @@
       "version": "3.0",
       "scope": "required",
       "purl": "pkg:maven/org.apache.maven/maven-model-builder@3.0?type=jar"
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:maven/org.apache.maven/maven-aether-provider@3.0?type=jar",
-      "group": "org.apache.maven",
-      "name": "maven-aether-provider",
-      "version": "3.0",
-      "scope": "required",
-      "purl": "pkg:maven/org.apache.maven/maven-aether-provider@3.0?type=jar"
     },
     {
       "type": "library",
@@ -784,9 +775,6 @@
     },
     {
       "ref": "pkg:maven/org.apache.maven/maven-model-builder@3.0?type=jar"
-    },
-    {
-      "ref": "pkg:maven/org.apache.maven/maven-aether-provider@3.0?type=jar"
     },
     {
       "ref": "pkg:maven/org.sonatype.aether/aether-impl@1.7?type=jar",

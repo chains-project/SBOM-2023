@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:186b18da-508e-4dc6-bbcf-97d089110316" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:a57f9b1d-2b84-4091-b57a-5f4d811ee1b1" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-26T02:06:24Z</timestamp>
+    <timestamp>2023-05-09T19:08:49Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin makeAggregateBom</name>
-        <version>2.7.5</version>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.8</version>
         <hashes>
-          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
-          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
-          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
-          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
-          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
-          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
-          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
-          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
+          <hash alg="MD5">4d75a7410313db127502c8536eb3f54b</hash>
+          <hash alg="SHA-1">8795071de12b08045d08f58d9611a9fcb9c78a9f</hash>
+          <hash alg="SHA-256">eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61</hash>
+          <hash alg="SHA-512">d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9</hash>
+          <hash alg="SHA-384">ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8</hash>
+          <hash alg="SHA3-384">08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58</hash>
+          <hash alg="SHA3-256">59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929</hash>
+          <hash alg="SHA3-512">7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3</hash>
         </hashes>
       </tool>
     </tools>
@@ -38,6 +38,10 @@
       <purl>pkg:maven/fr.inria.gforge.spoon/spoon-core@10.2.0-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>http://spoon.gforge.inria.fr/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/INRIA/spoon/issues</url></reference><reference type="vcs"><url>https://github.com/INRIA/spoon/spoon-core</url></reference></externalReferences>
     </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.31.0?type=jar">
@@ -142,22 +146,22 @@ file comparators, endian transformation classes, and much more.</description>
       <purl>pkg:maven/commons-io/commons-io@2.11.0?type=jar</purl>
       <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-io/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/IO</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-io.git</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-5?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.maven</group>
       <name>maven-model</name>
-      <version>4.0.0-alpha-4</version>
+      <version>4.0.0-alpha-5</version>
       <description>Model for Maven POM (Project Object Model)</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">648f7acb1bf71bae918530fe7b5141f4</hash>
-        <hash alg="SHA-1">f29ca41b573302c1c0455d601728b8ecb7eec89d</hash>
-        <hash alg="SHA-256">31bbc6ff9c63511f379e68849ab43202540dc0aee4ddd07b82c348cae76350f4</hash>
-        <hash alg="SHA-512">a46ff0ed390220a32f0b9622c9e78dc9d04046222d78220b2a01f57b9a41a9a14a361d574066cb6f0c3c2a6f20890256e2b9bae04c17a2995c68f4ab977f70f4</hash>
-        <hash alg="SHA-384">19674c59b525ec88e383eacac0af7256a6d969ab81e3ba15084ff2e80d03632901256ef8a809d16c577501e10f3a676c</hash>
-        <hash alg="SHA3-384">878e587474649cda096ed934961701cf18a7be8d386907303659ffdc99674c771248f2b16d73f192c474b7b05af1a10f</hash>
-        <hash alg="SHA3-256">ecb001e8c60b1d7db1e90bc03c6aa0f4154de3135c979c8d63584b3c214a86c2</hash>
-        <hash alg="SHA3-512">96681ace4fbade03f1a7524fd7d1d8be8c5cbf823802f7fe37b36823e026afaf13975b953f1cd5ab37ee4042d0504b2cfad0c4c0348a1adcab49dff2f8efe142</hash>
+        <hash alg="MD5">789a79aa8ea5d9312d6862302f1b7232</hash>
+        <hash alg="SHA-1">90b9839792644b8b08427db5fc25d8fef448c9da</hash>
+        <hash alg="SHA-256">dd7de8ddb2915a47c656f96293802e180c24fcad3d303e5b4fd4eaebdde6968b</hash>
+        <hash alg="SHA-512">09417f54b0e60bf046dc80a5aa6eae61efa5c000c6ec1a3a7e308363b0d4ec86bedb602435b7ffff0aaa8e3bc08652724c7f79063661016a8b6d571df18e1b12</hash>
+        <hash alg="SHA-384">9ce536e8b1bda066f929a00b85566c610f66cc624f1d41ae95ec82c7ea5aae12f4d859a3044b605e3b8c44d033f1cfae</hash>
+        <hash alg="SHA3-384">8b0ee13d2f7aa67b28b9ca17fe64d166e7a43dd30789f17ab91ed837dff1a1a76624d1df1d604edd95f71f28ceb9f636</hash>
+        <hash alg="SHA3-256">e3134510e19d490582c9063de6916ec2188209e44ae94aa2224b31e07e3f41e4</hash>
+        <hash alg="SHA3-512">55845c45ceebd732fe442b60618480b018b02b7de6d8f4b05f8732fab61d4ab769765ba3a6de985db5c494ce39e012c4e0e219dc57ca9a9c1d22c4279caaf70c</hash>
       </hashes>
       <licenses>
         <license>
@@ -165,24 +169,24 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-4/maven-model/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/maven-model</url></reference></externalReferences>
+      <purl>pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-5?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-5/maven-model/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-5/maven-model</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-5?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.maven</group>
       <name>maven-api-model</name>
-      <version>4.0.0-alpha-4</version>
+      <version>4.0.0-alpha-5</version>
       <description>Maven 4 API - Immutable Model for Maven POM (Project Object Model)</description>
       <hashes>
-        <hash alg="MD5">c72db6839705c914371cddabe26b7a06</hash>
-        <hash alg="SHA-1">d682182e1f7fef7c210c0fbd27446e9105d44708</hash>
-        <hash alg="SHA-256">61cee62730cb661464afd6cf8362c7989ce297d3f72b6f76e03fcb94ea79aea6</hash>
-        <hash alg="SHA-512">216d33634e8fa28cf7ff9e3bcb25803a91a463332fae49124174f6972b36df9abd5fdb7f2708e0fbe641f0dc19323a61199de9c16213d9573aafce332b00918e</hash>
-        <hash alg="SHA-384">605986fa2203010a88685dd61473c87b4efd514e67ed80ac65b1181a55aca52f6cb2dbb23608c42736855678686e6b52</hash>
-        <hash alg="SHA3-384">6e02f1f2d3eb4b0cc9c284f70123e64d1bbe14893f98643496bffe1738b7e175b327ae089756ad2478787fcfec6e1d2b</hash>
-        <hash alg="SHA3-256">32e2ec32a0ec5513fe8d1e197b7f07008065a4980092dcca3a5ed84e36b24889</hash>
-        <hash alg="SHA3-512">c42e6557cd5b12cb47f6e00397fe06d10cd6b996611b3d14dafb1a46ed77c9d15a45e9643517e5e54fdd5cd582bf01f5a5061e9112228a4736991895d53b2cda</hash>
+        <hash alg="MD5">c016596896baafce5b6958fa4545f067</hash>
+        <hash alg="SHA-1">d3b6e108e73822a53b813ebe4ebab9dd8dd176e2</hash>
+        <hash alg="SHA-256">e309107a010fcdfcbaab508ceb3ae78476e09ec990468929d3b0fc981d41f10a</hash>
+        <hash alg="SHA-512">9bb963ec4efb3e9f5009a896c7c3795e76dd515acd37b5be5025243581ffc76fcd6b9be0f53ba60dae14b6b3ebba9481355af762b155052e95196b2730e339d9</hash>
+        <hash alg="SHA-384">053cfcbb996e5394d83f0c1e1ec30096bd4b2ba3a713a72467815bf82ee6000dd1433627aa0c81b42623ce5cf235a6df</hash>
+        <hash alg="SHA3-384">16ce9b22d7d5e429b9531f5a469a0410681a2bc9563e2c1ae1d6c7a1537c98899fd4725877d168325f02f660bb44ec15</hash>
+        <hash alg="SHA3-256">ef6754221ddee0a0f2d6f6d9a0581564367a6b76031164ba58d7e7221a8e86a8</hash>
+        <hash alg="SHA3-512">38c80868c2e7c4d513131587aaac845644ce709b5e927a826e60d7e115e004f2376859b2369fdbbffb7838a78dfc3f1a7c9a0ea34b7f5a9e2d50060dea77afa0</hash>
       </hashes>
       <licenses>
         <license>
@@ -190,24 +194,24 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-model/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/api/maven-api-model</url></reference></externalReferences>
+      <purl>pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-5?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-5/api/maven-api-model/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-5/api/maven-api-model</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.maven</group>
       <name>maven-api-xml</name>
-      <version>4.0.0-alpha-4</version>
+      <version>4.0.0-alpha-5</version>
       <description>Maven 4 API immutable XML helper.</description>
       <hashes>
-        <hash alg="MD5">6cde6f143530594bbfc677ae40989451</hash>
-        <hash alg="SHA-1">07aa77b7eb08ba2ceb6b9efdfddd8cf23aebd5f4</hash>
-        <hash alg="SHA-256">6d2b31e0738aaf1604e76bb77789c0b4f12beebb350c3ab587f1092b3d38743b</hash>
-        <hash alg="SHA-512">0e223b695e9d0f44712be2dbba9a73e759f2dfe8c4d1f16b0428e94cdfb056abc8035b2ef3e0b5f75d27f41bfd502b1fa6c9b77228841c119830bbac9e46ed87</hash>
-        <hash alg="SHA-384">dc29263fbbb0c664202f0e3353a138f7b584b404efaf052e89df891167f0c88c086e6456c67daca56d7715f8b34d237f</hash>
-        <hash alg="SHA3-384">2418893f99d4d9fb0d0527e0a308c1098a248b55d11c54db4cee31695e7a99c1e8e02f83d33cd4fde055da6aeaf47632</hash>
-        <hash alg="SHA3-256">dfeee93525bdc948ddbc6ce4ad53864917e2a3adb73149453854164620406aa1</hash>
-        <hash alg="SHA3-512">9a573af32c2629c90dac2487446f57d0dc7fc289783be58f3cc09bdb37f9f97ed5d46b7614928920843075de410e88ad572cdae4fa11a5b302efb44305e88601</hash>
+        <hash alg="MD5">2906b8c40c7a4ec27d88014f32bcd024</hash>
+        <hash alg="SHA-1">5a48ca11c5b6d7594079ecc23cb6f1a4a9ec6bb4</hash>
+        <hash alg="SHA-256">e34556a7abe2509194942cceb9ba25587f16f5964ff160102fe4926f67e38951</hash>
+        <hash alg="SHA-512">320de97c62ddbfb4ca90be3743a4ecbc1a65d75bb30cfa19bda7efdcaf4adad440c6547327425b2257cba829a5cfa542388ca74145df13b10f4d15291aab6cc9</hash>
+        <hash alg="SHA-384">cda017b000d47cc5baf8e854b8375b05049c1e970f4562a2c7f1d32aa6b629bb23d2e6d94255c8e0cec8ea28d0cfcaff</hash>
+        <hash alg="SHA3-384">05f19c5b3a12bf43b11a9a9ff5700220c52b1b9856b513ce6e487e42650b46d3f2064b04fbf2d60b4939cdb479c450da</hash>
+        <hash alg="SHA3-256">d4668c8addbaa7888a57efc8196c2bbf96bf84c76080706fedfe42a568025174</hash>
+        <hash alg="SHA3-512">b516b0d138ec4755d58a83bdd604dedfa9a69f10be22c5bddd8cd7a0e1d42bc9a32ef259bd2fbc08b97821df9f884d2b8091abef2176dfa7f04fd7c2178ecab3</hash>
       </hashes>
       <licenses>
         <license>
@@ -215,24 +219,24 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-xml/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/api/maven-api-xml</url></reference></externalReferences>
+      <purl>pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-5/api/maven-api-xml/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-5/api/maven-api-xml</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-5?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.maven</group>
       <name>maven-api-meta</name>
-      <version>4.0.0-alpha-4</version>
+      <version>4.0.0-alpha-5</version>
       <description>Java annotations for Maven 4 Immutable API.</description>
       <hashes>
-        <hash alg="MD5">c6e3efad11749a50de4e828732d16931</hash>
-        <hash alg="SHA-1">1db21755d8f2ee10d490b8d7ee28e9da31c531e8</hash>
-        <hash alg="SHA-256">86dadcd97542a274eee6ae0f9518325d1b7bedbfb8311ae6f69423160fd8e41c</hash>
-        <hash alg="SHA-512">09ee733193b51fc5ffefac2ab4b49ea16a93e060e72972dc614acf7f08f82214d0d5bd368d6ed80f0e67748f7fd971285bece301811c1b74187d180abbda9616</hash>
-        <hash alg="SHA-384">6a15152134afc8152fb6a1f6fe65d7b699b603e242901061220c7bf276ba5c5892bd26ae0cc933db902475e5b8198f64</hash>
-        <hash alg="SHA3-384">955a057edccbba32e3095bc65cd8a9803dadda0508f82b6ba028f3d08b70a323df28ebcdaecb46bde046c88d30aff4b0</hash>
-        <hash alg="SHA3-256">bb57b458e1e3a24cc6ba53f12909e366ccbd38cd9093ff54020c9c2236b816ba</hash>
-        <hash alg="SHA3-512">873bf809c4179cfa3f14de97fe88aee79ab19ac80fc5a955ddce8650594489558a5209bc32d373b2737b1765d053cdf0f401bf2a8ef92ae2813444eb69a41a34</hash>
+        <hash alg="MD5">3abc2801ea89b36dafab83361831f210</hash>
+        <hash alg="SHA-1">1505d6998731a60f0680a0675158a4323238f27c</hash>
+        <hash alg="SHA-256">768895e11ad37abc8e92c1dcf6ee52ac81af80d47a3d608ccd5863d7d4dd14b2</hash>
+        <hash alg="SHA-512">db11d13aef8851ddd21e872afbdcb8c0d1af2265be46ca7f6c44bd59ffe918d18b52e6c3d322c4b69f2f577ac74b20c7362e69c3cb7a23f737d3f1752d800097</hash>
+        <hash alg="SHA-384">4913b0dfd13b6e37091a3de60e68c82d032b1048d2013462b59fdb083fc89b4ab8aecf0c2c44054826ac341a6c31be17</hash>
+        <hash alg="SHA3-384">ad31a602f014a4ae6f008423a9d06012e55cd2cb0900c1bdf6b18c9635a44aefa037f842ead6e0a87bce5a22f7d65fbc</hash>
+        <hash alg="SHA3-256">ae0ad4f6bdba1ed7e2c95b85c7ca4f6b1978f1478f3622f6c67d68748b10cea2</hash>
+        <hash alg="SHA3-512">26273ed645d0b95920a07406778453c632e932eb943ec0c5106df67d290594b934af3de7ecefb24311352bc0bbfba633226aa10fb3e0b79a6a247cfd9b468990</hash>
       </hashes>
       <licenses>
         <license>
@@ -240,24 +244,24 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-meta/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/api/maven-api-meta</url></reference></externalReferences>
+      <purl>pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-5?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-5/api/maven-api-meta/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-5/api/maven-api-meta</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-5?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.maven</group>
       <name>maven-xml-impl</name>
-      <version>4.0.0-alpha-4</version>
+      <version>4.0.0-alpha-5</version>
       <description>To be merged into Maven plexus-utils</description>
       <hashes>
-        <hash alg="MD5">b934c92c0510efb99f599e287f860cc7</hash>
-        <hash alg="SHA-1">d3cdd0b8e769235283fda12fa63a10624666b005</hash>
-        <hash alg="SHA-256">ba0fdb6df4a42fa6dd0892f53fcd71c6ad5312d224c938e5e4adb11686a7b7c8</hash>
-        <hash alg="SHA-512">b69ff07d6bf57f7ff453d680690137e447bcfef066c5004563b39adce284583ab2d43a157ad7ac8788c4ea9a3414af6c52e564469ec9b26db29f7ce8c250c1fe</hash>
-        <hash alg="SHA-384">30daa69b438b4ad77612f9573c39e671e8eeb62aadb52507dd84c2bb016f2984ada487743b1518400a05830ae05755b7</hash>
-        <hash alg="SHA3-384">f0546a21c178b956afe3323a35167584d43a23f049141c92b6c2e667797209d4bf028c4570b56f027b651c99575228d5</hash>
-        <hash alg="SHA3-256">65c0297cfafd8b6e400371ef131ce346199321b6951a70ae22e6b065539604b8</hash>
-        <hash alg="SHA3-512">b1dfca9ff733bfe112036ede195377ce8f86946007acffe1e699b3ceb15f1377fc296d3e01ef84825fc09015da1d0f8ca3e5ac25ff97c24fc9f7db877a9d796f</hash>
+        <hash alg="MD5">c3ab1b963f5b586e5c810f309fc48cc9</hash>
+        <hash alg="SHA-1">57e7ff66b9fe6dd33689ddcd913b028f23efbdb0</hash>
+        <hash alg="SHA-256">fa7d0d05a262976947e95f72c7e2a3300b8eebe2a6b33eb4080043cddaa13854</hash>
+        <hash alg="SHA-512">79ac46178861fa878d07e4c9f05fc500fbbced94fae03f136da65c3159417a4dda2bdb0eb6d3e401df7608eeb764803e7368b85f834f8af25e5006793d9dda50</hash>
+        <hash alg="SHA-384">f0f5d99c88d36703d226edeac467eb887c54dcb73b6984fb1cc5616da13e7d76c282e381a6b12cb25db0298ec3f1843b</hash>
+        <hash alg="SHA3-384">e9764fa6afa749a627dfd220af47083f61f330bc15992c5384c0a6762e42fd42a1569d9088de5d2e31b42bf65bd951fe</hash>
+        <hash alg="SHA3-256">3f362f93db47b44d717dbf10c6e226bf8ecdacda47cbf38b01aaa52cf7dcbe56</hash>
+        <hash alg="SHA3-512">f076b76ce7b3ec9cc02d6d41d1aa12590270e2734bd17cb39c4e14f8cbc509c08d3b339eb4aa027f7ea66a535a66ef360404bda761f6da741c86022d9b6ea3fe</hash>
       </hashes>
       <licenses>
         <license>
@@ -265,8 +269,8 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-4/maven-xml-impl/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/maven-xml-impl</url></reference></externalReferences>
+      <purl>pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-5?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/4.0.0-alpha-5/maven-xml-impl/</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-4.0.0-alpha-5/maven-xml-impl</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar">
       <publisher>The Eclipse Foundation</publisher>
@@ -619,7 +623,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <dependency ref="pkg:maven/com.martiansoftware/jsap@2.1?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
       <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-5?type=jar"/>
       <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2?type=jar"/>
       <dependency ref="pkg:maven/org.apache.commons/commons-compress@1.21?type=jar"/>
@@ -629,19 +633,19 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     <dependency ref="pkg:maven/com.martiansoftware/jsap@2.1?type=jar"/>
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
     <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar">
-      <dependency ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-5?type=jar">
+      <dependency ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-5?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-5?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar">
-      <dependency ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-5?type=jar">
+      <dependency ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar">
-      <dependency ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar">
+      <dependency ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-5?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar">
-      <dependency ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-5?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-5?type=jar">
+      <dependency ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-5?type=jar"/>
       <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar">

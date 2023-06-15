@@ -507,7 +507,7 @@
     "groupId": "org.webjars.npm",
     "artifactId": "postcss",
     "classifier": "jar",
-    "version": "8.4.21",
+    "version": "8.4.23",
     "scope": "test",
     "depth": 3,
     "submodule": "io.jooby:jooby:jar:3.0.0.M1"
@@ -516,7 +516,7 @@
     "groupId": "org.webjars.npm",
     "artifactId": "babel__parser",
     "classifier": "jar",
-    "version": "7.21.2",
+    "version": "7.21.8",
     "scope": "test",
     "depth": 3,
     "submodule": "io.jooby:jooby:jar:3.0.0.M1"
@@ -534,7 +534,7 @@
     "groupId": "org.webjars.npm",
     "artifactId": "nanoid",
     "classifier": "jar",
-    "version": "3.3.4",
+    "version": "3.3.6",
     "scope": "test",
     "depth": 4,
     "submodule": "io.jooby:jooby:jar:3.0.0.M1"
@@ -12963,7 +12963,7 @@
     "groupId": "org.webjars.npm",
     "artifactId": "postcss",
     "classifier": "jar",
-    "version": "8.4.21",
+    "version": "8.4.23",
     "scope": "compile",
     "depth": 3,
     "submodule": "io.jooby:tests:jar:3.0.0.M1"
@@ -12972,7 +12972,7 @@
     "groupId": "org.webjars.npm",
     "artifactId": "babel__parser",
     "classifier": "jar",
-    "version": "7.21.2",
+    "version": "7.21.8",
     "scope": "compile",
     "depth": 3,
     "submodule": "io.jooby:tests:jar:3.0.0.M1"
@@ -12990,7 +12990,7 @@
     "groupId": "org.webjars.npm",
     "artifactId": "nanoid",
     "classifier": "jar",
-    "version": "3.3.4",
+    "version": "3.3.6",
     "scope": "compile",
     "depth": 4,
     "submodule": "io.jooby:tests:jar:3.0.0.M1"

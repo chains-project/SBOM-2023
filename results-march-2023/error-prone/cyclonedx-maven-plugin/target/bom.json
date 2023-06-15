@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:1d5edb5c-535d-4807-a6dc-e5107e95b753",
+  "serialNumber" : "urn:uuid:a13f645a-a1c7-465a-8446-724ab7cf055c",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T01:53:54Z",
+    "timestamp" : "2023-05-09T18:56:35Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin makeAggregateBom",
-        "version" : "2.7.5",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.8",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
+            "content" : "4d75a7410313db127502c8536eb3f54b"
           },
           {
             "alg" : "SHA-1",
-            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
+            "content" : "8795071de12b08045d08f58d9611a9fcb9c78a9f"
           },
           {
             "alg" : "SHA-256",
-            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
+            "content" : "eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61"
           },
           {
             "alg" : "SHA-512",
-            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
+            "content" : "d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9"
           },
           {
             "alg" : "SHA-384",
-            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
+            "content" : "ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
+            "content" : "08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
+            "content" : "59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
+            "content" : "7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3"
           }
         ]
       }
@@ -72,7 +72,17 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_parent@2.17.0?type=pom"
-    }
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
   },
   "components" : [
     {
@@ -721,6 +731,66 @@
       "bom-ref" : "pkg:maven/com.google.truth/truth@1.1.3?type=jar"
     },
     {
+      "group" : "org.checkerframework",
+      "name" : "checker-qual",
+      "version" : "3.13.0",
+      "description" : "checker-qual contains annotations (type qualifiers) that a programmer writes to specify Java code for type-checking by the Checker Framework.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "aa28b5033a3433060c5b85974626f5cb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e29afc6adb63a39286d38dc0e00d164117c02f0d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3ea0dcd73b4d6cb2fb34bd7ed4dad6db327a01ebad7db05eb7894076b3d64491"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9e396a654bb82d96f6390673f5fbc0645f5375efe09150ff54af8d2422ff4f2fd30c0246ff09a4c56a3256c155abcf260badb4fbc5515c930e075e673cea53eb"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "98ccf581484077c417feafb3b0232000689526fec176b91a55e0035daeb666c8b592c6642330ebeeacc2f0b095a9e47f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a87ab9211661129181a092b0f46e1343e26d973fb663ba833a49f19d77e96b766d3fc580af8d26566d498c87ee7200ed"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "516faec41462083530abd30dfe3e82eabd906f679543dfa3ae364084740415c6"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b3a287ea9d6c969aaafcdb1e0c6843145b8e3a7e94848cc3dd1c40a012178a5aece2fa193c5d5d36430135db508c503d073d140a615d281b07cea8a8e15ccfd0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://checkerframework.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/typetools/checker-framework.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar"
+    },
+    {
       "publisher" : "OW2",
       "group" : "org.ow2.asm",
       "name" : "asm",
@@ -1249,66 +1319,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar"
-    },
-    {
-      "group" : "org.checkerframework",
-      "name" : "checker-qual",
-      "version" : "3.13.0",
-      "description" : "checker-qual contains annotations (type qualifiers) that a programmer writes to specify Java code for type-checking by the Checker Framework.",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "aa28b5033a3433060c5b85974626f5cb"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "e29afc6adb63a39286d38dc0e00d164117c02f0d"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "3ea0dcd73b4d6cb2fb34bd7ed4dad6db327a01ebad7db05eb7894076b3d64491"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "9e396a654bb82d96f6390673f5fbc0645f5375efe09150ff54af8d2422ff4f2fd30c0246ff09a4c56a3256c155abcf260badb4fbc5515c930e075e673cea53eb"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "98ccf581484077c417feafb3b0232000689526fec176b91a55e0035daeb666c8b592c6642330ebeeacc2f0b095a9e47f"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "a87ab9211661129181a092b0f46e1343e26d973fb663ba833a49f19d77e96b766d3fc580af8d26566d498c87ee7200ed"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "516faec41462083530abd30dfe3e82eabd906f679543dfa3ae364084740415c6"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "b3a287ea9d6c969aaafcdb1e0c6843145b8e3a7e94848cc3dd1c40a012178a5aece2fa193c5d5d36430135db508c503d073d140a615d281b07cea8a8e15ccfd0"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "MIT"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://checkerframework.org"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/typetools/checker-framework.git"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar"
     },
     {
       "group" : "com.github.kevinstern",

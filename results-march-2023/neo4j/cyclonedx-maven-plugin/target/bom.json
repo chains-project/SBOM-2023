@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:82b88ddd-8cfd-4bd5-a4af-faaf4f7f4f23",
+  "serialNumber" : "urn:uuid:c731f113-9e38-43e5-aa2a-9494960e2441",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T02:04:46Z",
+    "timestamp" : "2023-05-09T19:08:08Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin makeAggregateBom",
-        "version" : "2.7.5",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.8",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
+            "content" : "4d75a7410313db127502c8536eb3f54b"
           },
           {
             "alg" : "SHA-1",
-            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
+            "content" : "8795071de12b08045d08f58d9611a9fcb9c78a9f"
           },
           {
             "alg" : "SHA-256",
-            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
+            "content" : "eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61"
           },
           {
             "alg" : "SHA-512",
-            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
+            "content" : "d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9"
           },
           {
             "alg" : "SHA-384",
-            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
+            "content" : "ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
+            "content" : "08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
+            "content" : "59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
+            "content" : "7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3"
           }
         ]
       }
@@ -85,7 +85,17 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.neo4j/parent@5.3.0-SNAPSHOT?type=pom"
-    }
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
   },
   "components" : [
     {
@@ -2951,71 +2961,6 @@
     },
     {
       "group" : "org.bouncycastle",
-      "name" : "bcutil-jdk15on",
-      "version" : "1.70",
-      "description" : "The Bouncy Castle Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls. This jar contains APIs for JDK 1.5 and up.",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "805173dfb0891331dbe69d0e53371af4"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "54280e7195a7430d7911ded93fc01e07300b9526"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "52dc5551b0257666526c5095424567fed7dc7b00d2b1ba7bd52298411112b1d0"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "f65fc2af60be9b4a0cfa227cede3ba5ef994716dcd462a9935ef74535a32e67c56cff92e6af9d5168c7a866e5f7c9fd17797485b89eb020eda12f7018af0fca1"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "46f32ed832f447e519beab6c553ffbab455376bdaed3554bc8c687b876776861afa02bd5ae226cdc0dc3f0c2ae28c9a4"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "749aa3317618bc93fbdf12fb49f4c653f81321b4ee69d7807515f50234bf531539bd6eb5c3ed34955eeb60bdb56967dc"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "2dc5b7a38918f9eed8e3652c0794d8bf3eb674d8b0f24f03c64edc2e2ac251eb"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "0506c3a4cfad6c892568ffefb71b049ef7c943e5ab172ac8756cebcd53a7facee7c1472b18ed2211eb6f820dbfc6bd07da25dee62a5edc61dc6b333d42964fbc"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "name" : "Bouncy Castle Licence",
-            "url" : "https://www.bouncycastle.org/licence.html"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://www.bouncycastle.org/java.html"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/bcgit/bc-java/issues"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/bcgit/bc-java"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70?type=jar"
-    },
-    {
-      "group" : "org.bouncycastle",
       "name" : "bcprov-jdk15on",
       "version" : "1.70",
       "description" : "The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains JCE provider and lightweight API for the Bouncy Castle Cryptography APIs for JDK 1.5 and up.",
@@ -3079,6 +3024,71 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70?type=jar"
+    },
+    {
+      "group" : "org.bouncycastle",
+      "name" : "bcutil-jdk15on",
+      "version" : "1.70",
+      "description" : "The Bouncy Castle Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls. This jar contains APIs for JDK 1.5 and up.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "805173dfb0891331dbe69d0e53371af4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "54280e7195a7430d7911ded93fc01e07300b9526"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "52dc5551b0257666526c5095424567fed7dc7b00d2b1ba7bd52298411112b1d0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f65fc2af60be9b4a0cfa227cede3ba5ef994716dcd462a9935ef74535a32e67c56cff92e6af9d5168c7a866e5f7c9fd17797485b89eb020eda12f7018af0fca1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "46f32ed832f447e519beab6c553ffbab455376bdaed3554bc8c687b876776861afa02bd5ae226cdc0dc3f0c2ae28c9a4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "749aa3317618bc93fbdf12fb49f4c653f81321b4ee69d7807515f50234bf531539bd6eb5c3ed34955eeb60bdb56967dc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2dc5b7a38918f9eed8e3652c0794d8bf3eb674d8b0f24f03c64edc2e2ac251eb"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0506c3a4cfad6c892568ffefb71b049ef7c943e5ab172ac8756cebcd53a7facee7c1472b18ed2211eb6f820dbfc6bd07da25dee62a5edc61dc6b333d42964fbc"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Bouncy Castle Licence",
+            "url" : "https://www.bouncycastle.org/licence.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.bouncycastle.org/java.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/bcgit/bc-java/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/bcgit/bc-java"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70?type=jar"
     },
     {
       "group" : "org.hamcrest",
@@ -6841,6 +6851,71 @@
     },
     {
       "group" : "io.cucumber",
+      "name" : "cucumber-plugin",
+      "version" : "5.7.0",
+      "description" : "Plugin interface for Cucumber-JVM",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cd3ad2aee18ab1ba113a06fdda135b9e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9219226eff7d5b595e4839106e01eed4a9215b2c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ac1d3723eaabd1b4117a728b8bfbb93b01761781ad637780690f6965d4413deb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "127a7b9e0bb14f35893f56817d8b1a77a8f3b535614ad110439a976006a9e990b9991602281461ad6c3c3307ff48b231a4798e60c9f2bd4a75b2521f1b0c2de4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fca8a837d99a67175801218f394ce802437a11540b276b161ba9dbaf5898c0c251d8b87195d162ced1445d32506b2a32"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e36b73323ccd1c582c6d54e1a2c15d77c6308fb19fced7ef8ccdb0318ae8952504087c06d2933dec941a278262a12d6c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3e584cbb613c7766c641fc6e7a98a532e22dda3e31fa009ff1aae829244bd278"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "08a3d848bde923e0773c7f8caea99329e508b9d6067767cbe43183091eeae739b496ad7be47f5a29faa1aa3bb68793c0fa2fc611bf84c5a503558cb963c324a9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.cucumber/cucumber-plugin@5.7.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://cucumber.io/cucumber-plugin/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "git://github.com/cucumber/cucumber-jvm.git/cucumber-plugin"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.cucumber/cucumber-plugin@5.7.0?type=jar"
+    },
+    {
+      "group" : "io.cucumber",
       "name" : "cucumber-gherkin-vintage",
       "version" : "5.7.0",
       "description" : "Cucumber for the JVM",
@@ -7098,71 +7173,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.cucumber/datatable@3.3.1?type=jar"
-    },
-    {
-      "group" : "io.cucumber",
-      "name" : "cucumber-plugin",
-      "version" : "5.7.0",
-      "description" : "Plugin interface for Cucumber-JVM",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "cd3ad2aee18ab1ba113a06fdda135b9e"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "9219226eff7d5b595e4839106e01eed4a9215b2c"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "ac1d3723eaabd1b4117a728b8bfbb93b01761781ad637780690f6965d4413deb"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "127a7b9e0bb14f35893f56817d8b1a77a8f3b535614ad110439a976006a9e990b9991602281461ad6c3c3307ff48b231a4798e60c9f2bd4a75b2521f1b0c2de4"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "fca8a837d99a67175801218f394ce802437a11540b276b161ba9dbaf5898c0c251d8b87195d162ced1445d32506b2a32"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "e36b73323ccd1c582c6d54e1a2c15d77c6308fb19fced7ef8ccdb0318ae8952504087c06d2933dec941a278262a12d6c"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "3e584cbb613c7766c641fc6e7a98a532e22dda3e31fa009ff1aae829244bd278"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "08a3d848bde923e0773c7f8caea99329e508b9d6067767cbe43183091eeae739b496ad7be47f5a29faa1aa3bb68793c0fa2fc611bf84c5a503558cb963c324a9"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "MIT",
-            "url" : "https://opensource.org/licenses/MIT"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/io.cucumber/cucumber-plugin@5.7.0?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://cucumber.io/cucumber-plugin/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "git://github.com/cucumber/cucumber-jvm.git/cucumber-plugin"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/io.cucumber/cucumber-plugin@5.7.0?type=jar"
     },
     {
       "group" : "io.cucumber",
@@ -7733,6 +7743,69 @@
     {
       "publisher" : "org.scalatest",
       "group" : "org.scalatest",
+      "name" : "scalatest-funsuite_2.13",
+      "version" : "3.2.13",
+      "description" : "scalatest-funsuite",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2702355b30fb30f372fd78e245a96887"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4f0d12aa4fc574f5eff7dc460381cae9842f4c3f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "85aa0899a0793461d0b6cf9e0b06715699851b1e1d1462c72e5542ebc7a82420"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7c1aaddb2b2fcb121cc36cd267c1562f7794dcccd65a1971623fb9a777168acde9c7c55f667f0ca5770b344a9fda816066e63c573476fc64fddfdca2a349c489"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ee59030ee5ecf2da16acb43f0e6e51ce6eb51877b5c078aee2a149a778c8b0a5914f25fb23406aaa976e01e9976ee3af"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "01f32fc80d32d4a6980e02593e4e21a9c4790f5289eb9a91ad5d0e6860b3ec0616de59fab68e6ba3a5ef6c0b7f058b98"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f7eb8af69bab8179abf6eb99eea13c6ba3ee2897b5ceb3f8ba7f0a753f1e6a28"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0943b1a542e6929ee4676acde8957e097b61bf9aa8e1614d2d4f7530cb673c1222b3ab036a3206cea9daa112fdb297fd60d378d6f322f2fb16ca4cf03ac88b6e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.scalatest/scalatest-funsuite_2.13@3.2.13?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.scalatest.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/scalatest/scalatest"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scalatest/scalatest-funsuite_2.13@3.2.13?type=jar"
+    },
+    {
+      "publisher" : "org.scalatest",
+      "group" : "org.scalatest",
       "name" : "scalatest-funspec_2.13",
       "version" : "3.2.13",
       "description" : "scalatest-funspec",
@@ -8225,69 +8298,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.scalatest/scalatest-mustmatchers_2.13@3.2.13?type=jar"
-    },
-    {
-      "publisher" : "org.scalatest",
-      "group" : "org.scalatest",
-      "name" : "scalatest-funsuite_2.13",
-      "version" : "3.2.13",
-      "description" : "scalatest-funsuite",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "2702355b30fb30f372fd78e245a96887"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "4f0d12aa4fc574f5eff7dc460381cae9842f4c3f"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "85aa0899a0793461d0b6cf9e0b06715699851b1e1d1462c72e5542ebc7a82420"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "7c1aaddb2b2fcb121cc36cd267c1562f7794dcccd65a1971623fb9a777168acde9c7c55f667f0ca5770b344a9fda816066e63c573476fc64fddfdca2a349c489"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "ee59030ee5ecf2da16acb43f0e6e51ce6eb51877b5c078aee2a149a778c8b0a5914f25fb23406aaa976e01e9976ee3af"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "01f32fc80d32d4a6980e02593e4e21a9c4790f5289eb9a91ad5d0e6860b3ec0616de59fab68e6ba3a5ef6c0b7f058b98"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "f7eb8af69bab8179abf6eb99eea13c6ba3ee2897b5ceb3f8ba7f0a753f1e6a28"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "0943b1a542e6929ee4676acde8957e097b61bf9aa8e1614d2d4f7530cb673c1222b3ab036a3206cea9daa112fdb297fd60d378d6f322f2fb16ca4cf03ac88b6e"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0",
-            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.scalatest/scalatest-funsuite_2.13@3.2.13?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://www.scalatest.org"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/scalatest/scalatest"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.scalatest/scalatest-funsuite_2.13@3.2.13?type=jar"
     },
     {
       "publisher" : "LAMP/EPFL",
@@ -8926,81 +8936,6 @@
     {
       "publisher" : "OW2",
       "group" : "org.ow2.asm",
-      "name" : "asm-analysis",
-      "version" : "9.4",
-      "description" : "Static code analysis API of ASM, a very small and fast Java bytecode manipulation framework",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "707cb3616c99af872dcdd00801723600"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "0a5fec9dfc039448d4fd098fbaffcaf55373b223"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "7b5f8c5e3bf341b5bb570d26f379e3fdebdc32732187159c42479164053f373d"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "c507d357d3bde8279b8cfe907a82c595a44242de8397a7e096c5fb7fb1fdc25e7797ed79fa99c6965c5ba5ccc55b3e7dc7a77d55947976ce2184488fd4b90c5f"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "0d0db6f381118f948237aadf4bd430b3be493522ad0ded58df04ef9e1527b34f71483773e37d6f9533d78a9ffbb60d66"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "a3cfdc7d690168f933098b1f77f7bf994925243be9094ee5939f024d35e1e53cb32e631dfa48473fa6648970f2fdd3e3"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "f8a31cc020a623ce8ecd47713b3a6e79ae41476ac66cde773254c3201a834728"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "5518cc81b93d3949fefda39ecb3005675ab8728354c5c2e1c058778e66b75f3b7091cac392f97776d8379fa77e0f256a951c8b3ac058ae658b4169f550a3cef4"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "BSD-3-Clause",
-            "url" : "https://opensource.org/licenses/BSD-3-Clause"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.ow2.asm/asm-analysis@9.4?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://asm.ow2.io/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://gitlab.ow2.org/asm/asm/issues"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "https://mail.ow2.org/wws/arc/asm/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitlab.ow2.org/asm/asm/"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.ow2.asm/asm-analysis@9.4?type=jar"
-    },
-    {
-      "publisher" : "OW2",
-      "group" : "org.ow2.asm",
       "name" : "asm-tree",
       "version" : "9.4",
       "description" : "Tree API of ASM, a very small and fast Java bytecode manipulation framework",
@@ -9072,6 +9007,81 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.ow2.asm/asm-tree@9.4?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-analysis",
+      "version" : "9.4",
+      "description" : "Static code analysis API of ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "707cb3616c99af872dcdd00801723600"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0a5fec9dfc039448d4fd098fbaffcaf55373b223"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7b5f8c5e3bf341b5bb570d26f379e3fdebdc32732187159c42479164053f373d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c507d357d3bde8279b8cfe907a82c595a44242de8397a7e096c5fb7fb1fdc25e7797ed79fa99c6965c5ba5ccc55b3e7dc7a77d55947976ce2184488fd4b90c5f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0d0db6f381118f948237aadf4bd430b3be493522ad0ded58df04ef9e1527b34f71483773e37d6f9533d78a9ffbb60d66"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a3cfdc7d690168f933098b1f77f7bf994925243be9094ee5939f024d35e1e53cb32e631dfa48473fa6648970f2fdd3e3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f8a31cc020a623ce8ecd47713b3a6e79ae41476ac66cde773254c3201a834728"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5518cc81b93d3949fefda39ecb3005675ab8728354c5c2e1c058778e66b75f3b7091cac392f97776d8379fa77e0f256a951c8b3ac058ae658b4169f550a3cef4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-analysis@9.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-analysis@9.4?type=jar"
     },
     {
       "publisher" : "The Neo4j Graph Database Project",
@@ -11862,6 +11872,83 @@
     },
     {
       "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.shiro",
+      "name" : "shiro-event",
+      "version" : "1.10.0",
+      "description" : "Apache Shiro is a powerful and flexible open-source security framework that cleanly handles authentication, authorization, enterprise session management, single sign-on and cryptography services.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b8e10f7a98de9242606996dae3f3da87"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c85af8142c05226adf028a8a7d50716c9fcfb60a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "49df7123b25e7a7886151baf47916dd757f7d1972b7e13c72cb5a30f959d8b2e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3b904b769d67b6c4624539055dd2a13a0a6a99639c83d2cb51a3c8b693f24c8f74493e3517979864de637fbf8ccd65e433c680e4a4df39e34f42919df65e721b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e8daf53ad39071a43a837fc301ed47cf6119413f3e899a50cb2d52bc35b3d6b8b99d660d72aecfbcad6927416de31635"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2a11c1b087adf2164c09e562932a9e944edd86ac9d2b9fa780b2ec19c9e46c3d2bdf368e7c0fafcba6482de8e3c5dc90"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "36258b6320fee38400fb375251d14205f5c2fb3fd9ef3dfcd5a0d0ee16721091"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f02add7c75ac8ea59b326d966de38d2268ed933474e8612304f8dc2eb4c2a0ce49f6f435c61e8e4abb148e021cbcbbbc9ab6dd2417267a84e97666ed48f77988"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.shiro/shiro-event@1.10.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://shiro.apache.org/shiro-event/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/job/Shiro/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://shiro.apache.org/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/SHIRO"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "user-subscribe@shiro.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/shiro/tree/shiro-root-1.10.0/shiro-event"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.shiro/shiro-event@1.10.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
       "group" : "commons-beanutils",
       "name" : "commons-beanutils",
       "version" : "1.9.4",
@@ -12013,83 +12100,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
-    },
-    {
-      "publisher" : "The Apache Software Foundation",
-      "group" : "org.apache.shiro",
-      "name" : "shiro-event",
-      "version" : "1.10.0",
-      "description" : "Apache Shiro is a powerful and flexible open-source security framework that cleanly handles authentication, authorization, enterprise session management, single sign-on and cryptography services.",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "b8e10f7a98de9242606996dae3f3da87"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "c85af8142c05226adf028a8a7d50716c9fcfb60a"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "49df7123b25e7a7886151baf47916dd757f7d1972b7e13c72cb5a30f959d8b2e"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "3b904b769d67b6c4624539055dd2a13a0a6a99639c83d2cb51a3c8b693f24c8f74493e3517979864de637fbf8ccd65e433c680e4a4df39e34f42919df65e721b"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "e8daf53ad39071a43a837fc301ed47cf6119413f3e899a50cb2d52bc35b3d6b8b99d660d72aecfbcad6927416de31635"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "2a11c1b087adf2164c09e562932a9e944edd86ac9d2b9fa780b2ec19c9e46c3d2bdf368e7c0fafcba6482de8e3c5dc90"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "36258b6320fee38400fb375251d14205f5c2fb3fd9ef3dfcd5a0d0ee16721091"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "f02add7c75ac8ea59b326d966de38d2268ed933474e8612304f8dc2eb4c2a0ce49f6f435c61e8e4abb148e021cbcbbbc9ab6dd2417267a84e97666ed48f77988"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.shiro/shiro-event@1.10.0?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://shiro.apache.org/shiro-event/"
-        },
-        {
-          "type" : "build-system",
-          "url" : "https://builds.apache.org/job/Shiro/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://shiro.apache.org/download.html"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/SHIRO"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "user-subscribe@shiro.apache.org"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/apache/shiro/tree/shiro-root-1.10.0/shiro-event"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.shiro/shiro-event@1.10.0?type=jar"
     },
     {
       "publisher" : "org.bitbucket.inkytonik.kiama",
@@ -14161,130 +14171,6 @@
     },
     {
       "publisher" : "Eclipse Foundation",
-      "group" : "org.glassfish.jersey.core",
-      "name" : "jersey-client",
-      "version" : "2.34",
-      "description" : "Jersey core client implementation",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "34de8b477d5b0cc59192fb6c91a8b74f"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "f9c6c7c6429a1ede8e73cf077bdca28ebff67681"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "82d4c7932150d5dd215f624abd20863453933874664ae93c8e5da0a3f5c071f7"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "20f08a8b6ed0a3d48c9b8a243e7ebf0e9ba5fc6c9efb228f8a8a4037ce38c599658445a8c7f0f047d3c04296a84784d389cf06bab44b18855d7cfa0101967f08"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "b2fd4c9ac836db71d23c1fb62518b80c75ef7f8ae0f762fff37e4c11fbf60c9d63623cfd3da56b8895be47b8cabf0aa8"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "eacaca3a273564258429ea02a14297463152cdc4de206540609d99e7711ecfa0a44a978383894c002a5a03828c79fa70"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "9a9070ea67ba6bfb2dde6e3c4766dbac02f6e325d7377060c587493032691256"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "3119a9d181ad80a58fd02c4f5771d8e69d92fbe1071a1b314771dea8f1dc7b1ea05db04a9f06344f4dd680ecab4a753233975bb6921571e871ecd5e4afd508ae"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "EPL-2.0"
-          }
-        },
-        {
-          "license" : {
-            "id" : "GPL-2.0-with-classpath-exception"
-          }
-        },
-        {
-          "license" : {
-            "id" : "BSD-3-Clause"
-          }
-        },
-        {
-          "license" : {
-            "id" : "BSD-2-Clause"
-          }
-        },
-        {
-          "license" : {
-            "name" : "Apache License, 2.0",
-            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
-          }
-        },
-        {
-          "license" : {
-            "name" : "Public Domain",
-            "url" : "https://creativecommons.org/publicdomain/zero/1.0/"
-          }
-        },
-        {
-          "license" : {
-            "name" : "Modified BSD",
-            "url" : "http://asm.objectweb.org/license.html"
-          }
-        },
-        {
-          "license" : {
-            "name" : "jQuery license",
-            "url" : "jquery.org/license"
-          }
-        },
-        {
-          "license" : {
-            "id" : "MIT",
-            "url" : "https://opensource.org/licenses/MIT"
-          }
-        },
-        {
-          "license" : {
-            "name" : "W3C license",
-            "url" : "https://www.w3.org/Consortium/Legal/copyright-documents-19990405"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/jersey-client"
-        },
-        {
-          "type" : "build-system",
-          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jersey/jersey-client"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34?type=jar"
-    },
-    {
-      "publisher" : "Eclipse Foundation",
       "group" : "jakarta.ws.rs",
       "name" : "jakarta.ws.rs-api",
       "version" : "2.1.6",
@@ -14516,6 +14402,130 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jersey.core",
+      "name" : "jersey-client",
+      "version" : "2.34",
+      "description" : "Jersey core client implementation",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "34de8b477d5b0cc59192fb6c91a8b74f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f9c6c7c6429a1ede8e73cf077bdca28ebff67681"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "82d4c7932150d5dd215f624abd20863453933874664ae93c8e5da0a3f5c071f7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "20f08a8b6ed0a3d48c9b8a243e7ebf0e9ba5fc6c9efb228f8a8a4037ce38c599658445a8c7f0f047d3c04296a84784d389cf06bab44b18855d7cfa0101967f08"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b2fd4c9ac836db71d23c1fb62518b80c75ef7f8ae0f762fff37e4c11fbf60c9d63623cfd3da56b8895be47b8cabf0aa8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "eacaca3a273564258429ea02a14297463152cdc4de206540609d99e7711ecfa0a44a978383894c002a5a03828c79fa70"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9a9070ea67ba6bfb2dde6e3c4766dbac02f6e325d7377060c587493032691256"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3119a9d181ad80a58fd02c4f5771d8e69d92fbe1071a1b314771dea8f1dc7b1ea05db04a9f06344f4dd680ecab4a753233975bb6921571e871ecd5e4afd508ae"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-2-Clause"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Apache License, 2.0",
+            "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Public Domain",
+            "url" : "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Modified BSD",
+            "url" : "http://asm.objectweb.org/license.html"
+          }
+        },
+        {
+          "license" : {
+            "name" : "jQuery license",
+            "url" : "jquery.org/license"
+          }
+        },
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license" : {
+            "name" : "W3C license",
+            "url" : "https://www.w3.org/Consortium/Legal/copyright-documents-19990405"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jersey/jersey-client"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://hudson.glassfish.org/job/Jersey-trunk-multiplatform/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jersey/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jersey/jersey-client"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34?type=jar"
     },
     {
       "publisher" : "Eclipse Foundation",
@@ -15709,6 +15719,79 @@
     },
     {
       "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.activation",
+      "name" : "jakarta.activation-api",
+      "version" : "1.2.1",
+      "description" : "JavaBeans Activation Framework API jar",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9b647398add993324d3d9e5effa6005a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "562a587face36ec7eff2db7f2fc95425c6602bc1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8b0a0f52fa8b05c5431921a063ed866efaa41dadf2e3a7ee3e1961f2b0d9645b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c60edc99f119b9e0df0cf527e2512f2b7ab9db0e17c54e83850695f80f652c981eaae90a296db671cf7ed88a044c150224e030df333feb30f346e8a31fb794c6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "07422d64a103aacb8956c2067175f2cc257494d2cc8dbde29ddf8d93778a2d4b3903565b17173a0b5230b59d535bd474"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fe6be5e1fb1c0ee5236b2866c1e5058c84043fb4dc3dd5ad8f04e61c01c019c96e92ffdf1de0eaf7e657b2c02c6d898e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "880a91ff9e978ac9208c84babd820dc2ded42e601d8a17688eb30883b598dec0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "91c0b8cb956bdb06e79738a9db624022887b3d83838b708dd3c654f231ab6f9b4a27be2556fd14683cd6158bf8534b96acd2481054e0c946d6e9f641cc5af55b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaf/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
       "group" : "org.jvnet.staxex",
       "name" : "stax-ex",
       "version" : "1.8.1",
@@ -15857,79 +15940,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.sun.xml.fastinfoset/FastInfoset@1.2.16?type=jar"
-    },
-    {
-      "publisher" : "Eclipse Foundation",
-      "group" : "jakarta.activation",
-      "name" : "jakarta.activation-api",
-      "version" : "1.2.1",
-      "description" : "JavaBeans Activation Framework API jar",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "9b647398add993324d3d9e5effa6005a"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "562a587face36ec7eff2db7f2fc95425c6602bc1"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "8b0a0f52fa8b05c5431921a063ed866efaa41dadf2e3a7ee3e1961f2b0d9645b"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "c60edc99f119b9e0df0cf527e2512f2b7ab9db0e17c54e83850695f80f652c981eaae90a296db671cf7ed88a044c150224e030df333feb30f346e8a31fb794c6"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "07422d64a103aacb8956c2067175f2cc257494d2cc8dbde29ddf8d93778a2d4b3903565b17173a0b5230b59d535bd474"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "fe6be5e1fb1c0ee5236b2866c1e5058c84043fb4dc3dd5ad8f04e61c01c019c96e92ffdf1de0eaf7e657b2c02c6d898e"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "880a91ff9e978ac9208c84babd820dc2ded42e601d8a17688eb30883b598dec0"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "91c0b8cb956bdb06e79738a9db624022887b3d83838b708dd3c654f231ab6f9b4a27be2556fd14683cd6158bf8534b96acd2481054e0c946d6e9f641cc5af55b"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "BSD-3-Clause"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation-api"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/eclipse-ee4j/jaf/issues/"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation-api"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.1?type=jar"
     },
     {
       "publisher" : "Oracle Corporation",
@@ -18073,66 +18083,6 @@
       "bom-ref" : "pkg:maven/org.graalvm.nativeimage/objectfile@21.3.0?type=jar"
     },
     {
-      "group" : "org.graalvm.nativeimage",
-      "name" : "pointsto",
-      "version" : "21.3.0",
-      "description" : "SubstrateVM static analysis to find ahead-of-time the code",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "3a6013c53dd961b5c049605162b4f2b6"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "0f0446f48aed0aaa4d755bd0b3f5de6f7ba3dc78"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "3877ffb9500fcb8af50a85d2774f929e46357bafd7a6424a385affe16082435c"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "53f769703d05c197275dca419b4db344d0fd5e45fa235ee09453dbd3fd82042849361da089f5ecfc9627d020aaead7e9943fb94702962966bbc55814f2be2ed6"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "314b2342a7b5c2ded33f03ef93b216d6ea5c10223928df8ff5d3e54bbfa24a306bc41a1e008737d0b16a03cc7466e448"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "9c03cf3055647debcba5a74c3c3cad3bcd0e938ed1c90f2dfe47a87fbad7bd5c7dae898fe5ba1ace11cec41882618559"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "8697e4d77be7b3e2f3b8ee4e42abf2bd44144c313f8deb1afbc385550d80c5b7"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "593ff499ae5c571ec4344cac15b83be25fca536be418dd02ae2a1a05f995852abf56afac8720d90ead498416d4e5a89063c7eead37a4ccbda284f2e1c1f2c018"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "GPL-2.0-with-classpath-exception"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.graalvm.nativeimage/pointsto@21.3.0?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://github.com/oracle/graal/tree/master/substratevm"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/oracle/graal"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.graalvm.nativeimage/pointsto@21.3.0?type=jar"
-    },
-    {
       "group" : "org.graalvm.compiler",
       "name" : "compiler",
       "version" : "21.3.0",
@@ -18191,6 +18141,66 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.graalvm.compiler/compiler@21.3.0?type=jar"
+    },
+    {
+      "group" : "org.graalvm.nativeimage",
+      "name" : "pointsto",
+      "version" : "21.3.0",
+      "description" : "SubstrateVM static analysis to find ahead-of-time the code",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3a6013c53dd961b5c049605162b4f2b6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0f0446f48aed0aaa4d755bd0b3f5de6f7ba3dc78"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3877ffb9500fcb8af50a85d2774f929e46357bafd7a6424a385affe16082435c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "53f769703d05c197275dca419b4db344d0fd5e45fa235ee09453dbd3fd82042849361da089f5ecfc9627d020aaead7e9943fb94702962966bbc55814f2be2ed6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "314b2342a7b5c2ded33f03ef93b216d6ea5c10223928df8ff5d3e54bbfa24a306bc41a1e008737d0b16a03cc7466e448"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9c03cf3055647debcba5a74c3c3cad3bcd0e938ed1c90f2dfe47a87fbad7bd5c7dae898fe5ba1ace11cec41882618559"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8697e4d77be7b3e2f3b8ee4e42abf2bd44144c313f8deb1afbc385550d80c5b7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "593ff499ae5c571ec4344cac15b83be25fca536be418dd02ae2a1a05f995852abf56afac8720d90ead498416d4e5a89063c7eead37a4ccbda284f2e1c1f2c018"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.graalvm.nativeimage/pointsto@21.3.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/oracle/graal/tree/master/substratevm"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/graal"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.graalvm.nativeimage/pointsto@21.3.0?type=jar"
     },
     {
       "publisher" : "The Neo4j Graph Database Project",

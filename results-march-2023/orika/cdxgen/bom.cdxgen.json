@@ -1,28 +1,39 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:b207eee0-fc54-4789-91aa-4e64345edcb3",
+  "serialNumber": "urn:uuid:69cec468-026a-4278-8133-22bc260fb702",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-26T01:41:51.430Z",
+    "timestamp": "2023-05-09T16:47:42.796Z",
     "tools": [
       {
-        "vendor": "AppThreat",
+        "vendor": "cyclonedx",
         "name": "cdxgen",
-        "version": "7.0.5"
+        "version": "8.4.3"
       }
     ],
     "authors": [
       {
-        "name": "Team AppThreat",
-        "email": "cloud@appthreat.com"
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
       }
     ],
     "component": {
-      "group": "",
-      "name": "orika",
-      "version": "",
-      "type": "application"
+      "publisher": "Glasnost",
+      "group": "ma.glasnost.orika",
+      "name": "orika-core",
+      "version": "1.5.4",
+      "description": "Simpler, better and faster Java bean mapping framework",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ma.glasnost.orika/orika-core@1.5.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ma.glasnost.orika/orika-core@1.5.4?type=jar"
     }
   },
   "components": [
@@ -140,6 +151,59 @@
       "purl": "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.25",
+      "description": "The slf4j API",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "caafe376afb7086dcbee79f780394ca3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "da76ca59f6a57ee3102f8f9bd9cee742973efa8a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "18c4a0095d5c1da6b817592e767bb23d29dd2f560ad74df75ff3961dbde25b79"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5dd6271fd5b34579d8e66271bab75c89baca8b2ebeaa9966de391284bd08f2d720083c6e0e1edda106ecf8a04e9a32116de6873f0f88c19c049c0fe27e5d820b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f2791380e87fccb18519efd016c03be11206984f4765586d348e57e2f33756b21ed51a95fa09679e1473a5bf5d2d76e1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d621071a8bca1a32ac3603a816721fd93180a29e520d16a1c655686b169605f679818d6acc0000470ebe25265bdc9962"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "abb590301fbb93baf4f7afe227f230ee7992d9a56f7034ef2c37447ac8c52a9b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c025c503db0d09d0d435c1c96f0e7165f08375abc58eb4e4bf52b0b4689801019a7e966fa5372c03b0697083a992a0baceb7ab5d18659d262f5db4c9bca26584"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar"
     },
     {
       "publisher": "Carrot Search s.c.",
@@ -611,59 +675,6 @@
       "bom-ref": "pkg:maven/org.codehaus.janino/commons-compiler@3.0.8?type=jar"
     },
     {
-      "publisher": "QOS.ch",
-      "group": "org.slf4j",
-      "name": "slf4j-api",
-      "version": "1.7.25",
-      "description": "The slf4j API",
-      "scope": "optional",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "caafe376afb7086dcbee79f780394ca3"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "da76ca59f6a57ee3102f8f9bd9cee742973efa8a"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "18c4a0095d5c1da6b817592e767bb23d29dd2f560ad74df75ff3961dbde25b79"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "5dd6271fd5b34579d8e66271bab75c89baca8b2ebeaa9966de391284bd08f2d720083c6e0e1edda106ecf8a04e9a32116de6873f0f88c19c049c0fe27e5d820b"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "f2791380e87fccb18519efd016c03be11206984f4765586d348e57e2f33756b21ed51a95fa09679e1473a5bf5d2d76e1"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "d621071a8bca1a32ac3603a816721fd93180a29e520d16a1c655686b169605f679818d6acc0000470ebe25265bdc9962"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "abb590301fbb93baf4f7afe227f230ee7992d9a56f7034ef2c37447ac8c52a9b"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "c025c503db0d09d0d435c1c96f0e7165f08375abc58eb4e4bf52b0b4689801019a7e966fa5372c03b0697083a992a0baceb7ab5d18659d262f5db4c9bca26584"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT",
-            "url": "https://opensource.org/licenses/MIT"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar"
-    },
-    {
       "publisher": "",
       "group": "org.eclipse.tycho",
       "name": "org.eclipse.jdt.core",
@@ -874,34 +885,52 @@
       "bom-ref": "pkg:maven/org.eclipse.platform/org.eclipse.equinox.common@3.9.0?type=jar"
     },
     {
-      "publisher": "",
+      "publisher": "Glasnost",
       "group": "ma.glasnost.orika",
       "name": "orika-eclipse-tools",
       "version": "1.5.4",
-      "description": "",
-      "licenses": [],
+      "description": "Optional Eclipse JDT compiler dependencies for Orika Bean Mapper. Specify this dependency to use the EclipseJdtCompilerStrategy in your builds with Orika to enable step-debugging capability for generated mapping objects.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
       "purl": "pkg:maven/ma.glasnost.orika/orika-eclipse-tools@1.5.4?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/ma.glasnost.orika/orika-eclipse-tools@1.5.4?type=jar"
     },
     {
-      "publisher": "",
+      "publisher": "Glasnost",
       "group": "ma.glasnost.orika",
       "name": "orika-core",
       "version": "1.5.4",
-      "description": "",
-      "licenses": [],
+      "description": "Simpler, better and faster Java bean mapping framework",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
       "purl": "pkg:maven/ma.glasnost.orika/orika-core@1.5.4?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/ma.glasnost.orika/orika-core@1.5.4?type=jar"
     },
     {
-      "publisher": "",
+      "publisher": "Glasnost",
       "group": "ma.glasnost.orika",
       "name": "orika-tests",
       "version": "1.5.4",
-      "description": "",
-      "licenses": [],
+      "description": "Simpler, better and faster Java bean mapping framework",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
       "purl": "pkg:maven/ma.glasnost.orika/orika-tests@1.5.4?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/ma.glasnost.orika/orika-tests@1.5.4?type=jar"
@@ -1376,6 +1405,63 @@
     },
     {
       "publisher": "",
+      "group": "org.hibernate.javax.persistence",
+      "name": "hibernate-jpa-2.1-api",
+      "version": "1.0.0.Final",
+      "description": "Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "01b091825023c97fdfd6d2bceebe03ff"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5e731d961297e5a07290bfaf3db1fbc8bbbf405a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ab46597e3a057f99c8339fffe14c1d27f9dbd2409ae840c62121b00d983c78bd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "696dd1548504c9ea8d8526411e81bee8b752f12861979da2707d1059b35a8ccb3f018a1d4e2d12436e7c9daec8e63b97fcf980e03032981867cea63d4301f3da"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8ad158c54f315587aa3f2c166c9ef3a540a2fafc6d1cdd170eb127669a738ad0c96793ee593ad042e831f6abf009fcc7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ccfea23dfe03019e147d23aee35a314e98980b5e2a7ccaae2141a1c273f4cd4df14f088ec59b8b829c4a25082e9e998c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fdbf800d9175e82d7e68f9829f1372b65768252d3e165dfeee9c0345b817b8be"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8e1e5baa5e4b6f67019bad7ed90a9abf41096ff00b62c9d6f326a756b8ee7e5b62d41068441aa5d9050369a1000a5fbd7898155cb8b18e80367e9cb7c0d3b137"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "name": "Eclipse Distribution License (EDL), Version 1.0",
+            "url": "http://www.eclipse.org/org/documents/edl-v10.php"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar"
+    },
+    {
+      "publisher": "",
       "group": "antlr",
       "name": "antlr",
       "version": "2.7.7",
@@ -1424,6 +1510,57 @@
       "purl": "pkg:maven/antlr/antlr@2.7.7?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/antlr/antlr@2.7.7?type=jar"
+    },
+    {
+      "publisher": "Apache Software Foundation",
+      "group": "org.apache.geronimo.specs",
+      "name": "geronimo-jta_1.1_spec",
+      "version": "1.1.1",
+      "description": "Provides open-source implementations of Sun specifications.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4aa8d50456bcec0bf6f032ceb182ad64"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aabab3165b8ea936b9360abbf448459c0d04a5a4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3a0c3c1bbc2efe8383969574922791959670ef547d6c897496915617025c3023"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ee10f942eda7199a522aa0838ad69c9b58117580bd60185b4c01bfc43913fd485154b1b3d437b0a361d1bed8a18974c84f5bdf1cb27ed9bc18fe33fba4d8f1f8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "56f9ad1bcf3f0c3d9ed9c6c372274a47e046ad88335c842f2959c95646eebc14d0ca68562d86a53b8ed6fd56613297bc"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "64b62186232c70ed56c386cfe2eefb45345c8a39f60ccae6b41c0b1664731b77a047a02b7c888ec1ff68cb2a2c2b8a90"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a8093bd9834f683448f2f01ea33383ad27572ff09f9c29bcef1ecf43d1d33c7c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "aeb00105ed515e0127fc391fa86b3e805819047b6aa42963c0b6d1bbf23216c26efd7152655d18d428b3965a2bdd6695aaca8d261030841b661df539f96f9d7c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar"
     },
     {
       "publisher": "JBoss by Red Hat",
@@ -1516,14 +1653,7 @@
           "content": "a17ede6fb1c0d734a680dbca5cdd0cdacac963ab198b741491ce2b591a170a05621d2cb875d3fabb388fb3527d3f1f1b0f7b9170da0b9a1a20f199c46b8cb0db"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "name": "dom4j",
-            "url": "http://repository.jboss.org/licenses/dom4j.txt"
-          }
-        }
-      ],
+      "licenses": [],
       "purl": "pkg:maven/dom4j/dom4j@1.6.1?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/dom4j/dom4j@1.6.1?type=jar"
@@ -1578,114 +1708,6 @@
       "purl": "pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar"
-    },
-    {
-      "publisher": "",
-      "group": "org.hibernate.javax.persistence",
-      "name": "hibernate-jpa-2.1-api",
-      "version": "1.0.0.Final",
-      "description": "Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "01b091825023c97fdfd6d2bceebe03ff"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "5e731d961297e5a07290bfaf3db1fbc8bbbf405a"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "ab46597e3a057f99c8339fffe14c1d27f9dbd2409ae840c62121b00d983c78bd"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "696dd1548504c9ea8d8526411e81bee8b752f12861979da2707d1059b35a8ccb3f018a1d4e2d12436e7c9daec8e63b97fcf980e03032981867cea63d4301f3da"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "8ad158c54f315587aa3f2c166c9ef3a540a2fafc6d1cdd170eb127669a738ad0c96793ee593ad042e831f6abf009fcc7"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "ccfea23dfe03019e147d23aee35a314e98980b5e2a7ccaae2141a1c273f4cd4df14f088ec59b8b829c4a25082e9e998c"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "fdbf800d9175e82d7e68f9829f1372b65768252d3e165dfeee9c0345b817b8be"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "8e1e5baa5e4b6f67019bad7ed90a9abf41096ff00b62c9d6f326a756b8ee7e5b62d41068441aa5d9050369a1000a5fbd7898155cb8b18e80367e9cb7c0d3b137"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "EPL-1.0"
-          }
-        },
-        {
-          "license": {
-            "name": "Eclipse Distribution License (EDL), Version 1.0",
-            "url": "http://www.eclipse.org/org/documents/edl-v10.php"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar"
-    },
-    {
-      "publisher": "Apache Software Foundation",
-      "group": "org.apache.geronimo.specs",
-      "name": "geronimo-jta_1.1_spec",
-      "version": "1.1.1",
-      "description": "Provides open-source implementations of Sun specifications.",
-      "hashes": [
-        {
-          "alg": "MD5",
-          "content": "4aa8d50456bcec0bf6f032ceb182ad64"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "aabab3165b8ea936b9360abbf448459c0d04a5a4"
-        },
-        {
-          "alg": "SHA-256",
-          "content": "3a0c3c1bbc2efe8383969574922791959670ef547d6c897496915617025c3023"
-        },
-        {
-          "alg": "SHA-512",
-          "content": "ee10f942eda7199a522aa0838ad69c9b58117580bd60185b4c01bfc43913fd485154b1b3d437b0a361d1bed8a18974c84f5bdf1cb27ed9bc18fe33fba4d8f1f8"
-        },
-        {
-          "alg": "SHA-384",
-          "content": "56f9ad1bcf3f0c3d9ed9c6c372274a47e046ad88335c842f2959c95646eebc14d0ca68562d86a53b8ed6fd56613297bc"
-        },
-        {
-          "alg": "SHA3-384",
-          "content": "64b62186232c70ed56c386cfe2eefb45345c8a39f60ccae6b41c0b1664731b77a047a02b7c888ec1ff68cb2a2c2b8a90"
-        },
-        {
-          "alg": "SHA3-256",
-          "content": "a8093bd9834f683448f2f01ea33383ad27572ff09f9c29bcef1ecf43d1d33c7c"
-        },
-        {
-          "alg": "SHA3-512",
-          "content": "aeb00105ed515e0127fc391fa86b3e805819047b6aa42963c0b6d1bbf23216c26efd7152655d18d428b3965a2bdd6695aaca8d261030841b661df539f96f9d7c"
-        }
-      ],
-      "licenses": [
-        {
-          "license": {
-            "id": "Apache-2.0"
-          }
-        }
-      ],
-      "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar",
-      "type": "library",
-      "bom-ref": "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar"
     },
     {
       "publisher": "",
@@ -2481,12 +2503,18 @@
       "bom-ref": "pkg:maven/javax.xml.bind/jaxb-api@2.3.0?type=jar"
     },
     {
-      "publisher": "",
+      "publisher": "Glasnost",
       "group": "ma.glasnost.orika",
       "name": "orika-tests-jdk8",
       "version": "1.5.4",
-      "description": "",
-      "licenses": [],
+      "description": "Simpler, better and faster Java bean mapping framework",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
       "purl": "pkg:maven/ma.glasnost.orika/orika-tests-jdk8@1.5.4?type=jar",
       "type": "library",
       "bom-ref": "pkg:maven/ma.glasnost.orika/orika-tests-jdk8@1.5.4?type=jar"
@@ -2715,6 +2743,7 @@
         "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar",
         "pkg:maven/org.hibernate/hibernate-core@5.0.12.Final?type=jar",
         "pkg:maven/dom4j/dom4j@1.6.1?type=jar",
+        "pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.0.1.Final?type=jar",
         "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar",
         "pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar",
         "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar"
@@ -2729,7 +2758,8 @@
         "pkg:maven/antlr/antlr@2.7.7?type=jar",
         "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar",
         "pkg:maven/org.jboss/jandex@2.0.0.Final?type=jar",
-        "pkg:maven/dom4j/dom4j@1.6.1?type=jar"
+        "pkg:maven/dom4j/dom4j@1.6.1?type=jar",
+        "pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.0.1.Final?type=jar"
       ]
     },
     {
@@ -2769,6 +2799,7 @@
     {
       "ref": "pkg:maven/ch.qos.logback/logback-classic@1.1.11?type=jar",
       "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-core@1.1.11?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar"
       ]
     },
@@ -2828,14 +2859,16 @@
       "dependsOn": [
         "pkg:maven/org.springframework/spring-beans@4.3.14.RELEASE?type=jar",
         "pkg:maven/org.springframework/spring-core@4.3.14.RELEASE?type=jar",
-        "pkg:maven/org.springframework/spring-jdbc@4.3.14.RELEASE?type=jar"
+        "pkg:maven/org.springframework/spring-jdbc@4.3.14.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-tx@4.3.14.RELEASE?type=jar"
       ]
     },
     {
       "ref": "pkg:maven/org.springframework/spring-jdbc@4.3.14.RELEASE?type=jar",
       "dependsOn": [
         "pkg:maven/org.springframework/spring-beans@4.3.14.RELEASE?type=jar",
-        "pkg:maven/org.springframework/spring-core@4.3.14.RELEASE?type=jar"
+        "pkg:maven/org.springframework/spring-core@4.3.14.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-tx@4.3.14.RELEASE?type=jar"
       ]
     },
     {
@@ -2872,7 +2905,7 @@
     },
     {
       "type": "other",
-      "url": "/orika/pom.xml",
+      "url": "/orika/core/pom.xml, /orika/eclipse-tools/pom.xml, /orika/pom.xml, /orika/tests-jdk8/pom.xml, /orika/tests/pom.xml",
       "comment": "Package file"
     }
   ]

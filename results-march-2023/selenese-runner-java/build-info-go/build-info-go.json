@@ -1,4 +1,5 @@
 {
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
   "version": 1,
@@ -2932,42 +2933,9 @@
   ],
   "dependencies": [
     {
-      "ref": "com.assertthat:selenium-shutterbug:1.6",
+      "ref": "org.apache.httpcomponents:httpmime:4.5.13",
       "dependsOn": [
-        "io.github.bonigarcia:webdrivermanager:4.0.0",
-        "com.github.zafarkhaja:java-semver:0.9.0"
-      ]
-    },
-    {
-      "ref": "com.google.guava:guava:31.1-jre",
-      "dependsOn": [
-        "com.google.errorprone:error_prone_annotations:2.11.0",
-        "com.google.code.findbugs:jsr305:3.0.2",
-        "org.checkerframework:checker-qual:3.12.0",
-        "com.google.j2objc:j2objc-annotations:1.3",
-        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-        "com.google.guava:failureaccess:1.0.1"
-      ]
-    },
-    {
-      "ref": "org.seleniumhq.selenium:selenium-chrome-driver:4.4.0",
-      "dependsOn": [
-        "org.seleniumhq.selenium:selenium-json:4.4.0",
-        "com.google.auto.service:auto-service:1.0.1",
-        "org.seleniumhq.selenium:selenium-chromium-driver:4.4.0",
-        "com.google.auto.service:auto-service-annotations:1.0.1"
-      ]
-    },
-    {
-      "ref": "xalan:xalan:2.7.2",
-      "dependsOn": [
-        "xalan:serializer:2.7.2"
-      ]
-    },
-    {
-      "ref": "org.rauschig:jarchivelib:1.0.0",
-      "dependsOn": [
-        "org.apache.commons:commons-compress:1.18"
+        "org.apache.httpcomponents:httpclient:4.5.13"
       ]
     },
     {
@@ -2977,16 +2945,68 @@
       ]
     },
     {
+      "ref": "org.asynchttpclient:async-http-client:2.12.3",
+      "dependsOn": [
+        "org.reactivestreams:reactive-streams:1.0.3",
+        "com.typesafe.netty:netty-reactive-streams:2.0.4",
+        "org.asynchttpclient:async-http-client-netty-utils:2.12.3"
+      ]
+    },
+    {
       "ref": "org.seleniumhq.selenium:htmlunit-driver:3.63.0",
       "dependsOn": [
         "net.sourceforge.htmlunit:htmlunit:2.63.0"
       ]
     },
     {
-      "ref": "io.opentelemetry:opentelemetry-exporter-logging:1.16.0",
+      "ref": "org.eclipse.jetty.websocket:websocket-common:9.4.48.v20220622",
       "dependsOn": [
-        "io.opentelemetry:opentelemetry-sdk-metrics:1.16.0",
-        "io.opentelemetry:opentelemetry-sdk-logs:1.16.0-alpha"
+        "org.eclipse.jetty.websocket:websocket-api:9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "io.netty:netty-all:4.1.79.Final",
+      "dependsOn": [
+        "io.netty:netty-codec-http2:4.1.79.Final",
+        "io.netty:netty-codec-haproxy:4.1.79.Final",
+        "io.netty:netty-transport-native-kqueue:4.1.79.Final",
+        "io.netty:netty-codec-socks:4.1.79.Final",
+        "io.netty:netty-codec-smtp:4.1.79.Final",
+        "io.netty:netty-transport-rxtx:4.1.79.Final",
+        "io.netty:netty-handler:4.1.79.Final",
+        "io.netty:netty-codec-mqtt:4.1.79.Final",
+        "io.netty:netty-resolver-dns-native-macos:4.1.79.Final",
+        "io.netty:netty-resolver-dns-classes-macos:4.1.79.Final",
+        "io.netty:netty-handler-proxy:4.1.79.Final",
+        "io.netty:netty-resolver:4.1.79.Final",
+        "io.netty:netty-transport-udt:4.1.79.Final",
+        "io.netty:netty-codec-dns:4.1.79.Final",
+        "io.netty:netty-codec-stomp:4.1.79.Final",
+        "io.netty:netty-transport-native-epoll:4.1.79.Final",
+        "io.netty:netty-codec:4.1.79.Final",
+        "io.netty:netty-transport-sctp:4.1.79.Final",
+        "io.netty:netty-codec-xml:4.1.79.Final",
+        "io.netty:netty-resolver-dns:4.1.79.Final",
+        "io.netty:netty-codec-redis:4.1.79.Final",
+        "io.netty:netty-codec-memcache:4.1.79.Final"
+      ]
+    },
+    {
+      "ref": "org.apache.httpcomponents.client5:httpclient5:5.0",
+      "dependsOn": [
+        "org.apache.httpcomponents.core5:httpcore5-h2:5.0",
+        "org.apache.httpcomponents.core5:httpcore5:5.0"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:31.1-jre",
+      "dependsOn": [
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "org.checkerframework:checker-qual:3.12.0",
+        "com.google.j2objc:j2objc-annotations:1.3",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.errorprone:error_prone_annotations:2.11.0"
       ]
     },
     {
@@ -3004,41 +3024,125 @@
       ]
     },
     {
-      "ref": "org.eclipse.jetty.websocket:websocket-common:9.4.48.v20220622",
+      "ref": "com.google.inject:guice:5.1.0",
       "dependsOn": [
-        "org.eclipse.jetty.websocket:websocket-api:9.4.48.v20220622"
+        "javax.inject:javax.inject:1",
+        "aopalliance:aopalliance:1.0",
+        "com.google.guava:guava:31.1-jre"
+      ]
+    },
+    {
+      "ref": "xerces:xercesImpl:2.11.0",
+      "dependsOn": [
+        "xml-apis:xml-apis:1.4.01"
+      ]
+    },
+    {
+      "ref": "jp.vmi:selenese-runner-java:4.2.0",
+      "dependsOn": [
+        "org.slf4j:jul-to-slf4j:1.7.36",
+        "org.seleniumhq.selenium:htmlunit-driver:3.63.0",
+        "args4j:args4j:2.33",
+        "com.assertthat:selenium-shutterbug:1.6",
+        "ch.qos.logback:logback-classic:1.2.11",
+        "org.hamcrest:hamcrest-all:1.3",
+        "org.seleniumhq.selenium:selenium-java:4.4.0",
+        "org.apache.commons:commons-text:1.9",
+        "org.littleshoot:littleproxy:1.1.2",
+        "com.google.inject:guice:5.1.0",
+        "com.googlecode.java-diff-utils:diffutils:1.3.0",
+        "net.sourceforge.nekohtml:nekohtml:1.9.22",
+        "org.apache.commons:commons-lang3:3.12.0",
+        "org.slf4j:slf4j-api:1.7.36",
+        "com.google.code.gson:gson:2.9.1",
+        "com.floreysoft:jmte:7.0.0",
+        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+        "commons-io:commons-io:2.11.0",
+        "junit:junit:4.13.2",
+        "org.slf4j:jcl-over-slf4j:1.7.36",
+        "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+        "xalan:xalan:2.7.2"
+      ]
+    },
+    {
+      "ref": "org.seleniumhq.selenium:selenium-remote-driver:4.4.0",
+      "dependsOn": [
+        "io.opentelemetry:opentelemetry-api:1.16.0",
+        "io.netty:netty-codec-http:4.1.78.Final",
+        "io.opentelemetry:opentelemetry-semconv:1.16.0-alpha",
+        "io.netty:netty-common:4.1.78.Final",
+        "org.seleniumhq.selenium:selenium-http:4.4.0",
+        "io.netty:netty-transport-classes-kqueue:4.1.78.Final",
+        "io.netty:netty-transport:4.1.78.Final",
+        "io.netty:netty-buffer:4.1.78.Final",
+        "io.netty:netty-transport-classes-epoll:4.1.78.Final",
+        "io.opentelemetry:opentelemetry-exporter-logging:1.16.0",
+        "io.opentelemetry:opentelemetry-sdk-common:1.16.0",
+        "io.opentelemetry:opentelemetry-sdk:1.16.0",
+        "org.asynchttpclient:async-http-client:2.12.3",
+        "io.ous:jtoml:2.0.0",
+        "com.beust:jcommander:1.82",
+        "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.16.0-alpha",
+        "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.16.0",
+        "org.apache.commons:commons-exec:1.3",
+        "net.bytebuddy:byte-buddy:1.12.10",
+        "io.opentelemetry:opentelemetry-sdk-trace:1.16.0",
+        "io.opentelemetry:opentelemetry-context:1.16.0",
+        "io.netty:netty-transport-native-kqueue:4.1.78.Final",
+        "io.netty:netty-transport-native-unix-common:4.1.78.Final",
+        "io.netty:netty-transport-native-epoll:4.1.78.Final"
+      ]
+    },
+    {
+      "ref": "com.google.auto.service:auto-service:1.0.1",
+      "dependsOn": [
+        "com.google.auto:auto-common:1.2"
+      ]
+    },
+    {
+      "ref": "org.seleniumhq.selenium:selenium-java:4.4.0",
+      "dependsOn": [
+        "org.seleniumhq.selenium:selenium-devtools-v103:4.4.0",
+        "org.seleniumhq.selenium:selenium-remote-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-devtools-v104:4.4.0",
+        "org.seleniumhq.selenium:selenium-chrome-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-firefox-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-support:4.4.0",
+        "org.seleniumhq.selenium:selenium-devtools-v85:4.4.0",
+        "org.seleniumhq.selenium:selenium-safari-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-edge-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-api:4.4.0",
+        "org.seleniumhq.selenium:selenium-ie-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-devtools-v102:4.4.0"
+      ]
+    },
+    {
+      "ref": "io.opentelemetry:opentelemetry-exporter-logging:1.16.0",
+      "dependsOn": [
+        "io.opentelemetry:opentelemetry-sdk-metrics:1.16.0",
+        "io.opentelemetry:opentelemetry-sdk-logs:1.16.0-alpha"
       ]
     },
     {
       "ref": "net.sourceforge.htmlunit:htmlunit:2.63.0",
       "dependsOn": [
-        "net.sourceforge.htmlunit:htmlunit-cssparser:1.12.0",
         "com.shapesecurity:salvation2:3.0.0",
         "commons-codec:commons-codec:1.15",
         "commons-net:commons-net:3.8.0",
+        "org.brotli:dec:0.1.2",
+        "org.eclipse.jetty.websocket:websocket-client:9.4.48.v20220622",
+        "net.sourceforge.htmlunit:htmlunit-cssparser:1.12.0",
         "net.sourceforge.htmlunit:neko-htmlunit:2.63.0",
         "net.sourceforge.htmlunit:htmlunit-core-js:2.63.0",
-        "org.apache.httpcomponents:httpmime:4.5.13",
-        "org.brotli:dec:0.1.2",
-        "org.eclipse.jetty.websocket:websocket-client:9.4.48.v20220622"
+        "org.apache.httpcomponents:httpmime:4.5.13"
       ]
     },
     {
-      "ref": "org.apache.httpcomponents:httpclient:4.5.13",
+      "ref": "io.github.bonigarcia:webdrivermanager:4.0.0",
       "dependsOn": [
-        "org.apache.httpcomponents:httpcore:4.4.13"
-      ]
-    },
-    {
-      "ref": "ch.qos.logback:logback-classic:1.2.11",
-      "dependsOn": [
-        "ch.qos.logback:logback-core:1.2.11"
-      ]
-    },
-    {
-      "ref": "org.seleniumhq.selenium:selenium-http:4.4.0",
-      "dependsOn": [
-        "dev.failsafe:failsafe:3.2.4"
+        "org.rauschig:jarchivelib:1.0.0",
+        "org.apache.httpcomponents.client5:httpclient5:5.0",
+        "org.jsoup:jsoup:1.13.1"
       ]
     },
     {
@@ -3049,53 +3153,18 @@
       ]
     },
     {
-      "ref": "org.seleniumhq.selenium:selenium-java:4.4.0",
+      "ref": "org.seleniumhq.selenium:selenium-chrome-driver:4.4.0",
       "dependsOn": [
-        "org.seleniumhq.selenium:selenium-firefox-driver:4.4.0",
-        "org.seleniumhq.selenium:selenium-devtools-v102:4.4.0",
-        "org.seleniumhq.selenium:selenium-ie-driver:4.4.0",
-        "org.seleniumhq.selenium:selenium-remote-driver:4.4.0",
-        "org.seleniumhq.selenium:selenium-devtools-v104:4.4.0",
-        "org.seleniumhq.selenium:selenium-chrome-driver:4.4.0",
-        "org.seleniumhq.selenium:selenium-edge-driver:4.4.0",
-        "org.seleniumhq.selenium:selenium-api:4.4.0",
-        "org.seleniumhq.selenium:selenium-devtools-v85:4.4.0",
-        "org.seleniumhq.selenium:selenium-safari-driver:4.4.0",
-        "org.seleniumhq.selenium:selenium-devtools-v103:4.4.0",
-        "org.seleniumhq.selenium:selenium-support:4.4.0"
+        "com.google.auto.service:auto-service:1.0.1",
+        "org.seleniumhq.selenium:selenium-chromium-driver:4.4.0",
+        "com.google.auto.service:auto-service-annotations:1.0.1",
+        "org.seleniumhq.selenium:selenium-json:4.4.0"
       ]
     },
     {
-      "ref": "org.apache.httpcomponents:httpmime:4.5.13",
+      "ref": "org.seleniumhq.selenium:selenium-http:4.4.0",
       "dependsOn": [
-        "org.apache.httpcomponents:httpclient:4.5.13"
-      ]
-    },
-    {
-      "ref": "jp.vmi:selenese-runner-java:4.2.0",
-      "dependsOn": [
-        "com.google.inject:guice:5.1.0",
-        "net.sourceforge.nekohtml:nekohtml:1.9.22",
-        "org.seleniumhq.selenium:htmlunit-driver:3.63.0",
-        "xalan:xalan:2.7.2",
-        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
-        "junit:junit:4.13.2",
-        "com.googlecode.java-diff-utils:diffutils:1.3.0",
-        "commons-io:commons-io:2.11.0",
-        "args4j:args4j:2.33",
-        "org.slf4j:slf4j-api:1.7.36",
-        "org.slf4j:jcl-over-slf4j:1.7.36",
-        "com.google.code.gson:gson:2.9.1",
-        "org.slf4j:jul-to-slf4j:1.7.36",
-        "org.hamcrest:hamcrest-all:1.3",
-        "org.seleniumhq.selenium:selenium-java:4.4.0",
-        "com.assertthat:selenium-shutterbug:1.6",
-        "org.littleshoot:littleproxy:1.1.2",
-        "org.apache.commons:commons-text:1.9",
-        "org.apache.commons:commons-lang3:3.12.0",
-        "org.glassfish.jaxb:jaxb-runtime:2.3.6",
-        "com.floreysoft:jmte:7.0.0",
-        "ch.qos.logback:logback-classic:1.2.11"
+        "dev.failsafe:failsafe:3.2.4"
       ]
     },
     {
@@ -3108,24 +3177,15 @@
       ]
     },
     {
-      "ref": "com.google.inject:guice:5.1.0",
+      "ref": "xalan:xalan:2.7.2",
       "dependsOn": [
-        "aopalliance:aopalliance:1.0",
-        "com.google.guava:guava:31.1-jre",
-        "javax.inject:javax.inject:1"
+        "xalan:serializer:2.7.2"
       ]
     },
     {
-      "ref": "org.apache.httpcomponents.client5:httpclient5:5.0",
+      "ref": "org.apache.httpcomponents:httpclient:4.5.13",
       "dependsOn": [
-        "org.apache.httpcomponents.core5:httpcore5-h2:5.0",
-        "org.apache.httpcomponents.core5:httpcore5:5.0"
-      ]
-    },
-    {
-      "ref": "com.google.auto.service:auto-service:1.0.1",
-      "dependsOn": [
-        "com.google.auto:auto-common:1.2"
+        "org.apache.httpcomponents:httpcore:4.4.13"
       ]
     },
     {
@@ -3135,81 +3195,22 @@
       ]
     },
     {
-      "ref": "org.asynchttpclient:async-http-client:2.12.3",
+      "ref": "ch.qos.logback:logback-classic:1.2.11",
       "dependsOn": [
-        "com.typesafe.netty:netty-reactive-streams:2.0.4",
-        "org.asynchttpclient:async-http-client-netty-utils:2.12.3",
-        "org.reactivestreams:reactive-streams:1.0.3"
+        "ch.qos.logback:logback-core:1.2.11"
       ]
     },
     {
-      "ref": "org.seleniumhq.selenium:selenium-remote-driver:4.4.0",
+      "ref": "com.assertthat:selenium-shutterbug:1.6",
       "dependsOn": [
-        "com.beust:jcommander:1.82",
-        "io.opentelemetry:opentelemetry-exporter-logging:1.16.0",
-        "io.opentelemetry:opentelemetry-semconv:1.16.0-alpha",
-        "io.netty:netty-transport:4.1.78.Final",
-        "io.netty:netty-transport-classes-epoll:4.1.78.Final",
-        "org.seleniumhq.selenium:selenium-http:4.4.0",
-        "io.opentelemetry:opentelemetry-api:1.16.0",
-        "io.netty:netty-codec-http:4.1.78.Final",
-        "io.opentelemetry:opentelemetry-sdk:1.16.0",
-        "io.netty:netty-transport-native-kqueue:4.1.78.Final",
-        "io.ous:jtoml:2.0.0",
-        "io.opentelemetry:opentelemetry-sdk-common:1.16.0",
-        "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.16.0",
-        "net.bytebuddy:byte-buddy:1.12.10",
-        "io.opentelemetry:opentelemetry-sdk-trace:1.16.0",
-        "io.netty:netty-transport-native-epoll:4.1.78.Final",
-        "org.asynchttpclient:async-http-client:2.12.3",
-        "io.netty:netty-buffer:4.1.78.Final",
-        "io.netty:netty-transport-classes-kqueue:4.1.78.Final",
-        "io.netty:netty-transport-native-unix-common:4.1.78.Final",
-        "io.netty:netty-common:4.1.78.Final",
-        "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.16.0-alpha",
-        "org.apache.commons:commons-exec:1.3",
-        "io.opentelemetry:opentelemetry-context:1.16.0"
+        "io.github.bonigarcia:webdrivermanager:4.0.0",
+        "com.github.zafarkhaja:java-semver:0.9.0"
       ]
     },
     {
-      "ref": "io.netty:netty-all:4.1.79.Final",
+      "ref": "org.rauschig:jarchivelib:1.0.0",
       "dependsOn": [
-        "io.netty:netty-codec-stomp:4.1.79.Final",
-        "io.netty:netty-resolver-dns-classes-macos:4.1.79.Final",
-        "io.netty:netty-codec:4.1.79.Final",
-        "io.netty:netty-codec-xml:4.1.79.Final",
-        "io.netty:netty-handler-proxy:4.1.79.Final",
-        "io.netty:netty-codec-socks:4.1.79.Final",
-        "io.netty:netty-codec-smtp:4.1.79.Final",
-        "io.netty:netty-handler:4.1.79.Final",
-        "io.netty:netty-codec-redis:4.1.79.Final",
-        "io.netty:netty-codec-memcache:4.1.79.Final",
-        "io.netty:netty-codec-http2:4.1.79.Final",
-        "io.netty:netty-transport-sctp:4.1.79.Final",
-        "io.netty:netty-resolver-dns:4.1.79.Final",
-        "io.netty:netty-transport-udt:4.1.79.Final",
-        "io.netty:netty-resolver:4.1.79.Final",
-        "io.netty:netty-transport-rxtx:4.1.79.Final",
-        "io.netty:netty-codec-mqtt:4.1.79.Final",
-        "io.netty:netty-transport-native-epoll:4.1.79.Final",
-        "io.netty:netty-codec-dns:4.1.79.Final",
-        "io.netty:netty-codec-haproxy:4.1.79.Final",
-        "io.netty:netty-transport-native-kqueue:4.1.79.Final",
-        "io.netty:netty-resolver-dns-native-macos:4.1.79.Final"
-      ]
-    },
-    {
-      "ref": "xerces:xercesImpl:2.11.0",
-      "dependsOn": [
-        "xml-apis:xml-apis:1.4.01"
-      ]
-    },
-    {
-      "ref": "io.github.bonigarcia:webdrivermanager:4.0.0",
-      "dependsOn": [
-        "org.rauschig:jarchivelib:1.0.0",
-        "org.apache.httpcomponents.client5:httpclient5:5.0",
-        "org.jsoup:jsoup:1.13.1"
+        "org.apache.commons:commons-compress:1.18"
       ]
     }
   ]

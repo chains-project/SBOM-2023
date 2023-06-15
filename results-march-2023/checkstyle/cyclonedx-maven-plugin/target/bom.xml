@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:4a703670-3bd0-4def-b0c5-b560cfcfc14a" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:affbb4ed-9737-46d0-b387-5d4f9ba94024" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-26T01:50:37Z</timestamp>
+    <timestamp>2023-05-09T18:53:14Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin makeAggregateBom</name>
-        <version>2.7.5</version>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.8</version>
         <hashes>
-          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
-          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
-          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
-          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
-          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
-          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
-          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
-          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
+          <hash alg="MD5">4d75a7410313db127502c8536eb3f54b</hash>
+          <hash alg="SHA-1">8795071de12b08045d08f58d9611a9fcb9c78a9f</hash>
+          <hash alg="SHA-256">eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61</hash>
+          <hash alg="SHA-512">d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9</hash>
+          <hash alg="SHA-384">ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8</hash>
+          <hash alg="SHA3-384">08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58</hash>
+          <hash alg="SHA3-256">59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929</hash>
+          <hash alg="SHA3-512">7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3</hash>
         </hashes>
       </tool>
     </tools>
@@ -34,6 +34,10 @@
       <purl>pkg:maven/com.puppycrawl.tools/checkstyle@10.6.0?type=jar</purl>
       <externalReferences><reference type="website"><url>https://checkstyle.org/</url></reference><reference type="build-system"><url>https://travis-ci.org/checkstyle/checkstyle</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/checkstyle/checkstyle/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/checkstyle</url></reference><reference type="vcs"><url>https://github.com/checkstyle/checkstyle</url></reference></externalReferences>
     </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:maven/info.picocli/picocli@4.7.0?type=jar">
@@ -532,6 +536,30 @@
       <purl>pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.1.3?type=jar</purl>
       <externalReferences><reference type="website"><url>https://hc.apache.org/httpcomponents-client-5.0.x/5.1.3/httpclient5/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/HTTPCLIENT</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?httpclient-users@hc.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-client/tree/5.1.3/httpclient5</url></reference></externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.1.3?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.httpcomponents.core5</group>
+      <name>httpcore5</name>
+      <version>5.1.3</version>
+      <description>Apache HttpComponents HTTP/1.1 core components</description>
+      <hashes>
+        <hash alg="MD5">e3311847fc70a84038fb2c079dd08c4a</hash>
+        <hash alg="SHA-1">d1638d1e5f2793f187d4144c702a93524ba6fd3b</hash>
+        <hash alg="SHA-256">f2bf2f2c7772169c9e30699719667ad30f9b46c4e9d7841907deb2d12d9923fe</hash>
+        <hash alg="SHA-512">c9b439da0fb0124f37676686c69f8fdb824a30e0d6a3b9ebc0ebca5555727ae18cc5a146d8874b4cfe6fa966d5eb6083a44c379a76017ec79863596a23c571b3</hash>
+        <hash alg="SHA-384">63d37103c0b040ed9f0c70af0bcc9792c68afe8c7da5f445f30458c7c802524f07a1bdb573661e680955a257e0fb6b4c</hash>
+        <hash alg="SHA3-384">5ddd51ea89b40049c0b92bdfd0fc59fd2963c025895bece1b9438166e9e468b8b54694e9e72a8d026f681ec92824f224</hash>
+        <hash alg="SHA3-256">0a1d52398f2a13124591cc6fce1fee5f353c29c9726b4f68813b01f077940947</hash>
+        <hash alg="SHA3-512">eecbd33885bb1718a1803951d9217b108e42e39cedfeac99bd0938cec94674b1c67d6f4d6141c8e225061a51a1ac3af07f553501ff2b136e358a3eeffbcd3ea9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.1.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://hc.apache.org/httpcomponents-core-5.1.x/5.1.3/httpcore5/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?httpclient-users@hc.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-core/tree/5.1.3/httpcore5</url></reference></externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.1.3?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.httpcomponents.core5</group>
@@ -582,30 +610,6 @@
       </licenses>
       <purl>pkg:maven/commons-codec/commons-codec@1.15?type=jar</purl>
       <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-codec/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.1.3?type=jar">
-      <publisher>The Apache Software Foundation</publisher>
-      <group>org.apache.httpcomponents.core5</group>
-      <name>httpcore5</name>
-      <version>5.1.3</version>
-      <description>Apache HttpComponents HTTP/1.1 core components</description>
-      <hashes>
-        <hash alg="MD5">e3311847fc70a84038fb2c079dd08c4a</hash>
-        <hash alg="SHA-1">d1638d1e5f2793f187d4144c702a93524ba6fd3b</hash>
-        <hash alg="SHA-256">f2bf2f2c7772169c9e30699719667ad30f9b46c4e9d7841907deb2d12d9923fe</hash>
-        <hash alg="SHA-512">c9b439da0fb0124f37676686c69f8fdb824a30e0d6a3b9ebc0ebca5555727ae18cc5a146d8874b4cfe6fa966d5eb6083a44c379a76017ec79863596a23c571b3</hash>
-        <hash alg="SHA-384">63d37103c0b040ed9f0c70af0bcc9792c68afe8c7da5f445f30458c7c802524f07a1bdb573661e680955a257e0fb6b4c</hash>
-        <hash alg="SHA3-384">5ddd51ea89b40049c0b92bdfd0fc59fd2963c025895bece1b9438166e9e468b8b54694e9e72a8d026f681ec92824f224</hash>
-        <hash alg="SHA3-256">0a1d52398f2a13124591cc6fce1fee5f353c29c9726b4f68813b01f077940947</hash>
-        <hash alg="SHA3-512">eecbd33885bb1718a1803951d9217b108e42e39cedfeac99bd0938cec94674b1c67d6f4d6141c8e225061a51a1ac3af07f553501ff2b136e358a3eeffbcd3ea9</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.1.3?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://hc.apache.org/httpcomponents-core-5.1.x/5.1.3/httpcore5/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?httpclient-users@hc.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-core/tree/5.1.3/httpcore5</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.xmlresolver/xmlresolver@4.4.3?classifier=data&amp;type=jar">
       <group>org.xmlresolver</group>

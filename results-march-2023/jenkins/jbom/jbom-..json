@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.3",
-  "serialNumber" : "99c6e7ad-01d5-4968-9371-6a6e9bf2eed0",
+  "serialNumber" : "dd47c7bb-ea4c-43f8-9726-f1e4f84e3243",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T04:25:13Z",
+    "timestamp" : "2023-05-10T10:24:35Z",
     "tools" : [
       {
         "vendor" : "Contrast Security - https://contrastsecurity.com",
@@ -13,7 +13,7 @@
       }
     ],
     "component" : {
-      "name" : "172.17.0.2 (1d7e57772a1b)",
+      "name" : "172.17.0.28 (b6b81684c88c)",
       "description" : "Java",
       "type" : "application"
     },
@@ -319,11 +319,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -338,37 +338,6 @@
         {
           "name" : "codesource",
           "value" : "/jenkins/./cli/target/cli-2.384.jar!/META-INF/maven/org.apache.sshd/sshd-common/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:sshd-common:common/pom"
-    },
-    {
-      "name" : "sshd-common",
-      "version" : "common/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.apache.sshd/sshd-common"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.apache.sshd/sshd-common/pom.xml"
         }
       ],
       "type" : "library",
@@ -468,23 +437,23 @@
       "bom-ref" : "null:websocket-core-common:common/pom"
     },
     {
-      "name" : "tyrus-client",
-      "version" : "client/pom",
+      "name" : "sshd-common",
+      "version" : "common/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "79a835b446d70e09d00436f87f21cd7c"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-client"
+          "value" : "META-INF/maven/org.apache.sshd/sshd-common"
         },
         {
           "name" : "archive",
@@ -492,11 +461,44 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-client/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.apache.sshd/sshd-common/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:tyrus-client:client/pom"
+      "bom-ref" : "null:sshd-common:common/pom"
+    },
+    {
+      "group" : "org.jvnet.robust-http-client",
+      "name" : "robust-http-client",
+      "version" : "1.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "dee9fda92ad39a94a77ec6cf88300d4dd6db8a4d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "33f540df15bd4a3324654a7a902207a2"
+        }
+      ],
+      "purl" : "pkg:maven/org.jvnet.robust-http-client/robust-http-client@1.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jvnet.robust-http-client/robust-http-client"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/robust-http-client-1.2.jar!/META-INF/maven/org.jvnet.robust-http-client/robust-http-client/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jvnet.robust-http-client:robust-http-client:1.2"
     },
     {
       "name" : "tyrus-client",
@@ -505,11 +507,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -536,11 +538,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -555,6 +557,130 @@
         {
           "name" : "codesource",
           "value" : "/jenkins/./cli/target/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:tyrus-container-jdk-client:client/pom"
+    },
+    {
+      "name" : "tyrus-client",
+      "version" : "client/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-client"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-client/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:tyrus-client:client/pom"
+    },
+    {
+      "name" : "tyrus-container-jdk-client",
+      "version" : "client/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:tyrus-container-jdk-client:client/pom"
+    },
+    {
+      "name" : "tyrus-client",
+      "version" : "client/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "77934d11c6e113396301352469409e94cee5db60"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "16cf892f7f1b6adedcd24fd97990d610"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-client"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-client/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:tyrus-client:client/pom"
+    },
+    {
+      "name" : "tyrus-container-jdk-client",
+      "version" : "client/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "77934d11c6e113396301352469409e94cee5db60"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "16cf892f7f1b6adedcd24fd97990d610"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client/pom.xml"
         }
       ],
       "type" : "library",
@@ -623,6 +749,37 @@
       "bom-ref" : "null:tyrus-container-jdk-client:client/pom"
     },
     {
+      "name" : "tyrus-client",
+      "version" : "client/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "79a835b446d70e09d00436f87f21cd7c"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-client"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-client/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:tyrus-client:client/pom"
+    },
+    {
       "name" : "tyrus-container-jdk-client",
       "version" : "client/pom",
       "scope" : "required",
@@ -652,163 +809,6 @@
       ],
       "type" : "library",
       "bom-ref" : "null:tyrus-container-jdk-client:client/pom"
-    },
-    {
-      "name" : "tyrus-client",
-      "version" : "client/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "77934d11c6e113396301352469409e94cee5db60"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "16cf892f7f1b6adedcd24fd97990d610"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-client"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-client/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:tyrus-client:client/pom"
-    },
-    {
-      "name" : "tyrus-client",
-      "version" : "client/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-client"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-client/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:tyrus-client:client/pom"
-    },
-    {
-      "name" : "tyrus-container-jdk-client",
-      "version" : "client/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:tyrus-container-jdk-client:client/pom"
-    },
-    {
-      "name" : "tyrus-container-jdk-client",
-      "version" : "client/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "77934d11c6e113396301352469409e94cee5db60"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "16cf892f7f1b6adedcd24fd97990d610"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-container-jdk-client/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:tyrus-container-jdk-client:client/pom"
-    },
-    {
-      "group" : "org.jvnet.robust-http-client",
-      "name" : "robust-http-client",
-      "version" : "1.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "dee9fda92ad39a94a77ec6cf88300d4dd6db8a4d"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "33f540df15bd4a3324654a7a902207a2"
-        }
-      ],
-      "purl" : "pkg:maven/org.jvnet.robust-http-client/robust-http-client@1.2",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jvnet.robust-http-client/robust-http-client"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/robust-http-client-1.2.jar!/META-INF/maven/org.jvnet.robust-http-client/robust-http-client/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.jvnet.robust-http-client:robust-http-client:1.2"
     },
     {
       "name" : "guice-5.1.0",
@@ -885,68 +885,6 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/args4j/args4j"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/args4j/args4j/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:args4j:INF/maven/args4j/args4j/pom"
-    },
-    {
-      "name" : "args4j",
-      "version" : "INF/maven/args4j/args4j/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "79a835b446d70e09d00436f87f21cd7c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/args4j/args4j"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/args4j/args4j/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:args4j:INF/maven/args4j/args4j/pom"
-    },
-    {
-      "name" : "args4j",
-      "version" : "INF/maven/args4j/args4j/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
           "content" : "77934d11c6e113396301352469409e94cee5db60"
         },
         {
@@ -997,6 +935,68 @@
         {
           "name" : "codesource",
           "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/args4j-2.33.jar!/META-INF/maven/args4j/args4j/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:args4j:INF/maven/args4j/args4j/pom"
+    },
+    {
+      "name" : "args4j",
+      "version" : "INF/maven/args4j/args4j/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "79a835b446d70e09d00436f87f21cd7c"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/args4j/args4j"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/args4j/args4j/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:args4j:INF/maven/args4j/args4j/pom"
+    },
+    {
+      "name" : "args4j",
+      "version" : "INF/maven/args4j/args4j/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/args4j/args4j"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/args4j/args4j/pom.xml"
         }
       ],
       "type" : "library",
@@ -1483,44 +1483,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "8013055c37c5704a6fdb0cb2e1b1af9f46179c32"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "c0bf3d2c5596f4ae773445b5bb712792"
-        }
-      ],
-      "purl" : "pkg:maven/org.jenkins-ci.main/cli@2.384",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jenkins-ci.main/cli"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./cli/target/original-cli-2.384.jar!/META-INF/maven/org.jenkins-ci.main/cli/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.jenkins-ci.main:cli:2.384"
-    },
-    {
-      "group" : "org.jenkins-ci.main",
-      "name" : "cli",
-      "version" : "2.384",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/cli@2.384",
@@ -1549,11 +1516,44 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "f24242c0ff6d461eb404b898e35caab1f1ceb826"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "3467d9d9720f991701b541b2bb010ff9"
+        }
+      ],
+      "purl" : "pkg:maven/org.jenkins-ci.main/cli@2.384",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jenkins-ci.main/cli"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./cli/target/original-cli-2.384.jar!/META-INF/maven/org.jenkins-ci.main/cli/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jenkins-ci.main:cli:2.384"
+    },
+    {
+      "group" : "org.jenkins-ci.main",
+      "name" : "cli",
+      "version" : "2.384",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/cli@2.384",
@@ -1920,11 +1920,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "927959060ca20640ed86fae20e006bd4626acda9"
+          "content" : "92266cf085d398d817474f708d76fb777203bace"
         },
         {
           "alg" : "MD5",
-          "content" : "e8247d3bbf48610e210a8d33bcdb217e"
+          "content" : "e3403115d4a42ce93117e535ce332275"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-war@2.384",
@@ -2023,44 +2023,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "83a6eaae789f8e9d54760748046f9864726570fd"
+          "content" : "670c2760e744eb57d7e77508b55da9d122253be9"
         },
         {
           "alg" : "MD5",
-          "content" : "930219c1c033f3196c19e22b29c1292c"
-        }
-      ],
-      "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty9@2.384",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jenkins-ci.main/websocket-jetty9"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./websocket/jetty9/target/websocket-jetty9-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-jetty9/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.jenkins-ci.main:websocket-jetty9:2.384"
-    },
-    {
-      "group" : "org.jenkins-ci.main",
-      "name" : "websocket-jetty9",
-      "version" : "2.384",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "83a6eaae789f8e9d54760748046f9864726570fd"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "930219c1c033f3196c19e22b29c1292c"
+          "content" : "432212888f94840e75b885422bf9bc91"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty9@2.384",
@@ -2076,6 +2043,39 @@
         {
           "name" : "codesource",
           "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/websocket-jetty9-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-jetty9/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jenkins-ci.main:websocket-jetty9:2.384"
+    },
+    {
+      "group" : "org.jenkins-ci.main",
+      "name" : "websocket-jetty9",
+      "version" : "2.384",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "670c2760e744eb57d7e77508b55da9d122253be9"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "432212888f94840e75b885422bf9bc91"
+        }
+      ],
+      "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty9@2.384",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jenkins-ci.main/websocket-jetty9"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./websocket/jetty9/target/websocket-jetty9-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-jetty9/pom.xml"
         }
       ],
       "type" : "library",
@@ -2224,11 +2224,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+          "content" : "77934d11c6e113396301352469409e94cee5db60"
         },
         {
           "alg" : "MD5",
-          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+          "content" : "16cf892f7f1b6adedcd24fd97990d610"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2",
@@ -2243,7 +2243,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.jenkins-ci/constant-pool-scanner/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/org.jenkins-ci/constant-pool-scanner/pom.xml"
         }
       ],
       "type" : "library",
@@ -2290,11 +2290,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "77934d11c6e113396301352469409e94cee5db60"
+          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
         },
         {
           "alg" : "MD5",
-          "content" : "16cf892f7f1b6adedcd24fd97990d610"
+          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2",
@@ -2309,44 +2309,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/org.jenkins-ci/constant-pool-scanner/pom.xml"
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.jenkins-ci/constant-pool-scanner/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "org.jenkins-ci:constant-pool-scanner:1.2"
-    },
-    {
-      "group" : "org.jenkins-ci.main",
-      "name" : "websocket-spi",
-      "version" : "2.384",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "740c9abbeae4f7289819755ffedeab7f750b3f58"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "72b752449e15788ca395b76852cb3c80"
-        }
-      ],
-      "purl" : "pkg:maven/org.jenkins-ci.main/websocket-spi@2.384",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jenkins-ci.main/websocket-spi"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./websocket/spi/target/websocket-spi-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-spi/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.jenkins-ci.main:websocket-spi:2.384"
     },
     {
       "name" : "tyrus-spi",
@@ -2355,11 +2322,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -2386,11 +2353,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -2404,30 +2371,32 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-spi/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-spi/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "null:tyrus-spi:spi/pom"
     },
     {
-      "name" : "tyrus-spi",
-      "version" : "spi/pom",
+      "group" : "org.jenkins-ci.main",
+      "name" : "websocket-spi",
+      "version" : "2.384",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
+          "content" : "93dfd7a3b39d3f7586e9df938a7bb5eb7d4f5a5b"
         },
         {
           "alg" : "MD5",
-          "content" : "79a835b446d70e09d00436f87f21cd7c"
+          "content" : "15a4b8495a95f782d479fabddf55fabc"
         }
       ],
+      "purl" : "pkg:maven/org.jenkins-ci.main/websocket-spi@2.384",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-spi"
+          "value" : "META-INF/maven/org.jenkins-ci.main/websocket-spi"
         },
         {
           "name" : "archive",
@@ -2435,11 +2404,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-spi/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/websocket-spi-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-spi/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:tyrus-spi:spi/pom"
+      "bom-ref" : "org.jenkins-ci.main:websocket-spi:2.384"
     },
     {
       "name" : "tyrus-spi",
@@ -2480,11 +2449,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "740c9abbeae4f7289819755ffedeab7f750b3f58"
+          "content" : "93dfd7a3b39d3f7586e9df938a7bb5eb7d4f5a5b"
         },
         {
           "alg" : "MD5",
-          "content" : "72b752449e15788ca395b76852cb3c80"
+          "content" : "15a4b8495a95f782d479fabddf55fabc"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-spi@2.384",
@@ -2499,7 +2468,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/websocket-spi-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-spi/pom.xml"
+          "value" : "/jenkins/./websocket/spi/target/websocket-spi-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-spi/pom.xml"
         }
       ],
       "type" : "library",
@@ -2512,11 +2481,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "79a835b446d70e09d00436f87f21cd7c"
         }
       ],
       "properties" : [
@@ -2530,7 +2499,38 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-spi/pom.xml"
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-spi/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:tyrus-spi:spi/pom"
+    },
+    {
+      "name" : "tyrus-spi",
+      "version" : "spi/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-spi"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-spi/pom.xml"
         }
       ],
       "type" : "library",
@@ -2781,11 +2781,11 @@
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "930219c1c033f3196c19e22b29c1292c"
+          "content" : "432212888f94840e75b885422bf9bc91"
         },
         {
           "alg" : "SHA-1",
-          "content" : "83a6eaae789f8e9d54760748046f9864726570fd"
+          "content" : "670c2760e744eb57d7e77508b55da9d122253be9"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty9@2.384",
@@ -2804,11 +2804,41 @@
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:83a6eaae789f8e9d54760748046f9864726570fd"
+          "value" : "https://search.maven.org/search?q=1:670c2760e744eb57d7e77508b55da9d122253be9"
         }
       ],
       "type" : "library",
       "bom-ref" : "org.jenkins-ci.main:websocket-jetty9:2.384"
+    },
+    {
+      "name" : "pom",
+      "version" : "INF/maven/org.jfree/jcommon/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a316f336ca996e0c6bec4e4fbd49be8f5e1c3968"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "1b059adc60fef2da40b7130f9a67f977"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jfree/jcommon"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/jcommon-1.0.23.jar!/META-INF/maven/org.jfree/jcommon/pom.xml"
+        }
+      ],
+      "type" : "library"
     },
     {
       "name" : "json-lib-2.4-jenkins-3",
@@ -2840,36 +2870,6 @@
         {
           "name" : "maven",
           "value" : "https://search.maven.org/search?q=1:83f848493c09c735861a90e91591499fb88d7fbb"
-        }
-      ],
-      "type" : "library"
-    },
-    {
-      "name" : "pom",
-      "version" : "INF/maven/org.jfree/jcommon/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "a316f336ca996e0c6bec4e4fbd49be8f5e1c3968"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "1b059adc60fef2da40b7130f9a67f977"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jfree/jcommon"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/jcommon-1.0.23.jar!/META-INF/maven/org.jfree/jcommon/pom.xml"
         }
       ],
       "type" : "library"
@@ -2955,39 +2955,6 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "e503a9ab9f1147007ddb334e2525000965ce9828"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "d9a0f62d5a837117281a87526cc5987f"
-        }
-      ],
-      "purl" : "pkg:maven/io.jenkins.lib/support-log-formatter@1.2",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/io.jenkins.lib/support-log-formatter"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/support-log-formatter.jar!/META-INF/maven/io.jenkins.lib/support-log-formatter/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "io.jenkins.lib:support-log-formatter:1.2"
-    },
-    {
-      "group" : "io.jenkins.lib",
-      "name" : "support-log-formatter",
-      "version" : "1.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
           "content" : "3081c9a4391a6bb71aed45dc16e970b2b9eb0b2a"
         },
         {
@@ -3008,6 +2975,39 @@
         {
           "name" : "codesource",
           "value" : "/jenkins/./war/target/jenkins/executable/winstone.jar!/META-INF/maven/io.jenkins.lib/support-log-formatter/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.jenkins.lib:support-log-formatter:1.2"
+    },
+    {
+      "group" : "io.jenkins.lib",
+      "name" : "support-log-formatter",
+      "version" : "1.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e503a9ab9f1147007ddb334e2525000965ce9828"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d9a0f62d5a837117281a87526cc5987f"
+        }
+      ],
+      "purl" : "pkg:maven/io.jenkins.lib/support-log-formatter@1.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.jenkins.lib/support-log-formatter"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/support-log-formatter.jar!/META-INF/maven/io.jenkins.lib/support-log-formatter/pom.xml"
         }
       ],
       "type" : "library",
@@ -3085,11 +3085,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -3146,17 +3146,48 @@
       "bom-ref" : "io.github.x-stream:mxparser:1.2.2"
     },
     {
+      "name" : "jakarta.websocket-client-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/jakarta.websocket/jakarta.websocket-client-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./cli/target/cli-2.384.jar!/META-INF/maven/jakarta.websocket/jakarta.websocket-client-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:jakarta.websocket-client-api:api/pom"
+    },
+    {
       "name" : "slf4j-api",
       "version" : "api/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -3183,11 +3214,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -3208,17 +3239,141 @@
       "bom-ref" : "null:jakarta.websocket-api:api/pom"
     },
     {
+      "name" : "slf4j-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "3081c9a4391a6bb71aed45dc16e970b2b9eb0b2a"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d092c3fe8b80a5f05d793fb8cc83e24b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.slf4j/slf4j-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/executable/winstone.jar!/META-INF/maven/org.slf4j/slf4j-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-api:api/pom"
+    },
+    {
+      "name" : "websocket-jetty-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "3081c9a4391a6bb71aed45dc16e970b2b9eb0b2a"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d092c3fe8b80a5f05d793fb8cc83e24b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.eclipse.jetty.websocket/websocket-jetty-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/executable/winstone.jar!/META-INF/maven/org.eclipse.jetty.websocket/websocket-jetty-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:websocket-jetty-api:api/pom"
+    },
+    {
+      "name" : "slf4j-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.slf4j/slf4j-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.slf4j/slf4j-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-api:api/pom"
+    },
+    {
+      "name" : "jakarta.websocket-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/jakarta.websocket/jakarta.websocket-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/jakarta.websocket/jakarta.websocket-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:jakarta.websocket-api:api/pom"
+    },
+    {
       "name" : "jakarta.websocket-client-api",
       "version" : "api/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -3232,7 +3387,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./cli/target/cli-2.384.jar!/META-INF/maven/jakarta.websocket/jakarta.websocket-client-api/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/jakarta.websocket/jakarta.websocket-client-api/pom.xml"
         }
       ],
       "type" : "library",
@@ -3270,209 +3425,23 @@
       "bom-ref" : "null:slf4j-api:api/pom"
     },
     {
-      "name" : "jakarta.websocket-client-api",
-      "version" : "api/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "77934d11c6e113396301352469409e94cee5db60"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "16cf892f7f1b6adedcd24fd97990d610"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/jakarta.websocket/jakarta.websocket-client-api"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/jakarta.websocket/jakarta.websocket-client-api/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:jakarta.websocket-client-api:api/pom"
-    },
-    {
-      "name" : "javax.websocket-api",
-      "version" : "api/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/javax.websocket/javax.websocket-api"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/javax.websocket/javax.websocket-api/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:javax.websocket-api:api/pom"
-    },
-    {
-      "name" : "jakarta.websocket-api",
-      "version" : "api/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "77934d11c6e113396301352469409e94cee5db60"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "16cf892f7f1b6adedcd24fd97990d610"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/jakarta.websocket/jakarta.websocket-api"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/jakarta.websocket/jakarta.websocket-api/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:jakarta.websocket-api:api/pom"
-    },
-    {
-      "name" : "javax.websocket-client-api",
-      "version" : "api/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/javax.websocket/javax.websocket-client-api"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/javax.websocket/javax.websocket-client-api/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:javax.websocket-client-api:api/pom"
-    },
-    {
-      "name" : "javax.websocket-api",
-      "version" : "api/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "79a835b446d70e09d00436f87f21cd7c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/javax.websocket/javax.websocket-api"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/javax.websocket/javax.websocket-api/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:javax.websocket-api:api/pom"
-    },
-    {
-      "name" : "javax.websocket-client-api",
-      "version" : "api/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "79a835b446d70e09d00436f87f21cd7c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/javax.websocket/javax.websocket-client-api"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/javax.websocket/javax.websocket-client-api/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:javax.websocket-client-api:api/pom"
-    },
-    {
       "name" : "pom",
       "version" : "api/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "48b9bda22b091b1f48b13af03fe36db3be6e1ae3"
+          "content" : "934c04d3cfef185a8008e7bf34331b79730a9d43"
         },
         {
           "alg" : "MD5",
-          "content" : "5dac2f68e8288d0add4dc92cb161711d"
+          "content" : "2ab1973eefffaa2aeec47d50b9e40b9d"
         }
       ],
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/jakarta.annotation/jakarta.annotation-api"
+          "value" : "META-INF/maven/javax.annotation/javax.annotation-api"
         },
         {
           "name" : "archive",
@@ -3480,7 +3449,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar!/META-INF/maven/jakarta.annotation/jakarta.annotation-api/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/javax.annotation-api-1.3.2.jar!/META-INF/maven/javax.annotation/javax.annotation-api/pom.xml"
         }
       ],
       "type" : "library"
@@ -3692,6 +3661,39 @@
       "bom-ref" : "null:slf4j-jdk14:2.0.6"
     },
     {
+      "group" : "org.kohsuke.stapler",
+      "name" : "stapler-jelly",
+      "version" : "1756.vec9071748061",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "9b369014fc3e275f28014ebded33ac2c48c4c1b8"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "504700582898ec535f4ec222b4dc466a"
+        }
+      ],
+      "purl" : "pkg:maven/org.kohsuke.stapler/stapler-jelly@1756.vec9071748061",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.kohsuke.stapler/stapler-jelly"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/stapler-jelly-1756.vec9071748061.jar!/META-INF/maven/org.kohsuke.stapler/stapler-jelly/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.kohsuke.stapler:stapler-jelly:1756.vec9071748061"
+    },
+    {
       "name" : "pom",
       "version" : "jelly/pom",
       "scope" : "required",
@@ -3834,11 +3836,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -3853,98 +3855,6 @@
         {
           "name" : "codesource",
           "value" : "/jenkins/./cli/target/cli-2.384.jar!/META-INF/maven/org.jvnet.localizer/localizer/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:localizer:INF/maven/org.jvnet.localizer/localizer/pom"
-    },
-    {
-      "name" : "localizer",
-      "version" : "INF/maven/org.jvnet.localizer/localizer/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "aa7560693502015b7747697fa5a4fd1da9a95ccd"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "7b5f11e703bb07b4f23522b097fef2d7"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jvnet.localizer/localizer"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/localizer-1.31.jar!/META-INF/maven/org.jvnet.localizer/localizer/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:localizer:INF/maven/org.jvnet.localizer/localizer/pom"
-    },
-    {
-      "name" : "pom",
-      "version" : "jexl/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "0a990a77bea8c5a400d58a6f5d98122236300f7d"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "6ac1813e9e680f10aa01e5bfa06a7f22"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jenkins-ci/commons-jexl"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/commons-jexl-1.1-jenkins-20111212.jar!/META-INF/maven/org.jenkins-ci/commons-jexl/pom.xml"
-        }
-      ],
-      "type" : "library"
-    },
-    {
-      "name" : "localizer",
-      "version" : "INF/maven/org.jvnet.localizer/localizer/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jvnet.localizer/localizer"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.jvnet.localizer/localizer/pom.xml"
         }
       ],
       "type" : "library",
@@ -4011,6 +3921,98 @@
       ],
       "type" : "library",
       "bom-ref" : "null:websocket-servlet:servlet/pom"
+    },
+    {
+      "name" : "localizer",
+      "version" : "INF/maven/org.jvnet.localizer/localizer/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jvnet.localizer/localizer"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.jvnet.localizer/localizer/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:localizer:INF/maven/org.jvnet.localizer/localizer/pom"
+    },
+    {
+      "name" : "pom",
+      "version" : "jexl/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "0a990a77bea8c5a400d58a6f5d98122236300f7d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6ac1813e9e680f10aa01e5bfa06a7f22"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jenkins-ci/commons-jexl"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/commons-jexl-1.1-jenkins-20111212.jar!/META-INF/maven/org.jenkins-ci/commons-jexl/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "localizer",
+      "version" : "INF/maven/org.jvnet.localizer/localizer/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "aa7560693502015b7747697fa5a4fd1da9a95ccd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "7b5f11e703bb07b4f23522b097fef2d7"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jvnet.localizer/localizer"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/localizer-1.31.jar!/META-INF/maven/org.jvnet.localizer/localizer/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:localizer:INF/maven/org.jvnet.localizer/localizer/pom"
     },
     {
       "name" : "jetty-http",
@@ -4186,43 +4188,6 @@
       "bom-ref" : "org.kohsuke.stapler:stapler-adjunct-timeline:1.5"
     },
     {
-      "group" : "org.jenkins-ci.main",
-      "name" : "websocket-jetty10",
-      "version" : "2.384",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "cbc7a37e17e0b146a6a5cb0f80c97fec"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "afbdb89f96ac67b2f017ad79a122dea604555a80"
-        }
-      ],
-      "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty10@2.384",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "websocket-jetty10-2.384.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/websocket-jetty10-2.384.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:afbdb89f96ac67b2f017ad79a122dea604555a80"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.jenkins-ci.main:websocket-jetty10:2.384"
-    },
-    {
       "group" : "org.kohsuke",
       "name" : "windows-package-checker",
       "version" : "1.2",
@@ -4262,12 +4227,49 @@
       "scope" : "required",
       "hashes" : [
         {
+          "alg" : "MD5",
+          "content" : "6f41a4705e07f0e9444f67ffd1ad0443"
+        },
+        {
           "alg" : "SHA-1",
-          "content" : "afbdb89f96ac67b2f017ad79a122dea604555a80"
+          "content" : "9151dd5c89bc9ed82f5bbc2af91162212283a439"
+        }
+      ],
+      "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty10@2.384",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "websocket-jetty10-2.384.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/websocket-jetty10-2.384.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:9151dd5c89bc9ed82f5bbc2af91162212283a439"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jenkins-ci.main:websocket-jetty10:2.384"
+    },
+    {
+      "group" : "org.jenkins-ci.main",
+      "name" : "websocket-jetty10",
+      "version" : "2.384",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "9151dd5c89bc9ed82f5bbc2af91162212283a439"
         },
         {
           "alg" : "MD5",
-          "content" : "cbc7a37e17e0b146a6a5cb0f80c97fec"
+          "content" : "6f41a4705e07f0e9444f67ffd1ad0443"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty10@2.384",
@@ -4282,7 +4284,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./websocket/jetty10/target/websocket-jetty10-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-jetty10/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/websocket-jetty10-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-jetty10/pom.xml"
         }
       ],
       "type" : "library",
@@ -4330,11 +4332,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "afbdb89f96ac67b2f017ad79a122dea604555a80"
+          "content" : "9151dd5c89bc9ed82f5bbc2af91162212283a439"
         },
         {
           "alg" : "MD5",
-          "content" : "cbc7a37e17e0b146a6a5cb0f80c97fec"
+          "content" : "6f41a4705e07f0e9444f67ffd1ad0443"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty10@2.384",
@@ -4349,7 +4351,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/websocket-jetty10-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-jetty10/pom.xml"
+          "value" : "/jenkins/./websocket/jetty10/target/websocket-jetty10-2.384.jar!/META-INF/maven/org.jenkins-ci.main/websocket-jetty10/pom.xml"
         }
       ],
       "type" : "library",
@@ -4363,11 +4365,11 @@
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         },
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci/slf4j-jdk14@1.17",
@@ -4386,7 +4388,7 @@
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "value" : "https://search.maven.org/search?q=1:1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         }
       ],
       "type" : "library",
@@ -4560,41 +4562,6 @@
       "bom-ref" : "org.jvnet.winp:winp:1.30"
     },
     {
-      "name" : "j-interop",
-      "version" : "1",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "b87de2da40d94b1e8c5fed0b6e3ea5e4"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "7bcd527550b8415ba14c33a8ff00658c43d0c78e"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "j-interop-2.0.8-kohsuke-1.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/j-interop-2.0.8-kohsuke-1.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:7bcd527550b8415ba14c33a8ff00658c43d0c78e"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:j-interop:1"
-    },
-    {
       "name" : "listenablefuture",
       "version" : "9999.0-empty-to-avoid-conflict-with-guava",
       "scope" : "required",
@@ -4630,37 +4597,39 @@
       "bom-ref" : "null:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
     },
     {
-      "group" : "org.jenkins-ci",
-      "name" : "crypto-util",
-      "version" : "1.8",
+      "name" : "j-interop",
+      "version" : "1",
       "scope" : "required",
       "hashes" : [
         {
-          "alg" : "SHA-1",
-          "content" : "18a63e78e6aa402296c4d34131b9930fc59d0d5c"
+          "alg" : "MD5",
+          "content" : "b87de2da40d94b1e8c5fed0b6e3ea5e4"
         },
         {
-          "alg" : "MD5",
-          "content" : "099d0a764a44355f9da26da76b2aab26"
+          "alg" : "SHA-1",
+          "content" : "7bcd527550b8415ba14c33a8ff00658c43d0c78e"
         }
       ],
-      "purl" : "pkg:maven/org.jenkins-ci/crypto-util@1.8",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/org.jenkins-ci/crypto-util"
+          "value" : "WEB-INF/lib"
         },
         {
           "name" : "archive",
-          "value" : "pom.xml"
+          "value" : "j-interop-2.0.8-kohsuke-1.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/crypto-util-1.8.jar!/META-INF/maven/org.jenkins-ci/crypto-util/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/j-interop-2.0.8-kohsuke-1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:7bcd527550b8415ba14c33a8ff00658c43d0c78e"
         }
       ],
       "type" : "library",
-      "bom-ref" : "org.jenkins-ci:crypto-util:1.8"
+      "bom-ref" : "null:j-interop:1"
     },
     {
       "name" : "jetty-util",
@@ -4692,6 +4661,39 @@
       ],
       "type" : "library",
       "bom-ref" : "null:jetty-util:util/pom"
+    },
+    {
+      "group" : "org.jenkins-ci",
+      "name" : "crypto-util",
+      "version" : "1.8",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "18a63e78e6aa402296c4d34131b9930fc59d0d5c"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "099d0a764a44355f9da26da76b2aab26"
+        }
+      ],
+      "purl" : "pkg:maven/org.jenkins-ci/crypto-util@1.8",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jenkins-ci/crypto-util"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/crypto-util-1.8.jar!/META-INF/maven/org.jenkins-ci/crypto-util/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jenkins-ci:crypto-util:1.8"
     },
     {
       "name" : "spring-security-core",
@@ -5104,11 +5106,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -5135,11 +5137,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -5153,38 +5155,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:tyrus-standalone-client-jdk:jdk/pom"
-    },
-    {
-      "name" : "tyrus-standalone-client-jdk",
-      "version" : "jdk/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "79a835b446d70e09d00436f87f21cd7c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk/pom.xml"
         }
       ],
       "type" : "library",
@@ -5228,11 +5199,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "79a835b446d70e09d00436f87f21cd7c"
         }
       ],
       "properties" : [
@@ -5246,11 +5217,73 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk/pom.xml"
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "null:tyrus-standalone-client-jdk:jdk/pom"
+    },
+    {
+      "name" : "tyrus-standalone-client-jdk",
+      "version" : "jdk/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:tyrus-standalone-client-jdk:jdk/pom"
+    },
+    {
+      "name" : "failureaccess",
+      "version" : "1.0.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "091883993ef5bfa91da01dcc8fc52236"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/failureaccess"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/failureaccess-1.0.1.jar!/META-INF/maven/com.google.guava/failureaccess/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:failureaccess:1.0.1"
     },
     {
       "name" : "dom4j-2.1.3",
@@ -5285,37 +5318,6 @@
         }
       ],
       "type" : "library"
-    },
-    {
-      "name" : "failureaccess",
-      "version" : "1.0.1",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "091883993ef5bfa91da01dcc8fc52236"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.google.guava/failureaccess"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/failureaccess-1.0.1.jar!/META-INF/maven/com.google.guava/failureaccess/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:failureaccess:1.0.1"
     },
     {
       "name" : "Utilities for ASM, a very small and fast Java bytecode manipulation framework",
@@ -5358,11 +5360,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -5621,19 +5623,19 @@
     {
       "group" : "org.jenkins-ci.main",
       "name" : "remoting",
-      "version" : "4.7",
+      "version" : "3085.vc4c6977c075a",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+          "content" : "77934d11c6e113396301352469409e94cee5db60"
         },
         {
           "alg" : "MD5",
-          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+          "content" : "16cf892f7f1b6adedcd24fd97990d610"
         }
       ],
-      "purl" : "pkg:maven/org.jenkins-ci.main/remoting@4.7",
+      "purl" : "pkg:maven/org.jenkins-ci.main/remoting@3085.vc4c6977c075a",
       "properties" : [
         {
           "name" : "path",
@@ -5645,11 +5647,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.jenkins-ci.main/remoting/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/org.jenkins-ci.main/remoting/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "org.jenkins-ci.main:remoting:4.7"
+      "bom-ref" : "org.jenkins-ci.main:remoting:3085.vc4c6977c075a"
     },
     {
       "group" : "org.jenkins-ci.main",
@@ -5687,19 +5689,19 @@
     {
       "group" : "org.jenkins-ci.main",
       "name" : "remoting",
-      "version" : "3085.vc4c6977c075a",
+      "version" : "4.7",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "77934d11c6e113396301352469409e94cee5db60"
+          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
         },
         {
           "alg" : "MD5",
-          "content" : "16cf892f7f1b6adedcd24fd97990d610"
+          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
         }
       ],
-      "purl" : "pkg:maven/org.jenkins-ci.main/remoting@3085.vc4c6977c075a",
+      "purl" : "pkg:maven/org.jenkins-ci.main/remoting@4.7",
       "properties" : [
         {
           "name" : "path",
@@ -5711,11 +5713,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/remoting-3085.vc4c6977c075a.jar!/META-INF/maven/org.jenkins-ci.main/remoting/pom.xml"
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.jenkins-ci.main/remoting/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "org.jenkins-ci.main:remoting:3085.vc4c6977c075a"
+      "bom-ref" : "org.jenkins-ci.main:remoting:4.7"
     },
     {
       "group" : "com.sun.solaris",
@@ -5827,40 +5829,6 @@
       "type" : "library"
     },
     {
-      "name" : "Apache Commons Codec",
-      "version" : "1.15",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "303baf002ce6d382198090aedd9d79a2"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "commons-codec-1.15.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/commons-codec-1.15.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
-        }
-      ],
-      "type" : "library"
-    },
-    {
       "group" : "org.apache",
       "name" : "commons-jexl-1.1-jenkins-20111212",
       "version" : "20111212",
@@ -5892,6 +5860,40 @@
         {
           "name" : "maven",
           "value" : "https://search.maven.org/search?q=1:0a990a77bea8c5a400d58a6f5d98122236300f7d"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "Apache Commons Codec",
+      "version" : "1.15",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "303baf002ce6d382198090aedd9d79a2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "commons-codec-1.15.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/commons-codec-1.15.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
         }
       ],
       "type" : "library"
@@ -6001,11 +6003,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "cc77d789dc51e05fefc3e9bd961a808c8c9241a1"
+          "content" : "df76d98d54c3c840c7a8363f63631ed844f829ad"
         },
         {
           "alg" : "MD5",
-          "content" : "151dacf80d09ee3bc5340fc507af25fb"
+          "content" : "7bedf8e06bf1b8a107177cbc4e00c4c4"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-test@2.384",
@@ -6068,11 +6070,11 @@
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "72b752449e15788ca395b76852cb3c80"
+          "content" : "15a4b8495a95f782d479fabddf55fabc"
         },
         {
           "alg" : "SHA-1",
-          "content" : "740c9abbeae4f7289819755ffedeab7f750b3f58"
+          "content" : "93dfd7a3b39d3f7586e9df938a7bb5eb7d4f5a5b"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-spi@2.384",
@@ -6091,7 +6093,7 @@
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:740c9abbeae4f7289819755ffedeab7f750b3f58"
+          "value" : "https://search.maven.org/search?q=1:93dfd7a3b39d3f7586e9df938a7bb5eb7d4f5a5b"
         }
       ],
       "type" : "library",
@@ -6162,41 +6164,6 @@
       "type" : "library"
     },
     {
-      "name" : "j-interopdeps",
-      "version" : "1",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "20279aba73e4f88492b17a59a2c55b04"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "0c6ae17b2cbb5e07e62fddab1cebadaf351a97c0"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "j-interopdeps-2.0.8-kohsuke-1.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/j-interopdeps-2.0.8-kohsuke-1.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:0c6ae17b2cbb5e07e62fddab1cebadaf351a97c0"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:j-interopdeps:1"
-    },
-    {
       "group" : "org.kohsuke.metainf-services",
       "name" : "metainf-services",
       "version" : "1.9",
@@ -6232,6 +6199,71 @@
       ],
       "type" : "library",
       "bom-ref" : "org.kohsuke.metainf-services:metainf-services:1.9"
+    },
+    {
+      "name" : "j-interopdeps",
+      "version" : "1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "20279aba73e4f88492b17a59a2c55b04"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0c6ae17b2cbb5e07e62fddab1cebadaf351a97c0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "j-interopdeps-2.0.8-kohsuke-1.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/j-interopdeps-2.0.8-kohsuke-1.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:0c6ae17b2cbb5e07e62fddab1cebadaf351a97c0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:j-interopdeps:1"
+    },
+    {
+      "name" : "pom",
+      "version" : "lib/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "83f848493c09c735861a90e91591499fb88d7fbb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "a878f80497816f62f46b53ff8bd75a33"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.kohsuke.stapler/json-lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/json-lib-2.4-jenkins-3.jar!/META-INF/maven/org.kohsuke.stapler/json-lib/pom.xml"
+        }
+      ],
+      "type" : "library"
     },
     {
       "group" : "org.jvnet.hudson",
@@ -6271,36 +6303,6 @@
       "bom-ref" : "org.jvnet.hudson:commons-jelly-tags-define:1.0.1-hudson-20071021"
     },
     {
-      "name" : "pom",
-      "version" : "lib/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "83f848493c09c735861a90e91591499fb88d7fbb"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "a878f80497816f62f46b53ff8bd75a33"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.kohsuke.stapler/json-lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/json-lib-2.4-jenkins-3.jar!/META-INF/maven/org.kohsuke.stapler/json-lib/pom.xml"
-        }
-      ],
-      "type" : "library"
-    },
-    {
       "group" : "org.jenkins-ci",
       "name" : "annotation-indexer",
       "version" : "1.17",
@@ -6308,11 +6310,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci/annotation-indexer@1.17",
@@ -6328,6 +6330,39 @@
         {
           "name" : "codesource",
           "value" : "/jenkins/./cli/target/cli-2.384.jar!/META-INF/maven/org.jenkins-ci/annotation-indexer/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jenkins-ci:annotation-indexer:1.17"
+    },
+    {
+      "group" : "org.jenkins-ci",
+      "name" : "annotation-indexer",
+      "version" : "1.17",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "purl" : "pkg:maven/org.jenkins-ci/annotation-indexer@1.17",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jenkins-ci/annotation-indexer"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.jenkins-ci/annotation-indexer/pom.xml"
         }
       ],
       "type" : "library",
@@ -6367,39 +6402,6 @@
       "bom-ref" : "org.jenkins-ci:annotation-indexer:1.17"
     },
     {
-      "group" : "org.jenkins-ci",
-      "name" : "annotation-indexer",
-      "version" : "1.17",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
-        }
-      ],
-      "purl" : "pkg:maven/org.jenkins-ci/annotation-indexer@1.17",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jenkins-ci/annotation-indexer"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.jenkins-ci/annotation-indexer/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.jenkins-ci:annotation-indexer:1.17"
-    },
-    {
       "group" : "net.i2p.crypto",
       "name" : "eddsa",
       "version" : "0.3.0",
@@ -6407,11 +6409,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "purl" : "pkg:maven/net.i2p.crypto/eddsa@0.3.0",
@@ -6440,11 +6442,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "purl" : "pkg:maven/net.i2p.crypto/eddsa@0.3.0",
@@ -6500,6 +6502,36 @@
       "type" : "library"
     },
     {
+      "name" : "pom",
+      "version" : "compress/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "691a8b4e6cf4248c3bc72c8b719337d5cb7359fa"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f1e4db16fee4291212d91409313a8086"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.commons/commons-compress"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/commons-compress-1.22.jar!/META-INF/maven/org.apache.commons/commons-compress/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
       "group" : "org.jenkins-ci",
       "name" : "task-reactor",
       "version" : "1.8",
@@ -6535,36 +6567,6 @@
       ],
       "type" : "library",
       "bom-ref" : "org.jenkins-ci:task-reactor:1.8"
-    },
-    {
-      "name" : "pom",
-      "version" : "compress/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "691a8b4e6cf4248c3bc72c8b719337d5cb7359fa"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f1e4db16fee4291212d91409313a8086"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.apache.commons/commons-compress"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/commons-compress-1.22.jar!/META-INF/maven/org.apache.commons/commons-compress/pom.xml"
-        }
-      ],
-      "type" : "library"
     },
     {
       "group" : "org.kohsuke.stapler",
@@ -6745,11 +6747,11 @@
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "db9bf98e9e89799802c5a6225822d91d"
+          "content" : "e7b3357eb01c2f6c1cb3d1b73b76ed6b"
         },
         {
           "alg" : "SHA-1",
-          "content" : "f15aa1af3b256173ea7b87763e1e7fc6bdf3f77c"
+          "content" : "db6b18aafe31b00fa189cf282421beb06eb365ad"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-core@2.384",
@@ -6768,7 +6770,7 @@
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:f15aa1af3b256173ea7b87763e1e7fc6bdf3f77c"
+          "value" : "https://search.maven.org/search?q=1:db6b18aafe31b00fa189cf282421beb06eb365ad"
         }
       ],
       "type" : "library",
@@ -6781,11 +6783,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -6812,11 +6814,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "839ff57e112f2e28ef372e96d135696a6896b9ad"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "39ab1cc1376b4c2d1ba706a98cca83de"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -6830,7 +6832,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/jcl-over-slf4j-2.0.6.jar!/META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml"
         }
       ],
       "type" : "library",
@@ -6874,11 +6876,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "839ff57e112f2e28ef372e96d135696a6896b9ad"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "39ab1cc1376b4c2d1ba706a98cca83de"
         }
       ],
       "properties" : [
@@ -6892,7 +6894,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/jcl-over-slf4j-2.0.6.jar!/META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml"
         }
       ],
       "type" : "library",
@@ -7085,11 +7087,42 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.sshd/sshd-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.apache.sshd/sshd-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:sshd-core:core/pom"
+    },
+    {
+      "name" : "sshd-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -7116,11 +7149,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -7147,11 +7180,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -7165,38 +7198,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-core/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:tyrus-core:core/pom"
-    },
-    {
-      "name" : "tyrus-core",
-      "version" : "core/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "79a835b446d70e09d00436f87f21cd7c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-core"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-core/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-core/pom.xml"
         }
       ],
       "type" : "library",
@@ -7210,44 +7212,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "f15aa1af3b256173ea7b87763e1e7fc6bdf3f77c"
+          "content" : "db6b18aafe31b00fa189cf282421beb06eb365ad"
         },
         {
           "alg" : "MD5",
-          "content" : "db9bf98e9e89799802c5a6225822d91d"
-        }
-      ],
-      "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-core@2.384",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jenkins-ci.main/jenkins-core"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./core/target/jenkins-core-2.384.jar!/META-INF/maven/org.jenkins-ci.main/jenkins-core/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.jenkins-ci.main:jenkins-core:2.384"
-    },
-    {
-      "group" : "org.jenkins-ci.main",
-      "name" : "jenkins-core",
-      "version" : "2.384",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "f15aa1af3b256173ea7b87763e1e7fc6bdf3f77c"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "db9bf98e9e89799802c5a6225822d91d"
+          "content" : "e7b3357eb01c2f6c1cb3d1b73b76ed6b"
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-core@2.384",
@@ -7300,23 +7269,25 @@
       "bom-ref" : "null:tyrus-core:core/pom"
     },
     {
-      "name" : "sshd-core",
-      "version" : "core/pom",
+      "group" : "org.jenkins-ci.main",
+      "name" : "jenkins-core",
+      "version" : "2.384",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "db6b18aafe31b00fa189cf282421beb06eb365ad"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e7b3357eb01c2f6c1cb3d1b73b76ed6b"
         }
       ],
+      "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-core@2.384",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/org.apache.sshd/sshd-core"
+          "value" : "META-INF/maven/org.jenkins-ci.main/jenkins-core"
         },
         {
           "name" : "archive",
@@ -7324,11 +7295,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.apache.sshd/sshd-core/pom.xml"
+          "value" : "/jenkins/./core/target/jenkins-core-2.384.jar!/META-INF/maven/org.jenkins-ci.main/jenkins-core/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:sshd-core:core/pom"
+      "bom-ref" : "org.jenkins-ci.main:jenkins-core:2.384"
     },
     {
       "name" : "tyrus-core",
@@ -7337,11 +7308,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "79a835b446d70e09d00436f87f21cd7c"
         }
       ],
       "properties" : [
@@ -7355,7 +7326,38 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-core/pom.xml"
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-unsupported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:tyrus-core:core/pom"
+    },
+    {
+      "name" : "tyrus-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a68ca849592cc2479fd584c9b51bc2b9c95e72f4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f7b9c09212c05e6a48c6a52793bbfc04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.tyrus/tyrus-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./test/target/classes/old-remoting/remoting-minimum-supported.jar!/META-INF/maven/org.glassfish.tyrus/tyrus-core/pom.xml"
         }
       ],
       "type" : "library",
@@ -7399,6 +7401,39 @@
       "bom-ref" : "org.kohsuke.stapler:stapler:1756.vec9071748061"
     },
     {
+      "group" : "org.samba.jcifs",
+      "name" : "jcifs",
+      "version" : "1.3.18-kohsuke-1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "35711c36411d962d7228b7e01ab2567ec213a9d3"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "2c748c396d0bd21b8005798b0f2bd778"
+        }
+      ],
+      "purl" : "pkg:maven/org.samba.jcifs/jcifs@1.3.18-kohsuke-1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.samba.jcifs/jcifs"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/jcifs-1.3.18-kohsuke-1.jar!/META-INF/maven/org.samba.jcifs/jcifs/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.samba.jcifs:jcifs:1.3.18-kohsuke-1"
+    },
+    {
       "group" : "org.glassfish",
       "name" : "javax.annotation-api-1.3.2",
       "version" : "1.3.2",
@@ -7433,39 +7468,6 @@
         }
       ],
       "type" : "library"
-    },
-    {
-      "group" : "org.samba.jcifs",
-      "name" : "jcifs",
-      "version" : "1.3.18-kohsuke-1",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "35711c36411d962d7228b7e01ab2567ec213a9d3"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "2c748c396d0bd21b8005798b0f2bd778"
-        }
-      ],
-      "purl" : "pkg:maven/org.samba.jcifs/jcifs@1.3.18-kohsuke-1",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.samba.jcifs/jcifs"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/jcifs-1.3.18-kohsuke-1.jar!/META-INF/maven/org.samba.jcifs/jcifs/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.samba.jcifs:jcifs:1.3.18-kohsuke-1"
     },
     {
       "name" : "xstream",
@@ -7535,11 +7537,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
         },
         {
           "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
         }
       ],
       "properties" : [
@@ -7560,41 +7562,97 @@
       "bom-ref" : "null:slf4j-jdk14:jdk14/pom"
     },
     {
-      "group" : "org.jenkins-ci",
-      "name" : "constant-pool-scanner",
-      "version" : "1.2",
+      "name" : "slf4j-jdk14",
+      "version" : "jdk14/pom",
       "scope" : "required",
       "hashes" : [
         {
-          "alg" : "MD5",
-          "content" : "79a835b446d70e09d00436f87f21cd7c"
+          "alg" : "SHA-1",
+          "content" : "3081c9a4391a6bb71aed45dc16e970b2b9eb0b2a"
         },
         {
-          "alg" : "SHA-1",
-          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
+          "alg" : "MD5",
+          "content" : "d092c3fe8b80a5f05d793fb8cc83e24b"
         }
       ],
-      "purl" : "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2",
       "properties" : [
         {
           "name" : "path",
-          "value" : "old-remoting"
+          "value" : "META-INF/maven/org.slf4j/slf4j-jdk14"
         },
         {
           "name" : "archive",
-          "value" : "remoting-unsupported.jar"
+          "value" : "pom.xml"
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./test/target/jenkins-test-2.384.jar!/old-remoting/remoting-unsupported.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:41f163ed8efacb40555ebfadad87bfb6568027bf"
+          "value" : "/jenkins/./war/target/jenkins/executable/winstone.jar!/META-INF/maven/org.slf4j/slf4j-jdk14/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "org.jenkins-ci:constant-pool-scanner:1.2"
+      "bom-ref" : "null:slf4j-jdk14:jdk14/pom"
+    },
+    {
+      "name" : "slf4j-jdk14",
+      "version" : "jdk14/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1b110fd7a78d89bc869e7bbd71e4024cf2cd80cd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e10c0dbbad8a2a32feceb52be0b8960a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.slf4j/slf4j-jdk14"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.slf4j/slf4j-jdk14/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-jdk14:jdk14/pom"
+    },
+    {
+      "name" : "slf4j-jdk14",
+      "version" : "jdk14/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "13056cb341f2d8795120f8027766a058da874f85"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6bfb466df031e5d570d6f35b8679b72e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.slf4j/slf4j-jdk14"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/slf4j-jdk14-2.0.6.jar!/META-INF/maven/org.slf4j/slf4j-jdk14/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-jdk14:jdk14/pom"
     },
     {
       "group" : "org.kohsuke.stapler",
@@ -7634,70 +7692,45 @@
       "bom-ref" : "org.kohsuke.stapler:stapler-groovy:1756.vec9071748061"
     },
     {
-      "name" : "slf4j-jdk14",
-      "version" : "jdk14/pom",
+      "group" : "org.jenkins-ci",
+      "name" : "constant-pool-scanner",
+      "version" : "1.2",
       "scope" : "required",
       "hashes" : [
         {
-          "alg" : "SHA-1",
-          "content" : "13056cb341f2d8795120f8027766a058da874f85"
+          "alg" : "MD5",
+          "content" : "79a835b446d70e09d00436f87f21cd7c"
         },
         {
-          "alg" : "MD5",
-          "content" : "6bfb466df031e5d570d6f35b8679b72e"
+          "alg" : "SHA-1",
+          "content" : "41f163ed8efacb40555ebfadad87bfb6568027bf"
         }
       ],
+      "purl" : "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/org.slf4j/slf4j-jdk14"
+          "value" : "old-remoting"
         },
         {
           "name" : "archive",
-          "value" : "pom.xml"
+          "value" : "remoting-unsupported.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/slf4j-jdk14-2.0.6.jar!/META-INF/maven/org.slf4j/slf4j-jdk14/pom.xml"
+          "value" : "/jenkins/./test/target/jenkins-test-2.384.jar!/old-remoting/remoting-unsupported.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:41f163ed8efacb40555ebfadad87bfb6568027bf"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:slf4j-jdk14:jdk14/pom"
+      "bom-ref" : "org.jenkins-ci:constant-pool-scanner:1.2"
     },
     {
-      "name" : "slf4j-jdk14",
-      "version" : "jdk14/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "82fea2ae36e463d2cee12b5b50e7081fe838a8a9"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "2ab7db1ccea453562ccd4771b62ac764"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.slf4j/slf4j-jdk14"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/cli-2.384.jar!/META-INF/maven/org.slf4j/slf4j-jdk14/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:slf4j-jdk14:jdk14/pom"
-    },
-    {
-      "name" : "slf4j-jdk14",
-      "version" : "jdk14/pom",
+      "name" : "winstone",
+      "version" : "6.7",
       "scope" : "required",
       "hashes" : [
         {
@@ -7712,7 +7745,7 @@
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/org.slf4j/slf4j-jdk14"
+          "value" : "META-INF/maven/org.jenkins-ci/winstone"
         },
         {
           "name" : "archive",
@@ -7720,11 +7753,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/executable/winstone.jar!/META-INF/maven/org.slf4j/slf4j-jdk14/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/executable/winstone.jar!/META-INF/maven/org.jenkins-ci/winstone/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:slf4j-jdk14:jdk14/pom"
+      "bom-ref" : "null:winstone:6.7"
     },
     {
       "group" : "org.jenkins-ci",
@@ -7762,37 +7795,6 @@
       ],
       "type" : "library",
       "bom-ref" : "org.jenkins-ci:memory-monitor:1.12"
-    },
-    {
-      "name" : "winstone",
-      "version" : "6.7",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "3081c9a4391a6bb71aed45dc16e970b2b9eb0b2a"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "d092c3fe8b80a5f05d793fb8cc83e24b"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.jenkins-ci/winstone"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/executable/winstone.jar!/META-INF/maven/org.jenkins-ci/winstone/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:winstone:6.7"
     },
     {
       "group" : "io.github.x-stream",
@@ -7860,43 +7862,6 @@
         }
       ],
       "type" : "library"
-    },
-    {
-      "group" : "net.sf.ezmorph",
-      "name" : "ezmorph",
-      "version" : "1.0.6",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "1fa113c6aacf3a01af1449df77acd474"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "01e55d2a0253ea37745d33062852fd2c90027432"
-        }
-      ],
-      "purl" : "pkg:maven/net.sf.ezmorph/ezmorph@1.0.6",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "ezmorph-1.0.6.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/ezmorph-1.0.6.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:01e55d2a0253ea37745d33062852fd2c90027432"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "net.sf.ezmorph:ezmorph:1.0.6"
     },
     {
       "group" : "com.infradna.tool",
@@ -7996,6 +7961,43 @@
       ],
       "type" : "library",
       "bom-ref" : "org.kohsuke:access-modifier-annotation:1.30"
+    },
+    {
+      "group" : "net.sf.ezmorph",
+      "name" : "ezmorph",
+      "version" : "1.0.6",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1fa113c6aacf3a01af1449df77acd474"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "01e55d2a0253ea37745d33062852fd2c90027432"
+        }
+      ],
+      "purl" : "pkg:maven/net.sf.ezmorph/ezmorph@1.0.6",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "ezmorph-1.0.6.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins.war!/WEB-INF/lib/ezmorph-1.0.6.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:01e55d2a0253ea37745d33062852fd2c90027432"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "net.sf.ezmorph:ezmorph:1.0.6"
     },
     {
       "name" : "jzlib-1.1.3-kohsuke-1",
@@ -8137,6 +8139,39 @@
       "bom-ref" : "org.jvnet:tiger-types:2.2"
     },
     {
+      "group" : "org.jvnet.winp",
+      "name" : "winp",
+      "version" : "1.30",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "01fd7bf54927cb4b55ff841b21cf897d0b8508f1"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "8a543b5e83aec6e8f339a15dcab52edf"
+        }
+      ],
+      "purl" : "pkg:maven/org.jvnet.winp/winp@1.30",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jvnet.winp/winp"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/winp-1.30.jar!/META-INF/maven/org.jvnet.winp/winp/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jvnet.winp:winp:1.30"
+    },
+    {
       "group" : "org.apache",
       "name" : "Apache Commons Collections",
       "version" : "3.2.2",
@@ -8173,25 +8208,25 @@
       "type" : "library"
     },
     {
-      "group" : "org.jvnet.winp",
-      "name" : "winp",
-      "version" : "1.30",
+      "group" : "org.kohsuke.stapler",
+      "name" : "stapler-adjunct-codemirror",
+      "version" : "1.3",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "01fd7bf54927cb4b55ff841b21cf897d0b8508f1"
+          "content" : "fd1d45544400d2a4da6dfee9e60edd4ec3368806"
         },
         {
           "alg" : "MD5",
-          "content" : "8a543b5e83aec6e8f339a15dcab52edf"
+          "content" : "5ebb241efd642d6985b89d56b8d640c8"
         }
       ],
-      "purl" : "pkg:maven/org.jvnet.winp/winp@1.30",
+      "purl" : "pkg:maven/org.kohsuke.stapler/stapler-adjunct-codemirror@1.3",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/org.jvnet.winp/winp"
+          "value" : "META-INF/maven/org.kohsuke.stapler/stapler-adjunct-codemirror"
         },
         {
           "name" : "archive",
@@ -8199,11 +8234,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/winp-1.30.jar!/META-INF/maven/org.jvnet.winp/winp/pom.xml"
+          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/stapler-adjunct-codemirror-1.3.jar!/META-INF/maven/org.kohsuke.stapler/stapler-adjunct-codemirror/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "org.jvnet.winp:winp:1.30"
+      "bom-ref" : "org.kohsuke.stapler:stapler-adjunct-codemirror:1.3"
     },
     {
       "name" : "jcip-annotations-1.0",
@@ -8238,39 +8273,6 @@
         }
       ],
       "type" : "library"
-    },
-    {
-      "group" : "org.kohsuke.stapler",
-      "name" : "stapler-adjunct-codemirror",
-      "version" : "1.3",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "fd1d45544400d2a4da6dfee9e60edd4ec3368806"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "5ebb241efd642d6985b89d56b8d640c8"
-        }
-      ],
-      "purl" : "pkg:maven/org.kohsuke.stapler/stapler-adjunct-codemirror@1.3",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.kohsuke.stapler/stapler-adjunct-codemirror"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/jenkins/./war/target/jenkins/WEB-INF/lib/stapler-adjunct-codemirror-1.3.jar!/META-INF/maven/org.kohsuke.stapler/stapler-adjunct-codemirror/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "org.kohsuke.stapler:stapler-adjunct-codemirror:1.3"
     }
   ],
   "dependencies" : [
@@ -8302,18 +8304,18 @@
       ]
     },
     {
+      "ref" : "io.jenkins.stapler:jenkins-stapler-support:1.1",
+      "dependsOn" : [
+        "junit:junit:3.8.1",
+        "org.jenkins-ci:test-annotations:1.2"
+      ]
+    },
+    {
       "ref" : "org.fusesource.jansi:jansi:1.5",
       "dependsOn" : [
         "org.fusesource.hawtjni:hawtjni-runtime:1.8",
         "org.fusesource.jansi:jansi-native:1.5",
         "junit:junit:4.7"
-      ]
-    },
-    {
-      "ref" : "io.jenkins.stapler:jenkins-stapler-support:1.1",
-      "dependsOn" : [
-        "junit:junit:3.8.1",
-        "org.jenkins-ci:test-annotations:1.2"
       ]
     },
     {
@@ -8333,9 +8335,12 @@
       ]
     },
     {
-      "ref" : "org.jenkins-ci.main:javax.websocket-api:4.7",
+      "ref" : "net.i2p.crypto:sshd-common:0.3.0",
       "dependsOn" : [
-        "javax.websocket:javax.websocket-client-api:${project.version}"
+        "org.bouncycastle:bcpg-jdk15on:null",
+        "org.bouncycastle:bcpkix-jdk15on:null",
+        "net.i2p.crypto:eddsa:null",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.not-yet-commons-ssl:null"
       ]
     },
     {
@@ -8345,12 +8350,9 @@
       ]
     },
     {
-      "ref" : "net.i2p.crypto:sshd-common:0.3.0",
+      "ref" : "org.jenkins-ci.main:javax.websocket-api:4.7",
       "dependsOn" : [
-        "org.bouncycastle:bcpg-jdk15on:null",
-        "org.bouncycastle:bcpkix-jdk15on:null",
-        "net.i2p.crypto:eddsa:null",
-        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.not-yet-commons-ssl:null"
+        "javax.websocket:javax.websocket-client-api:${project.version}"
       ]
     },
     {
@@ -8415,6 +8417,13 @@
       ]
     },
     {
+      "ref" : "null:websocket-core-server:server/pom",
+      "dependsOn" : [
+        "org.eclipse.jetty.websocket:websocket-core-common:null",
+        "org.eclipse.jetty:jetty-server:null"
+      ]
+    },
+    {
       "ref" : "org.kohsuke.stapler:stapler-groovy:1756.vec9071748061",
       "dependsOn" : [
         "org.kohsuke.stapler:stapler-jelly:1756.vec9071748061",
@@ -8422,13 +8431,6 @@
         "org.kohsuke.metainf-services:metainf-services:1.9",
         "jakarta.servlet:jakarta.servlet-api:4.0.4",
         "com.github.spotbugs:spotbugs-annotations:4.7.3"
-      ]
-    },
-    {
-      "ref" : "null:websocket-core-server:server/pom",
-      "dependsOn" : [
-        "org.eclipse.jetty.websocket:websocket-core-common:null",
-        "org.eclipse.jetty:jetty-server:null"
       ]
     },
     {
@@ -8488,6 +8490,17 @@
       ]
     },
     {
+      "ref" : "null:jetty-alpn-java-server:server/pom",
+      "dependsOn" : [
+        "org.eclipse.jetty:jetty-io:null",
+        "org.eclipse.jetty:jetty-alpn-server:null",
+        "org.slf4j:slf4j-api:null",
+        "org.eclipse.jetty:jetty-slf4j-impl:null",
+        "org.eclipse.jetty.http2:http2-server:null",
+        "org.eclipse.jetty.toolchain:jetty-test-helper:null"
+      ]
+    },
+    {
       "ref" : "io.jenkins.lib:http2-server:1.2",
       "dependsOn" : [
         "org.eclipse.jetty.http2:http2-common:null",
@@ -8497,17 +8510,6 @@
         "org.eclipse.jetty:jetty-servlets:null",
         "org.eclipse.jetty:jetty-alpn-server:null",
         "org.eclipse.jetty:jetty-slf4j-impl:null",
-        "org.eclipse.jetty.toolchain:jetty-test-helper:null"
-      ]
-    },
-    {
-      "ref" : "null:jetty-alpn-java-server:server/pom",
-      "dependsOn" : [
-        "org.eclipse.jetty:jetty-io:null",
-        "org.eclipse.jetty:jetty-alpn-server:null",
-        "org.slf4j:slf4j-api:null",
-        "org.eclipse.jetty:jetty-slf4j-impl:null",
-        "org.eclipse.jetty.http2:http2-server:null",
         "org.eclipse.jetty.toolchain:jetty-test-helper:null"
       ]
     },
@@ -8576,16 +8578,16 @@
       ]
     },
     {
-      "ref" : "org.jenkins-ci.main:jakarta.websocket-api:3085.vc4c6977c075a",
-      "dependsOn" : [
-        "jakarta.websocket:jakarta.websocket-client-api:${project.version}"
-      ]
-    },
-    {
       "ref" : "net.i2p.crypto:tyrus-client:0.3.0",
       "dependsOn" : [
         "org.glassfish.tyrus:tyrus-core:null",
         "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "org.jenkins-ci.main:jakarta.websocket-api:3085.vc4c6977c075a",
+      "dependsOn" : [
+        "jakarta.websocket:jakarta.websocket-client-api:${project.version}"
       ]
     },
     {
@@ -8724,14 +8726,14 @@
       ]
     },
     {
+      "ref" : "null:slf4j-api:2.0.6",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "org.jenkins-ci.main:tyrus-spi:4.7",
       "dependsOn" : [
         "javax.websocket:javax.websocket-api:null"
       ]
-    },
-    {
-      "ref" : "null:slf4j-api:2.0.6",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "com.sun.solaris:embedded_su4j:1.1",
@@ -8768,16 +8770,16 @@
       ]
     },
     {
+      "ref" : "null:j-interop:interop/pom",
+      "dependsOn" : [
+        "${project.groupId}:j-interopdeps:${project.version}"
+      ]
+    },
+    {
       "ref" : "org.jenkins-ci.main:tyrus-standalone-client-jdk:3085.vc4c6977c075a",
       "dependsOn" : [
         "org.osgi:org.osgi.core:4.2.0",
         "jakarta.xml.bind:jakarta.xml.bind-api:4.0.0"
-      ]
-    },
-    {
-      "ref" : "null:j-interop:interop/pom",
-      "dependsOn" : [
-        "${project.groupId}:j-interopdeps:${project.version}"
       ]
     },
     {
@@ -8786,21 +8788,6 @@
         "org.glassfish.tyrus:tyrus-spi:null",
         "org.osgi:org.osgi.core:null",
         "junit:junit:null"
-      ]
-    },
-    {
-      "ref" : "org.jenkins-ci.main:tyrus-core:4.6",
-      "dependsOn" : [
-        "org.glassfish.tyrus:tyrus-spi:null",
-        "org.osgi:org.osgi.core:null",
-        "junit:junit:null"
-      ]
-    },
-    {
-      "ref" : "io.jenkins.lib:websocket-core-server:1.2",
-      "dependsOn" : [
-        "org.eclipse.jetty.websocket:websocket-core-common:null",
-        "org.eclipse.jetty:jetty-server:null"
       ]
     },
     {
@@ -8827,6 +8814,21 @@
         "com.megginson.sax:xml-writer:null",
         "commons-lang:commons-lang:null",
         "com.sun.xml.ws:jaxws-rt:null"
+      ]
+    },
+    {
+      "ref" : "io.jenkins.lib:websocket-core-server:1.2",
+      "dependsOn" : [
+        "org.eclipse.jetty.websocket:websocket-core-common:null",
+        "org.eclipse.jetty:jetty-server:null"
+      ]
+    },
+    {
+      "ref" : "org.jenkins-ci.main:tyrus-core:4.6",
+      "dependsOn" : [
+        "org.glassfish.tyrus:tyrus-spi:null",
+        "org.osgi:org.osgi.core:null",
+        "junit:junit:null"
       ]
     },
     {
@@ -8873,6 +8875,10 @@
       "dependsOn" : [ ]
     },
     {
+      "ref" : "org.kohsuke.metainf-services:metainf-services:1.9",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "org.jenkins-ci.main:websocket-jetty10:2.384",
       "dependsOn" : [
         "org.jenkins-ci:winstone:6.7",
@@ -8892,10 +8898,6 @@
         "org.kohsuke:access-modifier-annotation:1.16",
         "javax.websocket:javax.websocket-api:1.1"
       ]
-    },
-    {
-      "ref" : "org.kohsuke.metainf-services:metainf-services:1.9",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "org.jenkins-ci.main:remoting:4.7",
@@ -8933,15 +8935,15 @@
       ]
     },
     {
-      "ref" : "org.jenkins-ci.main:args4j:4.7",
-      "dependsOn" : [
-        "junit:junit:4.11"
-      ]
-    },
-    {
       "ref" : "null:j-interopdeps:interopdeps/pom",
       "dependsOn" : [
         "org.samba.jcifs:jcifs:1.2.19"
+      ]
+    },
+    {
+      "ref" : "org.jenkins-ci.main:args4j:4.7",
+      "dependsOn" : [
+        "junit:junit:4.11"
       ]
     },
     {
@@ -8967,15 +8969,15 @@
       ]
     },
     {
-      "ref" : "com.infradna.tool:bridge-method-annotation:1.25",
-      "dependsOn" : [
-        "org.jenkins-ci:annotation-indexer:1.16"
-      ]
-    },
-    {
       "ref" : "io.jenkins.lib:support-log-formatter:1.2",
       "dependsOn" : [
         "com.github.spotbugs:spotbugs-annotations:4.7.3"
+      ]
+    },
+    {
+      "ref" : "com.infradna.tool:bridge-method-annotation:1.25",
+      "dependsOn" : [
+        "org.jenkins-ci:annotation-indexer:1.16"
       ]
     },
     {
@@ -9028,14 +9030,6 @@
       ]
     },
     {
-      "ref" : "io.jenkins.lib:websocket-core-common:1.2",
-      "dependsOn" : [
-        "org.eclipse.jetty:jetty-io:null",
-        "org.eclipse.jetty:jetty-http:null",
-        "org.slf4j:slf4j-api:null"
-      ]
-    },
-    {
       "ref" : "null:http2-server:server/pom",
       "dependsOn" : [
         "org.eclipse.jetty.http2:http2-common:null",
@@ -9049,15 +9043,19 @@
       ]
     },
     {
+      "ref" : "io.jenkins.lib:websocket-core-common:1.2",
+      "dependsOn" : [
+        "org.eclipse.jetty:jetty-io:null",
+        "org.eclipse.jetty:jetty-http:null",
+        "org.slf4j:slf4j-api:null"
+      ]
+    },
+    {
       "ref" : "org.jenkins-ci:slf4j-jdk14:1.17",
       "dependsOn" : [
         "org.slf4j:slf4j-api:null",
         "org.slf4j:slf4j-api:${project.version}"
       ]
-    },
-    {
-      "ref" : "org.antlr:antlr4-runtime:4.11.1",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "null:jetty-security:security/pom",
@@ -9068,6 +9066,10 @@
         "org.eclipse.jetty.tests:jetty-http-tools:null",
         "org.eclipse.jetty.toolchain:jetty-test-helper:null"
       ]
+    },
+    {
+      "ref" : "org.antlr:antlr4-runtime:4.11.1",
+      "dependsOn" : [ ]
     },
     {
       "ref" : "null:localizer:1.31",
@@ -9117,6 +9119,19 @@
       ]
     },
     {
+      "ref" : "null:http2-hpack:hpack/pom",
+      "dependsOn" : [
+        "org.eclipse.jetty:jetty-util:null",
+        "org.eclipse.jetty:jetty-http:null",
+        "org.eclipse.jetty:jetty-io:null",
+        "org.slf4j:slf4j-api:null",
+        "org.eclipse.jetty.tests:jetty-http-tools:null",
+        "org.eclipse.jetty:jetty-slf4j-impl:null",
+        "org.eclipse.jetty.toolchain:jetty-test-helper:null",
+        "org.eclipse.jetty:jetty-util-ajax:null"
+      ]
+    },
+    {
       "ref" : "io.jenkins.lib:websocket-jetty-server:1.2",
       "dependsOn" : [
         "org.eclipse.jetty.websocket:websocket-jetty-api:null",
@@ -9131,16 +9146,9 @@
       ]
     },
     {
-      "ref" : "null:http2-hpack:hpack/pom",
+      "ref" : "org.jvnet.winp:winp:1.30",
       "dependsOn" : [
-        "org.eclipse.jetty:jetty-util:null",
-        "org.eclipse.jetty:jetty-http:null",
-        "org.eclipse.jetty:jetty-io:null",
-        "org.slf4j:slf4j-api:null",
-        "org.eclipse.jetty.tests:jetty-http-tools:null",
-        "org.eclipse.jetty:jetty-slf4j-impl:null",
-        "org.eclipse.jetty.toolchain:jetty-test-helper:null",
-        "org.eclipse.jetty:jetty-util-ajax:null"
+        "com.github.spotbugs:spotbugs-annotations:4.7.2"
       ]
     },
     {
@@ -9148,12 +9156,6 @@
       "dependsOn" : [
         "org.slf4j:slf4j-api:null",
         "org.slf4j:slf4j-jdk14:null"
-      ]
-    },
-    {
-      "ref" : "org.jvnet.winp:winp:1.30",
-      "dependsOn" : [
-        "com.github.spotbugs:spotbugs-annotations:4.7.2"
       ]
     },
     {
@@ -9203,15 +9205,6 @@
       ]
     },
     {
-      "ref" : "org.jenkins-ci.main:websocket-jetty9:2.384",
-      "dependsOn" : [
-        "org.jenkins-ci:winstone:5.25",
-        "org.jenkins-ci.main:websocket-spi:2.384",
-        "org.kohsuke:access-modifier-annotation:1.30",
-        "org.kohsuke.metainf-services:metainf-services:1.9"
-      ]
-    },
-    {
       "ref" : "null:winstone:6.7",
       "dependsOn" : [
         "com.github.spotbugs:spotbugs-annotations:null",
@@ -9234,6 +9227,15 @@
       ]
     },
     {
+      "ref" : "org.jenkins-ci.main:websocket-jetty9:2.384",
+      "dependsOn" : [
+        "org.jenkins-ci:winstone:5.25",
+        "org.jenkins-ci.main:websocket-spi:2.384",
+        "org.kohsuke:access-modifier-annotation:1.30",
+        "org.kohsuke.metainf-services:metainf-services:1.9"
+      ]
+    },
+    {
       "ref" : "null:tyrus-spi:spi/pom",
       "dependsOn" : [
         "jakarta.websocket:jakarta.websocket-client-api:null",
@@ -9248,18 +9250,13 @@
       ]
     },
     {
-      "ref" : "org.jenkins-ci.main:tyrus-standalone-client-jdk:4.6",
+      "ref" : "null:websocket-servlet:servlet/pom",
       "dependsOn" : [
-        "org.glassfish.tyrus:tyrus-client:null",
-        "org.glassfish.tyrus:tyrus-container-jdk-client:null",
-        "javax.websocket:javax.websocket-client-api:null"
-      ]
-    },
-    {
-      "ref" : "org.jenkins-ci.main:tyrus-client:3085.vc4c6977c075a",
-      "dependsOn" : [
-        "org.glassfish.tyrus:tyrus-core:null",
-        "junit:junit:null"
+        "org.eclipse.jetty.websocket:websocket-core-server:null",
+        "org.eclipse.jetty:jetty-servlet:null",
+        "org.slf4j:slf4j-api:null",
+        "org.eclipse.jetty:jetty-slf4j-impl:null",
+        "org.eclipse.jetty.toolchain:jetty-test-helper:null"
       ]
     },
     {
@@ -9275,13 +9272,18 @@
       ]
     },
     {
-      "ref" : "null:websocket-servlet:servlet/pom",
+      "ref" : "org.jenkins-ci.main:tyrus-client:3085.vc4c6977c075a",
       "dependsOn" : [
-        "org.eclipse.jetty.websocket:websocket-core-server:null",
-        "org.eclipse.jetty:jetty-servlet:null",
-        "org.slf4j:slf4j-api:null",
-        "org.eclipse.jetty:jetty-slf4j-impl:null",
-        "org.eclipse.jetty.toolchain:jetty-test-helper:null"
+        "org.glassfish.tyrus:tyrus-core:null",
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "org.jenkins-ci.main:tyrus-standalone-client-jdk:4.6",
+      "dependsOn" : [
+        "org.glassfish.tyrus:tyrus-client:null",
+        "org.glassfish.tyrus:tyrus-container-jdk-client:null",
+        "javax.websocket:javax.websocket-client-api:null"
       ]
     },
     {
@@ -9293,9 +9295,12 @@
       ]
     },
     {
-      "ref" : "io.jenkins.plugins:annotations-test:1.0-SNAPSHOT",
+      "ref" : "null:jetty-xml:xml/pom",
       "dependsOn" : [
-        "io.jenkins.stapler:jenkins-stapler-support:1.0"
+        "org.eclipse.jetty:jetty-util:null",
+        "org.slf4j:slf4j-api:null",
+        "org.eclipse.jetty:jetty-slf4j-impl:null",
+        "org.eclipse.jetty.toolchain:jetty-test-helper:null"
       ]
     },
     {
@@ -9303,12 +9308,9 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "null:jetty-xml:xml/pom",
+      "ref" : "io.jenkins.plugins:annotations-test:1.0-SNAPSHOT",
       "dependsOn" : [
-        "org.eclipse.jetty:jetty-util:null",
-        "org.slf4j:slf4j-api:null",
-        "org.eclipse.jetty:jetty-slf4j-impl:null",
-        "org.eclipse.jetty.toolchain:jetty-test-helper:null"
+        "io.jenkins.stapler:jenkins-stapler-support:1.0"
       ]
     },
     {
@@ -9335,6 +9337,20 @@
       ]
     },
     {
+      "ref" : "null:websocket-jetty-server:server/pom",
+      "dependsOn" : [
+        "org.eclipse.jetty.websocket:websocket-jetty-api:null",
+        "org.eclipse.jetty.websocket:websocket-jetty-common:null",
+        "org.eclipse.jetty.websocket:websocket-servlet:null",
+        "org.eclipse.jetty.toolchain:jetty-servlet-api:null",
+        "org.eclipse.jetty:jetty-servlet:null",
+        "org.eclipse.jetty:jetty-annotations:null",
+        "org.eclipse.jetty:jetty-jmx:null",
+        "org.slf4j:slf4j-api:null",
+        "org.eclipse.jetty:jetty-slf4j-impl:null"
+      ]
+    },
+    {
       "ref" : "com.thoughtworks.xstream:xstream:1.4.19",
       "dependsOn" : [
         "dom4j:dom4j:null",
@@ -9358,20 +9374,6 @@
         "com.megginson.sax:xml-writer:null",
         "commons-lang:commons-lang:null",
         "com.sun.xml.ws:jaxws-rt:null"
-      ]
-    },
-    {
-      "ref" : "null:websocket-jetty-server:server/pom",
-      "dependsOn" : [
-        "org.eclipse.jetty.websocket:websocket-jetty-api:null",
-        "org.eclipse.jetty.websocket:websocket-jetty-common:null",
-        "org.eclipse.jetty.websocket:websocket-servlet:null",
-        "org.eclipse.jetty.toolchain:jetty-servlet-api:null",
-        "org.eclipse.jetty:jetty-servlet:null",
-        "org.eclipse.jetty:jetty-annotations:null",
-        "org.eclipse.jetty:jetty-jmx:null",
-        "org.slf4j:slf4j-api:null",
-        "org.eclipse.jetty:jetty-slf4j-impl:null"
       ]
     },
     {
@@ -9586,16 +9588,6 @@
       ]
     },
     {
-      "ref" : "org.jenkins-ci.main:tyrus-container-jdk-client:4.6",
-      "dependsOn" : [
-        "org.glassfish.tyrus:tyrus-client:null",
-        "org.glassfish.tyrus:tyrus-container-grizzly-server:null",
-        "org.glassfish.tyrus:tyrus-server:null",
-        "org.glassfish.tyrus.tests:tyrus-test-tools:null",
-        "junit:junit:null"
-      ]
-    },
-    {
       "ref" : "io.jenkins.lib:jetty-util:1.2",
       "dependsOn" : [
         "org.slf4j:slf4j-api:null",
@@ -9606,20 +9598,20 @@
       ]
     },
     {
-      "ref" : "null:slf4j-jdk14:jdk14/pom",
-      "dependsOn" : [
-        "org.slf4j:slf4j-api:null",
-        "org.slf4j:slf4j-api:${project.version}"
-      ]
-    },
-    {
-      "ref" : "org.jenkins-ci.main:tyrus-container-jdk-client:4.7",
+      "ref" : "org.jenkins-ci.main:tyrus-container-jdk-client:4.6",
       "dependsOn" : [
         "org.glassfish.tyrus:tyrus-client:null",
         "org.glassfish.tyrus:tyrus-container-grizzly-server:null",
         "org.glassfish.tyrus:tyrus-server:null",
         "org.glassfish.tyrus.tests:tyrus-test-tools:null",
         "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "null:slf4j-jdk14:jdk14/pom",
+      "dependsOn" : [
+        "org.slf4j:slf4j-api:null",
+        "org.slf4j:slf4j-api:${project.version}"
       ]
     },
     {
@@ -9633,6 +9625,16 @@
       "ref" : "null:j-interopdeps:1",
       "dependsOn" : [
         "org.samba.jcifs:jcifs:1.2.19"
+      ]
+    },
+    {
+      "ref" : "org.jenkins-ci.main:tyrus-container-jdk-client:4.7",
+      "dependsOn" : [
+        "org.glassfish.tyrus:tyrus-client:null",
+        "org.glassfish.tyrus:tyrus-container-grizzly-server:null",
+        "org.glassfish.tyrus:tyrus-server:null",
+        "org.glassfish.tyrus.tests:tyrus-test-tools:null",
+        "junit:junit:null"
       ]
     },
     {

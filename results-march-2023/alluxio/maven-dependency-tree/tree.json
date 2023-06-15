@@ -40716,7 +40716,7 @@
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
-    "groupId": "org.openlabtesting.leveldbjni",
+    "groupId": "org.fusesource.leveldbjni",
     "artifactId": "leveldbjni-all",
     "classifier": "jar",
     "version": "1.8",
@@ -42615,7 +42615,7 @@
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
-    "groupId": "org.openlabtesting.leveldbjni",
+    "groupId": "org.fusesource.leveldbjni",
     "artifactId": "leveldbjni-all",
     "classifier": "jar",
     "version": "1.8",
@@ -64617,15 +64617,6 @@
     "version": "1.0.1",
     "scope": "compile",
     "depth": 8,
-    "submodule": "org.alluxio:alluxio-underfs-ozone:jar:2.9.0"
-  },
-  {
-    "groupId": "org.openlabtesting.leveldbjni",
-    "artifactId": "leveldbjni-all",
-    "classifier": "jar",
-    "version": "1.8",
-    "scope": "compile",
-    "depth": 6,
     "submodule": "org.alluxio:alluxio-underfs-ozone:jar:2.9.0"
   },
   {

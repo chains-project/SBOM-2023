@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:2c040799-bd95-4de2-907b-ac643467c463" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:f4cc1c65-0810-4652-84d2-6e1f8091ba11" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-26T01:53:10Z</timestamp>
+    <timestamp>2023-05-09T18:56:09Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin makeAggregateBom</name>
-        <version>2.7.5</version>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.8</version>
         <hashes>
-          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
-          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
-          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
-          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
-          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
-          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
-          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
-          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
+          <hash alg="MD5">4d75a7410313db127502c8536eb3f54b</hash>
+          <hash alg="SHA-1">8795071de12b08045d08f58d9611a9fcb9c78a9f</hash>
+          <hash alg="SHA-256">eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61</hash>
+          <hash alg="SHA-512">d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9</hash>
+          <hash alg="SHA-384">ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8</hash>
+          <hash alg="SHA3-384">08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58</hash>
+          <hash alg="SHA3-256">59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929</hash>
+          <hash alg="SHA3-512">7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3</hash>
         </hashes>
       </tool>
     </tools>
@@ -32,6 +32,10 @@
       <purl>pkg:maven/com.github.rnewson.couchdb.lucene/couchdb-lucene@2.1.0?type=jar</purl>
       <externalReferences><reference type="website"><url>http://github.com/rnewson/couchdb-lucene/</url></reference><reference type="issue-tracker"><url>http://github.com/rnewson/couchdb-lucene/issues</url></reference><reference type="vcs"><url>http://github.com/rnewson/couchdb-lucene/</url></reference></externalReferences>
     </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents/httpclient@4.0.1?type=jar">
@@ -59,31 +63,6 @@
       <purl>pkg:maven/org.apache.httpcomponents/httpclient@4.0.1?type=jar</purl>
       <externalReferences><reference type="website"><url>http://hc.apache.org/httpcomponents-client</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCLIENT</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="vcs"><url>https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.0.1/httpclient</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/commons-logging/commons-logging@1.1.1?type=jar">
-      <publisher>The Apache Software Foundation</publisher>
-      <group>commons-logging</group>
-      <name>commons-logging</name>
-      <version>1.1.1</version>
-      <description>Commons Logging is a thin adapter allowing configurable bridging to other,
-    well known logging systems.</description>
-      <hashes>
-        <hash alg="MD5">ed448347fc0104034aa14c8189bf37de</hash>
-        <hash alg="SHA-1">5043bfebc3db072ed80fbd362e7caf00e885d8ae</hash>
-        <hash alg="SHA-256">ce6f913cad1f0db3aad70186d65c5bc7ffcc9a99e3fe8e0b137312819f7c362f</hash>
-        <hash alg="SHA-512">470323a2ee38be1b7ff8c84f1f5a5f8c4ec2ceb6b0649faa7b961f111865877dbe125409f72b1c52c7f18aa89e3469635c49ff4b83f86cc2f2eb2cc5562f9bff</hash>
-        <hash alg="SHA-384">264a511a601a07558911ccc5f49ef579aa1b1760bb4091bcbe1a0017c7be64d86f1d0b28ef560819614b252907cdd44a</hash>
-        <hash alg="SHA3-384">e61a9dafb4f92a3cfd76fc28ff340eb15bc0fca939a48408fd9032362b8a95ce938e58dd01f7c3d0ff90ac21cacc77df</hash>
-        <hash alg="SHA3-256">0799a9105d174ba2f082845e8ca27db236118b00e4a2053ee1fde798b2fbd031</hash>
-        <hash alg="SHA3-512">dbdcf933551c6abe834ac4fa5b4833e47895c2573530b74f51daff7291dab60db88946fc34a518f423a68e9c9ce36507345070e56a86fb5a567be685c1e3cded</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/commons-logging/commons-logging@1.1.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://commons.apache.org/logging</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="distribution"><url></url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-commits/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/tags/commons-logging-1.1.1</url></reference></externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar">
       <publisher>Apache Software Foundation</publisher>
       <group>org.apache.httpcomponents</group>
@@ -108,6 +87,31 @@
       </licenses>
       <purl>pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar</purl>
       <externalReferences><reference type="website"><url>http://hc.apache.org/httpcomponents-core/</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.0.1/httpcore</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-logging/commons-logging@1.1.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>commons-logging</group>
+      <name>commons-logging</name>
+      <version>1.1.1</version>
+      <description>Commons Logging is a thin adapter allowing configurable bridging to other,
+    well known logging systems.</description>
+      <hashes>
+        <hash alg="MD5">ed448347fc0104034aa14c8189bf37de</hash>
+        <hash alg="SHA-1">5043bfebc3db072ed80fbd362e7caf00e885d8ae</hash>
+        <hash alg="SHA-256">ce6f913cad1f0db3aad70186d65c5bc7ffcc9a99e3fe8e0b137312819f7c362f</hash>
+        <hash alg="SHA-512">470323a2ee38be1b7ff8c84f1f5a5f8c4ec2ceb6b0649faa7b961f111865877dbe125409f72b1c52c7f18aa89e3469635c49ff4b83f86cc2f2eb2cc5562f9bff</hash>
+        <hash alg="SHA-384">264a511a601a07558911ccc5f49ef579aa1b1760bb4091bcbe1a0017c7be64d86f1d0b28ef560819614b252907cdd44a</hash>
+        <hash alg="SHA3-384">e61a9dafb4f92a3cfd76fc28ff340eb15bc0fca939a48408fd9032362b8a95ce938e58dd01f7c3d0ff90ac21cacc77df</hash>
+        <hash alg="SHA3-256">0799a9105d174ba2f082845e8ca27db236118b00e4a2053ee1fde798b2fbd031</hash>
+        <hash alg="SHA3-512">dbdcf933551c6abe834ac4fa5b4833e47895c2573530b74f51daff7291dab60db88946fc34a518f423a68e9c9ce36507345070e56a86fb5a567be685c1e3cded</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-logging/commons-logging@1.1.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/logging</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="distribution"><url></url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-commits/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/tags/commons-logging-1.1.1</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.jcip/jcip-annotations@1.0?type=jar">
       <group>net.jcip</group>
@@ -204,6 +208,33 @@
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty/jetty-http@9.3.9.v20160517?type=jar</purl>
       <externalReferences><reference type="website"><url>http://www.eclipse.org/jetty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Jetty</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-http</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty</group>
+      <name>jetty-util</name>
+      <version>9.3.9.v20160517</version>
+      <description>Utility classes for Jetty</description>
+      <hashes>
+        <hash alg="MD5">a2832b2191077f9f1973c4bfe0c4b637</hash>
+        <hash alg="SHA-1">5a021301220558f405af685c70404f9a058296ea</hash>
+        <hash alg="SHA-256">1d50d4dd361142172222c140bc84c930ae65634f8a4c811774eff2240fde92e0</hash>
+        <hash alg="SHA-512">e9d9edddf69594bfdd2e3b7d39a048cdd6d094dd01f7d8d419637ee40e815925412dfa0947b3675b5356488fd442a27e621f6d47f2b8709e448d88e5ddd1eb74</hash>
+        <hash alg="SHA-384">cdd7c758728f7fd9ebae7978266e67581214a721e7a09c6f1c1c3f4226caa8554df741c43a56cc3331390bf42991228b</hash>
+        <hash alg="SHA3-384">6c8da3cd91cfaba975d69633dbbb08f166ff54283d1aecd6eab5440d43c3e85ddd4a7adf9c7c491b30dd81c2de81ab3c</hash>
+        <hash alg="SHA3-256">5ed4d318c864fbbe6d7c7e2c584d9a39f737173309bd3fea86aab2484e782c47</hash>
+        <hash alg="SHA3-512">b1a96bed0e1e50ac5cb0bccfaceb0965609ebac16b93aed79dabb219698c4b63c991ae535a4dcb6b9e2bf3cf874c11c5c54cecf2116e66b44cbb323de0fd7a23</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/jetty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Jetty</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-util</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-io@9.3.9.v20160517?type=jar">
       <publisher>Webtide</publisher>
@@ -341,33 +372,6 @@
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty/jetty-continuation@9.3.9.v20160517?type=jar</purl>
       <externalReferences><reference type="website"><url>http://www.eclipse.org/jetty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Jetty</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-continuation</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar">
-      <publisher>Webtide</publisher>
-      <group>org.eclipse.jetty</group>
-      <name>jetty-util</name>
-      <version>9.3.9.v20160517</version>
-      <description>Utility classes for Jetty</description>
-      <hashes>
-        <hash alg="MD5">a2832b2191077f9f1973c4bfe0c4b637</hash>
-        <hash alg="SHA-1">5a021301220558f405af685c70404f9a058296ea</hash>
-        <hash alg="SHA-256">1d50d4dd361142172222c140bc84c930ae65634f8a4c811774eff2240fde92e0</hash>
-        <hash alg="SHA-512">e9d9edddf69594bfdd2e3b7d39a048cdd6d094dd01f7d8d419637ee40e815925412dfa0947b3675b5356488fd442a27e621f6d47f2b8709e448d88e5ddd1eb74</hash>
-        <hash alg="SHA-384">cdd7c758728f7fd9ebae7978266e67581214a721e7a09c6f1c1c3f4226caa8554df741c43a56cc3331390bf42991228b</hash>
-        <hash alg="SHA3-384">6c8da3cd91cfaba975d69633dbbb08f166ff54283d1aecd6eab5440d43c3e85ddd4a7adf9c7c491b30dd81c2de81ab3c</hash>
-        <hash alg="SHA3-256">5ed4d318c864fbbe6d7c7e2c584d9a39f737173309bd3fea86aab2484e782c47</hash>
-        <hash alg="SHA3-512">b1a96bed0e1e50ac5cb0bccfaceb0965609ebac16b93aed79dabb219698c4b63c991ae535a4dcb6b9e2bf3cf874c11c5c54cecf2116e66b44cbb323de0fd7a23</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-        <license>
-          <id>EPL-1.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.eclipse.org/jetty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Jetty</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-util</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-io/commons-io@1.4?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -727,30 +731,6 @@
       <purl>pkg:maven/org.apache.lucene/lucene-queryparser@6.4.1?type=jar</purl>
       <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-queryparser</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/queryparser</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar">
-      <publisher>The Apache Software Foundation</publisher>
-      <group>org.apache.lucene</group>
-      <name>lucene-sandbox</name>
-      <version>6.4.1</version>
-      <description>Lucene Sandbox</description>
-      <hashes>
-        <hash alg="MD5">33ec38f2b4498e6c50078f3b0b6b6f8d</hash>
-        <hash alg="SHA-1">d4a49664668c58aa23aba74717f3d74a61378d7c</hash>
-        <hash alg="SHA-256">1e3ebde0adb8875819289f73b6906adf6bf5a9f2c3588bff15e35cab2f931526</hash>
-        <hash alg="SHA-512">06101a38c08775197c03543e86fe0aa32defc642cd883ebb3eba51b9f328f8236aa612fb0570a930521e0a3c6e423304735237bb52ebed6bab559f2deddf96c5</hash>
-        <hash alg="SHA-384">1fedaf579f5cba8b9d77d1a63451d08aff6e9559a2a6e7317e92e11d1a2dc598a23496f59af9f18f607d7313218906a7</hash>
-        <hash alg="SHA3-384">7f7dbc7e9fa0e388341a3b0484f091be99d23bc18ec99fbfc603f2f81a6673c5d039c344f9efa423b331897baf2a3ce3</hash>
-        <hash alg="SHA3-256">2bb9136229135560e7039aece58cf5393a0b3941252a3c64ea67d4eb2e71d14f</hash>
-        <hash alg="SHA3-512">b3610fd6c4b369e0de8127cdd648977cc07e41375ec2a1ff16645e5651d79f36d2aa96c27b78e441ce44b8a49c383acac38c68642fa454364144e51ac2fffb1c</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-sandbox</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/sandbox</url></reference></externalReferences>
-    </component>
     <component type="library" bom-ref="pkg:maven/org.apache.lucene/lucene-queries@6.4.1?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.lucene</group>
@@ -775,6 +755,30 @@
       </licenses>
       <purl>pkg:maven/org.apache.lucene/lucene-queries@6.4.1?type=jar</purl>
       <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-queries</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/queries</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.lucene</group>
+      <name>lucene-sandbox</name>
+      <version>6.4.1</version>
+      <description>Lucene Sandbox</description>
+      <hashes>
+        <hash alg="MD5">33ec38f2b4498e6c50078f3b0b6b6f8d</hash>
+        <hash alg="SHA-1">d4a49664668c58aa23aba74717f3d74a61378d7c</hash>
+        <hash alg="SHA-256">1e3ebde0adb8875819289f73b6906adf6bf5a9f2c3588bff15e35cab2f931526</hash>
+        <hash alg="SHA-512">06101a38c08775197c03543e86fe0aa32defc642cd883ebb3eba51b9f328f8236aa612fb0570a930521e0a3c6e423304735237bb52ebed6bab559f2deddf96c5</hash>
+        <hash alg="SHA-384">1fedaf579f5cba8b9d77d1a63451d08aff6e9559a2a6e7317e92e11d1a2dc598a23496f59af9f18f607d7313218906a7</hash>
+        <hash alg="SHA3-384">7f7dbc7e9fa0e388341a3b0484f091be99d23bc18ec99fbfc603f2f81a6673c5d039c344f9efa423b331897baf2a3ce3</hash>
+        <hash alg="SHA3-256">2bb9136229135560e7039aece58cf5393a0b3941252a3c64ea67d4eb2e71d14f</hash>
+        <hash alg="SHA3-512">b3610fd6c4b369e0de8127cdd648977cc07e41375ec2a1ff16645e5651d79f36d2aa96c27b78e441ce44b8a49c383acac38c68642fa454364144e51ac2fffb1c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-sandbox</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/sandbox</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.tika/tika-core@1.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -2079,6 +2083,7 @@ The algorithms used by the library are based on (and extending) some concepts of
     <dependency ref="pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar">
       <dependency ref="pkg:maven/stax/stax-api@1.0.1?type=jar"/>
     </dependency>
+    <dependency ref="pkg:maven/stax/stax-api@1.0.1?type=jar"/>
     <dependency ref="pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1?type=jar"/>
     <dependency ref="pkg:maven/org.ow2.asm/asm-debug-all@4.1?type=jar"/>
     <dependency ref="pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?type=jar">
@@ -2106,7 +2111,6 @@ The algorithms used by the library are based on (and extending) some concepts of
     <dependency ref="pkg:maven/org.apache.poi/ooxml-schemas@1.1?type=jar">
       <dependency ref="pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/stax/stax-api@1.0.1?type=jar"/>
     <dependency ref="pkg:maven/org.erlang.otp/jinterface@1.5.3.2?type=jar"/>
     <dependency ref="pkg:maven/org.slf4j/slf4j-log4j12@1.7.5?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"/>

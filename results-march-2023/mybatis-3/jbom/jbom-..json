@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.3",
-  "serialNumber" : "063783d9-ded6-4ab8-8949-c0495ae86042",
+  "serialNumber" : "b9bee73d-fc5e-4eab-8e49-74b332b3ad68",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T04:27:54Z",
+    "timestamp" : "2023-05-10T10:20:46Z",
     "tools" : [
       {
         "vendor" : "Contrast Security - https://contrastsecurity.com",
@@ -13,7 +13,7 @@
       }
     ],
     "component" : {
-      "name" : "172.17.0.2 (0dc24ae66f93)",
+      "name" : "172.17.0.21 (674d2a7ccc6d)",
       "description" : "Java",
       "type" : "application"
     },
@@ -29,11 +29,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "99f0e060ce59c48c01d4437ec89016cc19950c73"
+          "content" : "01cf7f0705780bc126ac35ba299047b1c9747845"
         },
         {
           "alg" : "MD5",
-          "content" : "904b6fbeae1865edb6640dcdf08a244e"
+          "content" : "1dfd287be9e9d40d43606e4dee559fb6"
         }
       ],
       "properties" : [
@@ -60,11 +60,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "968d1f686f750d421939d202530d8726bf59dada"
+          "content" : "b92c7d5a0c978748e8e4731965529cd0f23be7a0"
         },
         {
           "alg" : "MD5",
-          "content" : "262388bb2d1d61d5ab4a4d702ab489e9"
+          "content" : "709a79affb7e16f55ad35416dd6d1763"
         }
       ],
       "properties" : [
@@ -91,11 +91,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "99f0e060ce59c48c01d4437ec89016cc19950c73"
+          "content" : "01cf7f0705780bc126ac35ba299047b1c9747845"
         },
         {
           "alg" : "MD5",
-          "content" : "904b6fbeae1865edb6640dcdf08a244e"
+          "content" : "1dfd287be9e9d40d43606e4dee559fb6"
         }
       ],
       "properties" : [
@@ -121,11 +121,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "99f0e060ce59c48c01d4437ec89016cc19950c73"
+          "content" : "01cf7f0705780bc126ac35ba299047b1c9747845"
         },
         {
           "alg" : "MD5",
-          "content" : "904b6fbeae1865edb6640dcdf08a244e"
+          "content" : "1dfd287be9e9d40d43606e4dee559fb6"
         }
       ],
       "properties" : [

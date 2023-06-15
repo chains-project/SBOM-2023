@@ -333,6 +333,15 @@
     "submodule": "com.github.sarxos:webcam-capture-driver-gstreamer:jar:0.3.12"
   },
   {
+    "groupId": "org.eclipse.swt.gtk.linux",
+    "artifactId": "x86_64",
+    "classifier": "jar",
+    "version": "3.3.0-v3346",
+    "scope": "compile",
+    "depth": 2,
+    "submodule": "com.github.sarxos:webcam-capture-driver-gstreamer:jar:0.3.12"
+  },
+  {
     "groupId": "ch.qos.logback",
     "artifactId": "logback-core",
     "classifier": "jar",
