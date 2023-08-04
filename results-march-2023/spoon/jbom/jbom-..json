@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.3",
-  "serialNumber" : "720510c0-d75d-45b9-b64b-ac164ab70565",
+  "serialNumber" : "ef4754f1-43e3-4d82-9a0f-8842307fdac8",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T04:32:18Z",
+    "timestamp" : "2023-05-10T10:13:41Z",
     "tools" : [
       {
         "vendor" : "Contrast Security - https://contrastsecurity.com",
@@ -13,7 +13,7 @@
       }
     ],
     "component" : {
-      "name" : "172.17.0.2 (119e5eab2352)",
+      "name" : "172.17.0.22 (415038e70203)",
       "description" : "Java",
       "type" : "application"
     },
@@ -93,11 +93,42 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "1505d6998731a60f0680a0675158a4323238f27c"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "3abc2801ea89b36dafab83361831f210"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-api-meta"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-api-meta-4.0.0-alpha-5.jar!/META-INF/maven/org.apache.maven/maven-api-meta/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-api-meta:meta/pom"
+    },
+    {
+      "name" : "maven-api-meta",
+      "version" : "meta/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -118,48 +149,17 @@
       "bom-ref" : "null:maven-api-meta:meta/pom"
     },
     {
-      "name" : "maven-api-meta",
-      "version" : "meta/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "1db21755d8f2ee10d490b8d7ee28e9da31c531e8"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "c6e3efad11749a50de4e828732d16931"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.apache.maven/maven-api-meta"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/maven-api-meta-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-api-meta/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:maven-api-meta:meta/pom"
-    },
-    {
       "name" : "maven-xml-impl",
       "version" : "impl/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "d3cdd0b8e769235283fda12fa63a10624666b005"
+          "content" : "57e7ff66b9fe6dd33689ddcd913b028f23efbdb0"
         },
         {
           "alg" : "MD5",
-          "content" : "b934c92c0510efb99f599e287f860cc7"
+          "content" : "c3ab1b963f5b586e5c810f309fc48cc9"
         }
       ],
       "properties" : [
@@ -173,7 +173,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/maven-xml-impl-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-xml-impl/pom.xml"
+          "value" : "/spoon/./target/maven-xml-impl-4.0.0-alpha-5.jar!/META-INF/maven/org.apache.maven/maven-xml-impl/pom.xml"
         }
       ],
       "type" : "library",
@@ -186,11 +186,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -217,11 +217,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "f29ca41b573302c1c0455d601728b8ecb7eec89d"
+          "content" : "90b9839792644b8b08427db5fc25d8fef448c9da"
         },
         {
           "alg" : "MD5",
-          "content" : "648f7acb1bf71bae918530fe7b5141f4"
+          "content" : "789a79aa8ea5d9312d6862302f1b7232"
         }
       ],
       "properties" : [
@@ -235,7 +235,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/maven-model-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-model/pom.xml"
+          "value" : "/spoon/./target/maven-model-4.0.0-alpha-5.jar!/META-INF/maven/org.apache.maven/maven-model/pom.xml"
         }
       ],
       "type" : "library",
@@ -248,11 +248,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -279,11 +279,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -310,11 +310,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "d682182e1f7fef7c210c0fbd27446e9105d44708"
+          "content" : "d3b6e108e73822a53b813ebe4ebab9dd8dd176e2"
         },
         {
           "alg" : "MD5",
-          "content" : "c72db6839705c914371cddabe26b7a06"
+          "content" : "c016596896baafce5b6958fa4545f067"
         }
       ],
       "properties" : [
@@ -328,7 +328,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/maven-api-model-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-api-model/pom.xml"
+          "value" : "/spoon/./target/maven-api-model-4.0.0-alpha-5.jar!/META-INF/maven/org.apache.maven/maven-api-model/pom.xml"
         }
       ],
       "type" : "library",
@@ -563,39 +563,6 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
-        }
-      ],
-      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-databind"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "com.fasterxml.jackson.core:jackson-databind:2.13.4.2"
-    },
-    {
-      "group" : "com.fasterxml.jackson.core",
-      "name" : "jackson-databind",
-      "version" : "2.13.4.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
           "content" : "325c06bdfeb628cfb80ebaaf1a26cc1eb558a585"
         },
         {
@@ -622,17 +589,50 @@
       "bom-ref" : "com.fasterxml.jackson.core:jackson-databind:2.13.4.2"
     },
     {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.13.4.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f22528c68f67b50a675d73a5afa367af"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-databind"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-databind:2.13.4.2"
+    },
+    {
       "name" : "pom",
       "version" : "compress/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "4ec95b60d4e86b5c95a0e919cb172a0af98011ef"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "2a713d10331bc4e13459a3dc0463f16f"
         }
       ],
       "properties" : [
@@ -646,7 +646,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.commons/commons-compress/pom.xml"
+          "value" : "/spoon/./target/commons-compress-1.21.jar!/META-INF/maven/org.apache.commons/commons-compress/pom.xml"
         }
       ],
       "type" : "library"
@@ -658,11 +658,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "19fe50567358922bdad277959ea69545"
         }
       ],
       "properties" : [
@@ -676,7 +676,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.commons/commons-lang3/pom.xml"
+          "value" : "/spoon/./target/commons-lang3-3.12.0.jar!/META-INF/maven/org.apache.commons/commons-lang3/pom.xml"
         }
       ],
       "type" : "library"
@@ -719,37 +719,6 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.codehaus.plexus/plexus-classworlds"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.codehaus.plexus/plexus-classworlds/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:plexus-classworlds:2.5.2"
-    },
-    {
-      "name" : "plexus-classworlds",
-      "version" : "2.5.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
           "content" : "4abb111bfdace5b8167db4c0ef74644f3f88f142"
         },
         {
@@ -775,17 +744,79 @@
       "bom-ref" : "null:plexus-classworlds:2.5.2"
     },
     {
+      "name" : "plexus-classworlds",
+      "version" : "2.5.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f22528c68f67b50a675d73a5afa367af"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.plexus/plexus-classworlds"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.codehaus.plexus/plexus-classworlds/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:plexus-classworlds:2.5.2"
+    },
+    {
+      "name" : "byte-buddy",
+      "version" : "buddy/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "3502dd682cac2a7334b159e13d5935e4a34ba192"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f7ee759d131e344edc04a62fdcdecd57"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/net.bytebuddy/byte-buddy"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/byte-buddy-1.12.14.jar!/META-INF/maven/net.bytebuddy/byte-buddy/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:byte-buddy:buddy/pom"
+    },
+    {
       "name" : "maven-invoker",
       "version" : "3.2.0",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -837,37 +868,6 @@
       "bom-ref" : "null:maven-invoker:3.2.0"
     },
     {
-      "name" : "byte-buddy",
-      "version" : "buddy/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "3502dd682cac2a7334b159e13d5935e4a34ba192"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f7ee759d131e344edc04a62fdcdecd57"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/net.bytebuddy/byte-buddy"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/byte-buddy-1.12.14.jar!/META-INF/maven/net.bytebuddy/byte-buddy/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:byte-buddy:buddy/pom"
-    },
-    {
       "group" : "com.mysema.querydsl",
       "name" : "querydsl-core",
       "version" : "core/pom",
@@ -901,23 +901,25 @@
       "bom-ref" : "com.mysema.querydsl:querydsl-core:core/pom"
     },
     {
-      "name" : "spoon-core",
-      "version" : "10.2.0-SNAPSHOT",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.13.4",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "e9229d5875656847d6c0bddc81ae662ac006f4b4"
+          "content" : "0cf934c681294b97ef6d80082faeefbe1edadf56"
         },
         {
           "alg" : "MD5",
-          "content" : "706206173757dfc0c0b7358a222cbf23"
+          "content" : "e8f064827ddb8deb06e45d20988bcaa5"
         }
       ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/fr.inria.gforge.spoon/spoon-core"
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-core"
         },
         {
           "name" : "archive",
@@ -925,11 +927,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT.jar!/META-INF/maven/fr.inria.gforge.spoon/spoon-core/pom.xml"
+          "value" : "/spoon/./target/jackson-core-2.13.4.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:spoon-core:10.2.0-SNAPSHOT"
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-core:2.13.4"
     },
     {
       "group" : "com.fasterxml.jackson.core",
@@ -939,11 +941,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4",
@@ -971,11 +973,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -1027,25 +1029,23 @@
       "bom-ref" : "null:logback-core:core/pom"
     },
     {
-      "group" : "com.fasterxml.jackson.core",
-      "name" : "jackson-core",
-      "version" : "2.13.4",
+      "name" : "spoon-core",
+      "version" : "10.2.0-SNAPSHOT",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "0cf934c681294b97ef6d80082faeefbe1edadf56"
+          "content" : "e9229d5875656847d6c0bddc81ae662ac006f4b4"
         },
         {
           "alg" : "MD5",
-          "content" : "e8f064827ddb8deb06e45d20988bcaa5"
+          "content" : "706206173757dfc0c0b7358a222cbf23"
         }
       ],
-      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-core"
+          "value" : "META-INF/maven/fr.inria.gforge.spoon/spoon-core"
         },
         {
           "name" : "archive",
@@ -1053,11 +1053,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/jackson-core-2.13.4.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml"
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT.jar!/META-INF/maven/fr.inria.gforge.spoon/spoon-core/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "com.fasterxml.jackson.core:jackson-core:2.13.4"
+      "bom-ref" : "null:spoon-core:10.2.0-SNAPSHOT"
     },
     {
       "name" : "listenablefuture",
@@ -1097,11 +1097,42 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "5a48ca11c5b6d7594079ecc23cb6f1a4a9ec6bb4"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "2906b8c40c7a4ec27d88014f32bcd024"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-api-xml"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-api-xml-4.0.0-alpha-5.jar!/META-INF/maven/org.apache.maven/maven-api-xml/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-api-xml:xml/pom"
+    },
+    {
+      "name" : "maven-api-xml",
+      "version" : "xml/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -1122,48 +1153,17 @@
       "bom-ref" : "null:maven-api-xml:xml/pom"
     },
     {
-      "name" : "maven-api-xml",
-      "version" : "xml/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "07aa77b7eb08ba2ceb6b9efdfddd8cf23aebd5f4"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "6cde6f143530594bbfc677ae40989451"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.apache.maven/maven-api-xml"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/maven-api-xml-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-api-xml/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:maven-api-xml:xml/pom"
-    },
-    {
       "name" : "pom",
       "version" : "io/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "a2503f302b11ebde7ebc3df41daebe0e4eea3689"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "3b4b7ccfaeceeac240b804839ee1a1ca"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -1177,7 +1177,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/commons-io-2.11.0.jar!/META-INF/maven/commons-io/commons-io/pom.xml"
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/commons-io/commons-io/pom.xml"
         }
       ],
       "type" : "library"
@@ -1214,23 +1214,25 @@
       "bom-ref" : "null:failureaccess:1.0.1"
     },
     {
-      "name" : "maven-shared-utils",
-      "version" : "3.3.4",
+      "group" : "com.google.code.findbugs",
+      "name" : "jsr305",
+      "version" : "3.0.2",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "f87a61adb1e12a00dcc6cc6005a51e693aa7c4ac"
+          "content" : "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
         },
         {
           "alg" : "MD5",
-          "content" : "908f2a0107ff330ac9b856356a0acaef"
+          "content" : "dd83accb899363c32b07d7a1b2e4ce40"
         }
       ],
+      "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/org.apache.maven.shared/maven-shared-utils"
+          "value" : "META-INF/maven/com.google.code.findbugs/jsr305"
         },
         {
           "name" : "archive",
@@ -1238,11 +1240,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/maven-shared-utils-3.3.4.jar!/META-INF/maven/org.apache.maven.shared/maven-shared-utils/pom.xml"
+          "value" : "/spoon/./target/jsr305-3.0.2.jar!/META-INF/maven/com.google.code.findbugs/jsr305/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:maven-shared-utils:3.3.4"
+      "bom-ref" : "com.google.code.findbugs:jsr305:3.0.2"
     },
     {
       "name" : "plexus-utils",
@@ -1282,11 +1284,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -1313,11 +1315,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
         },
         {
           "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+          "content" : "f22528c68f67b50a675d73a5afa367af"
         }
       ],
       "properties" : [
@@ -1338,25 +1340,23 @@
       "bom-ref" : "null:maven-shared-utils:3.3.4"
     },
     {
-      "group" : "com.google.code.findbugs",
-      "name" : "jsr305",
-      "version" : "3.0.2",
+      "name" : "maven-shared-utils",
+      "version" : "3.3.4",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+          "content" : "f87a61adb1e12a00dcc6cc6005a51e693aa7c4ac"
         },
         {
           "alg" : "MD5",
-          "content" : "dd83accb899363c32b07d7a1b2e4ce40"
+          "content" : "908f2a0107ff330ac9b856356a0acaef"
         }
       ],
-      "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/com.google.code.findbugs/jsr305"
+          "value" : "META-INF/maven/org.apache.maven.shared/maven-shared-utils"
         },
         {
           "name" : "archive",
@@ -1364,11 +1364,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/spoon/./target/jsr305-3.0.2.jar!/META-INF/maven/com.google.code.findbugs/jsr305/pom.xml"
+          "value" : "/spoon/./target/maven-shared-utils-3.3.4.jar!/META-INF/maven/org.apache.maven.shared/maven-shared-utils/pom.xml"
         }
       ],
       "type" : "library",
-      "bom-ref" : "com.google.code.findbugs:jsr305:3.0.2"
+      "bom-ref" : "null:maven-shared-utils:3.3.4"
     },
     {
       "name" : "lidalia-lang",
@@ -1400,6 +1400,36 @@
       ],
       "type" : "library",
       "bom-ref" : "null:lidalia-lang:1.0.0"
+    },
+    {
+      "name" : "pom",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "479c1e06db31c432330183f5cae684163f186146"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "75fe320d2b3763bd6883ae1ede35e987"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/javax.annotation/javax.annotation-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/javax.annotation-api-1.2.jar!/META-INF/maven/javax.annotation/javax.annotation-api/pom.xml"
+        }
+      ],
+      "type" : "library"
     },
     {
       "group" : "se.kth.castor",
@@ -1435,36 +1465,6 @@
       "bom-ref" : "se.kth.castor:helloworld:1.0-SNAPSHOT"
     },
     {
-      "name" : "pom",
-      "version" : "api/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "cb855558e6271b1b32e716d24cb85c7f583ce09e"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "5d02c034034a7a16725ceff787e191d6"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/javax.validation/validation-api"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/validation-api-2.0.1.Final.jar!/META-INF/maven/javax.validation/validation-api/pom.xml"
-        }
-      ],
-      "type" : "library"
-    },
-    {
       "name" : "bridge-method-annotation",
       "version" : "annotation/pom",
       "scope" : "required",
@@ -1494,103 +1494,6 @@
       ],
       "type" : "library",
       "bom-ref" : "null:bridge-method-annotation:annotation/pom"
-    },
-    {
-      "group" : "com.fasterxml.jackson.core",
-      "name" : "jackson-annotations",
-      "version" : "2.13.4",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "858c6cc78e1f08a885b1613e1d817c829df70a6e"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "7e982dafcf25c24b365b5088eaf8a0a6"
-        }
-      ],
-      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-annotations"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/jackson-annotations-2.13.4.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
-    },
-    {
-      "name" : "plexus-component-annotations",
-      "version" : "annotations/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.codehaus.plexus/plexus-component-annotations"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.codehaus.plexus/plexus-component-annotations/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:plexus-component-annotations:annotations/pom"
-    },
-    {
-      "group" : "com.fasterxml.jackson.core",
-      "name" : "jackson-annotations",
-      "version" : "2.13.4",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
-        }
-      ],
-      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-annotations"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
     },
     {
       "name" : "plexus-component-annotations",
@@ -1655,9 +1558,110 @@
       ],
       "type" : "library",
       "bom-ref" : "com.google.j2objc:j2objc-annotations:1.3"
+    },
+    {
+      "name" : "plexus-component-annotations",
+      "version" : "annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f22528c68f67b50a675d73a5afa367af"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.plexus/plexus-component-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.codehaus.plexus/plexus-component-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:plexus-component-annotations:annotations/pom"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.13.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "fcb775c20a6d823d94a04270e41dd4a59b156101"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f22528c68f67b50a675d73a5afa367af"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.13.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "858c6cc78e1f08a885b1613e1d817c829df70a6e"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "7e982dafcf25c24b365b5088eaf8a0a6"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/jackson-annotations-2.13.4.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
     }
   ],
   "dependencies" : [
+    {
+      "ref" : "null:slf4j-api:api/pom",
+      "dependsOn" : [ ]
+    },
     {
       "ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
       "dependsOn" : [
@@ -1665,13 +1669,9 @@
       ]
     },
     {
-      "ref" : "null:slf4j-api:api/pom",
-      "dependsOn" : [ ]
-    },
-    {
       "ref" : "null:maven-api-model:model/pom",
       "dependsOn" : [
-        "org.apache.maven:maven-api-xml:4.0.0-alpha-4"
+        "org.apache.maven:maven-api-xml:4.0.0-alpha-5"
       ]
     },
     {
@@ -1714,8 +1714,8 @@
     {
       "ref" : "null:maven-model:model/pom",
       "dependsOn" : [
-        "org.apache.maven:maven-api-model:4.0.0-alpha-4",
-        "org.apache.maven:maven-xml-impl:4.0.0-alpha-4"
+        "org.apache.maven:maven-api-model:4.0.0-alpha-5",
+        "org.apache.maven:maven-xml-impl:4.0.0-alpha-5"
       ]
     },
     {
@@ -1780,7 +1780,7 @@
     {
       "ref" : "null:maven-api-xml:xml/pom",
       "dependsOn" : [
-        "org.apache.maven:maven-api-meta:4.0.0-alpha-4"
+        "org.apache.maven:maven-api-meta:4.0.0-alpha-5"
       ]
     },
     {
@@ -1820,7 +1820,7 @@
     {
       "ref" : "null:maven-xml-impl:impl/pom",
       "dependsOn" : [
-        "org.apache.maven:maven-api-xml:4.0.0-alpha-4",
+        "org.apache.maven:maven-api-xml:4.0.0-alpha-5",
         "org.eclipse.sisu:org.eclipse.sisu.plexus:null",
         "org.codehaus.plexus:plexus-utils:${plexusUtilsVersionEmbedded}"
       ]
@@ -1832,6 +1832,14 @@
         "org.springframework:spring:2.5.6",
         "org.apache.velocity:velocity:1.6.2",
         "joda-time:joda-time:1.6"
+      ]
+    },
+    {
+      "ref" : "null:byte-buddy:buddy/pom",
+      "dependsOn" : [
+        "${project.groupId}:byte-buddy-dep:null",
+        "net.java.dev.jna:jna:${version.jna}",
+        "net.java.dev.jna:jna-platform:${version.jna}"
       ]
     },
     {
@@ -1853,14 +1861,6 @@
         "javax.validation:validation-api:2.0.1.Final",
         "uk.org.lidalia:slf4j-test:1.2.0",
         "org.kohsuke.metainf-services:metainf-services:1.9"
-      ]
-    },
-    {
-      "ref" : "null:byte-buddy:buddy/pom",
-      "dependsOn" : [
-        "${project.groupId}:byte-buddy-dep:null",
-        "net.java.dev.jna:jna:${version.jna}",
-        "net.java.dev.jna:jna-platform:${version.jna}"
       ]
     },
     {

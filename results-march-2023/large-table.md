@@ -1,164 +1,164 @@
-| Project | Analyzer | Direct Precision | Direct Recall | Direct F1 | Transitive Precision | Transitive Recall | Transitive F1|
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| commons-configuration | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| commons-configuration | cdxgen | 100 | 45.45 | 62.5 | 100 | 33.33 | 50 | 
-| commons-configuration | cyclonedx-maven-plugin | 100 | 45.45 | 62.5 | 100 | 33.33 | 50 | 
-| commons-configuration | depscan | 100 | 45.45 | 62.5 | 100 | 33.33 | 50 | 
-| commons-configuration | jbom | 0 | 0 | 0 | 0 | 0 | 0 | 
-| commons-configuration | openrewrite | 100 | 45.45 | 62.5 | 100 | 33.33 | 50 | 
-| selenese-runner-java | build-info-go | 100 | 100 | 100 | 100 | 100 | 100 | 
-| selenese-runner-java | cdxgen | 100 | 81.82 | 90 | 100 | 78.95 | 88.24 | 
-| selenese-runner-java | cyclonedx-maven-plugin | 100 | 81.82 | 90 | 100 | 85.09 | 91.94 | 
-| selenese-runner-java | depscan | 100 | 81.82 | 90 | 100 | 78.95 | 88.24 | 
-| selenese-runner-java | jbom | 77.27 | 77.27 | 77.27 | 0 | 0 | 0 | 
-| selenese-runner-java | openrewrite | 100 | 81.82 | 90 | 93.75 | 78.95 | 85.71 | 
-| undertow | build-info-go | 100 | 39.29 | 56.41 | 91.23 | 97.2 | 94.12 | 
-| undertow | cdxgen | 0 | 0 | 0 | 64.29 | 16.82 | 26.67 | 
-| undertow | cyclonedx-maven-plugin | 66.67 | 14.29 | 23.53 | 75 | 16.82 | 27.48 | 
-| undertow | depscan | 66.67 | 14.29 | 23.53 | 75 | 16.82 | 27.48 | 
-| undertow | jbom | 0 | 0 | 0 | 0 | 0 | 0 | 
-| undertow | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| javaparser | build-info-go | 100 | 27.78 | 43.48 | 100 | 21.21 | 35 | 
-| javaparser | cdxgen | 0 | 0 | 0 | 71.43 | 30.3 | 42.55 | 
-| javaparser | cyclonedx-maven-plugin | 40 | 22.22 | 28.57 | 90 | 27.27 | 41.86 | 
-| javaparser | depscan | 40 | 22.22 | 28.57 | 90 | 27.27 | 41.86 | 
-| javaparser | jbom | 24 | 33.33 | 27.91 | 0 | 0 | 0 | 
-| javaparser | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| webcam-capture | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| webcam-capture | cdxgen | 50 | 6.25 | 11.11 | 30.1 | 88.57 | 44.93 | 
-| webcam-capture | cyclonedx-maven-plugin | 50 | 6.25 | 11.11 | 30.1 | 88.57 | 44.93 | 
-| webcam-capture | depscan | 50 | 6.25 | 11.11 | 30.1 | 88.57 | 44.93 | 
-| webcam-capture | jbom | 42.11 | 50 | 45.71 | 0 | 0 | 0 | 
-| webcam-capture | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| accumulo | build-info-go | 100 | 57.85 | 73.3 | 100 | 67.72 | 80.75 | 
-| accumulo | cdxgen | 60 | 2.48 | 4.76 | 88.89 | 91.14 | 90 | 
-| accumulo | cyclonedx-maven-plugin | 88.89 | 13.22 | 23.02 | 89.86 | 84.18 | 86.93 | 
-| accumulo | depscan | 88.89 | 13.22 | 23.02 | 89.86 | 84.18 | 86.93 | 
-| accumulo | jbom | 0 | 0 | 0 | 0 | 0 | 0 | 
-| accumulo | openrewrite | 100 | 0.83 | 1.64 | 100 | 0.63 | 1.26 | 
-| CoreNLP | build-info-go | 100 | 86.96 | 93.02 | 100 | 66.67 | 80 | 
-| CoreNLP | cdxgen | 100 | 86.96 | 93.02 | 100 | 66.67 | 80 | 
-| CoreNLP | cyclonedx-maven-plugin | 100 | 86.96 | 93.02 | 92.86 | 72.22 | 81.25 | 
-| CoreNLP | depscan | 100 | 86.96 | 93.02 | 100 | 66.67 | 80 | 
-| CoreNLP | jbom | 46.94 | 100 | 63.89 | 12.5 | 5.56 | 7.69 | 
-| CoreNLP | openrewrite | 100 | 86.96 | 93.02 | 85.71 | 66.67 | 75 | 
-| async-http-client | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| async-http-client | cdxgen | 0 | 0 | 0 | 60.98 | 36.23 | 45.45 | 
-| async-http-client | cyclonedx-maven-plugin | 57.14 | 10 | 17.02 | 64.86 | 34.78 | 45.28 | 
-| async-http-client | depscan | 57.14 | 10 | 17.02 | 64.86 | 34.78 | 45.28 | 
-| async-http-client | jbom | 8.33 | 5 | 6.25 | 0 | 0 | 0 | 
-| async-http-client | openrewrite | 100 | 5 | 9.52 | 0 | 0 | 0 | 
-| para | build-info-go | 97.78 | 53.66 | 69.29 | 84.67 | 51.79 | 64.27 | 
-| para | cdxgen | 33.33 | 1.22 | 2.35 | 86.36 | 76.34 | 81.04 | 
-| para | cyclonedx-maven-plugin | 60 | 3.66 | 6.9 | 86.73 | 75.89 | 80.95 | 
-| para | depscan | 60 | 3.66 | 6.9 | 86.67 | 75.45 | 80.67 | 
-| para | jbom | 6.71 | 34.15 | 11.22 | 0 | 0 | 0 | 
-| para | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| jenkins | build-info-go | 100 | 7.07 | 13.21 | 87.84 | 97.5 | 92.42 | 
-| jenkins | cdxgen | 66.67 | 4.04 | 7.62 | 91.43 | 48 | 62.95 | 
-| jenkins | cyclonedx-maven-plugin | 77.78 | 7.07 | 12.96 | 92 | 46 | 61.33 | 
-| jenkins | depscan | 77.78 | 7.07 | 12.96 | 92 | 46 | 61.33 | 
-| jenkins | jbom | 3.91 | 5.05 | 4.41 | 65.77 | 36.5 | 46.95 | 
-| jenkins | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| spoon | build-info-go | 100 | 40.91 | 58.06 | 100 | 43.75 | 60.87 | 
-| spoon | cdxgen | 100 | 40.91 | 58.06 | 100 | 43.75 | 60.87 | 
-| spoon | cyclonedx-maven-plugin | 100 | 40.91 | 58.06 | 100 | 43.75 | 60.87 | 
-| spoon | depscan | 100 | 40.91 | 58.06 | 100 | 43.75 | 60.87 | 
-| spoon | jbom | 16.85 | 68.18 | 27.03 | 0 | 0 | 0 | 
-| spoon | openrewrite | 100 | 40.91 | 58.06 | 93.33 | 43.75 | 59.57 | 
-| subzero | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| subzero | cdxgen | 0 | 0 | 0 | 0 | 0 | 0 | 
-| subzero | cyclonedx-maven-plugin | 0 | 0 | 0 | 0 | 0 | 0 | 
-| subzero | depscan | 0 | 0 | 0 | 0 | 0 | 0 | 
-| subzero | jbom | 0 | 0 | 0 | 0 | 0 | 0 | 
-| subzero | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| alluxio | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| alluxio | cdxgen | 0 | 0 | 0 | 0 | 0 | 0 | 
-| alluxio | cyclonedx-maven-plugin | 0 | 0 | 0 | 0 | 0 | 0 | 
-| alluxio | depscan | 0 | 0 | 0 | 0 | 0 | 0 | 
-| alluxio | jbom | 1.27 | 9.09 | 2.23 | 17.5 | 1.2 | 2.25 | 
-| alluxio | openrewrite | 100 | 2.8 | 5.44 | 0 | 0 | 0 | 
-| checkstyle | build-info-go | 100 | 100 | 100 | 100 | 100 | 100 | 
-| checkstyle | cdxgen | 100 | 36.36 | 53.33 | 100 | 42.86 | 60 | 
-| checkstyle | cyclonedx-maven-plugin | 100 | 36.36 | 53.33 | 100 | 42.86 | 60 | 
-| checkstyle | depscan | 100 | 36.36 | 53.33 | 100 | 42.86 | 60 | 
-| checkstyle | jbom | 63.64 | 63.64 | 63.64 | 0 | 0 | 0 | 
-| checkstyle | openrewrite | 100 | 36.36 | 53.33 | 93.75 | 42.86 | 58.82 | 
-| steady | build-info-go | 94.29 | 42.31 | 58.41 | 100 | 76.03 | 86.38 | 
-| steady | cdxgen | 68.18 | 19.23 | 30 | 93.72 | 78.28 | 85.31 | 
-| steady | cyclonedx-maven-plugin | 77.14 | 34.62 | 47.79 | 96.62 | 74.91 | 84.39 | 
-| steady | depscan | 77.14 | 34.62 | 47.79 | 96.59 | 74.16 | 83.9 | 
-| steady | jbom | 7.1 | 30.77 | 11.54 | 0 | 0 | 0 | 
-| steady | openrewrite | 100 | 5.13 | 9.76 | 100 | 0.37 | 0.75 | 
-| jHiccup | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| jHiccup | cdxgen | 100 | 50 | 66.67 | 0 | 0 | 0 | 
-| jHiccup | cyclonedx-maven-plugin | 100 | 50 | 66.67 | 0 | 0 | 0 | 
-| jHiccup | depscan | 100 | 50 | 66.67 | 0 | 0 | 0 | 
-| jHiccup | jbom | 100 | 100 | 100 | 0 | 0 | 0 | 
-| jHiccup | openrewrite | 100 | 50 | 66.67 | 0 | 0 | 0 | 
-| error-prone | build-info-go | 100 | 27.87 | 43.59 | 60.53 | 86.79 | 71.32 | 
-| error-prone | cdxgen | 33.33 | 1.64 | 3.12 | 67.5 | 50.94 | 58.06 | 
-| error-prone | cyclonedx-maven-plugin | 77.78 | 11.48 | 20 | 65.71 | 43.4 | 52.27 | 
-| error-prone | depscan | 77.78 | 11.48 | 20 | 65.71 | 43.4 | 52.27 | 
-| error-prone | jbom | 49.3 | 57.38 | 53.03 | 0 | 0 | 0 | 
-| error-prone | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| jooby | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| jooby | cdxgen | 0 | 0 | 0 | 76.86 | 95.65 | 85.23 | 
-| jooby | cyclonedx-maven-plugin | 25 | 0.78 | 1.5 | 76.48 | 94.57 | 84.57 | 
-| jooby | depscan | 25 | 0.78 | 1.5 | 76.65 | 94.57 | 84.67 | 
-| jooby | jbom | 0 | 0 | 0 | 0 | 0 | 0 | 
-| jooby | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| launch4j-maven-plugin | build-info-go | 100 | 100 | 100 | 100 | 100 | 100 | 
-| launch4j-maven-plugin | cdxgen | 100 | 75 | 85.71 | 100 | 86 | 92.47 | 
-| launch4j-maven-plugin | cyclonedx-maven-plugin | 100 | 75 | 85.71 | 100 | 88 | 93.62 | 
-| launch4j-maven-plugin | depscan | 100 | 75 | 85.71 | 100 | 86 | 92.47 | 
-| launch4j-maven-plugin | jbom | 91.67 | 91.67 | 91.67 | 0 | 0 | 0 | 
-| launch4j-maven-plugin | openrewrite | 29.41 | 41.67 | 34.48 | 48.84 | 42 | 45.16 | 
-| orika | build-info-go | 100 | 76 | 86.36 | 96.55 | 93.33 | 94.92 | 
-| orika | cdxgen | 50 | 8 | 13.79 | 63.83 | 100 | 77.92 | 
-| orika | cyclonedx-maven-plugin | 50 | 8 | 13.79 | 63.83 | 100 | 77.92 | 
-| orika | depscan | 50 | 8 | 13.79 | 63.83 | 100 | 77.92 | 
-| orika | jbom | 8.11 | 12 | 9.68 | 0 | 0 | 0 | 
-| orika | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| jacop | build-info-go | 100 | 83.33 | 90.91 | 100 | 80 | 88.89 | 
-| jacop | cdxgen | 100 | 83.33 | 90.91 | 100 | 80 | 88.89 | 
-| jacop | cyclonedx-maven-plugin | 100 | 83.33 | 90.91 | 100 | 80 | 88.89 | 
-| jacop | depscan | 100 | 83.33 | 90.91 | 100 | 80 | 88.89 | 
-| jacop | jbom | 0 | 0 | 0 | 0 | 0 | 0 | 
-| jacop | openrewrite | 100 | 83.33 | 90.91 | 100 | 80 | 88.89 | 
-| flink | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| flink | cdxgen | 0 | 0 | 0 | 0 | 0 | 0 | 
-| flink | cyclonedx-maven-plugin | 0 | 0 | 0 | 0 | 0 | 0 | 
-| flink | depscan | 0 | 0 | 0 | 0 | 0 | 0 | 
-| flink | jbom | 0 | 0 | 0 | 0 | 0 | 0 | 
-| flink | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| neo4j | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| neo4j | cdxgen | 18.18 | 1.05 | 1.98 | 86.89 | 97.07 | 91.7 | 
-| neo4j | cyclonedx-maven-plugin | 86.15 | 29.32 | 43.75 | 85.38 | 79.12 | 82.13 | 
-| neo4j | depscan | 86.15 | 29.32 | 43.75 | 85.38 | 79.12 | 82.13 | 
-| neo4j | jbom | 0 | 0 | 0 | 0 | 0 | 0 | 
-| neo4j | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| mybatis-3 | build-info-go | 100 | 100 | 100 | 100 | 100 | 100 | 
-| mybatis-3 | cdxgen | 100 | 29.63 | 45.71 | 100 | 29.73 | 45.83 | 
-| mybatis-3 | cyclonedx-maven-plugin | 100 | 29.63 | 45.71 | 100 | 32.43 | 48.98 | 
-| mybatis-3 | depscan | 100 | 29.63 | 45.71 | 100 | 29.73 | 45.83 | 
-| mybatis-3 | jbom | 100 | 100 | 100 | 0 | 0 | 0 | 
-| mybatis-3 | openrewrite | 100 | 29.63 | 45.71 | 91.67 | 29.73 | 44.9 | 
-| couchdb-lucene | build-info-go | 100 | 92 | 95.83 | 100 | 100 | 100 | 
-| couchdb-lucene | cdxgen | 100 | 92 | 95.83 | 100 | 100 | 100 | 
-| couchdb-lucene | cyclonedx-maven-plugin | 100 | 92 | 95.83 | 100 | 100 | 100 | 
-| couchdb-lucene | depscan | 100 | 92 | 95.83 | 100 | 100 | 100 | 
-| couchdb-lucene | jbom | 48 | 48 | 48 | 0 | 0 | 0 | 
-| couchdb-lucene | openrewrite | 100 | 92 | 95.83 | 100 | 100 | 100 | 
-| handlebars.java | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| handlebars.java | cdxgen | 0 | 0 | 0 | 74.75 | 88.1 | 80.87 | 
-| handlebars.java | cyclonedx-maven-plugin | 40 | 11.11 | 17.39 | 77.89 | 88.1 | 82.68 | 
-| handlebars.java | depscan | 40 | 11.11 | 17.39 | 77.89 | 88.1 | 82.68 | 
-| handlebars.java | jbom | 11.58 | 30.56 | 16.79 | 0 | 0 | 0 | 
-| handlebars.java | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
-| tika | build-info-go | 0 | 0 | 0 | 0 | 0 | 0 | 
-| tika | cdxgen | 33.33 | 3.23 | 5.88 | 87.08 | 92.18 | 89.56 | 
-| tika | cyclonedx-maven-plugin | 33.33 | 3.23 | 5.88 | 87.1 | 92.36 | 89.66 | 
-| tika | depscan | 33.33 | 3.23 | 5.88 | 87.08 | 92.18 | 89.56 | 
-| tika | jbom | 0.8 | 2.15 | 1.17 | 17.5 | 1.24 | 2.32 | 
-| tika | openrewrite | 0 | 0 | 0 | 0 | 0 | 0 | 
+| Project | Analyzer | Precision | Recall | F1|
+| --- | --- | --- | --- | --- |
+| commons-configuration | build-info-go | 0 | 0 | 0 | 
+| commons-configuration | cdxgen | 100 | 100 | 100 | 
+| commons-configuration | cyclonedx-maven-plugin | 100 | 40.74 | 57.89 | 
+| commons-configuration | depscan | 100 | 100 | 100 | 
+| commons-configuration | jbom | 0 | 0 | 0 | 
+| commons-configuration | openrewrite | 100 | 40.74 | 57.89 | 
+| undertow | build-info-go | 97.67 | 100 | 98.82 | 
+| undertow | cdxgen | 97.67 | 100 | 98.82 | 
+| undertow | cyclonedx-maven-plugin | 93.33 | 22.22 | 35.9 | 
+| undertow | depscan | 97.67 | 100 | 98.82 | 
+| undertow | jbom | 10.87 | 7.94 | 9.17 | 
+| undertow | openrewrite | 0 | 0 | 0 | 
+| selenese-runner-java | build-info-go | 99.27 | 100 | 99.63 | 
+| selenese-runner-java | cdxgen | 100 | 100 | 100 | 
+| selenese-runner-java | cyclonedx-maven-plugin | 100 | 84.56 | 91.63 | 
+| selenese-runner-java | depscan | 100 | 100 | 100 | 
+| selenese-runner-java | jbom | 73.91 | 12.5 | 21.38 | 
+| selenese-runner-java | openrewrite | 94.74 | 79.41 | 86.4 | 
+| javaparser | build-info-go | 66.67 | 29.79 | 41.18 | 
+| javaparser | cdxgen | 88.68 | 100 | 94 | 
+| javaparser | cyclonedx-maven-plugin | 70 | 29.79 | 41.79 | 
+| javaparser | depscan | 88.68 | 100 | 94 | 
+| javaparser | jbom | 15.79 | 12.77 | 14.12 | 
+| javaparser | openrewrite | 0 | 0 | 0 | 
+| webcam-capture | build-info-go | 0 | 0 | 0 | 
+| webcam-capture | cdxgen | 24.04 | 100 | 38.76 | 
+| webcam-capture | cyclonedx-maven-plugin | 40.38 | 84 | 54.55 | 
+| webcam-capture | depscan | 24.04 | 100 | 38.76 | 
+| webcam-capture | jbom | 26.67 | 16 | 20 | 
+| webcam-capture | openrewrite | 0 | 0 | 0 | 
+| accumulo | build-info-go | 98.4 | 100 | 99.19 | 
+| accumulo | cdxgen | 98.92 | 100 | 99.46 | 
+| accumulo | cyclonedx-maven-plugin | 98.8 | 89.13 | 93.71 | 
+| accumulo | depscan | 98.92 | 100 | 99.46 | 
+| accumulo | jbom | 0 | 0 | 0 | 
+| accumulo | openrewrite | 100 | 1.09 | 2.15 | 
+| async-http-client | build-info-go | 0 | 0 | 0 | 
+| async-http-client | cdxgen | 89.81 | 100 | 94.63 | 
+| async-http-client | cyclonedx-maven-plugin | 75 | 34.02 | 46.81 | 
+| async-http-client | depscan | 89.81 | 100 | 94.63 | 
+| async-http-client | jbom | 5.71 | 2.06 | 3.03 | 
+| async-http-client | openrewrite | 100 | 2.06 | 4.04 | 
+| CoreNLP | build-info-go | 96.97 | 78.05 | 86.49 | 
+| CoreNLP | cdxgen | 85.42 | 100 | 92.13 | 
+| CoreNLP | cyclonedx-maven-plugin | 100 | 82.93 | 90.67 | 
+| CoreNLP | depscan | 85.42 | 100 | 92.13 | 
+| CoreNLP | jbom | 35.21 | 60.98 | 44.64 | 
+| CoreNLP | openrewrite | 94.12 | 78.05 | 85.33 | 
+| para | build-info-go | 86.17 | 68.64 | 76.42 | 
+| para | cdxgen | 88.66 | 89.41 | 89.03 | 
+| para | cyclonedx-maven-plugin | 86.7 | 74.58 | 80.18 | 
+| para | depscan | 99.16 | 100 | 99.58 | 
+| para | jbom | 9.34 | 27.12 | 13.9 | 
+| para | openrewrite | 0 | 0 | 0 | 
+| jenkins | build-info-go | 98.72 | 100 | 99.35 | 
+| jenkins | cdxgen | 99.14 | 100 | 99.57 | 
+| jenkins | cyclonedx-maven-plugin | 98.2 | 47.19 | 63.74 | 
+| jenkins | depscan | 99.14 | 100 | 99.57 | 
+| jenkins | jbom | 25.96 | 41.13 | 31.83 | 
+| jenkins | openrewrite | 0 | 0 | 0 | 
+| spoon | build-info-go | 95.83 | 42.59 | 58.97 | 
+| spoon | cdxgen | 13.01 | 100 | 23.03 | 
+| spoon | cyclonedx-maven-plugin | 100 | 42.59 | 59.74 | 
+| spoon | depscan | 13.01 | 100 | 23.03 | 
+| spoon | jbom | 23.2 | 53.7 | 32.4 | 
+| spoon | openrewrite | 95.83 | 42.59 | 58.97 | 
+| subzero | build-info-go | 0 | 0 | 0 | 
+| subzero | cdxgen | 0 | 0 | 0 | 
+| subzero | cyclonedx-maven-plugin | 0 | 0 | 0 | 
+| subzero | depscan | 0 | 0 | 0 | 
+| subzero | jbom | 0 | 0 | 0 | 
+| subzero | openrewrite | 0 | 0 | 0 | 
+| alluxio | build-info-go | 0 | 0 | 0 | 
+| alluxio | cdxgen | 98.78 | 90.16 | 94.27 | 
+| alluxio | cyclonedx-maven-plugin | 0 | 0 | 0 | 
+| alluxio | depscan | 98.97 | 76.35 | 86.2 | 
+| alluxio | jbom | 8.91 | 20.95 | 12.51 | 
+| alluxio | openrewrite | 100 | 0.63 | 1.26 | 
+| checkstyle | build-info-go | 98.28 | 100 | 99.13 | 
+| checkstyle | cdxgen | 100 | 100 | 100 | 
+| checkstyle | cyclonedx-maven-plugin | 100 | 40.35 | 57.5 | 
+| checkstyle | depscan | 0 | 0 | 0 | 
+| checkstyle | jbom | 60.87 | 24.56 | 35 | 
+| checkstyle | openrewrite | 95.83 | 40.35 | 56.79 | 
+| steady | build-info-go | 95.98 | 77.85 | 85.97 | 
+| steady | cdxgen | 98.68 | 97.39 | 98.03 | 
+| steady | cyclonedx-maven-plugin | 0 | 0 | 0 | 
+| steady | depscan | 95.94 | 100 | 97.93 | 
+| steady | jbom | 14.41 | 21.82 | 17.36 | 
+| steady | openrewrite | 100 | 1.63 | 3.21 | 
+| jHiccup | build-info-go | 0 | 0 | 0 | 
+| jHiccup | cdxgen | 100 | 100 | 100 | 
+| jHiccup | cyclonedx-maven-plugin | 100 | 33.33 | 50 | 
+| jHiccup | depscan | 100 | 100 | 100 | 
+| jHiccup | jbom | 50 | 66.67 | 57.14 | 
+| jHiccup | openrewrite | 100 | 33.33 | 50 | 
+| error-prone | build-info-go | 96.97 | 100 | 98.46 | 
+| error-prone | cdxgen | 97.96 | 100 | 98.97 | 
+| error-prone | cyclonedx-maven-plugin | 95.35 | 42.71 | 58.99 | 
+| error-prone | depscan | 97.96 | 100 | 98.97 | 
+| error-prone | jbom | 44.19 | 39.58 | 41.76 | 
+| error-prone | openrewrite | 0 | 0 | 0 | 
+| jooby | build-info-go | 92.02 | 100 | 95.85 | 
+| jooby | cdxgen | 92.21 | 100 | 95.95 | 
+| jooby | cyclonedx-maven-plugin | 91.79 | 94.44 | 93.1 | 
+| jooby | depscan | 92.21 | 100 | 95.95 | 
+| jooby | jbom | 0 | 0 | 0 | 
+| jooby | openrewrite | 0 | 0 | 0 | 
+| launch4j-maven-plugin | build-info-go | 98.41 | 100 | 99.2 | 
+| launch4j-maven-plugin | cdxgen | 100 | 100 | 100 | 
+| launch4j-maven-plugin | cyclonedx-maven-plugin | 100 | 85.48 | 92.17 | 
+| launch4j-maven-plugin | depscan | 100 | 100 | 100 | 
+| launch4j-maven-plugin | jbom | 84.62 | 17.74 | 29.33 | 
+| launch4j-maven-plugin | openrewrite | 64.41 | 61.29 | 62.81 | 
+| orika | build-info-go | 94.23 | 100 | 97.03 | 
+| orika | cdxgen | 96.08 | 100 | 98 | 
+| orika | cyclonedx-maven-plugin | 96.08 | 100 | 98 | 
+| orika | depscan | 96.08 | 100 | 98 | 
+| orika | jbom | 8.16 | 8.16 | 8.16 | 
+| orika | openrewrite | 0 | 0 | 0 | 
+| jacop | build-info-go | 90 | 81.82 | 85.71 | 
+| jacop | cdxgen | 100 | 100 | 100 | 
+| jacop | cyclonedx-maven-plugin | 100 | 81.82 | 90 | 
+| jacop | depscan | 100 | 100 | 100 | 
+| jacop | jbom | 0 | 0 | 0 | 
+| jacop | openrewrite | 100 | 81.82 | 90 | 
+| flink | build-info-go | 0 | 0 | 0 | 
+| flink | cdxgen | 21.16 | 100 | 34.93 | 
+| flink | cyclonedx-maven-plugin | 0 | 0 | 0 | 
+| flink | depscan | 21.16 | 100 | 34.93 | 
+| flink | jbom | 0 | 0 | 0 | 
+| flink | openrewrite | 100 | 0.93 | 1.85 | 
+| neo4j | build-info-go | 0 | 0 | 0 | 
+| neo4j | cdxgen | 92.51 | 100 | 96.11 | 
+| neo4j | cyclonedx-maven-plugin | 92.09 | 94.17 | 93.12 | 
+| neo4j | depscan | 92.51 | 100 | 96.11 | 
+| neo4j | jbom | 0 | 0 | 0 | 
+| neo4j | openrewrite | 0 | 0 | 0 | 
+| mybatis-3 | build-info-go | 98.46 | 100 | 99.22 | 
+| mybatis-3 | cdxgen | 100 | 100 | 100 | 
+| mybatis-3 | cyclonedx-maven-plugin | 100 | 31.25 | 47.62 | 
+| mybatis-3 | depscan | 100 | 100 | 100 | 
+| mybatis-3 | jbom | 96.43 | 42.19 | 58.7 | 
+| mybatis-3 | openrewrite | 95 | 29.69 | 45.24 | 
+| tika | build-info-go | 0 | 0 | 0 | 
+| tika | cdxgen | 92.26 | 100 | 95.98 | 
+| tika | cyclonedx-maven-plugin | 91.52 | 90.48 | 91 | 
+| tika | depscan | 0 | 0 | 0 | 
+| tika | jbom | 7.56 | 10.81 | 8.9 | 
+| tika | openrewrite | 0 | 0 | 0 | 
+| handlebars.java | build-info-go | 0 | 0 | 0 | 
+| handlebars.java | cdxgen | 95.04 | 100 | 97.46 | 
+| handlebars.java | cyclonedx-maven-plugin | 94.29 | 86.09 | 90 | 
+| handlebars.java | depscan | 95.04 | 100 | 97.46 | 
+| handlebars.java | jbom | 14.39 | 16.52 | 15.38 | 
+| handlebars.java | openrewrite | 0 | 0 | 0 | 
+| couchdb-lucene | build-info-go | 98.67 | 97.37 | 98.01 | 
+| couchdb-lucene | cdxgen | 100 | 100 | 100 | 
+| couchdb-lucene | cyclonedx-maven-plugin | 100 | 97.37 | 98.67 | 
+| couchdb-lucene | depscan | 100 | 100 | 100 | 
+| couchdb-lucene | jbom | 46.15 | 15.79 | 23.53 | 
+| couchdb-lucene | openrewrite | 100 | 97.37 | 98.67 | 

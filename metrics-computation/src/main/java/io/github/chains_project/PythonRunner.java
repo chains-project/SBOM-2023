@@ -12,8 +12,8 @@ public class PythonRunner {
   * @param sbomType: The desired output format
   */
   public static boolean invokePython(Path inputFile, Path file, String sbomType) {
-    String command = "python3 ./transformer/main.py -s %s -i \"%s\" -o \"%s\"";
-    command = command.formatted(sbomType, inputFile.toAbsolutePath(), file);
+    String command = "python3 ./metrics-computation/transformer/main.py -s %s -i \"%s\" -o \"%s\"";
+    command = command.formatted(sbomType, inputFile.toAbsolutePath().toString().replaceAll("\\\\", "/"), file.toString().replaceAll("\\\\", "/"));
     ProcessBuilder builder = new ProcessBuilder();
     if (System.getProperty("os.name").toLowerCase().contains("windows")) {
       builder.command("cmd.exe", "/c", command);
@@ -22,6 +22,7 @@ public class PythonRunner {
     }
     int error = 0;
     try {
+      builder.inheritIO();
       Process process = builder.start();
       error = process.waitFor();
     } catch (Exception e) {

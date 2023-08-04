@@ -1,0 +1,366 @@
+[
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-symbol-solver-model",
+    "version": "model/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "test-artifact",
+    "version": "1.0.0",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-core-testing-bdd",
+    "version": "bdd/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.vintage",
+    "artifactId": "junit-vintage-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jbehave",
+    "artifactId": "jbehave-core",
+    "version": "4.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.valfirst",
+    "artifactId": "jbehave-junit-runner",
+    "version": "2.3.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "guava",
+    "version": "INF/maven/com.google.guava/guava/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.mojo",
+    "artifactId": "animal-sniffer-annotations",
+    "version": "${animal.sniffer.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-core",
+    "version": "core/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-symbol-solver-logic",
+    "version": "logic/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-model",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-core-metamodel-generator",
+    "version": "generator/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-symbol-solver-testing",
+    "version": "testing/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-params",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit-pioneer",
+    "artifactId": "junit-pioneer",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-logic",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-model",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaslang",
+    "version": "INF/maven/io.javaslang/javaslang/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "${project.groupId}",
+    "artifactId": "javaslang-match",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-core-serialization",
+    "version": "serialization/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.json",
+    "artifactId": "javax.json-api",
+    "version": "1.1.4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish",
+    "artifactId": "javax.json",
+    "version": "1.1.4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-core-generators",
+    "version": "generators/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-symbol-solver-core",
+    "version": "core/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-logic",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-model",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "javaparser-core-testing",
+    "version": "testing/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-engine",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "version": "3.11.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.squareup.okhttp3",
+    "artifactId": "okhttp",
+    "version": "3.11.0",
+    "depth": 1,
+    "scope": null
+  }
+]

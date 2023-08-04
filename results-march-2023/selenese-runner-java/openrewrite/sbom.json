@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.2",
-  "serialNumber": "urn:uuid:010dce0b-5ac0-46a4-8563-328da4d41dd3",
+  "serialNumber": "urn:uuid:5a625591-55bd-432d-9dba-b3ce5f77578f",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-26T05:07:56Z",
+    "timestamp": "2023-05-11T12:35:22Z",
     "tools": [
       {
         "vendor": "OpenRewrite",
@@ -582,15 +582,6 @@
       "version": "3.0.12",
       "scope": "required",
       "purl": "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar"
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
-      "group": "com.sun.activation",
-      "name": "jakarta.activation",
-      "version": "1.2.2",
-      "scope": "required",
-      "purl": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
     },
     {
       "type": "library",
@@ -1330,6 +1321,15 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+      "group": "com.sun.activation",
+      "name": "jakarta.activation",
+      "version": "1.2.2",
+      "scope": "required",
+      "purl": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar",
       "group": "dev.failsafe",
       "name": "failsafe",
@@ -1676,9 +1676,6 @@
       "ref": "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar"
     },
     {
-      "ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
-    },
-    {
       "ref": "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar"
     },
     {
@@ -1779,7 +1776,8 @@
         "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar",
         "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar",
         "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
-        "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+        "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
       ]
     },
     {
@@ -1899,6 +1897,9 @@
     },
     {
       "ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
     },
     {
       "ref": "pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar"

@@ -1,0 +1,254 @@
+[
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-extras-typesafe-config",
+    "version": "config/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.typesafe",
+    "artifactId": "config",
+    "version": "${typesafeconfig.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-extras-rxjava",
+    "version": "rxjava/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.reactivex",
+    "artifactId": "rxjava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-example",
+    "version": "example/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.asynchttpclient",
+    "artifactId": "async-http-client",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client",
+    "version": "client/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.asynchttpclient",
+    "artifactId": "async-http-client-netty-utils",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-http",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-handler",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-socks",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-handler-proxy",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-epoll",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-kqueue",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.reactivestreams",
+    "artifactId": "reactive-streams",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.typesafe.netty",
+    "artifactId": "netty-reactive-streams",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.reactivex.rxjava2",
+    "artifactId": "rxjava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.reactivestreams",
+    "artifactId": "reactive-streams-examples",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-simplekdc",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-extras-retrofit2",
+    "version": "retrofit2/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.projectlombok",
+    "artifactId": "lombok",
+    "version": "${lombok.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.squareup.retrofit2",
+    "artifactId": "retrofit",
+    "version": "${retrofit2.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.squareup.retrofit2",
+    "artifactId": "converter-scalars",
+    "version": "${retrofit2.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.squareup.retrofit2",
+    "artifactId": "converter-jackson",
+    "version": "${retrofit2.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.squareup.retrofit2",
+    "artifactId": "adapter-rxjava",
+    "version": "${retrofit2.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.squareup.retrofit2",
+    "artifactId": "adapter-rxjava2",
+    "version": "${retrofit2.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-extras-guava",
+    "version": "guava/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "28.2-jre",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-extras-registry",
+    "version": "registry/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-extras-rxjava2",
+    "version": "rxjava2/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.reactivex.rxjava2",
+    "artifactId": "rxjava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-extras-simple",
+    "version": "simple/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-extras-jdeferred",
+    "version": "jdeferred/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jdeferred",
+    "artifactId": "jdeferred-core",
+    "version": "1.2.6",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "async-http-client-netty-utils",
+    "version": "utils/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-buffer",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  }
+]

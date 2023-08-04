@@ -1,0 +1,25 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:f9bd8dd2-c653-45e1-9f5b-ce483a215b43",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-05-11T12:37:44Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.sarxos/webcam-capture-parent@0.3.12?type=jar",
+      "group": "com.github.sarxos",
+      "name": "webcam-capture-parent",
+      "version": "0.3.12",
+      "scope": "required",
+      "purl": "pkg:maven/com.github.sarxos/webcam-capture-parent@0.3.12?type=jar"
+    }
+  }
+}

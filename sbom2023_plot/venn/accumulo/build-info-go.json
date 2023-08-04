@@ -1,0 +1,1916 @@
+[
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-compactor",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-core",
+    "version": "2.0.9",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.junit.platform",
+    "artifactId": "junit-platform-commons",
+    "version": "1.9.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "4.3",
+    "depth": 1
+  },
+  {
+    "groupId": "org.junit.platform",
+    "artifactId": "junit-platform-engine",
+    "version": "1.9.1",
+    "depth": 2
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-context",
+    "version": "1.19.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.xerial.snappy",
+    "artifactId": "snappy-java",
+    "version": "1.1.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-unix-common",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.objenesis",
+    "artifactId": "objenesis",
+    "version": "3.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper-jute",
+    "version": "3.8.0",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-epoll",
+    "version": "4.1.73.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.auto",
+    "artifactId": "auto-common",
+    "version": "1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.opentest4j",
+    "artifactId": "opentest4j",
+    "version": "1.2.0",
+    "depth": 3
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "1.9.5",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.12.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-start",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.9.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "3.8.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "1.82",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-vfs2",
+    "version": "2.9.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "2.0.9",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-math3",
+    "version": "3.6.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "3.26.0",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.15",
+    "depth": 2
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-easymock",
+    "version": "2.0.9",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-api",
+    "version": "2.19.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "3.1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "3.3.4",
+    "depth": 1
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "1.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.yetus",
+    "artifactId": "audience-annotations",
+    "version": "0.12.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "2.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-support",
+    "version": "2.0.9",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.datasketches",
+    "artifactId": "datasketches-memory",
+    "version": "2.1.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "3.29.2-GA",
+    "depth": 4
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-api",
+    "version": "1.19.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "1.0.1",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "3.21.7",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "31.1-jre",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-text",
+    "version": "1.10.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.datasketches",
+    "artifactId": "datasketches-java",
+    "version": "3.3.0",
+    "depth": 2
+  },
+  {
+    "groupId": "net.bytebuddy",
+    "artifactId": "byte-buddy-agent",
+    "version": "1.10.14",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-common",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-buffer",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-tcnative-classes",
+    "version": "2.0.48.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "3.3.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.junit.vintage",
+    "artifactId": "junit-vintage-engine",
+    "version": "5.9.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "0.17.0",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 2
+  },
+  {
+    "groupId": "net.bytebuddy",
+    "artifactId": "byte-buddy",
+    "version": "1.10.14",
+    "depth": 4
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.15.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-core",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-classes-epoll",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-reflect",
+    "version": "2.0.9",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-configuration2",
+    "version": "2.8.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-server-base",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-collections4",
+    "version": "4.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-1.2-api",
+    "version": "2.19.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service-annotations",
+    "version": "1.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apiguardian",
+    "artifactId": "apiguardian-api",
+    "version": "1.1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4-common",
+    "version": "2.0.9",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "2.19.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.latencyutils",
+    "artifactId": "LatencyUtils",
+    "version": "2.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hdrhistogram",
+    "artifactId": "HdrHistogram",
+    "version": "2.1.12",
+    "depth": 2
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-semconv",
+    "version": "1.19.0-alpha",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-handler",
+    "version": "4.1.73.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "2.19.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "1.33",
+    "depth": 2
+  },
+  {
+    "groupId": "cglib",
+    "artifactId": "cglib-nodep",
+    "version": "3.2.9",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-tcnative",
+    "version": "2.0.48.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-master",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-tserver",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "5.9.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-project",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-shell",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "commons-cli",
+    "artifactId": "commons-cli",
+    "version": "1.5.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.jline",
+    "artifactId": "jline",
+    "version": "3.21.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-gc",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-monitor",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-mvc-freemarker",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "4.3",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-api",
+    "version": "3.0.3",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-server",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.opentest4j",
+    "artifactId": "opentest4j",
+    "version": "1.2.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-entity-filtering",
+    "version": "3.0.8",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish",
+    "artifactId": "jakarta.el",
+    "version": "4.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.inject",
+    "artifactId": "jersey-hk2",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.grizzly",
+    "artifactId": "grizzly-framework",
+    "version": "3.0.1",
+    "depth": 5
+  },
+  {
+    "groupId": "com.fasterxml.jackson.module",
+    "artifactId": "jackson-module-jakarta-xmlbind-annotations",
+    "version": "2.13.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "txw2",
+    "version": "4.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "11.0.12",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "5.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "11.0.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-grizzly2-http",
+    "version": "3.0.8",
+    "depth": 2
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "3.29.2-GA",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "11.0.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-grizzly2-servlet",
+    "version": "3.0.8",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-runtime",
+    "version": "3.3.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.media",
+    "artifactId": "jersey-media-json-jackson",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-web",
+    "version": "2.19.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.13.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-bean-validation",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "3.5.0.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "com.sun.activation",
+    "artifactId": "jakarta.activation",
+    "version": "2.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.test-framework",
+    "artifactId": "jersey-test-framework-core",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "2.19.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.freemarker",
+    "artifactId": "freemarker",
+    "version": "2.3.31",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml",
+    "artifactId": "classmate",
+    "version": "1.5.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.media",
+    "artifactId": "jersey-media-jaxb",
+    "version": "3.0.8",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "3.0.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.junit.platform",
+    "artifactId": "junit-platform-commons",
+    "version": "1.9.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.grizzly",
+    "artifactId": "grizzly-http-servlet",
+    "version": "3.0.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.objenesis",
+    "artifactId": "objenesis",
+    "version": "3.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-servlet",
+    "version": "3.0.8",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-locator",
+    "version": "3.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.grizzly",
+    "artifactId": "grizzly-http",
+    "version": "3.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-jakarta-servlet-api",
+    "version": "5.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-servlet-core",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "osgi-resource-locator",
+    "version": "1.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-common",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.hk2.external",
+    "artifactId": "aopalliance-repackaged",
+    "version": "3.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.13.4.2",
+    "depth": 1
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "1.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-utils",
+    "version": "3.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-mvc",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.validation",
+    "artifactId": "jakarta.validation-api",
+    "version": "3.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.el",
+    "artifactId": "jakarta.el-api",
+    "version": "4.0.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-client",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.13.4",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "version": "2.0.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "11.0.12",
+    "depth": 2
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-api",
+    "version": "5.9.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.test-framework.providers",
+    "artifactId": "jersey-test-framework-provider-grizzly2",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.ws.rs",
+    "artifactId": "jakarta.ws.rs-api",
+    "version": "3.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apiguardian",
+    "artifactId": "apiguardian-api",
+    "version": "1.1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hibernate.validator",
+    "artifactId": "hibernate-validator",
+    "version": "7.0.5.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-slf4j2-impl",
+    "version": "2.19.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.grizzly",
+    "artifactId": "grizzly-http-server",
+    "version": "3.0.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-security",
+    "version": "11.0.12",
+    "depth": 2
+  },
+  {
+    "groupId": "org.latencyutils",
+    "artifactId": "LatencyUtils",
+    "version": "2.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.inject",
+    "artifactId": "jakarta.inject-api",
+    "version": "2.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "11.0.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-minicluster",
+    "version": "3.3.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-api",
+    "version": "2.19.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-1.2-api",
+    "version": "2.19.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-native",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-context",
+    "version": "1.19.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.xerial.snappy",
+    "artifactId": "snappy-java",
+    "version": "1.1.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-unix-common",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper-jute",
+    "version": "3.8.0",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-epoll",
+    "version": "4.1.73.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "1.9.5",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.12.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.9.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.zookeeper",
+    "artifactId": "zookeeper",
+    "version": "3.8.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "1.82",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-vfs2",
+    "version": "2.9.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-math3",
+    "version": "3.6.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "3.26.0",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.15",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "3.1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-api",
+    "version": "3.3.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.yetus",
+    "artifactId": "audience-annotations",
+    "version": "0.12.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "2.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.datasketches",
+    "artifactId": "datasketches-memory",
+    "version": "2.1.0",
+    "depth": 3
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-api",
+    "version": "1.19.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "3.21.7",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "31.1-jre",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-text",
+    "version": "1.10.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.datasketches",
+    "artifactId": "datasketches-java",
+    "version": "3.3.0",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-common",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-buffer",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-tcnative-classes",
+    "version": "2.0.48.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.thrift",
+    "artifactId": "libthrift",
+    "version": "0.17.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.15.0",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-classes-epoll",
+    "version": "4.1.73.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-configuration2",
+    "version": "2.8.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-collections4",
+    "version": "4.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hdrhistogram",
+    "artifactId": "HdrHistogram",
+    "version": "2.1.12",
+    "depth": 2
+  },
+  {
+    "groupId": "io.opentelemetry",
+    "artifactId": "opentelemetry-semconv",
+    "version": "1.19.0-alpha",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-handler",
+    "version": "4.1.73.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "1.33",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-tcnative",
+    "version": "2.0.48.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-minicluster",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "org.glassfish",
+    "artifactId": "jakarta.el",
+    "version": "4.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.inject",
+    "artifactId": "jersey-hk2",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "txw2",
+    "version": "4.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.curator",
+    "artifactId": "curator-test",
+    "version": "5.3.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-bean-validation",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "3.5.0.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-compaction-coordinator",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml",
+    "artifactId": "classmate",
+    "version": "1.5.1",
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-core",
+    "version": "3.2.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-client-minicluster",
+    "version": "3.3.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-locator",
+    "version": "3.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.curator",
+    "artifactId": "curator-framework",
+    "version": "5.3.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.curator",
+    "artifactId": "curator-client",
+    "version": "5.3.0",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.el",
+    "artifactId": "jakarta.el-api",
+    "version": "4.0.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hibernate.validator",
+    "artifactId": "hibernate-validator",
+    "version": "7.0.5.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-manager",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-test",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-simplekdc",
+    "version": "1.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcprov-jdk15on",
+    "version": "1.70",
+    "depth": 1
+  },
+  {
+    "groupId": "org.junit.platform",
+    "artifactId": "junit-platform-engine",
+    "version": "1.9.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-core",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-util",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.curator",
+    "artifactId": "curator-test",
+    "version": "5.3.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-xdr",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-config",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-iterator-test-harness",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-distcp",
+    "version": "3.3.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-pkix",
+    "version": "1.0.1",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-server",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-client",
+    "version": "1.0.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-native",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-engine",
+    "version": "5.9.1",
+    "depth": 1
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-core",
+    "version": "3.2.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-minikdc",
+    "version": "3.3.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "token-provider",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-util",
+    "version": "1.0.1",
+    "depth": 6
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpkix-jdk15on",
+    "version": "1.70",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-admin",
+    "version": "1.0.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-asn1",
+    "version": "1.0.1",
+    "depth": 6
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-params",
+    "version": "5.9.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-identity",
+    "version": "1.0.1",
+    "depth": 5
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-registry-statsd",
+    "version": "1.9.5",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-common",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-crypto",
+    "version": "1.0.1",
+    "depth": 5
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcutil-jdk15on",
+    "version": "1.70",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo",
+    "version": "2.1.0",
+    "depth": 0
+  },
+  {
+    "groupId": "org.apache.htrace",
+    "artifactId": "htrace-core4",
+    "version": "4.1.0-incubating",
+    "depth": 1
+  },
+  {
+    "groupId": "com.lmax",
+    "artifactId": "disruptor",
+    "version": "3.4.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-jul",
+    "version": "2.19.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.jakarta.rs",
+    "artifactId": "jackson-jakarta-rs-base",
+    "version": "2.13.4",
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.activation",
+    "artifactId": "jakarta.activation-api",
+    "version": "2.0.1",
+    "depth": 1
+  },
+  {
+    "groupId": "com.sun.istack",
+    "artifactId": "istack-commons-runtime",
+    "version": "4.1.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-jetty-http",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "jaxb-runtime",
+    "version": "4.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.accumulo",
+    "artifactId": "accumulo-hadoop-mapreduce",
+    "version": "2.1.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.jakarta.rs",
+    "artifactId": "jackson-jakarta-rs-json-provider",
+    "version": "2.13.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-jcl",
+    "version": "2.19.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "jaxb-core",
+    "version": "4.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.angus",
+    "artifactId": "angus-activation",
+    "version": "1.0.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-simplekdc",
+    "version": "1.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-mvc-freemarker",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcprov-jdk15on",
+    "version": "1.70",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-api",
+    "version": "3.0.3",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-server",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-core",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-entity-filtering",
+    "version": "3.0.8",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-util",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.module",
+    "artifactId": "jackson-module-jakarta-xmlbind-annotations",
+    "version": "2.13.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "11.0.12",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "5.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "11.0.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-xdr",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "11.0.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.media",
+    "artifactId": "jersey-media-json-jackson",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-config",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-web",
+    "version": "2.19.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.13.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-distcp",
+    "version": "3.3.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-pkix",
+    "version": "1.0.1",
+    "depth": 5
+  },
+  {
+    "groupId": "commons-cli",
+    "artifactId": "commons-cli",
+    "version": "1.5.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-server",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-client",
+    "version": "1.0.1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.sun.activation",
+    "artifactId": "jakarta.activation",
+    "version": "2.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.freemarker",
+    "artifactId": "freemarker",
+    "version": "2.3.31",
+    "depth": 2
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter-engine",
+    "version": "5.9.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.hadoop",
+    "artifactId": "hadoop-minikdc",
+    "version": "3.3.4",
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "3.0.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "token-provider",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-jakarta-servlet-api",
+    "version": "5.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-servlet-core",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "osgi-resource-locator",
+    "version": "1.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-common",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-util",
+    "version": "1.0.1",
+    "depth": 6
+  },
+  {
+    "groupId": "org.glassfish.hk2.external",
+    "artifactId": "aopalliance-repackaged",
+    "version": "3.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.13.4.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-utils",
+    "version": "3.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcpkix-jdk15on",
+    "version": "1.70",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jersey.ext",
+    "artifactId": "jersey-mvc",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.validation",
+    "artifactId": "jakarta.validation-api",
+    "version": "3.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-admin",
+    "version": "1.0.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-client",
+    "version": "3.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.13.4",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "version": "2.0.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "11.0.12",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.ws.rs",
+    "artifactId": "jakarta.ws.rs-api",
+    "version": "3.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerby-asn1",
+    "version": "1.0.1",
+    "depth": 6
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-security",
+    "version": "11.0.12",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jline",
+    "artifactId": "jline",
+    "version": "3.21.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-identity",
+    "version": "1.0.1",
+    "depth": 5
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-registry-statsd",
+    "version": "1.9.5",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-common",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "jakarta.inject",
+    "artifactId": "jakarta.inject-api",
+    "version": "2.0.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "11.0.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.kerby",
+    "artifactId": "kerb-crypto",
+    "version": "1.0.1",
+    "depth": 5
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcutil-jdk15on",
+    "version": "1.70",
+    "depth": 2
+  }
+]

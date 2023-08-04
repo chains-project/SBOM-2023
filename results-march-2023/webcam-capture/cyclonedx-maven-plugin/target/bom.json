@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:6a67796a-1719-4977-b64a-f10b1b0ce280",
+  "serialNumber" : "urn:uuid:3b43cbb5-f4c4-4232-b532-348ceeca05cb",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T02:10:26Z",
+    "timestamp" : "2023-05-09T19:12:23Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin makeAggregateBom",
-        "version" : "2.7.5",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.8",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
+            "content" : "4d75a7410313db127502c8536eb3f54b"
           },
           {
             "alg" : "SHA-1",
-            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
+            "content" : "8795071de12b08045d08f58d9611a9fcb9c78a9f"
           },
           {
             "alg" : "SHA-256",
-            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
+            "content" : "eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61"
           },
           {
             "alg" : "SHA-512",
-            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
+            "content" : "d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9"
           },
           {
             "alg" : "SHA-384",
-            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
+            "content" : "ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
+            "content" : "08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
+            "content" : "59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
+            "content" : "7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3"
           }
         ]
       }
@@ -81,7 +81,17 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-parent@0.3.12?type=pom"
-    }
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
   },
   "components" : [
     {
@@ -7885,6 +7895,40 @@
       "version" : "0.6.2",
       "description" : "NativeLibs4Java is an umbrella project that gathers ready-to-use Java libraries that wrap various native libraries. Most of these wrappers are created automatically by JNAerator.",
       "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f9b6a5076f5a24940521316f59d0dc20"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "35ea46a9494e72277bcc5ad597d82dc020e708c0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a344c1d7430700c6d6aa3a322ec65f3e4a4fab3777c99f5dff4f64a9ec47c09c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "62ede9b6e059e3b4ba57dcd387ba6bcf726916262b490637e772a37d965ab8f7f34326819c3bf6beb27a7b60d41dbfa888d31b5bddc09363872b8dac7f981a92"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "09f26ef96785365f801fce4191faa4dadf65699d0d5d7b0f6cf4b1161fe8f4dd8b2e2aa443e764699514134c0dc5f115"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b5acbddfa9d249b9bc9ff5f8bc02b95101394304cd8b523612157c092c0473f3e273baf06e1c4c9b5380c94441bd539a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "22ad5539589a023ac3718679db3e40cba877c3f7a6630ee1879e2865e2cae397"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f31e51a0bccbcba19f4d3738a4a0a18c77606042a4b485a457f3190fc4270b40787758e58158fd2c4e613fe64e59b5aa075281467cfdec9c6a5eeb208c8f8733"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -7920,6 +7964,40 @@
       "name" : "dx",
       "version" : "1.7",
       "description" : "dx is an Android SDK platform tool that transforms Java bytecode (and JARs) into Dalvik VM 'DEX' code.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1d4b9c7810117c49adbdc4dba7ea7fbd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "70eab4a00d9f7ca8849e960a87f5b6736aa4ec11"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "923302e666d76e126e4cdf7129318532b258b1a66e435b92ccc29e91a60357bf"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f54bef4076d1eb2df26cd4fa1ce71a4cd1852528452e4ace9a91d53370d565560109202c328f4f0dae9d211cd02a1610c6efcf2d6c37f2f29eb330b33f75dad1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "00e32f7da54179ab012eac7fff8ce5f2448cbb09ca3d2af20c17c5d93e13d66a10ccde4af5c18a74b6ac3e33c8b16e01"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a66f1c4c798979d133e50ce7d7a525a98bb1533c4c272cada5307e35bbd4b27a2d2298f9bbc5bbd361ce1675a2728eab"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e9e2e8004db468a4bef040633a4a8c86f35ae683238c375f2fd440120355a3cb"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b858d2316ef69623e11bccf8d42bcf439ff0ea72eaf8e483639da41860bbee1a5c3ead0d40a52984fc1c8ecdbdef73bfb6c4ff14ff04b43defbedde1995af453"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -7952,6 +8030,40 @@
       "version" : "1.3",
       "description" : "Cross-platform video capture interface using a lightweight native interface. Supports 32 and 64 bit JVMs under Linux, OSX and Windows.",
       "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cd99d66656e20abf37c789a98b45db32"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "31e92579c744d76d6685ece5f013575da5e0aa0e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d5196515f320f895530a515fb601fa13afd1867bcbdb882568438c00a70218f7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9136cf3d517c6d1083c7d26278f263b8052cf866c48b8669266d52d6783794ad097bac88987aa877c0e33f2ab9159db934d146a8f1e74f5c9582b0e2035dd890"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0a7f94d7eccc242592459f071032c909f7f80195b2aa5af3700cfbd41aff88a0694f9b2c63516f9771f0293599db7a54"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d20a93ccaefda76404119efd8317b374b6034aad31779c3e5409360a27f736c1fec6570a1e2134abb4c73e9608f940f5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a3c2feaf47371ac3060b3b7623abe953c2ece9748b41fad394b96d7b27d785d9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b5e8e979f3b4c3f4069a597ac59f86e4206618e9fa37b6e1cea9d18abfcf1e81d19d9e7939efcb38116773f4caa7176db85a1953103e5d2f16704c7729697d59"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -7996,6 +8108,40 @@
       "name" : "core-video",
       "version" : "1.3",
       "description" : "Core definitions of a video type and functionality for displaying and processing videos.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e82f1e806c2ea7c511c2cec002a9489f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e1609d95ff23e870f57c018c13198e76b88d8a74"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8fa45773c0b8779e5461da8b684ded55bf6b327e5bfd0bc3b3a68af02d27201c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ca6cae6d7cbd179a0925c2975a47a44264abcbae751821b7e3c85f7438ddf68cdca44bf29cc9db39378b7fe2eb8b32f8f0ae42ef8e50fe13fb40ebe2a05e1268"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "02a3cda0828c26830a27e820575aefae8ffc9e6a910f9eceeb3e6d3a1550547070c0011ca772a1257a702fddde02754b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e2ff49c43ad87b124a9633138f08fe59428a3a5a0e69eff62b2593c7397cb7064d4a535aa5157dc6702e990c0be6f574"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d0cc9b82a81400bec4a2be2424073fdecf9d3924b0eb7a6a3dba1567a8fe9ec2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "763a08b3af220e9f1fb94210d44e529914d6e243d65ff3ec55a1b0f9929bca608c6a40a058172304ef8ee77ff1bd062f17d3d5396ff77e5249ef9a79d0338a47"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8040,6 +8186,40 @@
       "name" : "core-image",
       "version" : "1.3",
       "description" : "Core definitions of images, pixels and connected components. Also contains interfaces for processors for these basic types. Includes loading, saving and displaying images.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "880b7cb652454ecc9d1bcbe5b5661a11"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7c1e7875e5459ca556e03a4b28eeca6a06eaad12"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f9a9fc4385a98e620d2c267bee32853bb037bc7ab6b6f4c37d7513bb9f6fb1d5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "93c089264c011472018b42b7a79c17089a11003ecffba632fc00d21f635e3958bb1f8d702ffb2097f3679e7c3e0d01999dd57d5f3a651e1375226c30ebf9f4cc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "964b757bad0cd6f16f49e2357abdb2edba63115a70b9f639a2d5f037f48a07ad86f4cee32d4c8b10157761b4f721158d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "161f0ae46e03263586dc429cbe4c925bf45f8b681ffbd42980ce1386a772fbe819abf33bd92bae311602a8100ee789f9"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1cffc40f9a109704bfd3ef2ffbc17e44311eee59d5e94b79d045ad6489cd5003"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ca6dffb6cb5e426cf871087e29928a1d6f6732cd22883326f6e800429e0cb9ff1fc39d2841d8447674c873525c077b7568d3105e16916e6c5e66ffdfb369a192"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8084,6 +8264,40 @@
       "name" : "jeuclid-core",
       "version" : "3.1.9",
       "description" : "This is the core module containing the basic JEuclid rendering and document handling classes.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "de1570717ca5363f884d1a1a5027b687"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9b02356018a5e365a1f260898e3db4a5ecf2ecae"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "562255d2cab9309d15cd1d6f923c4427474ef09a5ac993a5ebde7268f7d2561e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0248d33b010873bdab99b89ec4f2122f8ded91fcafbb34eb0135f6e817d19a800f2cbcef3a4fb193dd06dd4e19ec4527a738f00c79cc04ee117487d9a0628803"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "adbc124591189e9a5f95ac82e75fbe7ac155ab8a53d51091b7dbd87d9f64ce9ff7ef9c986caea0f9788d4b5db6d109df"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b4a8acffc02bfad3beb0f3fdec2adc9722ab4a43b5ecfc16ce8258ebf57deef076be33ae0cad0df2e333ea4000d1594a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d7d42015f18e6a200f27aba9fbd1b7fc4f1684fff2352b85271168b4b9b9b142"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "dd586da1fd7a2e3748394dd73dec929ce7a49868eb1b3148730354403faa2cddb40ae34b3b05961fe9d6e7d8ec140648e7cc4752826a3fd9593fc5996bdfe8ce"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8123,6 +8337,40 @@
       "name" : "commons-logging",
       "version" : "1.1.1",
       "description" : "Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ed448347fc0104034aa14c8189bf37de"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5043bfebc3db072ed80fbd362e7caf00e885d8ae"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ce6f913cad1f0db3aad70186d65c5bc7ffcc9a99e3fe8e0b137312819f7c362f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "470323a2ee38be1b7ff8c84f1f5a5f8c4ec2ceb6b0649faa7b961f111865877dbe125409f72b1c52c7f18aa89e3469635c49ff4b83f86cc2f2eb2cc5562f9bff"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "264a511a601a07558911ccc5f49ef579aa1b1760bb4091bcbe1a0017c7be64d86f1d0b28ef560819614b252907cdd44a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e61a9dafb4f92a3cfd76fc28ff340eb15bc0fca939a48408fd9032362b8a95ce938e58dd01f7c3d0ff90ac21cacc77df"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0799a9105d174ba2f082845e8ca27db236118b00e4a2053ee1fde798b2fbd031"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "dbdcf933551c6abe834ac4fa5b4833e47895c2573530b74f51daff7291dab60db88946fc34a518f423a68e9c9ce36507345070e56a86fb5a567be685c1e3cded"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8165,6 +8413,40 @@
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-svg-dom",
       "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8bb7fd15419c08f37d479a5a0fcff5b8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5b3b1fea480fabbd3e0c44540af25b9fda0587ae"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3ec7e519f3f89f04bc0596efe0a09d8423f53aaff2654ff2d3bca595aebb7cda"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "876aa4b8a886665fe542236f539ef3f5762469bcbe454baf16a52d47ff9b9b06c9c1c0047357e9d59221dcdb52457ee5cf1090957f57a3e2cbfe6ff103d59e49"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "dfa26137029ee1dfa59c6cc9434e6f8f01b2cb178630632ef63a1c6632ac06b0ca0b1fc49d98ebc6dfc1ccc4d3ecf7f4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f2cd66b8f61663fb4f1b6ee3976b03f45c080868057aafe0400f91d3dc30ccd08781e6e1687f9435355914793fab940d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "aa3eee0d58c73e7eadf6ce97102e8a195c8b42b0ce302fd2378028994aa0bac3"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "88ee7416eaa8d2586aa03d5958ba71f5e62f4db0101dcc62872f832a4a46f65667011b8e75fde349ef39dbc4cada6b8a80f72c72261b7e98190e366d6e82242a"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8195,6 +8477,40 @@
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-anim",
       "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2f25bf3516af864292f0bbdc19a49967"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a45dd2ff8e4ecd56a4fc64dc668b53bee90bf601"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "60f020a29b01ecf1c8b72630f97352a353ada91a922541892741006161f32c4b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "40890b97bc15d49b50080fa3f6d5ef6e42e66e3af1a960960779c1549b19996f8b63b376f31e838b0fc7a1279fadbafdcda22486974138eff8b3eabed5560380"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "213f49be67bf79e309937bd954568eadb73263862824536e35165dbcf565208cb1880a073cd7247d61bfa892ba9141fb"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4de41e3c7449c53ac1e3932aee76c562d8f7b4b5c01404da4f28e90b02d4d9a13e75a7591442d0d6d6b6a2d3e07da384"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2d3f508e1343656fb6952c695e4859d409541e9356c2ca6fdd7d47a3e69d8482"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d1a6e0a28c0861097660cabda7d10e8495760305e147b55101c510718fffcf7caec685bfb0dd7f522f09b0eebccf38782903649d9160dd62d594f2cfdcfcd540"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8225,6 +8541,40 @@
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-awt-util",
       "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b23ca091c9b4cf04b00a32dc9fdc29a3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "67605a29d49bf33f3c1d7832f490b0a007e7a6e2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "61611a77c5f8d7d748d11c1e226bab904effcd893ad0256d5be72eca857cfef3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8863c9b928a78ebd50b798bb4d73060e3bc999ad0f192efd9413c7dfd758c00c45b79e09ab300069e45d9c0e8d951bef64d9fee3170aeeeb13667d02ed39e3d3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "743ddbfb3fd6d07b8cc5533607b9820d5719dd444124ca5228ec21ee9eedc88d15a83a6a1c19e313e4751cd87a4aaccc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ae3727f24cdc67b57af928b81fb50126561f09b064f61a2b6e21d1d4c84c7e50e5d675937eb2da13856e38056d4b36d5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "22f16cf06c81543bf035db31b7b5bcee3639144529fd2d14a755db9bee24bf84"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "087a7fd885637d0b029aa26d1f42a8ab1511a63d6c5ea096d681d37315a9272464b2194e1758849d1e7eca6b67716e8a1a052ae904e7e932c5a7aacc3f9b7a6f"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8253,38 +8603,42 @@
     {
       "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
-      "name" : "batik-css",
-      "version" : "1.7",
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://xmlgraphics.apache.org/batik/"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar"
-    },
-    {
-      "publisher" : "Apache Software Foundation",
-      "group" : "org.apache.xmlgraphics",
       "name" : "batik-dom",
       "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "664b4f1510ba700909c9034ac7f2b264"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "710d559bd1df52581b57b75a99ed5fd2e2918bb7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7a02277b4d97c8fe68696f214c152628ee80835b9d3c85c97236d38c210ce931"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3c5bc7cce94506241314cf1f801cb2dcb5acd24d3c87bc512081ca6b288be923260e271f63b02d7621d4a03e74acbf37cde2d63da8f425e5db434daab4be28e3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "94394869bc0d854302a0801fb9b0019423d6b700f3d0317763367da695797b577abe7ab952b9c0a930aa50cf2bceefed"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a7719dcc8621cd3d21d8d7ce61e2ada23f77959fedec11a96b590cca9705888be42aa1b50da969319a5ccf4b1841685e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4d3003562c36bdada2e8d5a70d58a5fd4c5cc0018d54bfb7ae277b5acfc6687d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "34b299b08dfed0425fbbcfd1acdded085199c918b1adac3fb9603ee3a686cfa11cda09b96300b56f75d0b6895b6889ebe6a812c983be3d980bdda17931fb3721"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8313,38 +8667,42 @@
     {
       "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
-      "name" : "batik-xml",
-      "version" : "1.7",
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://xmlgraphics.apache.org/batik/"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar"
-    },
-    {
-      "publisher" : "Apache Software Foundation",
-      "group" : "org.apache.xmlgraphics",
       "name" : "batik-ext",
       "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "080f3a49c658693dfbb4e48b0bfc8f07"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4784302b44a0336166fef6153a5e3d73e861aecc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "de85a6de7cdd36ee9ff28dfe7e03d515be92a702d61028f8928c0cd56f1ee375"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7debf7d3eb775d456eae54accb0653c27968e71bd8420bfe719ee2976e6e3715b67aca8e212f423aec4a5555571dc47b3baf7410fd394d02e4729b2711707ff2"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "053abec9c1ca9d1fdc048f7f82c0f5ebb2ee7941e74679388f271dad7e9e72ac062cf9277ca19ddf1ca9d6268d4711d8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9fb778cde8e7f4fa3cef342126e3819f6787d66f805b40f922025b9a7d53c33fa31231f92b0b02d293919cf5f159fb6a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1c3a29f8f8c7f75d1ccd418d2c19d5f81f4b1041f1ccee40523e2af3780521ef"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0f78b77f4dc601baf534c7c5863e5c4726dde5ed0578aa4fdc30f2430f575b8ed4f13ba52b12980ae017bd1e7dea8c482d97613c9d4ef319a1ff80603bd51858"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8375,6 +8733,40 @@
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-parser",
       "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7811e15f14917248b380e162d1512df9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5d756cc4f6bf891793e6c7590773859c33a8609f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1ab8db369007bc4ec12b01465a657dd47e05ad08c37dce85bf9ceb78232660a0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2714306476ea645ca76a7f28d99f05a92ce8d35ad568feaa365ea4901c37df84c1df4169421c5df01d88f97c3803d0da91f5351bf92928ce5b4905090eeb2aa3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "784a33bee2532050313fc7c261fd3f9781920a9b82170081e6eab9f9a4b097bad057c2b0da30e2a5fb8f0b549ec93c25"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4454c965335fd9e1d2eefd1f3e540fbf7bfa1a5a43f9fad6ba0334e1845ede6e992d1c678942bd1328d474ed02662b10"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b9300c3a16e84728f9f5c8945f18f44de3011444413a374a284df3b7da6cceec"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "86e8c52578fbff654613068ad912497eaa029bee9c26cb8191282b6e6657503661bc93bdcb5231f5b9082d54573ab31c67f7409abc35948bc03292e06c562296"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8405,6 +8797,40 @@
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-util",
       "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "99f99684b6df6200e529575dccce9970"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5c4dd0dd9a86a2fba2c6ea26fb62b32b21b2a61e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9e3f1f53bfccdc942dbe2ceaa94ffe23c63ba3703e40941572205420dfcad81e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e55a05dce57fed8e644244f1cf448fe453259ebdd8cd47809dfe1c5d3739eae8179c7086a28c3793133d91be052494b7a33a1de6b7bd15ea62df3a78148e7886"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "249355c126f1071e1aeb396c2e43f39e400268e333ca7606f50beed553f1425730122a126e6c5773265add012034bf0c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d7d201e494abd9e19c36bedc1b61558e444661ff0d3b9a281c9731fecc90a0e2a341a60b12abadc102f218e94de57a93"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "10561ca44ca294cdc6cdcc288ec72db73650a1b5b18266f2e9c5b8b8bd9aa1ea"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "95392a19a78efd15aec8acaaf4b9ba28b448673b36ccc7098544553728e6254703bcb5e09ed1514177df4d2ec78cb053e41a9246087f233cfb87a2c381f1860f"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8436,6 +8862,40 @@
       "name" : "xml-apis",
       "version" : "1.3.04",
       "description" : "xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces for use in other xml-based projects. Our hope is that we can standardize on both a common version and packaging scheme for these critical XML standards interfaces to make the lives of both our developers and users easier. The External Components portion of xml-commons contains interfaces that are defined by external standards organizations. For DOM, that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for JAXP it's Sun.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9ae9c29e4497fc35a3eade1e6dd0bbeb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "90b215f48fe42776c8c7f6e3509ec54e84fd65ef"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d404aa881eb9c5f7a4fb546e84ea11506cd417a72b5972e88eff17f43f9f8a64"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1086a52924add2406e0b4ec7219a8783ac20e02a32a7a2461efbf092f0070501f7cade9c0588907c403352f1a48f80b950e6d40b2e4e3e9eb886e7db4e97bdec"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f903cd32c64e2ebb042e4b0b2502ccc19a759c471067a232cdce33c0c83d26db578ed0d201fada9240b9bb384b48cd48"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5cf660101b63ceb31d2344d1caa323c16c92f3ad8fb71795498c1a13166a1f5565297a7d58f0f6ac743be0bb523322e8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ca3fe250c6bd2d90ffc0b9cf73d198ba3aeb48b081d903497c32007806b686c8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "36269b4466c9b6225c6520b62fa4cd3c09ef3154036f77e0db8b8331764376789ed5f3a9fe2f633245e5636afcb365c4815bea8edaeb2fdcc98e8d690910d7fa"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8475,6 +8935,40 @@
       "name" : "xml-apis-ext",
       "version" : "1.3.04",
       "description" : "xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces for use in other xml-based projects. Our hope is that we can standardize on both a common version and packaging scheme for these critical XML standards interfaces to make the lives of both our developers and users easier. The External Components portion of xml-commons contains interfaces that are defined by external standards organizations. For DOM, that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for JAXP it's Sun.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bcb07d3b8d2397db7a3013b6465d347b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "41a8b86b358e87f3f13cf46069721719105aff66"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ac0896b9a3fea71644330daef4eccb33005b5b7ac1e1d1d73eed2b2a1f4b2282057f3c0f3698b899e1c76b19c09c69bf4cd0ee548427b9bcc676b791db5c36bc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b41128c5a90ed02edb4fb902e6bb64fb9cddb5939764b281a953ad6af56510705ff40a9ae960d5574e0187f1652a75fd"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "dc9b68500d2c845967652f5e04883a6ba3146c51bbfcd7d14cbaf0eaa44df3240e41af8d03b63aa536f4c21d503b4a79"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7d3d773a1d7c1cd6cb37a98985f1e119574844a31fa48e890c2fa1f1d0fae72a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d7da19e6fe75a236e7be635927d32f9d0aaf864ad648f831414d0f296c9cdbdcabeb9886d190d3eaaf8bcaea24a417f71de13e8e9cd21513b83f0a671c339f36"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8511,9 +9005,171 @@
     {
       "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
+      "name" : "batik-css",
+      "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b0203e64b3c06729baa0ef84743ab119"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e6bb5c85753331534593f33fb9236acb41a0ab79"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "91694732cee7c2b2b8bf6792842867407eaa816be065087f1f444fc06b46b578"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1cdeced5147e56df70a13a49e614ef6507267d80e07d05ad67d94946cdb95848af6af43816a88b500df1b44b5d11cd08b9e90c14b406f1455bcd636010275e5c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0b208bf86aa0d8fc3f994a267ccaae097459e96e3e455a2c01410cc58ca9ae84b8799e70dbe3a2ef9da12bee74ed4d9c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "362a2b9cbabd59affc6364511e98e0a7cdf7c3b1f16794f0a338c5f0718a7b87168bd97aad44ebc196a4519a838c06e3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "24acd81a7afce64ed5f46914acf881aee4e39a5ec107cb634ba496c3e8d215f9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5431504d0cc4f28b480c576f2cbe022679fc1bdb5cdcd2b140ec4a28010a043a28787c9332f0a8af4e86d5591827462acc58a4d318d9765afeb26f16ca948582"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar"
+    },
+    {
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.apache.xmlgraphics",
+      "name" : "batik-xml",
+      "version" : "1.7",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "72a36789b023019af66cd4120446033b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "17e3da8bd9d4a131350a7835f5cc0d93ba199c89"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b09ffcdf6b7ff3a97c4db23ce2767e90015081e766a81e220c4b1c47dfcba1b2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6d5e52c65a1a187d64ea51d028f8b5ec8d68cf60d8ea7bdee55eee0bed039424378b642cd498fa949e53e771b179930e6afc110ec0b896fadaed2d1692f510c5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0165b61bf8a7a29b5f436b515c9df8337270ba242ffc8eeae33acf15e83542e2eef745af2d061fed6195ed3ff94bfc4c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f2a1b3880de7a91ff724f64ac1285ef37f9d7a67bdeaacde5527c177263590a139080cf6588b165a00c784e1cfd91e6e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "bfc629549e8d201ab71df5568ce4cc57640a1beabae9567f2ac5584f345aba48"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f4e9c833ccde2708ea9638ea6caff2a1827c32b6a7cc38ed02b24334337fb7a9f2e2a583cb40e49c8a4d2131513c146c0c70bffea8cb516426eefdb9fc22d387"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar"
+    },
+    {
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.apache.xmlgraphics",
       "name" : "xmlgraphics-commons",
       "version" : "1.3.1",
       "description" : "Apache XML Graphics Commons is a library that consists of several reusable components used by Apache Batik and Apache FOP. Many of these components can easily be used separately outside the domains of SVG and XSL-FO.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e63589601d939739349a50a029dab120"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f7d0fa54e2750acd82b1a241c043be6fce1bf0dc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7ce0c924c84e2710c162ae1c98f5047d64f528268792aba642d4bae5e1de7181"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "43cd47817e95b0ae1cfe122780fc491371635aa91979d08a0c71410382a0325165d46566851825c0876e6ebc28bc6455d010cccde6bcbd129b0a5c87d06f3530"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6bfd73c0f06687548d02e9443e694e7048ce87eda5b2c07c013832b8e2d832327bac654be87cdc17018f165b4cf2abfd"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "bff9e6d5196b5e056544538c637b39510a2f09737b9ea8d8c8a694f42b8a28428af34e14dd784556e751510ae9b23615"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d0b1f08ea4a15956cc949aec93eec9694307ee47d653ea55c7797561cfd1843d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e3af4713f7102f258a1d645283ff3b27c742c29a618fcbcb93b929a2190864634ffe78c6f7aeaf609133f6c96a2d3c00ad1ec99fe621144d9575feeb5a8ee617"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8545,6 +9201,40 @@
       "name" : "core",
       "version" : "1.3",
       "description" : "Core library functionality concerned with general programming problems rather than multimedia specific functionality. Includes I/O utilities, randomisation, hashing and type conversion.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d87de6fee47700c58503ffa6091fb140"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "539ab008bc7b240937c26ac897b0fbc3dd878f95"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0f943aa7e6b656c2beb6cb51eb07dc0090bc839a52a95f9df3db6aaddede04c9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a6aa6831afcb8e83787ed9e25d4df256a4c566bc25e03549ffaa216154f5ddccb2d17be3ca6010002a2ae1a75e8bb8adaae07a8af7d24ed8e5e875a2573195b3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3493404fb6bec5b154dd4eb1ce0d8a82f9bf8e0d4bc8e7ee6678c665dfdad5d65dde1a2b90ed42a5752ee45b658d9dfe"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "93259cd1f5a7be5d2e18f15ee20f84a671aef68bec10309963cf940b699ef68eba92aac3ea35b07c42509cdd57ed0e0b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5390576d8bc4071978e3faf97aacf320d799b3bcb62db0b7fe1cee5af3b0c97f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ab8f5f4f2626626012f39b9e620cbda14d649af9f47f01f1d5407e4a8b80339b6d64a5fd90d8cba2c8a4f3e22357abe0a2b9a40e7ba9cbf6f85bc8eb87fd34fd"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8588,6 +9278,40 @@
       "name" : "guava",
       "version" : "14.0.1",
       "description" : "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more. Guava has two code dependencies - javax.annotation per the JSR-305 spec and javax.inject per the JSR-330 spec.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "58553f87d83b9f8ec74bd3529083ee2f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "69e12f4c6aeac392555f1ea86fab82b5e5e31ad4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d69df3331840605ef0e5fe4add60f2d28e870e3820937ea29f713d2035d9ab97"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e920540dbdee79fba1a5e0966ae92ac37358aa4126c04a08732e4260916807901d8dea41322037ef7908fc0204281d05a1bfa95401fcfc473630c0bc8e81343a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1f5c72fdf4fbef5fe6044054d83cda82d409ce2b8e304913cc985341ceb13e75728dfcdba522dc87aa04577a054afeae"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9ed7ee275c97f7e8d5087efc38c217e25eb7e55f94d8ea900775f1764b97cccdb91b75095b47443563d0178c88106f6e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1f1db7170a0f57d7e282500355dc634336200407612fd291e08b2fd40de5b62d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8ed7822622b630a6724ed0c86b94e51cae21221ffc7f603b857dff4417f0607b276ce5e7ed8fe2e13613e744dfea49333195372b7eb8f6570d15448135f5f39c"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8623,6 +9347,40 @@
       "name" : "log4j",
       "version" : "1.2.14",
       "description" : "Log4j",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "599b8ba07d1d04f0ea34414e861d7ad1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "03b254c872b95141751f414e353a25c2ac261b51"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e3bff9ab64a09b1ac2800f3b5fb1e3d99728064acb6dd3924938507638a404fb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7b6b7bddd05a6f3e911b277527d31be12c4339aeb2d14177286a1bf533ef39d203dd48102b92469b78e03bc85a699e20aa2332ec06966d6dc95fd8953462df37"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4b37304b497ed9f792c70c71c45702ba962ce77fe8902a2e444fde6e7bbdd6601fe471f3052f602aba573e88ccdd768a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ecc86e3738723daf0d1bdd5c4da06f35a8b02b503d4d9f945777ddede082275c410e2d7b9f60a8c607cfd196f78a4f94"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5058f247416be5a8d13158199fc466984f10f487300e53c6f1df5056022c0381"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "62cd90caf28b0dcae272f5641a410a5565c68fdd81cca535f479e2a093bb49442d4d7d9b43b048428213e93d35fefd3f4b193f9cb88f469ff679e37236513913"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8658,6 +9416,40 @@
       "name" : "commons-lang",
       "version" : "2.6",
       "description" : "Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4d5c1693079575b362edf41500630bbd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0ce1edb914c94ebc388f086c6827e8bdeec71ac2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "50f11b09f877c294d56f24463f47d28f929cf5044f648661c0f0cfbae9a2f49c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4a5a3dbe4941c645e2cca068cca5c1882cfe988b02e7cd981d1e51784900767d1deab0e0e0566f559c9fcabb4a180e436d5bb948902d4f4106f37360466afb42"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9725bc421adc1dbcd6f937eca0f3075d186a2b353ece4cef66b0fe81bb8d3f7d7641c43e86d657ef526c719f0c2a8c90"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4bc4eaaf2580ded6d552b96ae5261c936de95f69a1d137c47279c51bf2aa1406ae44f69ccc94486267b8441e53c4bd74"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b68d49ef037d428ea0c3e67a7a20f3d68a134bef30a1639ec08d28886b9f5629"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2e9ffc0608827cffc0b48b7a0f35d371c66586c99fea2910f7c2a237c7c57d9ae4d65de7c8e018362c2e4f963c2f70a9196cebf35457f1dd0cea6c65c256f673"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8701,6 +9493,40 @@
       "name" : "commons-io",
       "version" : "2.2",
       "description" : "The Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6ad49e3e16c2342e9ee9599ce04775e6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "675f60bd11a82d481736591fe4054c66471fa5463d45616652fd71585792ba87"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ad08841278fef6f1ebcb2483059882175d30481c75fae916f768d08087bf6159c7d3f4a7ef382f45ec2294235bbcb596c60b1fa98aa04e9dfd8fbafbfa2cad2c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f72ace0f8826c676cc5950ddcb4717740051d8eefda10d492ee150509bd846d3ad809ee374ab405c781008a37599c7fe"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "1220e3662131c21a4ca1b1814dc601d9a5a1a52781a106f31099a893dd235eebe4da2aeb5de35b03906e749ade982c09"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "36fed46c53e104d3f2d5593bb24434534399e39347d43fae6b348879434b9901"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e784ceb6db96928b9956432b2b7a3ba7d0cd206c9babd974ea2a1c62cd04510c8af8132103bd5a4f9e2873595b209bfabb942612740870a1b101e29cf375b367"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8744,6 +9570,40 @@
       "name" : "commons-vfs2",
       "version" : "2.0",
       "description" : "VFS is a Virtual File System library.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a2cabc6a91a9de9e3d5d460b06d65b45"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b5af3b9c96b060d77c68fa5ac9384b402dd58013"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5af37bc47f6bcce94e740b9793115ff135dda54f9ccf98e057938c2c98765f4d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8ec9f5646a95ec9d065f36475b722b8c2189cf708d88c298e7dd021607c5c29108e4cb98ec7e4838f91743b9803d60f120e58fb349df3e525d1e4a984609c212"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6154d7068c1dff3e8eff21a058cccc4e8e91b6254f80e6785492c71a471cf1da677f07e3367ace21cb6b93d47071da80"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "82d010b2cc54596518c5d02280fcd41b1b6ab327718f9fa1be4fac3fc7c11cc9a6ddedb268af9cce375d5fafd76dfb68"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1af3339e0bfc35615b13019827c3abdab04cfd3b96687607a6e830b7296ad5ee"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ff84fa084cbedc2e2011f69b28816b8f40c123567fa3ccf89ee1f7b0987bef735ea71149b4503f1ff445475cadc43d5e40309f489af06fe93c09cd0c6e04abec"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8787,6 +9647,40 @@
       "name" : "maven-scm-api",
       "version" : "1.4",
       "description" : "The SCM API provides mechanisms to manage all SCM tools.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bc840a6620ec3d3c56ce58b10076cef4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e294693ce217bd6f470b728127854e6ca787fd29"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8603b43b7f6cd3d11785acd9f2d507ab6bdccda5cbd2c316a23979e7822fe64f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5b500fd20666fb96a0a92a4f3857242dc5d3214228ad063e2f9d5f51760550c4bdd3055b84d9f5b8625f4dd21611953ee5df38566f922b7b10a000430bd58811"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5dde97e131c1f97fabf46318ca6d1e45552845be49eef168b15a35448486b12cfeea33c28d5502d72e15043346dfdbf6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d7a570e0a7bc5d761ec4efab14d77a8962b4241ffdc60b287e9b72b26aa6eca74a183cdf3cd3effd0a2ccfcc16a6fba8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "66d0f3c9f5782b47f2d9a135ec7ebe7c7c2ec1a952d6f5c24e57c6c8d4a72f31"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "87e9b411b5a5149ee44ac933e037e0c7a683aa2a8f67d9d5cf1482dfd354f183e17e9cac54256d4dee0cf0b1cb2327e64127d862e34763c1fd2fed35b11de828"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8829,6 +9723,40 @@
       "group" : "org.codehaus.plexus",
       "name" : "plexus-utils",
       "version" : "1.5.6",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d6070c2e77ca56adafa953215ddf744b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8fb6b798a4036048b3005e058553bf21a87802ed"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6990ec1b05c978c9940ebf7ec1b4dd911d16c524ee9f4a386a14ec0b07016ab4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "98efc17c4f57bbdf2e61de5ddfe12e72174f1c81bfba499d96a89a61e824b5d46be6dc159f7b7a05db857abeaadbbaf39370a09cc43a55f4c2ab8dffbaa0718d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "81fafd1fc0cf404cfa29d6dcfcaf5772e4e2e2ee4bc5b88fced6275919f4896cf85b85a60f3ad5aa7a2cabba27e33ed8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d6ba4a6aace3b312c253acd034ccd0a380f4599f568b49921acc4905d502b1625d9f55dd6d36e09cb3962d96f65b6928"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "efcc97712ac0c56d09c34062b740f624af418f2d750b63268a24d4d3b4b31aa3"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "13581ac845fce74d51f9fe15a3aea7f02fdc2769d279465af4e5c529c8852ef9e503706d13c95d4b4e8782db4eb0ca429cefaf8a692524115b5166930b43a2f3"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8868,6 +9796,40 @@
       "name" : "maven-scm-provider-svnexe",
       "version" : "1.4",
       "description" : "Executable library for SCM SVN Provider.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6624c9c3324f88619205c2b8c60e583b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b3213b40157b701ba079b738baac391e41418c18"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "03580d8d7f8c0061bc784aaccdb9460c3dbd8a31c1944453fa30a98e2bd7d36d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "99cb405c2b2947bd2175bbc24cb827b62f6f4860af4d6fb92185f92c4a4f94bb183178d78eb5e3d96bcdfab29ea4da9bfbddd2106a3760c85e1aa734c4d2e677"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fa21dda6862c4edb91d0de4389d626e6233b7d6025723eb44df11af7bcacb40349f43d5e7b4e9b78818f6d5c61106174"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a67f92795db8e27e48a5a68fda90375376d8665853af53ebb3b978862911828b709bd0a213d40848fc5ec9c52fe103f5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ea326b6f0fdded47b90356cb85d3ec55e73e4ac32b31b206c2266a2204d4232a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fcd47cadba579df63ce55358ab703252c9aa28a5511778d04a6640ac915830146708a7cc44f1795b2e8fb6357985c31eca297a0dbc7ec5d6c76ae31180ddaa7d"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8911,6 +9873,40 @@
       "name" : "maven-scm-provider-svn-commons",
       "version" : "1.4",
       "description" : "Common library for SCM SVN Provider.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "09e3cb24fa48c3d6427e1d2b79b42d26"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "54bc1dc24c5d205b4d251a83f4ea63808c21a628"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "dfce4e5f3e5273df241f1848eaa7c18d73de766f127d4a6b5727193c4c30d40d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "75a584f269dc4559fb5c7701005b931866f3bc33078d5f975748687a7b31f8d18ca0977e7b8f07d2ea62f379d6459184e9962453c5e3448600c00b5db8eb2d7b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "93e56fcebfbeee1cfa25bcfd4f57a96eb8cb73847db9f03edc20f79080e620d1be318ae119dcbe033204da5afd004ec7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d1b85551e4b48a5b6525df3e554ed1af4dfdbf9d4136ed99e27ec0ba4353c49f83dabad80a17b186e1281ac54581ee18"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6b3e07d12bf3893d4ba0090fe8f1f78cef08168f5685f2383df40ecbdbd70dc9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e2a5e0c12cada02453800520ba48823c624d998637c3ccb7397af588ebd683de91c368062434efa0b9c1304d108384d9c986b5124f36952b05f76ce9986206c4"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8952,6 +9948,40 @@
       "group" : "regexp",
       "name" : "regexp",
       "version" : "1.3",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6dcdc325850e40b843cac2a25fb2121e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "973df2b78b67bcd3144c3dbbb88da691065a3f8d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "27998732ecd5745924644f891f41adaf73736fe259a0a20843979452574f0385"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f5d8abe810ca9eae0806672525090efebd15a71657027e421422c36f2ed3297bb56df3f98e6896ec8757f69b7e1a206c67e01fc304d2cbcfdad3e469795fb98e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e8e7913fff10ac1994691498a4aa358527735c9f552abe8e20772190d908c641d3865429d6b4324ca292316027c6c9e1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2b2f41982a761324853a4e7cecf9b62ff7c3c5471de2f4183864537ca8b3d667d806c6bbdca0dcc218628407a37510f4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c1e8f23464547cbf0ebf7e53797735d9157a0fd7775af411f6d546ef08606bb1"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3cb8e4ba266d4c4b6161f2b17413b2d4261512556e65a631e7eed458a13f8a97badd892b5aaab318c1f1757d4486fd1bcfe069de4bc58ed0df7d7c6bdff052ed"
+        }
+      ],
       "licenses" : [ ],
       "purl" : "pkg:maven/regexp/regexp@1.3?type=jar",
       "type" : "library",
@@ -8963,6 +9993,40 @@
       "name" : "commons-httpclient",
       "version" : "3.1",
       "description" : "The HttpClient component supports the client-side of RFC 1945 (HTTP/1.0) and RFC 2616 (HTTP/1.1) , several related specifications (RFC 2109 (Cookies) , RFC 2617 (HTTP Authentication) , etc.), and provides a framework by which new request types (methods) or HTTP extensions can be created easily.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8ad8c9229ef2d59ab9f59f7050e846a5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "964cd74171f427720480efdec40a7c7f6e58426a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "dbd4953d013e10e7c1cc3701a3e6ccd8c950c892f08d804fabfac21705930443"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "85e79d4fdb266861910ef95bcd6e82a7f091c9bfbc63dbe2112383ea4d53a5b7a378b54e7c472fbdfde923f30c72d9cad626f8fabb0b9c70d1dfb095add73359"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "973e966839aaaddea4af4dd43c6dea59eeeca88b8e452af0a35efeb3c920592b110c5a366fc46f75c404d1c7fa4a7443"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0c77f4cf3c1d38d7de2cf42a7ff98a0be313ed739d20b62354278bbb7ac12f5c8be656d38e297689ddb8c7ff707f9cc4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "00c433b1cdaa88af6b91f41a5f1030c95beee1044de84880862f329d1af5821a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2fdd42541ff607906620cca573c4ce0ddaac10eb90ce6d755ba4c4e41a6166869748ff79937ebface698407a42aa47abf931ab4ecf996e672344d1a992b39025"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -8997,6 +10061,40 @@
       "name" : "commons-codec",
       "version" : "1.2",
       "description" : "The codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2617b220009f952bb9542af167d040cf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "397f4731a9f9b6eb1907e224911c77ea3aa27a8b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9898a3b3857676128987b975d0b0f035becf3da5cf677266a34d6636f2b80542"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3b1b3f140daead6997e893a5b3ec42bbb60b29af1a741d8f9198b90bb1aec30c89c77864322b07da08e4eadd6247b5e02cb5caab62cec561d061f637b6a28ec3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c9a2051b5608ab343660f85783a1d9f100a7da24ceea49f41a224c787724606d6857e01e108caebc90c1cdb21b502ef2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "562efd910cc4a6b9b5d4d502a3d5be78067d53f254d0694ed3167ee2b85f90e019fae489865e39b6f36c436372e6940b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "21bdb623061bd14ce402c64d3fee851471f117d5fe885f558d310631fb598030"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "42e692c59b4085d8a04af7ff1a1b13ee75ff0aeae98d30cc4ec8109dd47ffacf8a70adbe6b9aa14da5a1916cb3b4b72ca88b8dfb5edfa21bfd4faace7a5548cf"
+        }
+      ],
       "licenses" : [ ],
       "purl" : "pkg:maven/commons-codec/commons-codec@1.2?type=jar",
       "externalReferences" : [
@@ -9014,6 +10112,40 @@
       "name" : "core-math",
       "version" : "1.3",
       "description" : "Mathematical implementations including geometric, matrix and statistical operators.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "618737614c85a796bcb251ea5918d46c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ed10e306acc3a2f14c046b1b4af5e21d5b751c68"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2563573261a925afed1ef68d829a923b9fc3f21708aa610fa2cf8067e4ad9255"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "316a3c1de8eb58bfa30f7d0e8ab196a40265bb695b3b2d8671c9b65c4e6c4a225f8e82c6b73bd4e526ce6264183809f0aa624200c32534eee91fcca6c853cb62"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "822d322a29d76597f181398e0ce3783d7b471b0a9eb894abde101cfce5d1baf829289918b5e0689dbbb27ff6ecb6103a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5aaa9136a77e7554461629116e5b4e3d9e1846fe1eb61e909c512f694353657fea87b7ee89c67a0296c47358165c1b07"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "26b4248a68624a18987339fbe2e213ec4781fd241da94da6e02703c744497f4a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d91167d8fcd6dd6fcdfc540912b71978a402c845eb35e2489ff0d6224c87a26bdd04339187086eaa25c78a9040b0ff960abc55090226f1197d0e3de87a658e88"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -9057,6 +10189,40 @@
       "name" : "la4j",
       "version" : "0.4.0",
       "description" : "A 100% Java sparse and dense matrix library.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1705f88973fd064a962e76de129eeab9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cd032e40fe244a295078f746d9feed5eaaec8458"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4d616118bc9af7d2eeb88c391e51f929072fbf7b24a9b663261c5fd7623e5755"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "92166c5355e8438f1625ee0cf82e3ac329c80eb0a43dd31ff1c67c429a0eaa2cfebce591c34ce9e09babcc9025de1fe32b7b6c08fbc1608f5b22dbd583563e7f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a3066333bdd623f69738d402dee6b1e9f1cbad70ab676b0c6477999026f9af196a1c673a4bd1432fe86f0b79daefe208"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e385b35551c027903484183a2376912c487cabb4a6745486e95d2a3bdd3f36548c3fdb58160247c98d40691326875153"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ca26a8d473b998c808c1a875bee914125819a4854d3eda46fa060737becd3e90"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "91e0fbae142d5654d7ca6ac197a07f23fabe11ebc80ba087ae400ecef536c9f69d97ce8ef5ecca683939b7113964b6ac8c209842c374c7ce02b9979c11148483"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -9084,6 +10250,40 @@
       "name" : "MatrixLib",
       "version" : "1.3",
       "description" : "Useful third-party libraries (possibly originally written in other languages) that have been ported to Java and integrated with OpenIMAJ. Not all modules have the same license.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "658908bc22ecaa578cd020a5d43c82f9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "386944984875019c2b9607eb212c987c67e6b8fa"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "66fe748483ccc8428b275ace08e6604841bbeefd443f08edf8add49e4feb9b9c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1f84800810a0a2c6fe34edad8903575ede97d4cc3bf2455a2c95fd65acfc0941a6308ff3b4ee023dab6e900f1103d8963428aa13620dab6427f9e8a19e907be4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a5e28bcacc15b43ebd1b91becf1472d093b79fe8278a281ef317cea4f65f4125095b4e62bb784025022b859076da46d3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "cc1c45e97cbb3b48a81b87a6a9eb249b1e9a626dffc6539434c62e2a259ff274b4cb4f510e75759f1787ad5909b3a416"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5ce5fb54c67e27d46aec1ff1e105b32e0f093f94e2cfc3216d0dd2b713793ca5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b1eaa34583cc4828c783782ea0e5a068f50b157ce15380eb3f78c5513ff0a9d518e89990fa985ee5491886835dce01ef85ca7d76bcf5d29ac5d154b1933cba6f"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -9128,6 +10328,40 @@
       "name" : "commons-math3",
       "version" : "3.3",
       "description" : "The Apache Commons Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "87346cf2772dc2becf106c45e0f63863"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a85dc3aa929de625606270ae69a343cda69b7670"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ae1aaaba574ff895159c2614dbf4b4ceb8c370d34418f57feb15a05f952e0fb0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1c1fb0f857dedce1ab2d9878d4675129f4f9ee849f05986377fb08f96929136a833de1b49a9d3dcb877aa607c2f2f2e7b49505bfa6af07ba281948d425dfecfd"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3760ea1dbb86342c69dbdf3e5c4090842104441f734be87716bd9455b1bfc975531c6ba8ce5817565f8d249544f11676"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9b3818157121195226b840fdab194018f6b44b2a1966c21f610d1e5a1fc7421f4d42d0dae98eb39d7e073fd3fcc4612a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5051d7b19729304ed138b687df1571303e23db55ef0a2116bc04a3858250c937"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "93f126764e68e40b2d37a8b005a9c5abb452fcfbd4b2e15864cc83d6433d4435156747891d38744c98c83b14b2b15f07017e727a817451d6a62acff1019db6d7"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -9170,6 +10404,40 @@
       "name" : "sanselan",
       "version" : "0.97-incubator",
       "description" : "Apache Sanselan is a pure-Java image library.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "84f823e61d93fcedcb3c10a827c45989"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8396778b076a2eaf62024b64f6d924e4e0095fca"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "984a0bfd0643202165b78753ee37d69dd0c9c90ccda8e2de75fa51e62e09a361"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1a35652ac6d2dcfc35b5985f0c595ee92a6997340a341f186efd5d922e195080895836373f4d45fcba4c7e70fa5d334935fa190097ee19483fb8873d4e85f02d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "63ea17862a4da29943b23b731e2440a22a8d14c226786f1f8ed74c0015d27475b0642445ff02e51c5c49a4f772a9d6f9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "48bb024c627b0eaced3998d9c329c1549b1fd57adc5280922384701cab3b706b8c16802d33a49599a5e47320038f74ed"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a0d637251cd7b0822791ef220c21726f81034309024e960697c7b4a6cf9e0d8d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4016f7005d77b5462a1cd6d209ec2c98ac23f09f9804b7c8b5e900801f0051d18e8464c7a286e4d45b4f2307dcb5931f8d4358a917b8e0ecfe884d171ec93af8"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -9208,6 +10476,40 @@
       "name" : "imageio-jpeg",
       "version" : "3.0-rc5",
       "description" : "ImageIO plugin for Joint Photographer Expert Group images (JPEG/JFIF).",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "65091441fd5dff60fed1eb6b7401603e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2033a9fe7a96bfb5c6728a39f277a2a32d340d24"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1d1b7f43fe364117516bcaae713e0050ec995728829234661d7072fb3a1ba712"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d07470ae260dea27bc61bd0030a16516fa47cd9ab9cf00f10ab2402259c124720af72ca2268942ef4d21978b0d673bb19b9747a057990c29f24202acb0c532ae"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f957d095a5cc956533df4a6a12e55adedc71dcf827ecbee60d1ac0ca846d09a2c771dd28f2e625e1155e25d3362d1e75"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6a11354eabcf61ebd3de744a8d31e30d4a106916f677030033ba33509752a1bfd0cf141021090ae0f6779a874d172677"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "35f4b46ade53d245490d2d65fed7e47566c53202527df4e87acd5e394d5c0fa7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ffff3bcebf8f8aa14e28f53c4ab050be8fdd6fd46624c3f0a531649472eedf988d7568458a5cbca611685e824ea631cf9ebfc76132ba049ef8393153995ac033"
+        }
+      ],
       "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.imageio/imageio-jpeg@3.0-rc5?type=jar",
       "externalReferences" : [
@@ -9232,6 +10534,40 @@
       "name" : "imageio-core",
       "version" : "3.0-rc5",
       "description" : "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e28a821904617f1770750f141f68f0d5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1a15c95248d2000f18994d812d8d6b98899a92d4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "56d1ae3f4d9d5b0158f211d09b3859d203d31b4ad693e5bdd7602ea0d8afdd69"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e602ad9cb2aa0ca92fa8fe016bf0e34cb41744426133319461c994c2e37a71e3e6fb3b90ba8ec266a18b4734a0c94a8f6b13ad1470e469a4f819e06697596b05"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d1011b33d9cba5e74fd7b4aa22611f15017937b9634fb0d19d830b0c9d54e523d74432257952ea82b10491a11a3fa8f8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f2ece164247bb1fc8c0fae56bcc4dd06e3657dbe5124128d9541fc8ac38875b009d8023c1c10f1c71ddf56ed5de18c90"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1cca76c69da9b5aa9653a68fdcf81dfe4e26858dadf9e54decd88a9da4ee41f7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "cc64e9166953addb4e6d5efad0a3057e980e4f1feb5be2314b3d8cab4e5df5804c4559e2de2b48903e59dc9025fa742c4d81a2decc3c1155a242a8a0c1df6ee4"
+        }
+      ],
       "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.imageio/imageio-core@3.0-rc5?type=jar",
       "externalReferences" : [
@@ -9252,34 +10588,44 @@
       "bom-ref" : "pkg:maven/com.twelvemonkeys.imageio/imageio-core@3.0-rc5?type=jar"
     },
     {
-      "group" : "com.twelvemonkeys.imageio",
-      "name" : "imageio-metadata",
-      "version" : "3.0-rc5",
-      "description" : "ImageIO metadata module.",
-      "licenses" : [ ],
-      "purl" : "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.0-rc5?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/imageio/imageio-metadata"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/haraldk/TwelveMonkeys/imageio/imageio-metadata"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.0-rc5?type=jar"
-    },
-    {
       "group" : "com.twelvemonkeys.common",
       "name" : "common-io",
       "version" : "3.0-rc5",
       "description" : "The TwelveMonkeys Common IO support",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2c1ed823f6343313a9ad043bd798fe3a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "db2a6b6078e5340435d766f7aa7afec5130248ae"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8c454b1b061d6a3acec3d5ac1b121e2092e6170e5a2c078ac69898b4b1357303"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6ff3efcdefadf8ecb744fb1a191e71eed92816eaf1d37a319ca3314636e0f06ba30f47d0f5b70c733811573324f0cd0f4c67d63d12a656467bc211ec552e7719"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0820f78c1ffe1884f4e0557a699d730216094e8df1a472cfb824656b60c583fbe3c160b61bef567d2bfb4cf0cd186706"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3d4d92271bb74a25bb8067c50d61b49edd827d3bbfd9a922bc73bc96d1f7b5dc528d5f0f2756f977c2826e8416ebc0d8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "247d403341724efd6c89df666f04140b4f36db91f7a6bc0e50fb7308e481cba8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "843a9fa1985fe763954225360647f3a7adaf7f1b6107c6a69d56e12581385e84a3f74b40e497f41ed38a87560bdd92f803f32b2900c940a6a5599911812b5c66"
+        }
+      ],
       "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.common/common-io@3.0-rc5?type=jar",
       "externalReferences" : [
@@ -9301,33 +10647,43 @@
     },
     {
       "group" : "com.twelvemonkeys.common",
-      "name" : "common-lang",
-      "version" : "3.0-rc5",
-      "description" : "The TwelveMonkeys Common Language support",
-      "licenses" : [ ],
-      "purl" : "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/common/common-lang"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/haraldk/TwelveMonkeys/common/common-lang"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar"
-    },
-    {
-      "group" : "com.twelvemonkeys.common",
       "name" : "common-image",
       "version" : "3.0-rc5",
       "description" : "The TwelveMonkeys Common Image support",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a71a2fcd613caa580d87d68286c667ba"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a23782df71c5fe4a8414181b2f4a90b90144c985"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cb0f5b76f788658a5a3cc5b751945a2a9fb2c1e841a40ed3cf71890d0100d78a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "49d464ccd7161b5d8d8a9fa6614257261e7551b59d7470d4ce505acae6f69116d981dea65b61662b172db9771facce79e91a69b2a2a88889d782c4fb40a975ab"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "664c45a648c628aba6200f42f74a3ba6ad3de5c31da85951371cc46624e1c235d5493c9f728006c90e0cc3bb3a031659"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ec60c8dcdece39746223644511c0d7c23ddca184fff2a1ad52051c87f631b85e05df443e07a43447e938e8270ece7a57"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a5792b675007b7eaa1fd40258b18ac73393eac019dd156080a7170bb703eacc9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "27562ac654f85afb8d2ab7d92ea3c79d0352f5de271ed758828ac314007e0b2e538916247451b75b8696ef3c68ec08a89500f744d3e90aaa5aedd264cf26b05c"
+        }
+      ],
       "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.common/common-image@3.0-rc5?type=jar",
       "externalReferences" : [
@@ -9348,11 +10704,161 @@
       "bom-ref" : "pkg:maven/com.twelvemonkeys.common/common-image@3.0-rc5?type=jar"
     },
     {
+      "group" : "com.twelvemonkeys.imageio",
+      "name" : "imageio-metadata",
+      "version" : "3.0-rc5",
+      "description" : "ImageIO metadata module.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2c00b35c346929d32387c4d9ba4bc3bb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "699b7bdaf5f49110161911072c88478feb8f7e2b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "36874ac8bb4f9e23b1f8db2dd341656bd98d1769ecd90a24dfade351fc387813"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "64ef8f405bc791f0d4c23a1c567d1e11ba1a0235e1ec946329fd82882e8b230d4eb42641a4d2b3297c6085e88d07b69dd3cc0e67f944f9c40a2ed0c445dcabc7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "addd8d6b505f81f7750a089841dd381a5ffd96842953963ac72097ae3385734d63b97376e6f8ac15519317e5edfa918e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6f1d2e0d06fb94abfbaf527bda950673dedb3464694ee37f7a1f07c6c572131284e4a11824fe98f55f8347157b586f29"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2e19cf558eedf241a484885520cb3b40476942fadd1857f8e6fe616cd2635292"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f1ab982df1442c28d6b1e189499a77d39a6914948cff647d1a5583f47e0e98dda8404aaaffe75ee5d67b637ee17bf08b33fce28c59c89b45a7da5e626b424993"
+        }
+      ],
+      "licenses" : [ ],
+      "purl" : "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.0-rc5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/imageio/imageio-metadata"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/haraldk/TwelveMonkeys/imageio/imageio-metadata"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.0-rc5?type=jar"
+    },
+    {
+      "group" : "com.twelvemonkeys.common",
+      "name" : "common-lang",
+      "version" : "3.0-rc5",
+      "description" : "The TwelveMonkeys Common Language support",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a81f8ea6884c29f9150804d0b6d930b5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d96f0b096a410855939efc32ca1d15be4ad0459c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5897daefe812f5625e74111e11ec5c1135ab7f08eaede88a22a872baa694ecf3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "42e72e20dfdcce8e4e64ede9284a62257d69119e62ee97c00f1d57dedf484cff86ea70a10a63594f7dba58f7b88b8abab59f54ad4a8a97d52c9418a51b0086ba"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "109176e60b3b5d04f4177332034dfd8aa2073e1c140666c207111815b841292f1e2e7647372e46155b1213dc64f927ba"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "94d9ae532086961861916dd8394965340a6c0c0ae78b65eeb9a60dcab67ffdd610c03453b098658068767900e27e0179"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7a7fcf34589583bf6feff800d25e67907e4e0cfaf915b67c787d3e91c523dc5d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1ef5319de80b86c4ef56d9ab88353c2a3c26c3a6a92d648ef90363dc4c7e03c727746010eb0bede91b1f1468c221a8bd62ee91aa9fda83956ad60834a7146a63"
+        }
+      ],
+      "licenses" : [ ],
+      "purl" : "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/common/common-lang"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/haraldk/TwelveMonkeys/common/common-lang"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar"
+    },
+    {
       "publisher" : "The University of Southampton",
       "group" : "org.openimaj",
       "name" : "core-audio",
       "version" : "1.3",
       "description" : "Core definitions of audio streams and samples/chunks. Also contains interfaces for processors for these basic types.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4d8b44e174699110c45868cf51b2665d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3555a1bafae5d44c7949cbd20bd5080e726fb2db"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "726d316f703fb27873ac06ccb35c70c76e3d2772be8dde99b404d7a0e1e1ed2a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "637471ed5eaf07f055d050975e1558e71a062b2ae0b6e3bf9190cfdaaaa5343bd40e289d8cb36c2030eb533f1e48baa73f889af32add41f0ae832d0902ba7f5c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e1f553b34675195309ffd6a77b3ec5b44a12dd307e4c2308e61763bd86c437d7ddc2b4842b99f74676c37f1bbfd80d31"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ada950f3ce751615e690aa363ead2190e867b209382a5f51550e441bbe8e3e72d9334cab192be2641993d2e33b736b3c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9b9221679eb71a3359d5bcc1d0115a5c1f670d82bad962ee21851647003b114f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b6232cb927be7d8da27066a7dcda105fa7a59ae85e8ee63ad07315b677b65c4bced22ef21bf1903b6d2c6035e348c363509169c756dbb6ffc110bcc18b7c84bd"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -9397,6 +10903,40 @@
       "name" : "animation",
       "version" : "1.3",
       "description" : "Code to help make an animation of data/models/etc.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bd117bbd0ea8aed54bdedc31d9482553"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4aeeb269ea70542b1ee155304d0e9b9788885d6e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2b9211cd3ff75abc1e0e68183805108fde842945e0bfe06e1620fdda92b695e1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1e8b25f40d11e7adbc70ef9a2c654aafa0e16e59061e654281bcde315dcddb01639bb620fa0420b98b43c2363e5e5900005423891757617bf9d896b9b81c574d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b3e4006c3bc62c29076c940f24d2a1cc26e9e21e0fce3aef103aa330110fddfbde0d435c6eeeb779a0e94e2c5899093e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3dec2162d2a0bb6eaeb8d5049638c88aa7ba15eea21c3c0500bf19b4c9fa72ffe1299bf4a69c803cf90f68c08ca5acdc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9289f41fa815007b37c95fcf8d96064ccd6be3863986d49ab4bc3dab3ddf7a09"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a2ccab90aa95925a2ffbd86b3de14d32a0400ff1188fdc0d81f050e5e95418e42e6a674f56dab37840986cd366e4359fa37d0d1e80b565dba808dfdd2bf74e39"
+        }
+      ],
       "licenses" : [
         {
           "license" : {
@@ -10643,6 +12183,10 @@
       ]
     },
     {
+      "ref" : "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "pkg:maven/org.apache.xmlgraphics/batik-dom@1.7?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar",
@@ -10654,22 +12198,19 @@
       ]
     },
     {
+      "ref" : "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.xmlgraphics/batik-ext@1.7?type=jar",
+        "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar",
+        "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar",
+        "pkg:maven/xml-apis/xml-apis-ext@1.3.04?type=jar"
+      ]
+    },
+    {
       "ref" : "pkg:maven/org.apache.xmlgraphics/batik-ext@1.7?type=jar",
       "dependsOn" : [
         "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar"
       ]
-    },
-    {
-      "ref" : "pkg:maven/org.apache.xmlgraphics/batik-parser@1.7?type=jar",
-      "dependsOn" : [
-        "pkg:maven/org.apache.xmlgraphics/batik-awt-util@1.7?type=jar",
-        "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar",
-        "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar"
-      ]
-    },
-    {
-      "ref" : "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar",
@@ -10680,18 +12221,17 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar",
-      "dependsOn" : [
-        "pkg:maven/org.apache.xmlgraphics/batik-ext@1.7?type=jar",
-        "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar",
-        "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar",
-        "pkg:maven/xml-apis/xml-apis-ext@1.3.04?type=jar"
-      ]
-    },
-    {
       "ref" : "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.xmlgraphics/batik-parser@1.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.xmlgraphics/batik-awt-util@1.7?type=jar",
+        "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar",
+        "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar"
       ]
     },
     {
@@ -10825,6 +12365,10 @@
       ]
     },
     {
+      "ref" : "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "pkg:maven/com.twelvemonkeys.common/common-image@3.0-rc5?type=jar",
       "dependsOn" : [
         "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar",
@@ -10838,10 +12382,6 @@
         "pkg:maven/com.twelvemonkeys.common/common-io@3.0-rc5?type=jar",
         "pkg:maven/com.twelvemonkeys.common/common-image@3.0-rc5?type=jar"
       ]
-    },
-    {
-      "ref" : "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/org.openimaj/core-audio@1.3?type=jar",

@@ -1,0 +1,884 @@
+[
+  {
+    "groupId": "null",
+    "artifactId": "xnio-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.common",
+    "artifactId": "wildfly-common",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.client",
+    "artifactId": "wildfly-client-config",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.threads",
+    "artifactId": "jboss-threads",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock-junit4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman-bmunit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman-install",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.client",
+    "artifactId": "wildfly-client-config",
+    "version": "1.0.1.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "${version.org.jboss.logging.jboss-logging}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "version": "${version.org.jboss.logging.jboss-logging-processor}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "${version.org.jboss.logmanager}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.common",
+    "artifactId": "wildfly-common",
+    "version": "${version.org.wildfly.common}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.sf.jopt-simple",
+    "artifactId": "jopt-simple",
+    "version": "4.6",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant",
+    "version": "1.7.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-all",
+    "version": "1.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.infinitest",
+    "artifactId": "continuous-testing-toolkit",
+    "version": "1.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-math3",
+    "version": "3.2",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.10",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "httpclient",
+    "version": "INF/maven/org.apache.httpcomponents/httpclient/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "xnio-nio",
+    "version": "nio/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.osgi",
+    "artifactId": "org.osgi.core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman-bmunit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman-install",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "3.4.3.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "${version.org.jboss.logmanager}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "log4j",
+    "artifactId": "log4j",
+    "version": "${version.org.apache.log4j}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-api",
+    "version": "${version.org.apache.logging.log4j}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "${version.org.sfl4j}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "${version.ch.qos.logback}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "${version.org.apache.logging.log4j}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-servlet",
+    "version": "2.3.2.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-all",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-nio",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpmime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.openssl",
+    "artifactId": "wildfly-openssl",
+    "version": "${version.org.wildfly.openssl}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "undertow-benchmarks",
+    "version": "2.3.2.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.openjdk.jmh",
+    "artifactId": "jmh-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.openjdk.jmh",
+    "artifactId": "jmh-generator-annprocess",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "httpcore",
+    "version": "INF/maven/org.apache.httpcomponents/httpcore/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.threads",
+    "artifactId": "jboss-threads",
+    "version": "3.5.0.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.graalvm.nativeimage",
+    "artifactId": "svm",
+    "version": "19.3.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-annotations",
+    "version": "2.2.0.Final",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "version": "2.2.0.Final",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "3.4.1.Final",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.common",
+    "artifactId": "wildfly-common",
+    "version": "1.5.0.Final",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "version": "3.16.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.awaitility",
+    "artifactId": "awaitility",
+    "version": "4.0.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "2.1.14.Final",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-parser-generator",
+    "version": "2.3.2.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jboss.classfilewriter",
+    "artifactId": "jboss-classfilewriter",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-core",
+    "version": "2.3.2.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-parser-generator",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-nio",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.threads",
+    "artifactId": "jboss-threads",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.alpn",
+    "artifactId": "alpn-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-all",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.twitter",
+    "artifactId": "hpack",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-test-framework",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptor-kerberos",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpmime",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.h2database",
+    "artifactId": "h2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.openssl",
+    "artifactId": "wildfly-openssl",
+    "version": "${version.org.wildfly.openssl}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.common",
+    "artifactId": "wildfly-common",
+    "version": "1.6.0.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.graalvm.sdk",
+    "artifactId": "graal-sdk",
+    "version": "1.0.0-rc9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.oracle.substratevm",
+    "artifactId": "svm",
+    "version": "1.0.0-rc9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-annotations",
+    "version": "${version.org.jboss.logging.jboss-logging-tools}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "version": "${version.org.jboss.logging.jboss-logging-tools}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "${version.org.jboss.logging.jboss-logging}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.annotation",
+    "artifactId": "javax.annotation-api",
+    "version": "1.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "2.1.19.Final",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.jboss.modules",
+    "artifactId": "jboss-modules",
+    "version": "${version.org.jboss.modules.jboss-modules}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.wildfly.common",
+    "artifactId": "wildfly-common",
+    "version": "${version.org.wildfly.common.wildfly-common}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "jakarta.json",
+    "artifactId": "jakarta.json-api",
+    "version": "${version.jakarta.json}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.glassfish",
+    "artifactId": "jakarta.json",
+    "version": "${version.org.glassfish.jakarta.json}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman",
+    "version": "${version.org.byteman}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman-submit",
+    "version": "${version.org.byteman}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman-install",
+    "version": "${version.org.byteman}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jboss.byteman",
+    "artifactId": "byteman-bmunit",
+    "version": "${version.org.byteman}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${version.junit.junit}",
+    "depth": 1,
+    "scope": null
+  }
+]

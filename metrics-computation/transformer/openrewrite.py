@@ -12,6 +12,10 @@ class OpenRewriteTransformer(AbstractTransformer):
 
     def transform(self):
         json_dict_input = self.get_json_as_dict(self.input_file)
+        # return empty list if SBOM is empty
+        if json_dict_input is None:
+            self.write([], self.output_file)
+            return
         flattened_dependencies = self.__flatten_dependencies(json_dict_input)
 
         self.write(flattened_dependencies, self.output_file)
@@ -19,6 +23,11 @@ class OpenRewriteTransformer(AbstractTransformer):
 
     def __flatten_dependencies(self, json_dict) -> list:
         flattened_dependencies = []
+
+        # there are some cases where there are no components
+        # https://github.com/chains-project/SBOM-2023/blob/major-revision/results-march-2023/jenkins/openrewrite/sbom.json
+        if 'components' not in json_dict:
+            return []
 
         components = json_dict['components']
 

@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:ebabf0ae-938c-453a-a06f-0a0676dab054",
+  "serialNumber" : "urn:uuid:150c6544-f16f-4a3c-9777-88ea1791116a",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T02:05:06Z",
+    "timestamp" : "2023-05-09T19:08:13Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin makeAggregateBom",
-        "version" : "2.7.5",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.8",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
+            "content" : "4d75a7410313db127502c8536eb3f54b"
           },
           {
             "alg" : "SHA-1",
-            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
+            "content" : "8795071de12b08045d08f58d9611a9fcb9c78a9f"
           },
           {
             "alg" : "SHA-256",
-            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
+            "content" : "eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61"
           },
           {
             "alg" : "SHA-512",
-            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
+            "content" : "d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9"
           },
           {
             "alg" : "SHA-384",
-            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
+            "content" : "ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
+            "content" : "08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
+            "content" : "59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
+            "content" : "7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3"
           }
         ]
       }
@@ -72,7 +72,17 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/ma.glasnost.orika/orika-parent@1.5.4?type=pom"
-    }
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
   },
   "components" : [
     {
@@ -1835,6 +1845,76 @@
       "bom-ref" : "pkg:maven/org.hibernate/hibernate-core@5.0.12.Final?type=jar"
     },
     {
+      "group" : "org.hibernate.javax.persistence",
+      "name" : "hibernate-jpa-2.1-api",
+      "version" : "1.0.0.Final",
+      "description" : "Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "01b091825023c97fdfd6d2bceebe03ff"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5e731d961297e5a07290bfaf3db1fbc8bbbf405a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ab46597e3a057f99c8339fffe14c1d27f9dbd2409ae840c62121b00d983c78bd"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "696dd1548504c9ea8d8526411e81bee8b752f12861979da2707d1059b35a8ccb3f018a1d4e2d12436e7c9daec8e63b97fcf980e03032981867cea63d4301f3da"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8ad158c54f315587aa3f2c166c9ef3a540a2fafc6d1cdd170eb127669a738ad0c96793ee593ad042e831f6abf009fcc7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ccfea23dfe03019e147d23aee35a314e98980b5e2a7ccaae2141a1c273f4cd4df14f088ec59b8b829c4a25082e9e998c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fdbf800d9175e82d7e68f9829f1372b65768252d3e165dfeee9c0345b817b8be"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8e1e5baa5e4b6f67019bad7ed90a9abf41096ff00b62c9d6f326a756b8ee7e5b62d41068441aa5d9050369a1000a5fbd7898155cb8b18e80367e9cb7c0d3b137"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "Eclipse Distribution License (EDL), Version 1.0",
+            "url" : "http://www.eclipse.org/org/documents/edl-v10.php"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://hibernate.org"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://opensource.atlassian.com/projects/hibernate/browse/JPA"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/hibernate/hibernate-jpa-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar"
+    },
+    {
       "group" : "antlr",
       "name" : "antlr",
       "version" : "2.7.7",
@@ -1889,6 +1969,79 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/antlr/antlr@2.7.7?type=jar"
+    },
+    {
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.apache.geronimo.specs",
+      "name" : "geronimo-jta_1.1_spec",
+      "version" : "1.1.1",
+      "description" : "Provides open-source implementations of Sun specifications.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4aa8d50456bcec0bf6f032ceb182ad64"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "aabab3165b8ea936b9360abbf448459c0d04a5a4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3a0c3c1bbc2efe8383969574922791959670ef547d6c897496915617025c3023"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ee10f942eda7199a522aa0838ad69c9b58117580bd60185b4c01bfc43913fd485154b1b3d437b0a361d1bed8a18974c84f5bdf1cb27ed9bc18fe33fba4d8f1f8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "56f9ad1bcf3f0c3d9ed9c6c372274a47e046ad88335c842f2959c95646eebc14d0ca68562d86a53b8ed6fd56613297bc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "64b62186232c70ed56c386cfe2eefb45345c8a39f60ccae6b41c0b1664731b77a047a02b7c888ec1ff68cb2a2c2b8a90"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a8093bd9834f683448f2f01ea33383ad27572ff09f9c29bcef1ecf43d1d33c7c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "aeb00105ed515e0127fc391fa86b3e805819047b6aa42963c0b6d1bbf23216c26efd7152655d18d428b3965a2bdd6695aaca8d261030841b661df539f96f9d7c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://geronimo.apache.org/specs/geronimo-jta_1.1_spec"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/GERONIMO"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/geronimo-user"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:svn:https://svn.apache.org/repos/asf/geronimo/specs/tags/geronimo-jta_1.1_spec-1.1.1"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar"
     },
     {
       "publisher" : "JBoss by Red Hat",
@@ -2003,14 +2156,7 @@
           "content" : "a17ede6fb1c0d734a680dbca5cdd0cdacac963ab198b741491ce2b591a170a05621d2cb875d3fabb388fb3527d3f1f1b0f7b9170da0b9a1a20f199c46b8cb0db"
         }
       ],
-      "licenses" : [
-        {
-          "license" : {
-            "name" : "dom4j",
-            "url" : "http://repository.jboss.org/licenses/dom4j.txt"
-          }
-        }
-      ],
+      "licenses" : [ ],
       "purl" : "pkg:maven/dom4j/dom4j@1.6.1?type=jar",
       "externalReferences" : [
         {
@@ -2105,149 +2251,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar"
-    },
-    {
-      "group" : "org.hibernate.javax.persistence",
-      "name" : "hibernate-jpa-2.1-api",
-      "version" : "1.0.0.Final",
-      "description" : "Clean-room definition of JPA APIs intended for use in developing Hibernate JPA implementation. See README.md for details",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "01b091825023c97fdfd6d2bceebe03ff"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "5e731d961297e5a07290bfaf3db1fbc8bbbf405a"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "ab46597e3a057f99c8339fffe14c1d27f9dbd2409ae840c62121b00d983c78bd"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "696dd1548504c9ea8d8526411e81bee8b752f12861979da2707d1059b35a8ccb3f018a1d4e2d12436e7c9daec8e63b97fcf980e03032981867cea63d4301f3da"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "8ad158c54f315587aa3f2c166c9ef3a540a2fafc6d1cdd170eb127669a738ad0c96793ee593ad042e831f6abf009fcc7"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "ccfea23dfe03019e147d23aee35a314e98980b5e2a7ccaae2141a1c273f4cd4df14f088ec59b8b829c4a25082e9e998c"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "fdbf800d9175e82d7e68f9829f1372b65768252d3e165dfeee9c0345b817b8be"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "8e1e5baa5e4b6f67019bad7ed90a9abf41096ff00b62c9d6f326a756b8ee7e5b62d41068441aa5d9050369a1000a5fbd7898155cb8b18e80367e9cb7c0d3b137"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "EPL-1.0"
-          }
-        },
-        {
-          "license" : {
-            "name" : "Eclipse Distribution License (EDL), Version 1.0",
-            "url" : "http://www.eclipse.org/org/documents/edl-v10.php"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://hibernate.org"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "http://opensource.atlassian.com/projects/hibernate/browse/JPA"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://github.com/hibernate/hibernate-jpa-api"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar"
-    },
-    {
-      "publisher" : "Apache Software Foundation",
-      "group" : "org.apache.geronimo.specs",
-      "name" : "geronimo-jta_1.1_spec",
-      "version" : "1.1.1",
-      "description" : "Provides open-source implementations of Sun specifications.",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "4aa8d50456bcec0bf6f032ceb182ad64"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "aabab3165b8ea936b9360abbf448459c0d04a5a4"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "3a0c3c1bbc2efe8383969574922791959670ef547d6c897496915617025c3023"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "ee10f942eda7199a522aa0838ad69c9b58117580bd60185b4c01bfc43913fd485154b1b3d437b0a361d1bed8a18974c84f5bdf1cb27ed9bc18fe33fba4d8f1f8"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "56f9ad1bcf3f0c3d9ed9c6c372274a47e046ad88335c842f2959c95646eebc14d0ca68562d86a53b8ed6fd56613297bc"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "64b62186232c70ed56c386cfe2eefb45345c8a39f60ccae6b41c0b1664731b77a047a02b7c888ec1ff68cb2a2c2b8a90"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "a8093bd9834f683448f2f01ea33383ad27572ff09f9c29bcef1ecf43d1d33c7c"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "aeb00105ed515e0127fc391fa86b3e805819047b6aa42963c0b6d1bbf23216c26efd7152655d18d428b3965a2bdd6695aaca8d261030841b661df539f96f9d7c"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://geronimo.apache.org/specs/geronimo-jta_1.1_spec"
-        },
-        {
-          "type" : "distribution",
-          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/GERONIMO"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/geronimo-user"
-        },
-        {
-          "type" : "vcs",
-          "url" : "scm:svn:https://svn.apache.org/repos/asf/geronimo/specs/tags/geronimo-jta_1.1_spec-1.1.1"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar"
     },
     {
       "group" : "com.h2database",

@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.3",
-  "serialNumber" : "411a977d-f66e-40c0-8ab0-606d293a2a5c",
+  "serialNumber" : "3f18afe0-fae6-4570-be7e-a4198b836e47",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T04:37:02Z",
+    "timestamp" : "2023-05-10T10:15:31Z",
     "tools" : [
       {
         "vendor" : "Contrast Security - https://contrastsecurity.com",
@@ -13,7 +13,7 @@
       }
     ],
     "component" : {
-      "name" : "172.17.0.2 (b391dbaf3fee)",
+      "name" : "172.17.0.7 (c656a4ebb333)",
       "description" : "Java",
       "type" : "application"
     },
@@ -29,11 +29,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "e90b0072de77d59a980d3ae5a3b98b09c974806a"
+          "content" : "7ad3e631568a10efbdf554babe775b56dda5a8d0"
         },
         {
           "alg" : "MD5",
-          "content" : "fcdfc52d37ed42ec07d5cd29a0aef922"
+          "content" : "c8f9306ac52c79222a9f6128b2d77a1e"
         }
       ],
       "properties" : [
@@ -60,11 +60,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "b011f72befe170d6d0edf5311ff1f06a267c731a"
+          "content" : "56ac177f4eaae5a40dd6e1cf8d9fbaee3489b13e"
         },
         {
           "alg" : "MD5",
-          "content" : "2bfd617b006c11805ad7c455b353c26d"
+          "content" : "81c93281a975757eff7e1432caeaf5b9"
         }
       ],
       "properties" : [
@@ -91,11 +91,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "d570042dad14d9a22ed2c3e89c3290d2f14068eb"
+          "content" : "522094d774ebf4ab5cfbb63f87759c9bc67118aa"
         },
         {
           "alg" : "MD5",
-          "content" : "684dd17447edc36573f763c2e688b921"
+          "content" : "e642c15cbb0ef7d5b58cc19492d9bd2f"
         }
       ],
       "properties" : [
@@ -122,11 +122,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "8c95ba4bf6c7d863a31485b60033f4faf17f6ae0"
+          "content" : "ed63aa93f4b3d785055cfbd1b2c841526012d009"
         },
         {
           "alg" : "MD5",
-          "content" : "fa577907021d556adffee3a7b4687df9"
+          "content" : "26ca909a75d86e4691211383e8f885c1"
         }
       ],
       "properties" : [
@@ -153,11 +153,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "ad38996ed95b7a7ba2f40885193dba10a0574810"
+          "content" : "a9db4f679eb8fc1f8a7b8a194041eb7bf974dc25"
         },
         {
           "alg" : "MD5",
-          "content" : "5d44db562e883783eac03ded2721ba98"
+          "content" : "15089fb94bbeeeee35a7cfff412f7e4b"
         }
       ],
       "properties" : [
@@ -178,48 +178,17 @@
       "bom-ref" : "null:webcam-capture-driver-fswebcam:fswebcam/pom"
     },
     {
-      "name" : "webcam-capture-driver-gst1",
-      "version" : "gst1/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "b4aefaed4b4c4ab79ba29f97904470d37f579ec1"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "20b40814db0c248f7d4004199232e5ff"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-gst1"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/webcam-capture/./webcam-capture-drivers/driver-gst1/target/webcam-capture-driver-gst1-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-gst1/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:webcam-capture-driver-gst1:gst1/pom"
-    },
-    {
       "name" : "webcam-capture-driver-vlcj",
       "version" : "vlcj/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "7c2d66b54eef283ea9e00ac042477c220d3189cd"
+          "content" : "2fcbdb93eb68d3344a5147fbba4e32225b0d9f99"
         },
         {
           "alg" : "MD5",
-          "content" : "c13a14ccdea64c9a8a2aa94bd10f69e1"
+          "content" : "ae53bf18a488fab8fbe5c85fdad2c670"
         }
       ],
       "properties" : [
@@ -240,17 +209,48 @@
       "bom-ref" : "null:webcam-capture-driver-vlcj:vlcj/pom"
     },
     {
+      "name" : "webcam-capture-driver-gst1",
+      "version" : "gst1/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f6a7a492c40264579e3c39b652fe249f777f2ce5"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "7b6684c282e1b04ab28f21b429545253"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-gst1"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-gst1/target/webcam-capture-driver-gst1-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-gst1/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-gst1:gst1/pom"
+    },
+    {
       "name" : "webcam-capture-driver-screencapture",
       "version" : "screencapture/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "c9009aebbfca2e9d2969b933ac884b510026f762"
+          "content" : "de13621227e54a45742d566c2319c6db606a668d"
         },
         {
           "alg" : "MD5",
-          "content" : "aeb9a03de07eaac19a9fe5a87183746e"
+          "content" : "050ff159075f3eae77087685b59b1517"
         }
       ],
       "properties" : [
@@ -277,11 +277,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "f925ee71cb79a30b531eef80363ec90765ea8cae"
+          "content" : "b396ec22bacfda708b92f8ef4f9859f60a710f4c"
         },
         {
           "alg" : "MD5",
-          "content" : "5b814fd2f98379a13a517d3fa560e636"
+          "content" : "5e59633f13c83fb4789836d2b0116a9f"
         }
       ],
       "properties" : [
@@ -308,11 +308,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "65ff53bd669fed9782b1b7c8029e4500caef8714"
+          "content" : "44b301501dce8b01c63ae09ed12db5191c969543"
         },
         {
           "alg" : "MD5",
-          "content" : "af7f601134c209a6eb2855ae67f982ca"
+          "content" : "e448171150a98ff134969c55a3052612"
         }
       ],
       "properties" : [
@@ -339,11 +339,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "71a17f36b47ecae2dfb6b5b2825f1c73e4e5cc37"
+          "content" : "463de4cf2894abb36862ac06717345cfe00faf81"
         },
         {
           "alg" : "MD5",
-          "content" : "c59aa34c9199110608f0df58714d25cc"
+          "content" : "eea9bf103585ade1d9e063485dd5f363"
         }
       ],
       "properties" : [

@@ -24,8 +24,7 @@ public class LargeTableGenerator {
     Map<String, List<InnerLargeTableGenerator>> map = new HashMap<>();
     Locale.setDefault(Locale.US);
     for (AnalyzerResult analyzerResult : result) {
-      var entry = new InnerLargeTableGenerator(analyzerResult.name(),analyzerResult.project(), analyzerResult.direct(),
-          analyzerResult.transitive());
+      var entry = new InnerLargeTableGenerator(analyzerResult.name(),analyzerResult.project(), analyzerResult.deps());
       map.computeIfPresent(analyzerResult.project(), (k, v) -> {
         v.add(entry);
         return v;
@@ -39,23 +38,17 @@ public class LargeTableGenerator {
     DecimalFormat df = new DecimalFormat("#.##");
     StringBuilder sb = new StringBuilder();
     sb.append(
-        "| Project | Analyzer | Direct Precision | Direct Recall | Direct F1 | Transitive Precision | Transitive Recall | Transitive F1|")
+        "| Project | Analyzer | Precision | Recall | F1|")
         .append(System.lineSeparator());
-    sb.append("| --- | --- | --- | --- | --- | --- | --- | --- |").append(System.lineSeparator());
+    sb.append("| --- | --- | --- | --- | --- |").append(System.lineSeparator());
     for (Map.Entry<String, List<InnerLargeTableGenerator>> entry : map.entrySet()) {
       for (InnerLargeTableGenerator inner : entry.getValue()) {
         Metrics direct = Metrics.of(inner.direct());
-        Metrics transitive = Metrics.of(inner.transitive());
         sb.append("| ").append(entry.getKey()).append(" | ").append(inner.name())
             .append(" | ").append(df.format(
                 direct.precision())).append(" | ")
             .append(df.format(direct.recall())).append(" | ")
             .append(df.format(direct.f1())).append(" | ")
-            .append(df.format(
-                transitive.precision())).append(" | ")
-            .append(df.format(
-                transitive.recall())).append(" | ")
-            .append(df.format(transitive.f1())).append(" | ")
             .append(System.lineSeparator());
       }
   }
@@ -63,7 +56,7 @@ public class LargeTableGenerator {
   }
   
   
-  public record InnerLargeTableGenerator(String name, String project, Result direct, Result transitive) {
+  public record InnerLargeTableGenerator(String name, String project, Result direct) {
   }
 
   

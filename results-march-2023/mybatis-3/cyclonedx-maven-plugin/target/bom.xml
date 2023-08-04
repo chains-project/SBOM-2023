@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:24c2ef9d-980a-450f-a6b1-cbe1f02bf8e2" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:cac63b86-8278-4895-9505-ed32b59db2b0" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-26T02:01:04Z</timestamp>
+    <timestamp>2023-05-09T19:03:55Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin makeAggregateBom</name>
-        <version>2.7.5</version>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.8</version>
         <hashes>
-          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
-          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
-          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
-          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
-          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
-          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
-          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
-          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
+          <hash alg="MD5">4d75a7410313db127502c8536eb3f54b</hash>
+          <hash alg="SHA-1">8795071de12b08045d08f58d9611a9fcb9c78a9f</hash>
+          <hash alg="SHA-256">eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61</hash>
+          <hash alg="SHA-512">d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9</hash>
+          <hash alg="SHA-384">ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8</hash>
+          <hash alg="SHA3-384">08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58</hash>
+          <hash alg="SHA3-256">59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929</hash>
+          <hash alg="SHA3-512">7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3</hash>
         </hashes>
       </tool>
     </tools>
@@ -36,6 +36,10 @@
       <purl>pkg:maven/org.mybatis/mybatis@3.5.11?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.mybatis.org/mybatis-3</url></reference><reference type="build-system"><url>https://github.com/mybatis/mybatis-3/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/mybatis/mybatis-3/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/mybatis-dev</url></reference><reference type="vcs"><url>https://github.com/mybatis/mybatis-3</url></reference></externalReferences>
     </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:maven/ognl/ognl@3.3.4?type=jar">
@@ -584,12 +588,12 @@
     <dependency ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar">
       <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"/>
     </dependency>
+    <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar">
+      <dependency ref="pkg:maven/org.ow2.asm/asm@7.1?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/com.nimbusds/lang-tag@1.6?type=jar"/>
     <dependency ref="pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar">
       <dependency ref="pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"/>
-    </dependency>
-    <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar">
-      <dependency ref="pkg:maven/org.ow2.asm/asm@7.1?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.3?type=jar"/>

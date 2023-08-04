@@ -1,0 +1,884 @@
+[
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_test_helpers",
+    "version": "INF/maven/com.google.errorprone/error_prone_test_helpers/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotation",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_check_api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "dataflow-errorprone",
+    "version": "${dataflow.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value",
+    "version": "${autovalue.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service",
+    "version": "${autoservice.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.googlejavaformat",
+    "artifactId": "google-java-format",
+    "version": "1.13.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${junit.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "2.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "2.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "${truth.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "${mockito.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava-testlib",
+    "version": "${guava.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.jimfs",
+    "artifactId": "jimfs",
+    "version": "1.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.testing.compile",
+    "artifactId": "compile-testing",
+    "version": "${compile.testing.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_docgen_processor",
+    "version": "INF/maven/com.google.errorprone/error_prone_docgen_processor/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotation",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "${guava.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service-annotations",
+    "version": "${autoservice.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.8.9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_core",
+    "version": "INF/maven/com.google.errorprone/error_prone_core/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotation",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_type_annotations",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_check_api",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_test_helpers",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.pcollections",
+    "artifactId": "pcollections",
+    "version": "3.1.4",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "${guava.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto",
+    "artifactId": "auto-common",
+    "version": "1.2.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "dataflow-errorprone",
+    "version": "${dataflow.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value-annotations",
+    "version": "${autovalue.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value",
+    "version": "${autovalue.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${junit.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.gwtproject",
+    "artifactId": "gwt-user",
+    "version": "${gwt.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.testparameterinjector",
+    "artifactId": "test-parameter-injector",
+    "version": "1.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "1.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "1.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "${truth.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth.extensions",
+    "artifactId": "truth-java8-extension",
+    "version": "${truth.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth.extensions",
+    "artifactId": "truth-proto-extension",
+    "version": "${truth.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.inject",
+    "artifactId": "guice",
+    "version": "5.1.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.inject.extensions",
+    "artifactId": "guice-assistedinject",
+    "version": "5.1.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.inject.extensions",
+    "artifactId": "guice-servlet",
+    "version": "5.1.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.inject.extensions",
+    "artifactId": "guice-testlib",
+    "version": "5.1.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.gwt.inject",
+    "artifactId": "gin",
+    "version": "2.1.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "${mockito.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock",
+    "version": "2.12.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jmock",
+    "artifactId": "jmock-junit4",
+    "version": "2.12.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java",
+    "version": "${protobuf.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.dagger",
+    "artifactId": "dagger",
+    "version": "2.40.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.dagger",
+    "artifactId": "dagger-producers",
+    "version": "2.40.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.factory",
+    "artifactId": "auto-factory",
+    "version": "1.0.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava-testlib",
+    "version": "${guava.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.testing.compile",
+    "artifactId": "compile-testing",
+    "version": "${compile.testing.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.protobuf",
+    "artifactId": "protobuf-java-util",
+    "version": "${protobuf.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.ibm.icu",
+    "artifactId": "icu4j",
+    "version": "70.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service-annotations",
+    "version": "${autoservice.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-all",
+    "version": "5.0.0.Alpha2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.10.13",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.common.html.types",
+    "artifactId": "proto",
+    "version": "1.0.8",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.common.html.types",
+    "artifactId": "types",
+    "version": "1.0.8",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "version": "3.22.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "4.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "pl.pragmatists",
+    "artifactId": "JUnitParams",
+    "version": "1.1.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.threeten",
+    "artifactId": "threeten-extra",
+    "version": "1.7.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.flogger",
+    "artifactId": "flogger",
+    "version": "${flogger.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jspecify",
+    "artifactId": "jspecify",
+    "version": "${jspecify.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "guava",
+    "version": "INF/maven/com.google.guava/guava/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_check_api",
+    "version": "INF/maven/com.google.errorprone/error_prone_check_api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotation",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "dataflow-errorprone",
+    "version": "${dataflow.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.github.java-diff-utils",
+    "artifactId": "java-diff-utils",
+    "version": "4.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value-annotations",
+    "version": "${autovalue.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${junit.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "2.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "${truth.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth.extensions",
+    "artifactId": "truth-java8-extension",
+    "version": "${truth.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "${mockito.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava-testlib",
+    "version": "${guava.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.kevinstern",
+    "artifactId": "software-and-algorithms",
+    "version": "1.0",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "${caffeine.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.kevinstern",
+    "artifactId": "software-and-algorithms",
+    "version": "1.0",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.10",
+    "depth": 2,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_type_annotations",
+    "version": "INF/maven/com.google.errorprone/error_prone_type_annotations/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "auto-value-annotations",
+    "version": "1.9",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "protobuf-java",
+    "version": "java/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_annotation",
+    "version": "INF/maven/com.google.errorprone/error_prone_annotation/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "${guava.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${junit.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "${truth.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_annotations",
+    "version": "INF/maven/com.google.errorprone/error_prone_annotations/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${junit.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_docgen",
+    "version": "INF/maven/com.google.errorprone/error_prone_docgen/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotation",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_docgen_processor",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "${guava.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "1.30",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${junit.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.beust",
+    "artifactId": "jcommander",
+    "version": "1.82",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.value",
+    "artifactId": "auto-value-annotations",
+    "version": "${autovalue.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.spullara.mustache.java",
+    "artifactId": "compiler",
+    "version": "0.9.10",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.8.9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.truth",
+    "artifactId": "truth",
+    "version": "${truth.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_refaster",
+    "version": "INF/maven/com.google.errorprone/error_prone_refaster/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_core",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service-annotations",
+    "version": "${autoservice.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.auto.service",
+    "artifactId": "auto-service-annotations",
+    "version": "1.0.1",
+    "depth": 0,
+    "scope": "required"
+  }
+]

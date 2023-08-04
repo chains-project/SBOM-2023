@@ -4,6 +4,7 @@ set -e
 docker build -t maven-dependency-tree ./maven-dependency-tree
 
 for f in ../sbom-production/study-subjects-env/*; do 
+(
   # Get the filename without the extension
   filename=$(basename "$f" .env)
   # Print the env file name
@@ -18,4 +19,6 @@ for f in ../sbom-production/study-subjects-env/*; do
   docker cp $container_ID:/$filename/tree.txt ./results/$filename/maven-dependency-tree/;
   ./maven-dependency-tree/dot-to-json.py ./results/$filename/maven-dependency-tree/tree.txt ./results/$filename/maven-dependency-tree/tree.json
   rm ./results/$filename/maven-dependency-tree/tree.txt
+)&
 done
+wait

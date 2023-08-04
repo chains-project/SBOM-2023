@@ -5,7 +5,8 @@
 docker build -t depscan ./dep-scan
 
 # For each environment file in the env directory
-for f in ./study-subjects-env/*; do 
+for f in ./study-subjects-env/*; do
+  (
   # Get the filename without the extension
   filename=$(basename "$f" .env)
   # Print the env file name
@@ -17,5 +18,7 @@ for f in ./study-subjects-env/*; do
   # Print the docker container id
   echo "Copying results from docker container $container_ID to ./results/$filename/"
   # Copy the results from the docker container to the results directory
-  docker cp $container_ID:/$filename/reports/sbom-java.json ./results/$filename/depscan/; 
+  docker cp $container_ID:/$filename/reports/sbom-universal.vex.json ./results/$filename/depscan/; 
+  )&
 done
+wait

@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.3",
-  "serialNumber" : "26193208-d1c3-43ce-b860-29058de062b6",
+  "serialNumber" : "715e786d-9287-4f1c-a500-76758b27aa2d",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T04:26:31Z",
+    "timestamp" : "2023-05-10T10:09:57Z",
     "tools" : [
       {
         "vendor" : "Contrast Security - https://contrastsecurity.com",
@@ -13,7 +13,7 @@
       }
     ],
     "component" : {
-      "name" : "172.17.0.2 (f0444dea9b4f)",
+      "name" : "172.17.0.24 (9dad4d067455)",
       "description" : "Java",
       "type" : "application"
     },
@@ -30,11 +30,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "bec663c2c56cb3781dbec4124394b8ff98b85db6"
+          "content" : "c663e90db178b2d379ca1d7885ba9563af3e60a5"
         },
         {
           "alg" : "MD5",
-          "content" : "3032b63e3966ee88dc6185dd851c0886"
+          "content" : "2604f48764e288699e533879182f5b8c"
         }
       ],
       "purl" : "pkg:maven/com.akathist.maven.plugins.launch4j/launch4j-maven-plugin@2.2.0",

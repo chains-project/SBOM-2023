@@ -1,0 +1,18 @@
+[
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "classifier": "jar",
+    "version": "1.7.30",
+    "scope": "required",
+    "depth": 1
+  },
+  {
+    "groupId": "com.sun.activation",
+    "artifactId": "jakarta.activation",
+    "classifier": "jar",
+    "version": "1.2.2",
+    "scope": "required",
+    "depth": 1
+  }
+]

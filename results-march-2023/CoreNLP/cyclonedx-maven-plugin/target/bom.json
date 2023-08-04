@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:55db0f5f-0062-4b64-a943-4078fa3eb7de",
+  "serialNumber" : "urn:uuid:57f27879-9e66-4ef3-9246-cf4c74b239f8",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T01:52:49Z",
+    "timestamp" : "2023-05-09T18:55:53Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin makeAggregateBom",
-        "version" : "2.7.5",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.8",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
+            "content" : "4d75a7410313db127502c8536eb3f54b"
           },
           {
             "alg" : "SHA-1",
-            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
+            "content" : "8795071de12b08045d08f58d9611a9fcb9c78a9f"
           },
           {
             "alg" : "SHA-256",
-            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
+            "content" : "eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61"
           },
           {
             "alg" : "SHA-512",
-            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
+            "content" : "d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9"
           },
           {
             "alg" : "SHA-384",
-            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
+            "content" : "ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
+            "content" : "08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
+            "content" : "59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
+            "content" : "7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3"
           }
         ]
       }
@@ -72,7 +72,17 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/edu.stanford.nlp/stanford-corenlp@4.5.1?type=jar"
-    }
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
   },
   "components" : [
     {
@@ -364,6 +374,84 @@
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.lucene",
+      "name" : "lucene-core",
+      "version" : "7.5.0",
+      "description" : "Apache Lucene Java Core",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1f4e7ced8164b2df81f4f311dd942821"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "736e94305e2a0e803563c5b184877df5c7d4cb69"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "95e387f060d9acb39d1d75b8642f3e42c910621c82277ba8ad4722fdb4424e2d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "45a7e56778c46637c8f20897c70ce3955712f5b0c3f92d030ba57a161d7e8582e843550a9a757f9eaa844436c9dd8881cd814d85de2831271aae0f55dd312ebf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "eb6c8f999fd7ded776a83934f3fe9ddb2033dd8ce3c3ff31b61a9631140bd0f2edc09b7c259462853060d5202185abcf"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f3ee44c1c777574bc4110fc66a57c6a83538f6a37d15dada0eabe739e3a69218f0c602b88151b17998cb60bf1a69ccb1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c2bcaa44689b85a9d9af91c7743cddd7b29b362d121ede1defc6a32fb2f23360"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "886f2c6a90004822ce5a5f544505477c8519b2066adf05a37e161cab5470f3820a25a5079a26c61beadf436c4746cfb9124d323d33d3c5750f589e1eda13477a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.lucene/lucene-core@7.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-core"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LUCENE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-core@7.5.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.lucene",
       "name" : "lucene-queries",
       "version" : "7.5.0",
       "description" : "Lucene Queries Module",
@@ -592,84 +680,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.lucene/lucene-analyzers-common@7.5.0?type=jar"
-    },
-    {
-      "publisher" : "The Apache Software Foundation",
-      "group" : "org.apache.lucene",
-      "name" : "lucene-core",
-      "version" : "7.5.0",
-      "description" : "Apache Lucene Java Core",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "1f4e7ced8164b2df81f4f311dd942821"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "736e94305e2a0e803563c5b184877df5c7d4cb69"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "95e387f060d9acb39d1d75b8642f3e42c910621c82277ba8ad4722fdb4424e2d"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "45a7e56778c46637c8f20897c70ce3955712f5b0c3f92d030ba57a161d7e8582e843550a9a757f9eaa844436c9dd8881cd814d85de2831271aae0f55dd312ebf"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "eb6c8f999fd7ded776a83934f3fe9ddb2033dd8ce3c3ff31b61a9631140bd0f2edc09b7c259462853060d5202185abcf"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "f3ee44c1c777574bc4110fc66a57c6a83538f6a37d15dada0eabe739e3a69218f0c602b88151b17998cb60bf1a69ccb1"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "c2bcaa44689b85a9d9af91c7743cddd7b29b362d121ede1defc6a32fb2f23360"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "886f2c6a90004822ce5a5f544505477c8519b2066adf05a37e161cab5470f3820a25a5079a26c61beadf436c4746cfb9124d323d33d3c5750f589e1eda13477a"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.lucene/lucene-core@7.5.0?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://lucene.apache.org/lucene-parent/lucene-core"
-        },
-        {
-          "type" : "build-system",
-          "url" : "https://builds.apache.org/computer/lucene/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/LUCENE"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/core"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-core@7.5.0?type=jar"
     },
     {
       "publisher" : "GlassFish Community",
@@ -2424,6 +2434,10 @@
       ]
     },
     {
+      "ref" : "pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.3.1?type=jar",
       "dependsOn" : [ ]
     },
@@ -2563,10 +2577,6 @@
     },
     {
       "ref" : "pkg:maven/com.google.protobuf/protobuf-java@3.19.2?type=jar",
-      "dependsOn" : [ ]
-    },
-    {
-      "ref" : "pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar",
       "dependsOn" : [ ]
     },
     {

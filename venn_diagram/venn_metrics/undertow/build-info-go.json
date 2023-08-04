@@ -1,0 +1,1034 @@
+[
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-examples",
+    "version": "2.3.2.Final",
+    "depth": 0
+  },
+  {
+    "groupId": "org.wildfly.client",
+    "artifactId": "wildfly-client-config",
+    "version": "1.0.1.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-nio",
+    "version": "3.8.8.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-api",
+    "version": "3.8.8.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-annotations",
+    "version": "2.2.1.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-servlet",
+    "version": "2.3.2.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "org.wildfly.common",
+    "artifactId": "wildfly-common",
+    "version": "1.6.0.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-api",
+    "version": "2.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "3.4.3.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "version": "2.2.1.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "version": "2.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "version": "2.1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.threads",
+    "artifactId": "jboss-threads",
+    "version": "3.5.0.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "2.1.19.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-core",
+    "version": "2.3.2.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "6.0.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.jdeparser",
+    "artifactId": "jdeparser",
+    "version": "2.0.3.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-websockets-jsr",
+    "version": "2.3.2.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-parser-generator",
+    "version": "2.3.2.Final",
+    "depth": 0
+  },
+  {
+    "groupId": "org.jboss.classfilewriter",
+    "artifactId": "jboss-classfilewriter",
+    "version": "1.2.5.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.2",
+    "depth": 3
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "1.3",
+    "depth": 4
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-benchmarks",
+    "version": "2.3.2.Final",
+    "depth": 0
+  },
+  {
+    "groupId": "org.openjdk.jmh",
+    "artifactId": "jmh-generator-annprocess",
+    "version": "1.21",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "4.5.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-nio",
+    "version": "3.8.8.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-math3",
+    "version": "3.2",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.openjdk.jmh",
+    "artifactId": "jmh-core",
+    "version": "1.21",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.11",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "version": "4.4.13",
+    "depth": 2
+  },
+  {
+    "groupId": "net.sf.jopt-simple",
+    "artifactId": "jopt-simple",
+    "version": "4.6",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-mqtt",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-memcache",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-operational",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "4.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-authn",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver-dns",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-core-annotations",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.26",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-handler",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-event",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-handler-proxy",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-socks",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-protocol-kerberos",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-xdbm-partition",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-extras-trigger",
+    "version": "2.0.0",
+    "depth": 6
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-trigger",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-extras-codec-api",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "2.7.0",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-rxtx",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-number",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.mavibot",
+    "artifactId": "mavibot",
+    "version": "1.0.0-M8",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-extras-util",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "com.h2database",
+    "artifactId": "h2",
+    "version": "2.1.214",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-http2",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-extras-aci",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-core",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver-dns-classes-macos",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.mina",
+    "artifactId": "mina-core",
+    "version": "2.1.3",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-common",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-epoll",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-buffer",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver-dns-native-macos",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.bouncycastle",
+    "artifactId": "bcprov-jdk15on",
+    "version": "1.62",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-kerberos-codec",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty.alpn",
+    "artifactId": "alpn-api",
+    "version": "1.1.3.v20160715",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-asn1-ber",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-ldif-partition",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-mavibot-partition",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-kqueue",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-sctp",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-i18n",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.servicemix.bundles",
+    "artifactId": "org.apache.servicemix.bundles.antlr",
+    "version": "2.7.7_5",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptor-kerberos",
+    "version": "2.0.0.AM26",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-subtree",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-redis",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-classes-epoll",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-jdbm-partition",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-asn1-api",
+    "version": "2.0.0",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-extras-codec",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-authz",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-util",
+    "version": "2.0.0",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-haproxy",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-normalization",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpmime",
+    "version": "4.5.12",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-server-annotations",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-codec-standalone",
+    "version": "2.0.0",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-udt",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-pool2",
+    "version": "2.7.0",
+    "depth": 6
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-test-framework",
+    "version": "2.0.0.AM26",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-client-api",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-exception",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-admin",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-i18n",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-collective",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-journal",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver-dns-native-macos",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.2",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-kqueue",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "1.3",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-http",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-codec-core",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.wildfly.openssl",
+    "artifactId": "wildfly-openssl",
+    "version": "2.2.1.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-schema-data",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-extras-sp",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-core-avl",
+    "version": "2.0.0.AM26",
+    "depth": 6
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-core-shared",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-xml",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-epoll",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-schema",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-stomp",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-net-mina",
+    "version": "2.0.0",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.9",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-changelog",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-classes-kqueue",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "commons-collections",
+    "artifactId": "commons-collections",
+    "version": "3.2.1",
+    "depth": 6
+  },
+  {
+    "groupId": "org.apache.directory.jdbm",
+    "artifactId": "apacheds-jdbm1",
+    "version": "2.0.0-M3",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.api",
+    "artifactId": "api-ldap-model",
+    "version": "2.0.0",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-dns",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-unix-common",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-protocol-ldap",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-core-api",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-collections4",
+    "version": "4.4",
+    "depth": 5
+  },
+  {
+    "groupId": "org.objenesis",
+    "artifactId": "objenesis",
+    "version": "3.2",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-all",
+    "version": "4.1.82.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "com.twitter",
+    "artifactId": "hpack",
+    "version": "1.0.2",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-smtp",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-protocol-shared",
+    "version": "2.0.0.AM26",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-interceptors-referral",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "org.apache.directory.server",
+    "artifactId": "apacheds-core-constants",
+    "version": "2.0.0.AM26",
+    "depth": 5
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-haproxy",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-mqtt",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-memcache",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-udt",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver-dns",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-handler",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-handler-proxy",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "4.5.12",
+    "depth": 1
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-socks",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver-dns-native-macos",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-kqueue",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-http",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "version": "2.1.19.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.11",
+    "depth": 2
+  },
+  {
+    "groupId": "org.wildfly.openssl",
+    "artifactId": "wildfly-openssl",
+    "version": "2.2.1.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "version": "4.4.13",
+    "depth": 2
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-rxtx",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-xml",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-epoll",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-stomp",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-classes-kqueue",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-http2",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-resolver-dns-classes-macos",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-common",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-buffer",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-dns",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-native-unix-common",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-sctp",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-all",
+    "version": "4.1.82.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-smtp",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-codec-redis",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.netty",
+    "artifactId": "netty-transport-classes-epoll",
+    "version": "4.1.82.Final",
+    "depth": 4
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-parent",
+    "version": "2.3.2.Final",
+    "depth": 0
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-core",
+    "version": "2.3.2.Final",
+    "depth": 2
+  }
+]

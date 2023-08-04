@@ -1,0 +1,1130 @@
+[
+  {
+    "groupId": "com.erudika",
+    "artifactId": "para-core",
+    "version": "1.47.2",
+    "depth": 0
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.jetbrains",
+    "artifactId": "annotations",
+    "version": "15.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-html",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.samskivert",
+    "artifactId": "jmustache",
+    "version": "1.15",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-sequence",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-ext-tables",
+    "version": "0.64.0",
+    "depth": 1
+  },
+  {
+    "groupId": "javax.el",
+    "artifactId": "javax.el-api",
+    "version": "3.0.1-b06",
+    "depth": 1
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-access",
+    "version": "1.2.11",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-ext-media-tags",
+    "version": "0.64.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.reactivestreams",
+    "artifactId": "reactive-streams",
+    "version": "1.0.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.36",
+    "depth": 1
+  },
+  {
+    "groupId": "javax.validation",
+    "artifactId": "validation-api",
+    "version": "2.0.1.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "javax.ws.rs",
+    "artifactId": "javax.ws.rs-api",
+    "version": "2.1.1",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.datatype",
+    "artifactId": "jackson-datatype-jdk8",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.12.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-ast",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-ext-gfm-tasklist",
+    "version": "0.64.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.jsoup",
+    "artifactId": "jsoup",
+    "version": "1.15.3",
+    "depth": 1
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "annotations",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "json-utils",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.15",
+    "depth": 1
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-core",
+    "version": "1.2.11",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.jaxrs",
+    "artifactId": "jackson-jaxrs-base",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.dataformat",
+    "artifactId": "jackson-dataformat-yaml",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-builder",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "sdk-core",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-collection",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-ext-emoji",
+    "version": "0.64.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.nibor.autolink",
+    "artifactId": "autolink",
+    "version": "0.6.0",
+    "depth": 2
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "regions",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.jaxrs",
+    "artifactId": "jackson-jaxrs-json-provider",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-ext-autolink",
+    "version": "0.64.0",
+    "depth": 1
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "metrics-spi",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-format",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "1.2.11",
+    "depth": 1
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "endpoints-spi",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-visitor",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark",
+    "version": "0.64.0",
+    "depth": 1
+  },
+  {
+    "groupId": "io.github.classgraph",
+    "artifactId": "classgraph",
+    "version": "4.8.149",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.dataformat",
+    "artifactId": "jackson-dataformat-cbor",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-core",
+    "version": "4.2.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.hibernate.validator",
+    "artifactId": "hibernate-validator",
+    "version": "6.2.5.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "3.4.1.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.dataformat",
+    "artifactId": "jackson-dataformat-smile",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.datatype",
+    "artifactId": "jackson-datatype-jsr310",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-dependency",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "http-client-spi",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 1
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "auth",
+    "version": "2.20.62",
+    "depth": 1
+  },
+  {
+    "groupId": "com.typesafe",
+    "artifactId": "config",
+    "version": "1.4.2",
+    "depth": 1
+  },
+  {
+    "groupId": "de.svenkubiak",
+    "artifactId": "jBCrypt",
+    "version": "0.4.3",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-ext-gfm-strikethrough",
+    "version": "0.64.0",
+    "depth": 1
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-misc",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-options",
+    "version": "0.64.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.codehaus.woodstox",
+    "artifactId": "stax2-api",
+    "version": "4.2.1",
+    "depth": 1
+  },
+  {
+    "groupId": "io.github.hakky54",
+    "artifactId": "sslcontext-kickstart",
+    "version": "7.4.7",
+    "depth": 1
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "third-party-jackson-core",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.web",
+    "artifactId": "javax.el",
+    "version": "2.2.6",
+    "depth": 1
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "jul-to-slf4j",
+    "version": "1.7.36",
+    "depth": 1
+  },
+  {
+    "groupId": "software.amazon.eventstream",
+    "artifactId": "eventstream",
+    "version": "1.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-beanutils",
+    "artifactId": "commons-beanutils",
+    "version": "1.9.4",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-collections",
+    "artifactId": "commons-collections",
+    "version": "3.2.2",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.inject",
+    "artifactId": "jakarta.inject-api",
+    "version": "1.0.5",
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.validation",
+    "artifactId": "jakarta.validation-api",
+    "version": "2.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.module",
+    "artifactId": "jackson-module-parameter-names",
+    "version": "2.14.0-rc2",
+    "depth": 1
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "profiles",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "1.33",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml",
+    "artifactId": "classmate",
+    "version": "1.5.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.vladsch.flexmark",
+    "artifactId": "flexmark-util-data",
+    "version": "0.64.0",
+    "depth": 2
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "utils",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "com.erudika",
+    "artifactId": "para-jar",
+    "version": "1.47.2",
+    "depth": 0
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter",
+    "version": "2.7.5",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2.external",
+    "artifactId": "jakarta.inject",
+    "version": "2.6.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-locator",
+    "version": "2.6.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-utils",
+    "version": "2.6.1",
+    "depth": 4
+  },
+  {
+    "groupId": "aopalliance",
+    "artifactId": "aopalliance",
+    "version": "1.0",
+    "depth": 3
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "s3",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-api",
+    "version": "1.1.2",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-webmvc",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-context-support",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.3",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-analysis-common",
+    "version": "9.4.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-mail",
+    "version": "2.7.5",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.ws.rs",
+    "artifactId": "jakarta.ws.rs-api",
+    "version": "2.1.6",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-webapp",
+    "version": "9.4.49.v20220914",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2.external",
+    "artifactId": "aopalliance-repackaged",
+    "version": "2.6.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-context",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "com.sun.activation",
+    "artifactId": "jakarta.activation",
+    "version": "1.2.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.ldap",
+    "artifactId": "spring-ldap-core",
+    "version": "2.4.1",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "version": "4.0.4",
+    "depth": 3
+  },
+  {
+    "groupId": "com.onelogin",
+    "artifactId": "java-saml",
+    "version": "2.9.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.unboundid",
+    "artifactId": "unboundid-ldapsdk",
+    "version": "6.0.6",
+    "depth": 2
+  },
+  {
+    "groupId": "org.locationtech.spatial4j",
+    "artifactId": "spatial4j",
+    "version": "0.8",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-security",
+    "version": "9.4.49.v20220914",
+    "depth": 5
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "3.22.0",
+    "depth": 3
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "dynamodb",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-core",
+    "version": "9.4.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-expression",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-sandbox",
+    "version": "9.4.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.sun.mail",
+    "artifactId": "jakarta.mail",
+    "version": "1.6.7",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-spatial-extras",
+    "version": "9.4.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.zaxxer",
+    "artifactId": "HikariCP",
+    "version": "5.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-backward-codecs",
+    "version": "9.4.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-aop",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "com.onelogin",
+    "artifactId": "java-saml-core",
+    "version": "2.9.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.h2database",
+    "artifactId": "h2",
+    "version": "2.1.214",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.security",
+    "artifactId": "spring-security-config",
+    "version": "5.7.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.security",
+    "artifactId": "spring-security-ldap",
+    "version": "5.7.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-beans",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "applicationautoscaling",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-servlet",
+    "version": "2.37",
+    "depth": 2
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "protocol-core",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "9.4.49.v20220914",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.security",
+    "artifactId": "spring-security-crypto",
+    "version": "5.7.5",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "9.4.49.v20220914",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "9.4.49.v20220914",
+    "depth": 6
+  },
+  {
+    "groupId": "javax.inject",
+    "artifactId": "javax.inject",
+    "version": "1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.security",
+    "artifactId": "spring-security-core",
+    "version": "5.7.5",
+    "depth": 2
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "sqs",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.tomcat.embed",
+    "artifactId": "tomcat-embed-el",
+    "version": "9.0.68",
+    "depth": 3
+  },
+  {
+    "groupId": "org.xerial",
+    "artifactId": "sqlite-jdbc",
+    "version": "3.39.3.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-autoconfigure",
+    "version": "2.7.5",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-xml",
+    "version": "9.4.49.v20220914",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-queryparser",
+    "version": "9.4.0",
+    "depth": 2
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.10.6",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-common",
+    "version": "2.37",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.inject",
+    "artifactId": "jersey-hk2",
+    "version": "2.37",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-core",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-continuation",
+    "version": "9.4.49.v20220914",
+    "depth": 4
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "crt-core",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-tx",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "4.0.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-jetty",
+    "version": "2.7.5",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 4
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "aws-json-protocol",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "com.erudika",
+    "artifactId": "para-dao-sql",
+    "version": "1.45.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlets",
+    "version": "9.4.49.v20220914",
+    "depth": 3
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "arns",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-graphite",
+    "version": "4.2.12",
+    "depth": 2
+  },
+  {
+    "groupId": "com.rabbitmq",
+    "artifactId": "amqp-client",
+    "version": "5.15.0",
+    "depth": 3
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "aws-xml-protocol",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "hk2-api",
+    "version": "2.6.1",
+    "depth": 4
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "version": "1.3.5",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.hk2",
+    "artifactId": "osgi-resource-locator",
+    "version": "1.0.3",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-logging",
+    "version": "2.7.5",
+    "depth": 4
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 4
+  },
+  {
+    "groupId": "com.github.ben-manes.caffeine",
+    "artifactId": "caffeine",
+    "version": "3.1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "9.4.49.v20220914",
+    "depth": 4
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "ses",
+    "version": "2.20.62",
+    "depth": 2
+  },
+  {
+    "groupId": "io.sgr",
+    "artifactId": "s2-geometry-library-java",
+    "version": "1.0.0",
+    "depth": 3
+  },
+  {
+    "groupId": "io.dropwizard.metrics",
+    "artifactId": "metrics-jmx",
+    "version": "4.2.12",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.activation",
+    "artifactId": "jakarta.activation-api",
+    "version": "1.2.1",
+    "depth": 5
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "aws-query-protocol",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.httpcomponents.core5",
+    "artifactId": "httpcore5",
+    "version": "5.1.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.security",
+    "artifactId": "spring-security-web",
+    "version": "5.7.5",
+    "depth": 2
+  },
+  {
+    "groupId": "com.erudika",
+    "artifactId": "para-server",
+    "version": "1.47.2",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.14.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.containers",
+    "artifactId": "jersey-container-servlet-core",
+    "version": "2.37",
+    "depth": 3
+  },
+  {
+    "groupId": "com.github.stephenc.jcip",
+    "artifactId": "jcip-annotations",
+    "version": "1.0-1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "9.4.49.v20220914",
+    "depth": 5
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "3.25.0-GA",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.santuario",
+    "artifactId": "xmlsec",
+    "version": "2.2.3",
+    "depth": 3
+  },
+  {
+    "groupId": "software.amazon.awssdk",
+    "artifactId": "aws-core",
+    "version": "2.20.62",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "30.1-jre",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.httpcomponents.client5",
+    "artifactId": "httpclient5",
+    "version": "5.1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-json",
+    "version": "2.7.5",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-spatial3d",
+    "version": "9.4.0",
+    "depth": 3
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "2.3.2",
+    "depth": 4
+  },
+  {
+    "groupId": "com.google.inject",
+    "artifactId": "guice",
+    "version": "5.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-client",
+    "version": "2.37",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-web",
+    "version": "2.7.5",
+    "depth": 2
+  },
+  {
+    "groupId": "com.erudika",
+    "artifactId": "para-search-lucene",
+    "version": "1.45.8",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-web",
+    "version": "5.3.23",
+    "depth": 3
+  },
+  {
+    "groupId": "com.nimbusds",
+    "artifactId": "nimbus-jose-jwt",
+    "version": "9.25.6",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.woodstox",
+    "artifactId": "woodstox-core",
+    "version": "6.4.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "9.4.49.v20220914",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.httpcomponents.core5",
+    "artifactId": "httpcore5-h2",
+    "version": "5.1.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.lucene",
+    "artifactId": "lucene-queries",
+    "version": "9.4.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jersey.core",
+    "artifactId": "jersey-server",
+    "version": "2.37",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot",
+    "version": "2.7.5",
+    "depth": 4
+  },
+  {
+    "groupId": "com.erudika",
+    "artifactId": "para-client",
+    "version": "1.47.2",
+    "depth": 0
+  },
+  {
+    "groupId": "com.erudika",
+    "artifactId": "para-war",
+    "version": "1.47.2",
+    "depth": 0
+  },
+  {
+    "groupId": "com.erudika",
+    "artifactId": "para-parent",
+    "version": "1.47.2",
+    "depth": 0
+  }
+]

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:434b6667-9a15-444b-aac1-fb58f958f9a4" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:f410bfa4-c0d4-470f-b787-0441174282b5" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-26T01:49:50Z</timestamp>
+    <timestamp>2023-05-09T18:52:55Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin makeAggregateBom</name>
-        <version>2.7.5</version>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.8</version>
         <hashes>
-          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
-          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
-          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
-          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
-          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
-          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
-          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
-          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
+          <hash alg="MD5">4d75a7410313db127502c8536eb3f54b</hash>
+          <hash alg="SHA-1">8795071de12b08045d08f58d9611a9fcb9c78a9f</hash>
+          <hash alg="SHA-256">eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61</hash>
+          <hash alg="SHA-512">d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9</hash>
+          <hash alg="SHA-384">ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8</hash>
+          <hash alg="SHA3-384">08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58</hash>
+          <hash alg="SHA3-256">59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929</hash>
+          <hash alg="SHA3-512">7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3</hash>
         </hashes>
       </tool>
     </tools>
@@ -34,6 +34,10 @@
       <purl>pkg:maven/org.asynchttpclient/async-http-client-project@2.12.3?type=pom</purl>
       <externalReferences><reference type="website"><url>http://github.com/AsyncHttpClient/async-http-client</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/AsyncHttpClient/async-http-client/issues</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/asynchttpclient/topics</url></reference><reference type="vcs"><url>https://github.com/AsyncHttpClient/async-http-client/tree/master</url></reference></externalReferences>
     </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar">
@@ -227,6 +231,32 @@
       <purl>pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar</purl>
       <externalReferences><reference type="website"><url>https://netty.io/netty-transport/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport</url></reference></externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-resolver</name>
+      <version>4.1.60.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <hashes>
+        <hash alg="MD5">67fdf53b9566ba06d8946a281f2eca5c</hash>
+        <hash alg="SHA-1">caba5004618d27386ee9d5ee8b23b09b6548fb0b</hash>
+        <hash alg="SHA-256">192dcd724f97666c3287f7c375fcfc4a1d639941afbdaff68f49cc180906f9b5</hash>
+        <hash alg="SHA-512">b95570a24232a5fdd79cb2e0974535056fcacc55a71bd532bdf24ccdcb379ab89f8da8063661c55a63f9839e821fe4f28a53e2dcc65015281cc17bb051fd5993</hash>
+        <hash alg="SHA-384">e27ed7a531e015504d38e3b285e34362ed920a7c8e5b66372f96b943abbd3c52db2b32815a89d9a38b507f7811d73b63</hash>
+        <hash alg="SHA3-384">deb5f28b41f54792de948267b9827c5dfb5697f8f463125c350a9dc4cdc3f9386b72840dfb7bec9638afcc1aaecf88d2</hash>
+        <hash alg="SHA3-256">b5f5c140753703bdf7ddf8b2441b65234ec5608af34f006b1e405f84cc5137be</hash>
+        <hash alg="SHA3-512">d7dee38d5d14a0a2333275e95394891bbce5c8ac0e208b23b7103936b577407b34db5243cde13f5d8b9d2ed334d2e043a8bb9816c1e98400c2d824f3396dcfb2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-resolver/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-resolver</url></reference></externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-codec@4.1.60.Final?type=jar">
       <publisher>The Netty Project</publisher>
       <group>io.netty</group>
@@ -279,32 +309,6 @@
       </licenses>
       <purl>pkg:maven/io.netty/netty-handler@4.1.60.Final?type=jar</purl>
       <externalReferences><reference type="website"><url>https://netty.io/netty-handler/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-handler</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar">
-      <publisher>The Netty Project</publisher>
-      <group>io.netty</group>
-      <name>netty-resolver</name>
-      <version>4.1.60.Final</version>
-      <description>Netty is an asynchronous event-driven network application framework for
-    rapid development of maintainable high performance protocol servers and
-    clients.</description>
-      <hashes>
-        <hash alg="MD5">67fdf53b9566ba06d8946a281f2eca5c</hash>
-        <hash alg="SHA-1">caba5004618d27386ee9d5ee8b23b09b6548fb0b</hash>
-        <hash alg="SHA-256">192dcd724f97666c3287f7c375fcfc4a1d639941afbdaff68f49cc180906f9b5</hash>
-        <hash alg="SHA-512">b95570a24232a5fdd79cb2e0974535056fcacc55a71bd532bdf24ccdcb379ab89f8da8063661c55a63f9839e821fe4f28a53e2dcc65015281cc17bb051fd5993</hash>
-        <hash alg="SHA-384">e27ed7a531e015504d38e3b285e34362ed920a7c8e5b66372f96b943abbd3c52db2b32815a89d9a38b507f7811d73b63</hash>
-        <hash alg="SHA3-384">deb5f28b41f54792de948267b9827c5dfb5697f8f463125c350a9dc4cdc3f9386b72840dfb7bec9638afcc1aaecf88d2</hash>
-        <hash alg="SHA3-256">b5f5c140753703bdf7ddf8b2441b65234ec5608af34f006b1e405f84cc5137be</hash>
-        <hash alg="SHA3-512">d7dee38d5d14a0a2333275e95394891bbce5c8ac0e208b23b7103936b577407b34db5243cde13f5d8b9d2ed334d2e043a8bb9816c1e98400c2d824f3396dcfb2</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/netty-resolver/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-resolver</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar">
       <publisher>The Netty Project</publisher>

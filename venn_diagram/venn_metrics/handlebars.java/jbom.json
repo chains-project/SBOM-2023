@@ -1,0 +1,1458 @@
+[
+  {
+    "groupId": "null",
+    "artifactId": "jetty-util-ajax",
+    "version": "ajax/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-maven-plugin",
+    "version": "plugin/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-plugin-api",
+    "version": "3.6.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-project",
+    "version": "2.2.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-core",
+    "version": "3.8.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven.plugin-tools",
+    "artifactId": "maven-plugin-annotations",
+    "version": "3.6.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-utils",
+    "version": "3.3.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.javascript",
+    "artifactId": "closure-compiler",
+    "version": "v20210601",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "23.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "slf4j-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "prettytime",
+    "version": "INF/maven/org.ocpsoft.prettytime/prettytime/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.12.5",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.12.5",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "${jackson.version.annotations}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "${jackson.version.core}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-core",
+    "version": "${version.powermock}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "${version.powermock}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-mockito2",
+    "version": "${version.powermock}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.measure",
+    "artifactId": "jsr-275",
+    "version": "0.9.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "guava",
+    "version": "INF/maven/com.google.guava/guava/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 1,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.12.5",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-markdown",
+    "version": "markdown/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.pegdown",
+    "artifactId": "pegdown",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-proto",
+    "version": "proto/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty.orbit",
+    "artifactId": "javax.servlet",
+    "version": "3.0.0.v201112011016",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-jackson2",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-markdown",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-humanize",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.8.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "${jetty-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-webapp",
+    "version": "${jetty-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "${jetty-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "args4j",
+    "artifactId": "args4j",
+    "version": "2.33",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.3",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-servlet",
+    "version": "servlet/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-security",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-client",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-io",
+    "version": "io/pom",
+    "depth": 0,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-humanize",
+    "version": "humanize/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "23.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.mfornos",
+    "artifactId": "humanize-slim",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-util",
+    "version": "util/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-perf-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-jdk14",
+    "version": "${slf4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-maven-plugin-tests",
+    "version": "tests/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-springmvc",
+    "version": "springmvc/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-webmvc",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-test",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "INF/maven/com.github.jknack/handlebars/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-text",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.antlr",
+    "artifactId": "antlr4-runtime",
+    "version": "${antlr-version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.jacoco",
+    "artifactId": "org.jacoco.agent",
+    "version": "${jacoco.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.8.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-api-easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.powermock",
+    "artifactId": "powermock-module-junit4",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "logback-core",
+    "version": "core/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.codehaus.janino",
+    "artifactId": "janino",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.fusesource.jansi",
+    "artifactId": "jansi",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.mail",
+    "artifactId": "mail",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-helpers",
+    "version": "helpers/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.10.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-webapp",
+    "version": "webapp/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-xml",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-servlet",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-client",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "commons-text",
+    "version": "1.8",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.junit.jupiter",
+    "artifactId": "junit-jupiter",
+    "version": "5.5.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.assertj",
+    "artifactId": "assertj-core",
+    "version": "3.13.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "antlr4-runtime",
+    "version": "runtime/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-xml",
+    "version": "xml/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-jackson2",
+    "version": "jackson2/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars-guava-cache",
+    "version": "cache/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.github.jknack",
+    "artifactId": "handlebars",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-security",
+    "version": "security/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-server",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_annotations",
+    "version": "INF/maven/com.google.errorprone/error_prone_annotations/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${junit.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "args4j",
+    "version": "INF/maven/args4j/args4j/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.11",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-http",
+    "version": "http/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "1.29",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.velocity",
+    "artifactId": "velocity",
+    "version": "1.6.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "joda-time",
+    "artifactId": "joda-time",
+    "version": "2.10.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "jetty-server",
+    "version": "server/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-http",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-io",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-xml",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-jmx",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty.toolchain",
+    "artifactId": "jetty-test-helper",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.jetty",
+    "artifactId": "jetty-util-ajax",
+    "version": "${project.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "humanize-slim",
+    "version": "slim/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "${guava.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.ocpsoft.prettytime",
+    "artifactId": "prettytime",
+    "version": "${prettytime.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "me.xuender",
+    "artifactId": "unidecode",
+    "version": "${unidecode.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "logback-classic",
+    "version": "classic/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "${slf4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-ext",
+    "version": "${slf4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.cal10n.plugins",
+    "artifactId": "maven-cal10n-plugin",
+    "version": "${cal10n.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "log4j-over-slf4j",
+    "version": "${slf4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "jul-to-slf4j",
+    "version": "${slf4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "log4j",
+    "artifactId": "log4j",
+    "version": "1.2.17",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "dom4j",
+    "artifactId": "dom4j",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hsqldb",
+    "artifactId": "hsqldb",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.h2database",
+    "artifactId": "h2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "postgresql",
+    "artifactId": "postgresql",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "mysql",
+    "artifactId": "mysql-connector-java",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.mail",
+    "artifactId": "mail",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.janino",
+    "artifactId": "janino",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.groovy",
+    "artifactId": "groovy-all",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "integration",
+    "version": "${slf4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.servlet",
+    "artifactId": "javax.servlet-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.icegreen",
+    "artifactId": "greenmail",
+    "version": "1.3",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.subethamail",
+    "artifactId": "subethasmtp",
+    "version": "2.1.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.felix",
+    "artifactId": "org.apache.felix.main",
+    "version": "2.0.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  }
+]

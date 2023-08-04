@@ -1,0 +1,93 @@
+[
+  {
+    "groupId": "com.akathist.maven.plugins.launch4j",
+    "artifactId": "launch4j-maven-plugin",
+    "version": "2.2.0",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "net.sf.launch4j",
+    "artifactId": "launch4j",
+    "version": "${launch4j.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant",
+    "version": "1.10.12",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.thoughtworks.xstream",
+    "artifactId": "xstream",
+    "version": "1.4.19",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-plugin-api",
+    "version": "3.8.6",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-model",
+    "version": "3.8.6",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-artifact",
+    "version": "3.8.6",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-core",
+    "version": "3.8.6",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven.plugin-tools",
+    "artifactId": "maven-plugin-annotations",
+    "version": "3.7.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven.shared",
+    "artifactId": "maven-artifact-transfer",
+    "version": "0.13.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.13.2",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven.plugin-testing",
+    "artifactId": "maven-plugin-testing-harness",
+    "version": "3.3.0",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-compat",
+    "version": "3.8.2",
+    "depth": 1,
+    "scope": null
+  }
+]

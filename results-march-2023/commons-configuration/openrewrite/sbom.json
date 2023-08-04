@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.2",
-  "serialNumber": "urn:uuid:56e3b57f-2dda-4181-91d6-904154ed8e20",
+  "serialNumber": "urn:uuid:a057acf7-01fa-4a16-a5ab-9666b254117e",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-26T04:46:08Z",
+    "timestamp": "2023-05-11T12:36:28Z",
     "tools": [
       {
         "vendor": "OpenRewrite",

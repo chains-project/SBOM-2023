@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.3",
-  "serialNumber" : "91f231dc-6152-47a3-99d8-8d28790287f2",
+  "serialNumber" : "9e973a4d-51a4-47ad-9e76-7073f06f14ff",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T04:21:28Z",
+    "timestamp" : "2023-05-10T10:10:58Z",
     "tools" : [
       {
         "vendor" : "Contrast Security - https://contrastsecurity.com",
@@ -13,7 +13,7 @@
       }
     ],
     "component" : {
-      "name" : "172.17.0.2 (3c390b1c3d48)",
+      "name" : "172.17.0.18 (4939146e779b)",
       "description" : "Java",
       "type" : "application"
     },
@@ -29,11 +29,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -60,11 +60,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -92,11 +92,44 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "1a0a560e331d9a3662d48be1064e73205f7e43a1"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "19a0e56e89f62bc4e508d0c486c5d569"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jknack/handlebars@INF%2Fmaven%2Fcom.github.jknack%2Fhandlebars%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.jknack/handlebars"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/handlebars.java/./handlebars-proto/target/handlebars-proto-4.2.1.jar!/META-INF/maven/com.github.jknack/handlebars/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.jknack:handlebars:INF/maven/com.github.jknack/handlebars/pom"
+    },
+    {
+      "group" : "com.github.jknack",
+      "name" : "handlebars",
+      "version" : "INF/maven/com.github.jknack/handlebars/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "21a763ace3d71e7365dec4217d07562c2ca967be"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "787374501d29050954b8d727b980099c"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars@INF%2Fmaven%2Fcom.github.jknack%2Fhandlebars%2Fpom",
@@ -125,11 +158,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "8163d8050248069e7e82fe87a1abec61123a18bf"
+          "content" : "17d0fa177df886aec692fa12814252cf0d7b910c"
         },
         {
           "alg" : "MD5",
-          "content" : "dd16d8634bba25f8f52a636773725ee2"
+          "content" : "c8c0b2561e4f6d0040e54899d5b1ae78"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars@INF%2Fmaven%2Fcom.github.jknack%2Fhandlebars%2Fpom",
@@ -151,50 +184,17 @@
       "bom-ref" : "com.github.jknack:handlebars:INF/maven/com.github.jknack/handlebars/pom"
     },
     {
-      "group" : "com.github.jknack",
-      "name" : "handlebars",
-      "version" : "INF/maven/com.github.jknack/handlebars/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
-        }
-      ],
-      "purl" : "pkg:maven/com.github.jknack/handlebars@INF%2Fmaven%2Fcom.github.jknack%2Fhandlebars%2Fpom",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.github.jknack/handlebars"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars-proto/target/handlebars-proto-4.2.1.jar!/META-INF/maven/com.github.jknack/handlebars/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "com.github.jknack:handlebars:INF/maven/com.github.jknack/handlebars/pom"
-    },
-    {
       "name" : "pom",
       "version" : "lang3/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "1a0a560e331d9a3662d48be1064e73205f7e43a1"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "19a0e56e89f62bc4e508d0c486c5d569"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -208,41 +208,10 @@
         },
         {
           "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars/target/handlebars-4.2.1.jar!/META-INF/maven/org.apache.commons/commons-lang3/pom.xml"
+          "value" : "/handlebars.java/./handlebars-proto/target/handlebars-proto-4.2.1.jar!/META-INF/maven/org.apache.commons/commons-lang3/pom.xml"
         }
       ],
       "type" : "library"
-    },
-    {
-      "name" : "guava",
-      "version" : "INF/maven/com.google.guava/guava/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.google.guava/guava"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars-proto/target/handlebars-proto-4.2.1.jar!/META-INF/maven/com.google.guava/guava/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:guava:INF/maven/com.google.guava/guava/pom"
     },
     {
       "group" : "com.github.jknack",
@@ -252,11 +221,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "247f45c7f6c2320d564a7f700a455b5d1b9f4ba4"
+          "content" : "404d7fb51d81f13b2d8fdf7a0b0b8fe5e0c0b8b0"
         },
         {
           "alg" : "MD5",
-          "content" : "56bc11a5755aef9bc27bb68b33c87a32"
+          "content" : "251034d39f814545e23c11d13121d16d"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-helpers@helpers%2Fpom",
@@ -278,17 +247,48 @@
       "bom-ref" : "com.github.jknack:handlebars-helpers:helpers/pom"
     },
     {
+      "name" : "guava",
+      "version" : "INF/maven/com.google.guava/guava/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/guava"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/handlebars.java/./handlebars-proto/target/handlebars-proto-4.2.1.jar!/META-INF/maven/com.google.guava/guava/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:guava:INF/maven/com.google.guava/guava/pom"
+    },
+    {
       "name" : "error_prone_annotations",
       "version" : "INF/maven/com.google.errorprone/error_prone_annotations/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -316,11 +316,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "03375471874e95f29c0c85c543a804366dd15bcc"
+          "content" : "99d9f8df9d3eae5e4904757d449b8f420798815f"
         },
         {
           "alg" : "MD5",
-          "content" : "76ea0e86bba0afd1d8c032ecddf1b138"
+          "content" : "0ae83fd319db26658ef3ef16044cd337"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-guava-cache@cache%2Fpom",
@@ -348,11 +348,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -380,44 +380,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "6b83d33a776a7bdda3f4667acbc2a45d34b9fa6f"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "02c4afd6031e908cc1e146f7003a9b5c"
-        }
-      ],
-      "purl" : "pkg:maven/com.github.jknack/handlebars-markdown@markdown%2Fpom",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.github.jknack/handlebars-markdown"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars-markdown/target/handlebars-markdown-4.2.1.jar!/META-INF/maven/com.github.jknack/handlebars-markdown/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "com.github.jknack:handlebars-markdown:markdown/pom"
-    },
-    {
-      "group" : "com.github.jknack",
-      "name" : "handlebars-markdown",
-      "version" : "markdown/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-markdown@markdown%2Fpom",
@@ -440,17 +407,50 @@
     },
     {
       "group" : "com.github.jknack",
+      "name" : "handlebars-markdown",
+      "version" : "markdown/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "2ce0098a6bce93388479236aae98fd73d5cbcd1a"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d77292c687e83a22de585a718580a550"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jknack/handlebars-markdown@markdown%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.jknack/handlebars-markdown"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/handlebars.java/./handlebars-markdown/target/handlebars-markdown-4.2.1.jar!/META-INF/maven/com.github.jknack/handlebars-markdown/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.jknack:handlebars-markdown:markdown/pom"
+    },
+    {
+      "group" : "com.github.jknack",
       "name" : "handlebars-maven-plugin",
       "version" : "plugin/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "e0765bb319f5e12512257657c746d39d7a2dfa8c"
+          "content" : "cb4069004e9a7161b30ffdd37be6482a511b4009"
         },
         {
           "alg" : "MD5",
-          "content" : "09149126d80d1a9aa1d86ab6a7d83551"
+          "content" : "58a577354bc4cec5b78ac92a0032ccd8"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-maven-plugin@plugin%2Fpom",
@@ -478,11 +478,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -508,11 +508,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -539,11 +539,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -571,11 +571,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/org.yaml/snakeyaml@1.29",
@@ -603,42 +603,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "1a0a560e331d9a3662d48be1064e73205f7e43a1"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "19a0e56e89f62bc4e508d0c486c5d569"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.antlr/antlr4-runtime"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars/target/handlebars-4.2.1.jar!/META-INF/maven/org.antlr/antlr4-runtime/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:antlr4-runtime:runtime/pom"
-    },
-    {
-      "name" : "antlr4-runtime",
-      "version" : "runtime/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -659,17 +628,48 @@
       "bom-ref" : "null:antlr4-runtime:runtime/pom"
     },
     {
+      "name" : "antlr4-runtime",
+      "version" : "runtime/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "21a763ace3d71e7365dec4217d07562c2ca967be"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "787374501d29050954b8d727b980099c"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.antlr/antlr4-runtime"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/handlebars.java/./handlebars/target/handlebars-4.2.1.jar!/META-INF/maven/org.antlr/antlr4-runtime/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:antlr4-runtime:runtime/pom"
+    },
+    {
       "name" : "humanize-slim",
       "version" : "slim/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -696,11 +696,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -727,11 +727,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -759,11 +759,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.12.5",
@@ -791,11 +791,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -823,44 +823,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "9aa517b7ce717c05fdcd13d752f3ef5628a65389"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "6d676e18cd602d85c8a57afa99cbf7fb"
-        }
-      ],
-      "purl" : "pkg:maven/com.github.jknack/handlebars-proto@proto%2Fpom",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.github.jknack/handlebars-proto"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars-proto/target/original-handlebars-proto-4.2.1.jar!/META-INF/maven/com.github.jknack/handlebars-proto/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "com.github.jknack:handlebars-proto:proto/pom"
-    },
-    {
-      "group" : "com.github.jknack",
-      "name" : "handlebars-proto",
-      "version" : "proto/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-proto@proto%2Fpom",
@@ -882,17 +849,50 @@
       "bom-ref" : "com.github.jknack:handlebars-proto:proto/pom"
     },
     {
+      "group" : "com.github.jknack",
+      "name" : "handlebars-proto",
+      "version" : "proto/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b274c564f80f4cb4bfe7a631376af187a88ca1aa"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "cce98e3ebd2b1df5da564e7b8602e3e0"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jknack/handlebars-proto@proto%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.jknack/handlebars-proto"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/handlebars.java/./handlebars-proto/target/original-handlebars-proto-4.2.1.jar!/META-INF/maven/com.github.jknack/handlebars-proto/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.jknack:handlebars-proto:proto/pom"
+    },
+    {
       "name" : "jetty-security",
       "version" : "security/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -919,11 +919,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -950,42 +950,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "1a0a560e331d9a3662d48be1064e73205f7e43a1"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "19a0e56e89f62bc4e508d0c486c5d569"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/org.apache.commons/commons-text"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars/target/handlebars-4.2.1.jar!/META-INF/maven/org.apache.commons/commons-text/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:commons-text:1.8"
-    },
-    {
-      "name" : "commons-text",
-      "version" : "1.8",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -1006,17 +975,48 @@
       "bom-ref" : "null:commons-text:1.8"
     },
     {
+      "name" : "commons-text",
+      "version" : "1.8",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "21a763ace3d71e7365dec4217d07562c2ca967be"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "787374501d29050954b8d727b980099c"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.commons/commons-text"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/handlebars.java/./handlebars/target/handlebars-4.2.1.jar!/META-INF/maven/org.apache.commons/commons-text/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:commons-text:1.8"
+    },
+    {
       "name" : "jetty-xml",
       "version" : "xml/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -1043,11 +1043,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -1067,50 +1067,17 @@
       "type" : "library"
     },
     {
-      "group" : "com.github.jknack",
-      "name" : "handlebars-maven-plugin-tests",
-      "version" : "tests/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "c273a303653888870c2628a2dc013a6baed11001"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "e3372e20c2da190a6c2285bf9e2e94a5"
-        }
-      ],
-      "purl" : "pkg:maven/com.github.jknack/handlebars-maven-plugin-tests@tests%2Fpom",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.github.jknack/handlebars-maven-plugin-tests"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars-maven-plugin-tests/target/handlebars-maven-plugin-tests-4.2.1.war!/META-INF/maven/com.github.jknack/handlebars-maven-plugin-tests/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "com.github.jknack:handlebars-maven-plugin-tests:tests/pom"
-    },
-    {
       "name" : "failureaccess",
       "version" : "1.0.1",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -1137,11 +1104,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -1163,17 +1130,50 @@
     },
     {
       "group" : "com.github.jknack",
+      "name" : "handlebars-maven-plugin-tests",
+      "version" : "tests/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "175afe2a5705afd6a594afc593dd89afed4ee3fb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "4e01d1fed0af389ef3d39410cd67b720"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jknack/handlebars-maven-plugin-tests@tests%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.jknack/handlebars-maven-plugin-tests"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/handlebars.java/./handlebars-maven-plugin-tests/target/handlebars-maven-plugin-tests-4.2.1.war!/META-INF/maven/com.github.jknack/handlebars-maven-plugin-tests/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.jknack:handlebars-maven-plugin-tests:tests/pom"
+    },
+    {
+      "group" : "com.github.jknack",
       "name" : "handlebars-jackson2",
       "version" : "jackson2/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-jackson2@jackson2%2Fpom",
@@ -1202,11 +1202,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
@@ -1235,11 +1235,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "e5d7ea6615d26a2e06d5561e3d93541cf989a790"
+          "content" : "1d16c2171f59080eff528991e6b81d816426fe93"
         },
         {
           "alg" : "MD5",
-          "content" : "84df8e22356f411da05f88009447da10"
+          "content" : "64aa2b3295f13fa261b0607bd4c6f913"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-jackson2@jackson2%2Fpom",
@@ -1268,11 +1268,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.12.5",
@@ -1294,50 +1294,17 @@
       "bom-ref" : "com.fasterxml.jackson.core:jackson-databind:2.12.5"
     },
     {
-      "group" : "com.github.jknack",
-      "name" : "handlebars-humanize",
-      "version" : "humanize/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "6356386e5ef3b01d6fabdae0b70b1e29ca7fa69e"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "05b63b616542c4749d6ce118d73b3de7"
-        }
-      ],
-      "purl" : "pkg:maven/com.github.jknack/handlebars-humanize@humanize%2Fpom",
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/com.github.jknack/handlebars-humanize"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/handlebars.java/./handlebars-humanize/target/handlebars-humanize-4.2.1.jar!/META-INF/maven/com.github.jknack/handlebars-humanize/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "com.github.jknack:handlebars-humanize:humanize/pom"
-    },
-    {
       "name" : "slf4j-api",
       "version" : "api/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -1365,11 +1332,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-humanize@humanize%2Fpom",
@@ -1397,11 +1364,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -1427,11 +1394,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "properties" : [
@@ -1452,6 +1419,39 @@
       "bom-ref" : "null:args4j:INF/maven/args4j/args4j/pom"
     },
     {
+      "group" : "com.github.jknack",
+      "name" : "handlebars-humanize",
+      "version" : "humanize/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "43513495ffde8c8cce130607bacf62da484786c9"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "3edbaebb3def83ed4fa0f017c4adfb3e"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.jknack/handlebars-humanize@humanize%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.jknack/handlebars-humanize"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/handlebars.java/./handlebars-humanize/target/handlebars-humanize-4.2.1.jar!/META-INF/maven/com.github.jknack/handlebars-humanize/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.jknack:handlebars-humanize:humanize/pom"
+    },
+    {
       "group" : "com.google.j2objc",
       "name" : "j2objc-annotations",
       "version" : "1.3",
@@ -1459,11 +1459,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@1.3",
@@ -1492,11 +1492,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2e9c8b1ab9e7654f0b4ef2cee977513b195c54e3"
+          "content" : "c7fd94468b22967edba08b0e79312b98259ae54b"
         },
         {
           "alg" : "MD5",
-          "content" : "67c9243533e722732d9793e2dc40e34a"
+          "content" : "0ddca80b5d3383919408dde9a20872a7"
         }
       ],
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.12.5",
@@ -1525,11 +1525,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "d6f55fc9f674e2ca23f16d7c1786f18760a4e7b6"
+          "content" : "e0191e7d9a4c34ab55ad0dc2d1c93e54040b53ce"
         },
         {
           "alg" : "MD5",
-          "content" : "85b2fcb165cf1064e9dace15910aa18a"
+          "content" : "87da82d5e6bd43de684e6ec9ed8b20c6"
         }
       ],
       "purl" : "pkg:maven/com.github.jknack/handlebars-springmvc@springmvc%2Fpom",
@@ -1561,22 +1561,6 @@
       ]
     },
     {
-      "ref" : "null:slf4j-api:api/pom",
-      "dependsOn" : [ ]
-    },
-    {
-      "ref" : "null:prettytime:INF/maven/org.ocpsoft.prettytime/prettytime/pom",
-      "dependsOn" : [
-        "junit:junit:null"
-      ]
-    },
-    {
-      "ref" : "com.fasterxml.jackson.core:jackson-annotations:2.12.5",
-      "dependsOn" : [
-        "junit:junit:null"
-      ]
-    },
-    {
       "ref" : "com.github.jknack:handlebars-maven-plugin:plugin/pom",
       "dependsOn" : [
         "com.github.jknack:handlebars:${project.version}",
@@ -1591,6 +1575,22 @@
         "com.google.guava:guava:23.0",
         "junit:junit:null",
         "org.easymock:easymock:null"
+      ]
+    },
+    {
+      "ref" : "null:slf4j-api:api/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:prettytime:INF/maven/org.ocpsoft.prettytime/prettytime/pom",
+      "dependsOn" : [
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.core:jackson-annotations:2.12.5",
+      "dependsOn" : [
+        "junit:junit:null"
       ]
     },
     {
@@ -1673,10 +1673,6 @@
       ]
     },
     {
-      "ref" : "com.github.jknack:handlebars-maven-plugin-tests:tests/pom",
-      "dependsOn" : [ ]
-    },
-    {
       "ref" : "com.github.jknack:handlebars-humanize:humanize/pom",
       "dependsOn" : [
         "com.google.guava:guava:23.0",
@@ -1700,6 +1696,10 @@
         "org.slf4j:slf4j-api:null",
         "org.slf4j:slf4j-jdk14:${slf4j.version}"
       ]
+    },
+    {
+      "ref" : "com.github.jknack:handlebars-maven-plugin-tests:tests/pom",
+      "dependsOn" : [ ]
     },
     {
       "ref" : "null:failureaccess:1.0.1",

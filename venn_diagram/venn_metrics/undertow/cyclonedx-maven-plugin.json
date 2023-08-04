@@ -1,0 +1,242 @@
+[
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-parser-generator",
+    "classifier": "jar",
+    "version": "2.3.2.Final",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "org.jboss.classfilewriter",
+    "artifactId": "jboss-classfilewriter",
+    "classifier": "jar",
+    "version": "1.2.5.Final",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-core",
+    "classifier": "jar",
+    "version": "2.3.2.Final",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "classifier": "jar",
+    "version": "3.4.3.Final",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-processor",
+    "classifier": "jar",
+    "version": "2.2.1.Final",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging-annotations",
+    "classifier": "jar",
+    "version": "2.2.1.Final",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss.jdeparser",
+    "artifactId": "jdeparser",
+    "classifier": "jar",
+    "version": "2.0.3.Final",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-api",
+    "classifier": "jar",
+    "version": "3.8.8.Final",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.wildfly.common",
+    "artifactId": "wildfly-common",
+    "classifier": "jar",
+    "version": "1.6.0.Final",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.wildfly.client",
+    "artifactId": "wildfly-client-config",
+    "classifier": "jar",
+    "version": "1.0.1.Final",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss.xnio",
+    "artifactId": "xnio-nio",
+    "classifier": "jar",
+    "version": "3.8.8.Final",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.threads",
+    "artifactId": "jboss-threads",
+    "classifier": "jar",
+    "version": "3.5.0.Final",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.jetty.alpn",
+    "artifactId": "alpn-api",
+    "classifier": "jar",
+    "version": "1.1.3.v20160715",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "classifier": "jar",
+    "version": "4.5.12",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "classifier": "jar",
+    "version": "4.4.13",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "classifier": "jar",
+    "version": "1.2",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "classifier": "jar",
+    "version": "1.11",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss.logmanager",
+    "artifactId": "jboss-logmanager",
+    "classifier": "jar",
+    "version": "2.1.19.Final",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-servlet",
+    "classifier": "jar",
+    "version": "2.3.2.Final",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.servlet",
+    "artifactId": "jakarta.servlet-api",
+    "classifier": "jar",
+    "version": "6.0.0",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "classifier": "jar",
+    "version": "2.1.1",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-websockets-jsr",
+    "classifier": "jar",
+    "version": "2.3.2.Final",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-api",
+    "classifier": "jar",
+    "version": "2.1.0",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.websocket",
+    "artifactId": "jakarta.websocket-client-api",
+    "classifier": "jar",
+    "version": "2.1.0",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-examples",
+    "classifier": "jar",
+    "version": "2.3.2.Final",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "io.undertow",
+    "artifactId": "undertow-benchmarks",
+    "classifier": "jar",
+    "version": "2.3.2.Final",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "org.openjdk.jmh",
+    "artifactId": "jmh-core",
+    "classifier": "jar",
+    "version": "1.21",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "net.sf.jopt-simple",
+    "artifactId": "jopt-simple",
+    "classifier": "jar",
+    "version": "4.6",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-math3",
+    "classifier": "jar",
+    "version": "3.2",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.openjdk.jmh",
+    "artifactId": "jmh-generator-annprocess",
+    "classifier": "jar",
+    "version": "1.21",
+    "scope": "optional",
+    "depth": 2
+  }
+]

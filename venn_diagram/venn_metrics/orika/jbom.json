@@ -1,0 +1,422 @@
+[
+  {
+    "groupId": "null",
+    "artifactId": "paranamer",
+    "version": "INF/maven/com.thoughtworks.paranamer/paranamer/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.mockito",
+    "artifactId": "mockito-all",
+    "version": "1.10.19",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.inject",
+    "artifactId": "javax.inject",
+    "version": "1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "net.sourceforge.f2j",
+    "artifactId": "arpack_combined_all",
+    "version": "0.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "${project.groupId}",
+    "artifactId": "${project.artifactId}",
+    "version": "2.5.5",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.1",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "orika-tests",
+    "version": "tests/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-core",
+    "version": "${project.parent.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-eclipse-tools",
+    "version": "${project.parent.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hibernate.common",
+    "artifactId": "hibernate-commons-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hibernate",
+    "artifactId": "hibernate-entitymanager",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.h2database",
+    "artifactId": "h2",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-tx",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-context",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-test",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-orm",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-impl",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "slf4j-api",
+    "version": "api/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "orika-eclipse-tools",
+    "version": "tools/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.tycho",
+    "artifactId": "org.eclipse.jdt.core",
+    "version": "3.14.0.v20171206-0802",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.eclipse.platform",
+    "artifactId": "org.eclipse.text",
+    "version": "3.6.100",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "error_prone_annotations",
+    "version": "INF/maven/com.google.errorprone/error_prone_annotations/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "${junit.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "janino",
+    "version": "INF/maven/org.codehaus.janino/janino/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.janino",
+    "artifactId": "commons-compiler",
+    "version": "${project.parent.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant",
+    "version": "1.7.1",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "orika-tests-jdk8",
+    "version": "jdk8/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-core",
+    "version": "${project.parent.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-eclipse-tools",
+    "version": "${project.parent.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-core",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "io.github.lukehutch",
+    "artifactId": "fast-classpath-scanner",
+    "version": "3.1.9",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "commons-compiler",
+    "version": "compiler/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "null",
+    "artifactId": "guava",
+    "version": "INF/maven/com.google.guava/guava/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-compat-qual",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.mojo",
+    "artifactId": "animal-sniffer-annotations",
+    "version": "${animal.sniffer.version}",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "orika-core",
+    "version": "core/pom",
+    "depth": 0,
+    "scope": "required"
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.thoughtworks.paranamer",
+    "artifactId": "paranamer",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.carrotsearch",
+    "artifactId": "java-sizeof",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "org.codehaus.janino",
+    "artifactId": "janino",
+    "version": "null",
+    "depth": 1,
+    "scope": null
+  },
+  {
+    "groupId": "null",
+    "artifactId": "animal-sniffer-annotations",
+    "version": "annotations/pom",
+    "depth": 0,
+    "scope": "required"
+  }
+]

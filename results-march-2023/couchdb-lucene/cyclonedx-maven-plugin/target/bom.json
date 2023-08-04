@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:2c040799-bd95-4de2-907b-ac643467c463",
+  "serialNumber" : "urn:uuid:f4cc1c65-0810-4652-84d2-6e1f8091ba11",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-26T01:53:10Z",
+    "timestamp" : "2023-05-09T18:56:09Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin makeAggregateBom",
-        "version" : "2.7.5",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.8",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
+            "content" : "4d75a7410313db127502c8536eb3f54b"
           },
           {
             "alg" : "SHA-1",
-            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
+            "content" : "8795071de12b08045d08f58d9611a9fcb9c78a9f"
           },
           {
             "alg" : "SHA-256",
-            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
+            "content" : "eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61"
           },
           {
             "alg" : "SHA-512",
-            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
+            "content" : "d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9"
           },
           {
             "alg" : "SHA-384",
-            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
+            "content" : "ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
+            "content" : "08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
+            "content" : "59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
+            "content" : "7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3"
           }
         ]
       }
@@ -75,7 +75,17 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.rnewson.couchdb.lucene/couchdb-lucene@2.1.0?type=jar"
-    }
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
   },
   "components" : [
     {
@@ -153,6 +163,80 @@
       "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.0.1?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.apache.httpcomponents",
+      "name" : "httpcore",
+      "version" : "4.0.1",
+      "description" : "HttpComponents Core (Java 1.3 compatible)",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6c1963fd8ac0c40c004c9e892e0d7703"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e813b8722c387b22e1adccf7914729db09bcb4a9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3b6bf92affa85d4169a91547ce3c7093ed993b41ad2df80469fc768ad01e6b6b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0b6c16760f856e492bb5b49df9c209f1fcbc92a47ff6f6f2b5d27c4a3b57ffa3a6de255fe4db40d26950de8baa138856e7a4ab66369ccf4dda9269d38202b56d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "cd5a6738df872edb100ac8e0ccf142a76a50451f5c279ce0408f1ffe7a9236dd58c0357bb4ccb580ad06d2448958aa1a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fef1af26f19538bf13e9b7857b7a9e5f5b76c5ab9d79c76386ef8c4e71f85d2569c9daaeae52d13cbfe1f46357e6f186"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "eae19c96e2240f16ca54d4ec19dd864c44b122cff66131a6f4c81d61b8294b0d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d2e414d9ffaff3d7a47f9a4830d35f4abe5d37f08d76c53ad029fa01b0ebb6500ebc630d9b2c718793de0792e8ef001ea60411e4c8612e8869effb82ecddd77f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://hc.apache.org/httpcomponents-core/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/HTTPCORE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.0.1/httpcore"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar"
+    },
+    {
       "publisher" : "The Apache Software Foundation",
       "group" : "commons-logging",
       "name" : "commons-logging",
@@ -228,80 +312,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
-    },
-    {
-      "publisher" : "Apache Software Foundation",
-      "group" : "org.apache.httpcomponents",
-      "name" : "httpcore",
-      "version" : "4.0.1",
-      "description" : "HttpComponents Core (Java 1.3 compatible)",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "6c1963fd8ac0c40c004c9e892e0d7703"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "e813b8722c387b22e1adccf7914729db09bcb4a9"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "3b6bf92affa85d4169a91547ce3c7093ed993b41ad2df80469fc768ad01e6b6b"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "0b6c16760f856e492bb5b49df9c209f1fcbc92a47ff6f6f2b5d27c4a3b57ffa3a6de255fe4db40d26950de8baa138856e7a4ab66369ccf4dda9269d38202b56d"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "cd5a6738df872edb100ac8e0ccf142a76a50451f5c279ce0408f1ffe7a9236dd58c0357bb4ccb580ad06d2448958aa1a"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "fef1af26f19538bf13e9b7857b7a9e5f5b76c5ab9d79c76386ef8c4e71f85d2569c9daaeae52d13cbfe1f46357e6f186"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "eae19c96e2240f16ca54d4ec19dd864c44b122cff66131a6f4c81d61b8294b0d"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "d2e414d9ffaff3d7a47f9a4830d35f4abe5d37f08d76c53ad029fa01b0ebb6500ebc630d9b2c718793de0792e8ef001ea60411e4c8612e8869effb82ecddd77f"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-1.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://hc.apache.org/httpcomponents-core/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/HTTPCORE"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.0.1/httpcore"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar"
     },
     {
       "group" : "net.jcip",
@@ -580,6 +590,84 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-http@9.3.9.v20160517?type=jar"
+    },
+    {
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-util",
+      "version" : "9.3.9.v20160517",
+      "description" : "Utility classes for Jetty",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a2832b2191077f9f1973c4bfe0c4b637"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5a021301220558f405af685c70404f9a058296ea"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1d50d4dd361142172222c140bc84c930ae65634f8a4c811774eff2240fde92e0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e9d9edddf69594bfdd2e3b7d39a048cdd6d094dd01f7d8d419637ee40e815925412dfa0947b3675b5356488fd442a27e621f6d47f2b8709e448d88e5ddd1eb74"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "cdd7c758728f7fd9ebae7978266e67581214a721e7a09c6f1c1c3f4226caa8554df741c43a56cc3331390bf42991228b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6c8da3cd91cfaba975d69633dbbb08f166ff54283d1aecd6eab5440d43c3e85ddd4a7adf9c7c491b30dd81c2de81ab3c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5ed4d318c864fbbe6d7c7e2c584d9a39f737173309bd3fea86aab2484e782c47"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b1a96bed0e1e50ac5cb0bccfaceb0965609ebac16b93aed79dabb219698c4b63c991ae535a4dcb6b9e2bf3cf874c11c5c54cecf2116e66b44cbb323de0fd7a23"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.eclipse.org/jetty"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Jetty"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-util"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar"
     },
     {
       "publisher" : "Webtide",
@@ -972,84 +1060,6 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-continuation@9.3.9.v20160517?type=jar"
-    },
-    {
-      "publisher" : "Webtide",
-      "group" : "org.eclipse.jetty",
-      "name" : "jetty-util",
-      "version" : "9.3.9.v20160517",
-      "description" : "Utility classes for Jetty",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "a2832b2191077f9f1973c4bfe0c4b637"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "5a021301220558f405af685c70404f9a058296ea"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "1d50d4dd361142172222c140bc84c930ae65634f8a4c811774eff2240fde92e0"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "e9d9edddf69594bfdd2e3b7d39a048cdd6d094dd01f7d8d419637ee40e815925412dfa0947b3675b5356488fd442a27e621f6d47f2b8709e448d88e5ddd1eb74"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "cdd7c758728f7fd9ebae7978266e67581214a721e7a09c6f1c1c3f4226caa8554df741c43a56cc3331390bf42991228b"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "6c8da3cd91cfaba975d69633dbbb08f166ff54283d1aecd6eab5440d43c3e85ddd4a7adf9c7c491b30dd81c2de81ab3c"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "5ed4d318c864fbbe6d7c7e2c584d9a39f737173309bd3fea86aab2484e782c47"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "b1a96bed0e1e50ac5cb0bccfaceb0965609ebac16b93aed79dabb219698c4b63c991ae535a4dcb6b9e2bf3cf874c11c5c54cecf2116e66b44cbb323de0fd7a23"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        },
-        {
-          "license" : {
-            "id" : "EPL-1.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://www.eclipse.org/jetty"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Jetty"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project/jetty-util"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
@@ -2049,83 +2059,6 @@
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.lucene",
-      "name" : "lucene-sandbox",
-      "version" : "6.4.1",
-      "description" : "Lucene Sandbox",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "33ec38f2b4498e6c50078f3b0b6b6f8d"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "d4a49664668c58aa23aba74717f3d74a61378d7c"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "1e3ebde0adb8875819289f73b6906adf6bf5a9f2c3588bff15e35cab2f931526"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "06101a38c08775197c03543e86fe0aa32defc642cd883ebb3eba51b9f328f8236aa612fb0570a930521e0a3c6e423304735237bb52ebed6bab559f2deddf96c5"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "1fedaf579f5cba8b9d77d1a63451d08aff6e9559a2a6e7317e92e11d1a2dc598a23496f59af9f18f607d7313218906a7"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "7f7dbc7e9fa0e388341a3b0484f091be99d23bc18ec99fbfc603f2f81a6673c5d039c344f9efa423b331897baf2a3ce3"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "2bb9136229135560e7039aece58cf5393a0b3941252a3c64ea67d4eb2e71d14f"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "b3610fd6c4b369e0de8127cdd648977cc07e41375ec2a1ff16645e5651d79f36d2aa96c27b78e441ce44b8a49c383acac38c68642fa454364144e51ac2fffb1c"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://lucene.apache.org/lucene-parent/lucene-sandbox"
-        },
-        {
-          "type" : "build-system",
-          "url" : "https://builds.apache.org/computer/lucene/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/LUCENE"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/sandbox"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar"
-    },
-    {
-      "publisher" : "The Apache Software Foundation",
-      "group" : "org.apache.lucene",
       "name" : "lucene-queries",
       "version" : "6.4.1",
       "description" : "Lucene Queries Module",
@@ -2200,6 +2133,83 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.lucene/lucene-queries@6.4.1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.lucene",
+      "name" : "lucene-sandbox",
+      "version" : "6.4.1",
+      "description" : "Lucene Sandbox",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "33ec38f2b4498e6c50078f3b0b6b6f8d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d4a49664668c58aa23aba74717f3d74a61378d7c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1e3ebde0adb8875819289f73b6906adf6bf5a9f2c3588bff15e35cab2f931526"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "06101a38c08775197c03543e86fe0aa32defc642cd883ebb3eba51b9f328f8236aa612fb0570a930521e0a3c6e423304735237bb52ebed6bab559f2deddf96c5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1fedaf579f5cba8b9d77d1a63451d08aff6e9559a2a6e7317e92e11d1a2dc598a23496f59af9f18f607d7313218906a7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7f7dbc7e9fa0e388341a3b0484f091be99d23bc18ec99fbfc603f2f81a6673c5d039c344f9efa423b331897baf2a3ce3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2bb9136229135560e7039aece58cf5393a0b3941252a3c64ea67d4eb2e71d14f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b3610fd6c4b369e0de8127cdd648977cc07e41375ec2a1ff16645e5651d79f36d2aa96c27b78e441ce44b8a49c383acac38c68642fa454364144e51ac2fffb1c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-sandbox"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LUCENE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/sandbox"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
@@ -5577,6 +5587,10 @@
       ]
     },
     {
+      "ref" : "pkg:maven/stax/stax-api@1.0.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1?type=jar",
       "dependsOn" : [ ]
     },
@@ -5650,10 +5664,6 @@
       "dependsOn" : [
         "pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar"
       ]
-    },
-    {
-      "ref" : "pkg:maven/stax/stax-api@1.0.1?type=jar",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/org.erlang.otp/jinterface@1.5.3.2?type=jar",

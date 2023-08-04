@@ -6,6 +6,7 @@ docker build -t jbom ./jbom
 
 # For each environment file in the env directory
 for f in ./study-subjects-env/*; do 
+(
   # Get the filename without the extension
   filename=$(basename "$f" .env)
   # Print the env file name
@@ -18,4 +19,6 @@ for f in ./study-subjects-env/*; do
   mkdir -p ./results/$filename/jbom
   # Copy the results from the docker container to the results directory
   docker cp $container_ID:/$filename/jbom/jbom-..json ./results/$filename/jbom/; 
+) &
 done
+wait

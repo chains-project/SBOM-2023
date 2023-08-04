@@ -1,0 +1,314 @@
+[
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-parent",
+    "version": "1.5.4",
+    "depth": 0
+  },
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-eclipse-tools",
+    "version": "1.5.4",
+    "depth": 0
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.25",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.tycho",
+    "artifactId": "org.eclipse.jdt.core",
+    "version": "3.14.0.v20171206-0802",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.platform",
+    "artifactId": "org.eclipse.core.commands",
+    "version": "3.9.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.platform",
+    "artifactId": "org.eclipse.text",
+    "version": "3.6.100",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.platform",
+    "artifactId": "org.eclipse.equinox.common",
+    "version": "3.9.0",
+    "depth": 2
+  },
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-tests-jdk8",
+    "version": "1.5.4",
+    "depth": 0
+  },
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-core",
+    "version": "1.5.4",
+    "depth": 1
+  },
+  {
+    "groupId": "io.github.lukehutch",
+    "artifactId": "fast-classpath-scanner",
+    "version": "3.1.9",
+    "depth": 1
+  },
+  {
+    "groupId": "org.codehaus.janino",
+    "artifactId": "commons-compiler",
+    "version": "3.0.8",
+    "depth": 3
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-core",
+    "version": "1.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hamcrest",
+    "artifactId": "hamcrest-library",
+    "version": "1.3",
+    "depth": 1
+  },
+  {
+    "groupId": "com.carrotsearch",
+    "artifactId": "java-sizeof",
+    "version": "0.0.5",
+    "depth": 2
+  },
+  {
+    "groupId": "junit",
+    "artifactId": "junit",
+    "version": "4.12",
+    "depth": 1
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-core",
+    "version": "1.1.11",
+    "depth": 1
+  },
+  {
+    "groupId": "com.thoughtworks.paranamer",
+    "artifactId": "paranamer",
+    "version": "2.8",
+    "depth": 2
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "3.24.0-GA",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.janino",
+    "artifactId": "janino",
+    "version": "3.0.8",
+    "depth": 2
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "1.1.11",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "1.3.9",
+    "depth": 3
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-compat-qual",
+    "version": "2.0.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.codehaus.mojo",
+    "artifactId": "animal-sniffer-annotations",
+    "version": "1.14",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "24.0-jre",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.1.3",
+    "depth": 3
+  },
+  {
+    "groupId": "ma.glasnost.orika",
+    "artifactId": "orika-tests",
+    "version": "1.5.4",
+    "depth": 0
+  },
+  {
+    "groupId": "org.hibernate.common",
+    "artifactId": "hibernate-commons-annotations",
+    "version": "5.0.1.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-orm",
+    "version": "4.3.14.RELEASE",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-test",
+    "version": "4.3.14.RELEASE",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-jdbc",
+    "version": "4.3.14.RELEASE",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hibernate.javax.persistence",
+    "artifactId": "hibernate-jpa-2.1-api",
+    "version": "1.0.0.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "xml-apis",
+    "artifactId": "xml-apis",
+    "version": "1.0.b2",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-context",
+    "version": "4.3.14.RELEASE",
+    "depth": 1
+  },
+  {
+    "groupId": "org.objenesis",
+    "artifactId": "objenesis",
+    "version": "2.6",
+    "depth": 2
+  },
+  {
+    "groupId": "antlr",
+    "artifactId": "antlr",
+    "version": "2.7.7",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.geronimo.specs",
+    "artifactId": "geronimo-jta_1.1_spec",
+    "version": "1.1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "2.3.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-tx",
+    "version": "4.3.14.RELEASE",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-expression",
+    "version": "4.3.14.RELEASE",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss",
+    "artifactId": "jandex",
+    "version": "2.0.0.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.hibernate",
+    "artifactId": "hibernate-entitymanager",
+    "version": "5.0.12.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-beans",
+    "version": "4.3.14.RELEASE",
+    "depth": 2
+  },
+  {
+    "groupId": "com.h2database",
+    "artifactId": "h2",
+    "version": "1.4.196",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.2",
+    "depth": 3
+  },
+  {
+    "groupId": "com.sun.xml.bind",
+    "artifactId": "jaxb-impl",
+    "version": "2.3.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-core",
+    "version": "4.3.14.RELEASE",
+    "depth": 2
+  },
+  {
+    "groupId": "org.hibernate",
+    "artifactId": "hibernate-core",
+    "version": "5.0.12.Final",
+    "depth": 2
+  },
+  {
+    "groupId": "org.easymock",
+    "artifactId": "easymock",
+    "version": "3.6",
+    "depth": 1
+  },
+  {
+    "groupId": "dom4j",
+    "artifactId": "dom4j",
+    "version": "1.6.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-aop",
+    "version": "4.3.14.RELEASE",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "3.3.0.Final",
+    "depth": 2
+  }
+]

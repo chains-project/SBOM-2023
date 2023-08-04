@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:1d5edb5c-535d-4807-a6dc-e5107e95b753" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:a13f645a-a1c7-465a-8446-724ab7cf055c" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-26T01:53:54Z</timestamp>
+    <timestamp>2023-05-09T18:56:35Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin makeAggregateBom</name>
-        <version>2.7.5</version>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.8</version>
         <hashes>
-          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
-          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
-          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
-          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
-          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
-          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
-          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
-          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
+          <hash alg="MD5">4d75a7410313db127502c8536eb3f54b</hash>
+          <hash alg="SHA-1">8795071de12b08045d08f58d9611a9fcb9c78a9f</hash>
+          <hash alg="SHA-256">eb89145381fc95b5fcc59182b0398fc47eec0c647084ec778c677b514457ed61</hash>
+          <hash alg="SHA-512">d510a96b1e4d1752f55616a00ed9a7c237c5ac9cf603e65a1e3f9251d65247be14e45a045a043a8d34bd339e12d7c6f64c25a73606b6ffcb0ff535e6a4b27ee9</hash>
+          <hash alg="SHA-384">ffe9dc6e213374191a7e5b936590a364ae9b9cd4c04ce58e3b1bec34bb1005f70da6fbb4eec12e6be4332398ec8e99d8</hash>
+          <hash alg="SHA3-384">08470aa013deb36b29fecb6bd108ca90c2c16700f46297e4c03349468293b836b0b62c33c30163f3375dab8183ba7f58</hash>
+          <hash alg="SHA3-256">59023ec8268d98fb6b06232217cc9c08f5b73748ca45c7c609bfc5dbf838d929</hash>
+          <hash alg="SHA3-512">7cac76e8d1bb42654cf67f0ca500816d03773e91cf121513d71254cf81e533a7b87eb319d6bb19a7ecd5dd2803c679256b5580f7d9395755645de265b32018b3</hash>
         </hashes>
       </tool>
     </tools>
@@ -33,6 +33,10 @@
       <purl>pkg:maven/com.google.errorprone/error_prone_parent@2.17.0?type=pom</purl>
       <externalReferences><reference type="website"><url>https://errorprone.info</url></reference><reference type="vcs"><url>https://github.com/google/error-prone</url></reference></externalReferences>
     </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotation@2.17.0?type=jar">
@@ -288,6 +292,30 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
       <purl>pkg:maven/com.google.truth/truth@1.1.3?type=jar</purl>
       <externalReferences><reference type="website"><url>http://github.com/google/truth/truth</url></reference><reference type="build-system"><url>https://travis-ci.org/google/truth</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/truth/issues</url></reference><reference type="vcs"><url>scm:git:git@github.com:google/truth.git/truth</url></reference></externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar">
+      <group>org.checkerframework</group>
+      <name>checker-qual</name>
+      <version>3.13.0</version>
+      <description>checker-qual contains annotations (type qualifiers) that a programmer
+writes to specify Java code for type-checking by the Checker Framework.</description>
+      <hashes>
+        <hash alg="MD5">aa28b5033a3433060c5b85974626f5cb</hash>
+        <hash alg="SHA-1">e29afc6adb63a39286d38dc0e00d164117c02f0d</hash>
+        <hash alg="SHA-256">3ea0dcd73b4d6cb2fb34bd7ed4dad6db327a01ebad7db05eb7894076b3d64491</hash>
+        <hash alg="SHA-512">9e396a654bb82d96f6390673f5fbc0645f5375efe09150ff54af8d2422ff4f2fd30c0246ff09a4c56a3256c155abcf260badb4fbc5515c930e075e673cea53eb</hash>
+        <hash alg="SHA-384">98ccf581484077c417feafb3b0232000689526fec176b91a55e0035daeb666c8b592c6642330ebeeacc2f0b095a9e47f</hash>
+        <hash alg="SHA3-384">a87ab9211661129181a092b0f46e1343e26d973fb663ba833a49f19d77e96b766d3fc580af8d26566d498c87ee7200ed</hash>
+        <hash alg="SHA3-256">516faec41462083530abd30dfe3e82eabd906f679543dfa3ae364084740415c6</hash>
+        <hash alg="SHA3-512">b3a287ea9d6c969aaafcdb1e0c6843145b8e3a7e94848cc3dd1c40a012178a5aece2fa193c5d5d36430135db508c503d073d140a615d281b07cea8a8e15ccfd0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm@9.1?type=jar">
       <publisher>OW2</publisher>
       <group>org.ow2.asm</group>
@@ -492,30 +520,6 @@ Second, unlike the dataflow artifact, this artifact contains the dependencies it
       </licenses>
       <purl>pkg:maven/org.hamcrest/hamcrest@2.2?type=jar</purl>
       <externalReferences><reference type="website"><url>http://hamcrest.org/JavaHamcrest/</url></reference><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar">
-      <group>org.checkerframework</group>
-      <name>checker-qual</name>
-      <version>3.13.0</version>
-      <description>checker-qual contains annotations (type qualifiers) that a programmer
-writes to specify Java code for type-checking by the Checker Framework.</description>
-      <hashes>
-        <hash alg="MD5">aa28b5033a3433060c5b85974626f5cb</hash>
-        <hash alg="SHA-1">e29afc6adb63a39286d38dc0e00d164117c02f0d</hash>
-        <hash alg="SHA-256">3ea0dcd73b4d6cb2fb34bd7ed4dad6db327a01ebad7db05eb7894076b3d64491</hash>
-        <hash alg="SHA-512">9e396a654bb82d96f6390673f5fbc0645f5375efe09150ff54af8d2422ff4f2fd30c0246ff09a4c56a3256c155abcf260badb4fbc5515c930e075e673cea53eb</hash>
-        <hash alg="SHA-384">98ccf581484077c417feafb3b0232000689526fec176b91a55e0035daeb666c8b592c6642330ebeeacc2f0b095a9e47f</hash>
-        <hash alg="SHA3-384">a87ab9211661129181a092b0f46e1343e26d973fb663ba833a49f19d77e96b766d3fc580af8d26566d498c87ee7200ed</hash>
-        <hash alg="SHA3-256">516faec41462083530abd30dfe3e82eabd906f679543dfa3ae364084740415c6</hash>
-        <hash alg="SHA3-512">b3a287ea9d6c969aaafcdb1e0c6843145b8e3a7e94848cc3dd1c40a012178a5aece2fa193c5d5d36430135db508c503d073d140a615d281b07cea8a8e15ccfd0</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.kevinstern/software-and-algorithms@1.0?type=jar">
       <group>com.github.kevinstern</group>

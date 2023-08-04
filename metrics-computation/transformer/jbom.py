@@ -16,6 +16,23 @@ class JBOMTransformer(AbstractTransformer):
     def __flatten_dependencies(self, json_dict) -> list:
         flattened_dependencies = []
 
+        # How do I even interpret them :(
+        # https://github.com/chains-project/SBOM-2023/blob/major-revision/results-march-2023/jacop/jbom/jbom-..json
+        if 'dependencies' not in json_dict:
+            # https://github.com/chains-project/SBOM-2023/blob/major-revision/results-march-2023/jooby/jbom/jbom-..json
+            if 'components' not in json_dict:
+                return []
+            components = json_dict['components']
+            for component in components:
+                flattened_dependencies.append({
+                    'groupId': None,
+                    'artifactId': component['name'],
+                    'version': component['version'],
+                    'scope': component['scope'],
+                    'depth': 0
+                })
+            return flattened_dependencies
+        
         dependency_relationships = json_dict['dependencies']
 
 

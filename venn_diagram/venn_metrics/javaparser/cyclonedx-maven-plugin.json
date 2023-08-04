@@ -1,0 +1,162 @@
+[
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core-testing",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core-testing-bdd",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core-generators",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core-metamodel-generator",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-core-serialization",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "javax.json",
+    "artifactId": "javax.json-api",
+    "classifier": "jar",
+    "version": "1.1.4",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-model",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "classifier": "jar",
+    "version": "3.24.0-GA",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "classifier": "jar",
+    "version": "27.0-jre",
+    "scope": "optional",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "classifier": "jar",
+    "version": "1.0",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "classifier": "jar",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "classifier": "jar",
+    "version": "3.0.2",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "classifier": "jar",
+    "version": "2.5.2",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "classifier": "jar",
+    "version": "2.2.0",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "classifier": "jar",
+    "version": "1.1",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "org.codehaus.mojo",
+    "artifactId": "animal-sniffer-annotations",
+    "classifier": "jar",
+    "version": "1.17",
+    "scope": null,
+    "depth": 3
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-logic",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-core",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  },
+  {
+    "groupId": "com.github.javaparser",
+    "artifactId": "javaparser-symbol-solver-testing",
+    "classifier": "jar",
+    "version": "3.15.15",
+    "scope": null,
+    "depth": 1
+  }
+]

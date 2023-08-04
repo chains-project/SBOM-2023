@@ -1,0 +1,1496 @@
+[
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "cli-scanner",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "commons-cli",
+    "artifactId": "commons-cli",
+    "version": "1.4",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.inject.extensions",
+    "artifactId": "guice-assistedinject",
+    "version": "4.2.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.smali",
+    "artifactId": "dexlib2",
+    "version": "2.3.4",
+    "depth": 3
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm-tree",
+    "version": "7.1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "depth": 3
+  },
+  {
+    "groupId": "aopalliance",
+    "artifactId": "aopalliance",
+    "version": "1.0",
+    "depth": 5
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "2.3.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.sun.xml.fastinfoset",
+    "artifactId": "FastInfoset",
+    "version": "1.2.15",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.11",
+    "depth": 3
+  },
+  {
+    "groupId": "ch.uzh.ifi.seal",
+    "artifactId": "changedistiller",
+    "version": "0.0.4",
+    "depth": 3
+  },
+  {
+    "groupId": "org.bitbucket.mstrobel",
+    "artifactId": "procyon-core",
+    "version": "0.5.36",
+    "depth": 4
+  },
+  {
+    "groupId": "javax.validation",
+    "artifactId": "validation-api",
+    "version": "2.0.1.Final",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "lang",
+    "version": "3.2.5",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-api",
+    "version": "2.18.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "lang-python",
+    "version": "3.2.5",
+    "depth": 1
+  },
+  {
+    "groupId": "javax.annotation",
+    "artifactId": "javax.annotation-api",
+    "version": "1.3.2",
+    "depth": 3
+  },
+  {
+    "groupId": "com.ibm.wala",
+    "artifactId": "com.ibm.wala.core",
+    "version": "1.4.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "jaxb-runtime",
+    "version": "2.4.0-b180830.0438",
+    "depth": 3
+  },
+  {
+    "groupId": "org.soot-oss",
+    "artifactId": "soot",
+    "version": "4.3.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "failureaccess",
+    "version": "1.0.1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.ibm.wala",
+    "artifactId": "com.ibm.wala.shrike",
+    "version": "1.4.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "7.1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.github.package-url",
+    "artifactId": "packageurl-java",
+    "version": "1.4.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "3.8.0",
+    "depth": 3
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "javax.activation-api",
+    "version": "1.2.0",
+    "depth": 3
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.2",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.velocity",
+    "artifactId": "velocity-engine-core",
+    "version": "2.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.ibm.wala",
+    "artifactId": "com.ibm.wala.util",
+    "version": "1.4.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.github.spotbugs",
+    "artifactId": "spotbugs-annotations",
+    "version": "4.7.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.bitbucket.mstrobel",
+    "artifactId": "procyon-compilertools",
+    "version": "0.5.36",
+    "depth": 3
+  },
+  {
+    "groupId": "de.upb.cs.swt",
+    "artifactId": "heros",
+    "version": "1.2.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.jvnet.staxex",
+    "artifactId": "stax-ex",
+    "version": "1.8",
+    "depth": 4
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.11",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.inject",
+    "artifactId": "guice",
+    "version": "4.2.3",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "version": "4.4.13",
+    "depth": 3
+  },
+  {
+    "groupId": "org.antlr",
+    "artifactId": "antlr4-runtime",
+    "version": "4.9.3",
+    "depth": 2
+  },
+  {
+    "groupId": "xmlpull",
+    "artifactId": "xmlpull",
+    "version": "1.1.3.4d_b4_min",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.code.findbugs",
+    "artifactId": "jsr305",
+    "version": "3.0.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "lang-java",
+    "version": "3.2.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "lang-java-reach-soot",
+    "version": "3.2.5",
+    "depth": 1
+  },
+  {
+    "groupId": "com.sun.istack",
+    "artifactId": "istack-commons-runtime",
+    "version": "3.0.7",
+    "depth": 4
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-compress",
+    "version": "1.21",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient",
+    "version": "4.5.13",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-configuration",
+    "artifactId": "commons-configuration",
+    "version": "1.10",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "lang-java-reach-wala",
+    "version": "3.2.5",
+    "depth": 1
+  },
+  {
+    "groupId": "de.fraunhofer.sit.sse.flowdroid",
+    "artifactId": "soot-infoflow",
+    "version": "2.10.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.13.4",
+    "depth": 3
+  },
+  {
+    "groupId": "commons-lang",
+    "artifactId": "commons-lang",
+    "version": "2.6",
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.13.4",
+    "depth": 3
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.11.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm-commons",
+    "version": "7.1",
+    "depth": 3
+  },
+  {
+    "groupId": "ca.mcgill.sable",
+    "artifactId": "soot",
+    "version": "4.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm-util",
+    "version": "7.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "txw2",
+    "version": "2.4.0-b180830.0438",
+    "depth": 4
+  },
+  {
+    "groupId": "commons-beanutils",
+    "artifactId": "commons-beanutils",
+    "version": "1.9.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.21",
+    "depth": 1
+  },
+  {
+    "groupId": "javax.inject",
+    "artifactId": "javax.inject",
+    "version": "1",
+    "depth": 5
+  },
+  {
+    "groupId": "de.upb.cs.swt",
+    "artifactId": "axml",
+    "version": "2.0.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.5.1",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "30.1.1-jre",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-collections",
+    "artifactId": "commons-collections",
+    "version": "3.2.2",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.13.4",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "2.18.0",
+    "depth": 1
+  },
+  {
+    "groupId": "ca.mcgill.sable",
+    "artifactId": "polyglot",
+    "version": "2006",
+    "depth": 3
+  },
+  {
+    "groupId": "org.functionaljava",
+    "artifactId": "functionaljava",
+    "version": "4.2",
+    "depth": 4
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.9.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm-analysis",
+    "version": "7.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "lang-java-reach",
+    "version": "3.2.5",
+    "depth": 1
+  },
+  {
+    "groupId": "net.sf.trove4j",
+    "artifactId": "trove4j",
+    "version": "3.0.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "shared",
+    "version": "3.2.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "3.28.0-GA",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.jdt.core.compiler",
+    "artifactId": "ecj",
+    "version": "4.6.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "rest-backend",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-expression",
+    "version": "5.3.18",
+    "depth": 3
+  },
+  {
+    "groupId": "net.minidev",
+    "artifactId": "json-smart",
+    "version": "2.4.8",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-aop",
+    "version": "5.3.18",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-beans",
+    "version": "5.3.18",
+    "depth": 3
+  },
+  {
+    "groupId": "io.micrometer",
+    "artifactId": "micrometer-core",
+    "version": "1.7.10",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-jdbc",
+    "version": "5.3.18",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-autoconfigure",
+    "version": "2.5.12",
+    "depth": 2
+  },
+  {
+    "groupId": "jakarta.persistence",
+    "artifactId": "jakarta.persistence-api",
+    "version": "2.2.3",
+    "depth": 2
+  },
+  {
+    "groupId": "net.minidev",
+    "artifactId": "accessors-smart",
+    "version": "2.4.8",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.12.0",
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml.jackson.dataformat",
+    "artifactId": "jackson-dataformat-yaml",
+    "version": "2.12.6",
+    "depth": 6
+  },
+  {
+    "groupId": "org.javassist",
+    "artifactId": "javassist",
+    "version": "3.27.0-GA",
+    "depth": 3
+  },
+  {
+    "groupId": "commons-codec",
+    "artifactId": "commons-codec",
+    "version": "1.15",
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml.jackson.module",
+    "artifactId": "jackson-module-parameter-names",
+    "version": "2.12.6",
+    "depth": 3
+  },
+  {
+    "groupId": "io.swagger.core.v3",
+    "artifactId": "swagger-annotations",
+    "version": "2.1.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot",
+    "version": "2.5.12",
+    "depth": 2
+  },
+  {
+    "groupId": "commons-logging",
+    "artifactId": "commons-logging",
+    "version": "1.1.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-web",
+    "version": "5.3.18",
+    "depth": 2
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "jaxb-runtime",
+    "version": "2.3.6",
+    "depth": 3
+  },
+  {
+    "groupId": "javax.interceptor",
+    "artifactId": "javax.interceptor-api",
+    "version": "1.2.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.webjars",
+    "artifactId": "webjars-locator-core",
+    "version": "0.46",
+    "depth": 3
+  },
+  {
+    "groupId": "jakarta.xml.bind",
+    "artifactId": "jakarta.xml.bind-api",
+    "version": "2.3.3",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-core",
+    "version": "5.3.18",
+    "depth": 2
+  },
+  {
+    "groupId": "org.yaml",
+    "artifactId": "snakeyaml",
+    "version": "1.28",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.tomcat.embed",
+    "artifactId": "tomcat-embed-el",
+    "version": "9.0.60",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springdoc",
+    "artifactId": "springdoc-openapi-webmvc-core",
+    "version": "1.2.32",
+    "depth": 2
+  },
+  {
+    "groupId": "org.ow2.asm",
+    "artifactId": "asm",
+    "version": "9.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springdoc",
+    "artifactId": "springdoc-openapi-ui",
+    "version": "1.2.32",
+    "depth": 1
+  },
+  {
+    "groupId": "javax.activation",
+    "artifactId": "activation",
+    "version": "1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml.jackson.datatype",
+    "artifactId": "jackson-datatype-jdk8",
+    "version": "2.12.6",
+    "depth": 3
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "30.0-jre",
+    "depth": 1
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "3.5.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.aspectj",
+    "artifactId": "aspectjweaver",
+    "version": "1.9.7",
+    "depth": 3
+  },
+  {
+    "groupId": "org.jboss",
+    "artifactId": "jandex",
+    "version": "2.2.3.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-web",
+    "version": "2.5.12",
+    "depth": 1
+  },
+  {
+    "groupId": "com.sun.mail",
+    "artifactId": "javax.mail",
+    "version": "1.6.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.hibernate.common",
+    "artifactId": "hibernate-commons-annotations",
+    "version": "5.1.2.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "net.bytebuddy",
+    "artifactId": "byte-buddy",
+    "version": "1.10.22",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-data-rest",
+    "version": "2.5.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-actuator",
+    "version": "2.5.12",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter",
+    "version": "2.5.12",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-to-slf4j",
+    "version": "2.17.2",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-jcl",
+    "version": "5.3.18",
+    "depth": 3
+  },
+  {
+    "groupId": "org.atteo",
+    "artifactId": "evo-inflector",
+    "version": "1.2.2",
+    "depth": 4
+  },
+  {
+    "groupId": "org.webjars",
+    "artifactId": "swagger-ui",
+    "version": "3.25.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.postgresql",
+    "artifactId": "postgresql",
+    "version": "42.4.2",
+    "depth": 1
+  },
+  {
+    "groupId": "org.glassfish.jaxb",
+    "artifactId": "txw2",
+    "version": "2.3.6",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-jdbc",
+    "version": "2.5.12",
+    "depth": 2
+  },
+  {
+    "groupId": "com.fasterxml",
+    "artifactId": "classmate",
+    "version": "1.5.1",
+    "depth": 3
+  },
+  {
+    "groupId": "org.webjars",
+    "artifactId": "webjars-locator",
+    "version": "0.38",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-actuator-autoconfigure",
+    "version": "2.5.12",
+    "depth": 2
+  },
+  {
+    "groupId": "org.jboss.logging",
+    "artifactId": "jboss-logging",
+    "version": "3.4.3.Final",
+    "depth": 3
+  },
+  {
+    "groupId": "io.swagger.core.v3",
+    "artifactId": "swagger-integration",
+    "version": "2.1.1",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.data",
+    "artifactId": "spring-data-rest-core",
+    "version": "3.5.10",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-tomcat",
+    "version": "2.5.12",
+    "depth": 2
+  },
+  {
+    "groupId": "antlr",
+    "artifactId": "antlr",
+    "version": "2.7.7",
+    "depth": 3
+  },
+  {
+    "groupId": "jakarta.annotation",
+    "artifactId": "jakarta.annotation-api",
+    "version": "1.3.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.tomcat.embed",
+    "artifactId": "tomcat-embed-core",
+    "version": "9.0.60",
+    "depth": 3
+  },
+  {
+    "groupId": "com.sun.istack",
+    "artifactId": "istack-commons-runtime",
+    "version": "3.0.12",
+    "depth": 4
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-databind",
+    "version": "2.12.6.1",
+    "depth": 3
+  },
+  {
+    "groupId": "jakarta.activation",
+    "artifactId": "jakarta.activation-api",
+    "version": "1.2.2",
+    "depth": 2
+  },
+  {
+    "groupId": "io.github.classgraph",
+    "artifactId": "classgraph",
+    "version": "4.8.44",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-json",
+    "version": "2.5.12",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-orm",
+    "version": "5.3.18",
+    "depth": 3
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-core",
+    "version": "1.2.11",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.plugin",
+    "artifactId": "spring-plugin-core",
+    "version": "2.0.0.RELEASE",
+    "depth": 4
+  },
+  {
+    "groupId": "org.dom4j",
+    "artifactId": "dom4j",
+    "version": "2.1.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springdoc",
+    "artifactId": "springdoc-openapi-common",
+    "version": "1.2.32",
+    "depth": 3
+  },
+  {
+    "groupId": "com.jayway.jsonpath",
+    "artifactId": "json-path",
+    "version": "2.7.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework.data",
+    "artifactId": "spring-data-jpa",
+    "version": "2.5.10",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework.hateoas",
+    "artifactId": "spring-hateoas",
+    "version": "1.3.7",
+    "depth": 4
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-data-jpa",
+    "version": "2.5.12",
+    "depth": 1
+  },
+  {
+    "groupId": "ch.qos.logback",
+    "artifactId": "logback-classic",
+    "version": "1.2.11",
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-core",
+    "version": "2.12.6",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-api",
+    "version": "2.17.2",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.data",
+    "artifactId": "spring-data-commons",
+    "version": "2.5.10",
+    "depth": 3
+  },
+  {
+    "groupId": "io.swagger.core.v3",
+    "artifactId": "swagger-models",
+    "version": "2.1.1",
+    "depth": 4
+  },
+  {
+    "groupId": "com.sun.activation",
+    "artifactId": "jakarta.activation",
+    "version": "1.2.2",
+    "depth": 4
+  },
+  {
+    "groupId": "jakarta.transaction",
+    "artifactId": "jakarta.transaction-api",
+    "version": "1.3.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-tx",
+    "version": "5.3.18",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.logging.log4j",
+    "artifactId": "log4j-core",
+    "version": "2.17.2",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-logging",
+    "version": "2.5.12",
+    "depth": 2
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.3.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.tomcat.embed",
+    "artifactId": "tomcat-embed-websocket",
+    "version": "9.0.60",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.data",
+    "artifactId": "spring-data-rest-webmvc",
+    "version": "3.5.10",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-webmvc",
+    "version": "5.3.18",
+    "depth": 2
+  },
+  {
+    "groupId": "org.flywaydb",
+    "artifactId": "flyway-core",
+    "version": "6.5.7",
+    "depth": 1
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-aspects",
+    "version": "5.3.18",
+    "depth": 2
+  },
+  {
+    "groupId": "org.springframework",
+    "artifactId": "spring-context",
+    "version": "5.3.18",
+    "depth": 3
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "jul-to-slf4j",
+    "version": "1.7.36",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-actuator",
+    "version": "2.5.12",
+    "depth": 1
+  },
+  {
+    "groupId": "io.swagger.core.v3",
+    "artifactId": "swagger-core",
+    "version": "2.1.1",
+    "depth": 5
+  },
+  {
+    "groupId": "com.zaxxer",
+    "artifactId": "HikariCP",
+    "version": "4.0.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.hibernate",
+    "artifactId": "hibernate-core",
+    "version": "5.4.33",
+    "depth": 2
+  },
+  {
+    "groupId": "org.latencyutils",
+    "artifactId": "LatencyUtils",
+    "version": "2.0.3",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpcore",
+    "version": "4.4.15",
+    "depth": 3
+  },
+  {
+    "groupId": "org.hdrhistogram",
+    "artifactId": "HdrHistogram",
+    "version": "2.1.12",
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml.jackson.datatype",
+    "artifactId": "jackson-datatype-jsr310",
+    "version": "2.12.6",
+    "depth": 3
+  },
+  {
+    "groupId": "com.fasterxml.jackson.core",
+    "artifactId": "jackson-annotations",
+    "version": "2.12.6",
+    "depth": 3
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-aop",
+    "version": "2.5.12",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "patch-lib-analyzer",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "com.google.errorprone",
+    "artifactId": "error_prone_annotations",
+    "version": "2.2.0",
+    "depth": 6
+  },
+  {
+    "groupId": "com.google.j2objc",
+    "artifactId": "j2objc-annotations",
+    "version": "1.1",
+    "depth": 6
+  },
+  {
+    "groupId": "org.codehaus.mojo",
+    "artifactId": "animal-sniffer-annotations",
+    "version": "1.17",
+    "depth": 6
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.30",
+    "depth": 3
+  },
+  {
+    "groupId": "org.checkerframework",
+    "artifactId": "checker-qual",
+    "version": "2.5.2",
+    "depth": 6
+  },
+  {
+    "groupId": "com.google.guava",
+    "artifactId": "guava",
+    "version": "27.1-jre",
+    "depth": 5
+  },
+  {
+    "groupId": "javax.xml.bind",
+    "artifactId": "jaxb-api",
+    "version": "2.4.0-b180725.0427",
+    "depth": 3
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.5",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "kb-importer",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.33",
+    "depth": 2
+  },
+  {
+    "groupId": "net.minidev",
+    "artifactId": "accessors-smart",
+    "version": "2.4.7",
+    "depth": 3
+  },
+  {
+    "groupId": "net.minidev",
+    "artifactId": "json-smart",
+    "version": "2.4.7",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "repo-client",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch.agentproxy.sshagent",
+    "version": "0.0.7",
+    "depth": 3
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch.agentproxy.pageant",
+    "version": "0.0.7",
+    "depth": 3
+  },
+  {
+    "groupId": "net.java.dev.jna",
+    "artifactId": "jna-platform",
+    "version": "4.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "com.trilead",
+    "artifactId": "trilead-ssh2",
+    "version": "1.0.0-build221",
+    "depth": 2
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch.agentproxy.core",
+    "version": "0.0.7",
+    "depth": 3
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch.agentproxy.svnkit-trilead-ssh2",
+    "version": "0.0.7",
+    "depth": 2
+  },
+  {
+    "groupId": "de.regnis.q.sequence",
+    "artifactId": "sequence-library",
+    "version": "1.0.3",
+    "depth": 2
+  },
+  {
+    "groupId": "com.googlecode.javaewah",
+    "artifactId": "JavaEWAH",
+    "version": "1.1.6",
+    "depth": 2
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch.agentproxy.usocket-nc",
+    "version": "0.0.7",
+    "depth": 3
+  },
+  {
+    "groupId": "org.tmatesoft.svnkit",
+    "artifactId": "svnkit",
+    "version": "1.9.3",
+    "depth": 1
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch.agentproxy.usocket-jna",
+    "version": "0.0.7",
+    "depth": 3
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch",
+    "version": "0.1.54",
+    "depth": 2
+  },
+  {
+    "groupId": "org.tmatesoft.sqljet",
+    "artifactId": "sqljet",
+    "version": "1.1.11",
+    "depth": 2
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jzlib",
+    "version": "1.1.1",
+    "depth": 2
+  },
+  {
+    "groupId": "com.jcraft",
+    "artifactId": "jsch.agentproxy.connector-factory",
+    "version": "0.0.7",
+    "depth": 2
+  },
+  {
+    "groupId": "net.java.dev.jna",
+    "artifactId": "jna",
+    "version": "4.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "net.java.dev.jna",
+    "artifactId": "platform",
+    "version": "3.4.0",
+    "depth": 4
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.jgit",
+    "artifactId": "org.eclipse.jgit",
+    "version": "4.11.7.201903122105-r",
+    "depth": 1
+  },
+  {
+    "groupId": "org.antlr",
+    "artifactId": "antlr-runtime",
+    "version": "3.4",
+    "depth": 3
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "root",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "patch-analyzer",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "plugin-maven",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "org.slf4j",
+    "artifactId": "slf4j-api",
+    "version": "1.7.32",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-interpolation",
+    "version": "1.26",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-core",
+    "version": "3.8.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-settings-builder",
+    "version": "3.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-plugin-api",
+    "version": "3.8.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.eclipse.sisu",
+    "artifactId": "org.eclipse.sisu.inject",
+    "version": "0.3.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-builder-support",
+    "version": "3.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven.resolver",
+    "artifactId": "maven-resolver-api",
+    "version": "1.6.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.commons",
+    "artifactId": "commons-lang3",
+    "version": "3.8.1",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven.shared",
+    "artifactId": "maven-shared-utils",
+    "version": "3.3.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant-launcher",
+    "version": "1.10.12",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-model",
+    "version": "3.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-classworlds",
+    "version": "2.6.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-component-annotations",
+    "version": "2.1.0",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.sisu",
+    "artifactId": "org.eclipse.sisu.plexus",
+    "version": "0.3.5",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven.resolver",
+    "artifactId": "maven-resolver-util",
+    "version": "1.6.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-settings",
+    "version": "3.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-resolver-provider",
+    "version": "3.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven.resolver",
+    "artifactId": "maven-resolver-spi",
+    "version": "1.6.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-cipher",
+    "version": "2.0",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-repository-metadata",
+    "version": "3.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-sec-dispatcher",
+    "version": "2.0",
+    "depth": 3
+  },
+  {
+    "groupId": "org.apache.maven.plugin-tools",
+    "artifactId": "maven-plugin-annotations",
+    "version": "3.6.4",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.ant",
+    "artifactId": "ant",
+    "version": "1.10.12",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.inject",
+    "artifactId": "guice",
+    "version": "4.2.2",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-artifact",
+    "version": "3.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.codehaus.plexus",
+    "artifactId": "plexus-utils",
+    "version": "3.4.1",
+    "depth": 1
+  },
+  {
+    "groupId": "org.apache.maven.resolver",
+    "artifactId": "maven-resolver-impl",
+    "version": "1.6.3",
+    "depth": 2
+  },
+  {
+    "groupId": "org.apache.maven",
+    "artifactId": "maven-model-builder",
+    "version": "3.8.4",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "rest-lib-utils",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "com.jeantessier",
+    "artifactId": "dependency-finder",
+    "version": "1.2.1-beta5-log4j",
+    "depth": 1
+  },
+  {
+    "groupId": "com.jayway.jsonpath",
+    "artifactId": "json-path",
+    "version": "2.5.0",
+    "depth": 1
+  },
+  {
+    "groupId": "oro",
+    "artifactId": "oro",
+    "version": "2.0.8",
+    "depth": 1
+  },
+  {
+    "groupId": "commons-io",
+    "artifactId": "commons-io",
+    "version": "2.7",
+    "depth": 1
+  },
+  {
+    "groupId": "com.google.code.gson",
+    "artifactId": "gson",
+    "version": "2.8.9",
+    "depth": 2
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "frontend-apps",
+    "version": "3.2.5",
+    "depth": 0
+  },
+  {
+    "groupId": "org.eclipse.steady",
+    "artifactId": "frontend-bugs",
+    "version": "3.2.5",
+    "depth": 0
+  }
+]
