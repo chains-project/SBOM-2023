@@ -44,6 +44,6 @@
 | https://github.com/spdx/spdx-maven-plugin | SPDX (future work) | 
 | https://github.blog/2023-03-28-introducing-self-service-sboms/ | SPDX (future work) |
 | https://lift.sonatype.com/ | online tool |
-| https://github.com/anchore/syft | online tool |
+| https://github.com/anchore/syft | not supported for maven |
 | https://github.com/snyk/snyk-maven-plugin | online tool |
 | https://github.com/nexB/scancode-toolkit | does not detect transitive dependencies [nexB/scancode-toolkit@3383](https://github.com/nexB/scancode-toolkit/issues/3383) |
