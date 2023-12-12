@@ -1,7 +1,18 @@
 # Code and data for _Challenges of Producing Software Bill Of Materials for Java_
 
 ## Overview
-This repository contains the code and data produced for the paper [_Challenges of Producing Software Bill Of Materials for Java_](https://arxiv.org/abs/2303.11102). The structure of the repository is as follows:
+This repository contains the code and data produced for the paper [_Challenges of Producing Software Bill Of Materials for Java_](https://arxiv.org/abs/2303.11102) (IEEE Security \& Privacy, 2023). 
+```bibtex
+@article{sbomchallenges,
+ title = {Challenges of Producing Software Bill Of Materials for Java},
+ journal = {IEEE Security \& Privacy},
+ year = {2023},
+ doi = {10.1109/MSEC.2023.3302956},
+ author = {Musard Balliu and Benoit Baudry and Sofia Bobadilla and Mathias Ekstedt and Martin Monperrus and Javier Ron and Aman Sharma and Gabriel Skoglund and César Soto-Valero and Martin Wittlinger},
+ url = {http://arxiv.org/pdf/2303.11102},
+}
+```
+The structure of the repository is as follows:
 
 * [`sbom-production`](sbom-production) contains all scripts used for creating [CycloneDX](https://www.cyclonedx.org/) SBOM files for each of the 26 study subjects using 6 different SBOM producers.
 * [`ground-truth-production`](ground-truth-production) contains all scripts used for extracting a ground truth dataset of dependency trees for each study subject.
